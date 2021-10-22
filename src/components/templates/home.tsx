@@ -1,17 +1,16 @@
-import Box from "@mui/material/Box";
-
+import { BrowserRouter as Router, Route } from "react-router-dom";
 interface TemplateHomeProps {
   topBar: React.ReactNode;
-  screens: React.ReactNode[];
+  firstScreen: any;
 }
 
-export const TemplateHome = ({ topBar, screens }: TemplateHomeProps) => {
+export const TemplateHome = ({ topBar, firstScreen }: TemplateHomeProps) => {
   return (
     <>
-      {topBar}
-      {screens.map((screen) => {
-        return screen;
-      })}
+      <Router>
+        {topBar}
+        {firstScreen}
+      </Router>
     </>
   );
 };
