@@ -10,7 +10,14 @@ export const ServicesSection = () => {
           backgroundColor: "#7AECE3",
         }}
       >
-        <SectionTitle title="MY SERVICE" />
+        <Box
+          sx={{
+            padding: 2,
+            textAlign: "center"
+          }}
+        >
+          <SectionTitle title="MY SERVICES" />
+        </Box>
       </Box>
     </>
   );

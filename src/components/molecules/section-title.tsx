@@ -1,4 +1,3 @@
-import Box from "@mui/material/Box";
 import { useSpring, animated } from "react-spring";
 import Typography from "@mui/material/Typography";
 import VisibilitySensor from "react-visibility-sensor";
@@ -12,7 +11,7 @@ export const SectionTitle = ({ title }: SectionTitleProps) => {
   const [visibility, setVisibility] = useState<boolean>(false);
   const onChange = (visiblity: boolean) => {
     console.log(visiblity);
-    setVisibility(visiblity);
+    visiblity && setVisibility(visiblity);
   };
   return (
     <VisibilitySensor onChange={onChange}>

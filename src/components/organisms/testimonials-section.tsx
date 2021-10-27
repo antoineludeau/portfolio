@@ -7,10 +7,17 @@ export const TestimonialsSection = () => {
       <Box
         sx={{
           height: "100vh",
-          backgroundColor:"#9c7aec"
+          backgroundColor: "#9c7aec",
         }}
       >
-        <SectionTitle title="MY TESTIMONIALS" />
+        <Box
+          sx={{
+            padding: 2,
+            textAlign: "center",
+          }}
+        >
+          <SectionTitle title="MY TESTI" />
+        </Box>
       </Box>
     </>
   );

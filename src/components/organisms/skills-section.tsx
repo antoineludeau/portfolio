@@ -10,7 +10,14 @@ export const SkillsSection = () => {
           backgroundColor:"#9c7aec"
         }}
       >
+        <Box
+          sx={{
+            padding: 2,
+            textAlign: "center",
+          }}
+        >
        <SectionTitle title="MY SKILLS" />
+       </Box>
       </Box>
     </>
   );
