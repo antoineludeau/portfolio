@@ -2,18 +2,22 @@ import { Grid } from "@mui/material";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 interface TemplateHomeProps {
   topBar: React.ReactNode;
-  firstSection: any;
-  secondSection: any;
-  thirdSection: any;
-  fourthSection: any;
+  homeSection: any;
+  servicesSection: any;
+  skillsSection: any;
+  projectsSection: any;
+  testimonialsSection: any;
+  contactsSection: any;
 }
 
 export const TemplateHome = ({
   topBar,
-  firstSection,
-  secondSection,
-  thirdSection,
-  fourthSection,
+  homeSection,
+  servicesSection,
+  skillsSection,
+  projectsSection,
+  testimonialsSection,
+  contactsSection
 }: TemplateHomeProps) => {
   return (
     <>
@@ -21,17 +25,23 @@ export const TemplateHome = ({
         {topBar}
         <Grid container spacing={0}>
           <Grid id="home" item xs={12}>
-            {firstSection}
+            {homeSection}
           </Grid>
         </Grid>
+        <Grid id="services" item xs={12}>
+          {servicesSection}
+        </Grid>
+        <Grid id="skills" item xs={12}>
+          {skillsSection}
+        </Grid>
         <Grid id="projects" item xs={12}>
-          {secondSection}
+          {projectsSection}
         </Grid>
         <Grid id="testimonials" item xs={12}>
-          {thirdSection}
+          {testimonialsSection}
         </Grid>
         <Grid id="contacts" item xs={12}>
-          {fourthSection}
+          {contactsSection}
         </Grid>
       </Router>
     </>

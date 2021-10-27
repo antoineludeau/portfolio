@@ -1,6 +1,15 @@
-import { FirstSection } from "./first-section";
-import { SecondSection } from "./second-section";
-import { ThirdSection } from "./third-section";
-import { FourthSection } from "./fourth-section";
+import { HomeSection } from "./home-section";
+import { ServicesSection } from "./services-section";
+import { ProjectsSection } from "./projects-section";
+import { SkillsSection } from "./skills-section";
+import { TestimonialsSection } from "./testimonials-section";
+import { ContactsSection } from "./contacts-section";
 
-export { FirstSection, SecondSection, ThirdSection, FourthSection };
+export {
+  HomeSection,
+  ServicesSection,
+  ProjectsSection,
+  SkillsSection,
+  TestimonialsSection,
+  ContactsSection,
+};

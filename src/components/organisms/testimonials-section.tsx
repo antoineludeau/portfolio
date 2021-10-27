@@ -1,16 +1,16 @@
 import Box from "@mui/material/Box";
+import { SectionTitle } from "../molecules";
 
-export const FourthSection = () => {
+export const TestimonialsSection = () => {
   return (
     <>
       <Box
-      id='testtest'
         sx={{
           height: "100vh",
           backgroundColor:"#9c7aec"
         }}
       >
-        PROJECTS
+        <SectionTitle title="MY TESTIMONIALS" />
       </Box>
     </>
   );

@@ -25,6 +25,14 @@ const menuItems = [
     text: "Home",
   },
   {
+    id: "services",
+    text: "Services",
+  },
+  {
+    id: "skills",
+    text: "Skills",
+  },
+  {
     id: "projects",
     text: "Projects",
   },

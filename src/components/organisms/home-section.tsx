@@ -6,7 +6,7 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 
 import HomeImage from "../../assets/image/home.jpg";
 
-export const FirstSection = () => {
+export const HomeSection = () => {
   const matches = useMediaQuery('(min-width:600px)');
   const props = useSpring({
     to: { opacity: 1, x: 0 },
