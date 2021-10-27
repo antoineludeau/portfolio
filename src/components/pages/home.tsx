@@ -1,13 +1,16 @@
 import { TemplateHome } from "../templates";
 
 import { TopBar } from "../molecules";
-import { FirstScreen } from "../organisms";
+import { FirstSection, SecondSection, ThirdSection, FourthSection } from "../organisms";
 
 export const Home = () => {
   return (
     <TemplateHome
       topBar={<TopBar />}
-      firstScreen={<FirstScreen />}
+      firstSection={<FirstSection />}
+      secondSection={<SecondSection/>}
+      thirdSection={<ThirdSection/>}
+      fourthSection={<FourthSection/>}
     />
   );
 };

@@ -6,7 +6,7 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 
 import HomeImage from "../../assets/image/home.jpg";
 
-export const FirstScreen = () => {
+export const FirstSection = () => {
   const matches = useMediaQuery('(min-width:600px)');
   const props = useSpring({
     to: { opacity: 1, x: 0 },
@@ -29,7 +29,6 @@ export const FirstScreen = () => {
   return (
     <>
       <Box
-      id='home'
         sx={{
           height: `${matches ? "calc(100vh - 64px)" : "calc(100vh - 56px)"}`,
           backgroundImage: `url(${HomeImage})`,
@@ -69,33 +68,6 @@ export const FirstScreen = () => {
             </animated.div>
           </Grid>
         </Grid>
-      </Box>
-      <Box
-      id='projects'
-        sx={{
-          height: "100vh",
-          backgroundColor:"#7AECE3"
-        }}
-      >
-        PROJECTS
-      </Box>
-      <Box
-      id='testimonials'
-        sx={{
-          height: "100vh",
-          backgroundColor:"#ECCF7A"
-        }}
-      >
-        TESTIMONIALS
-      </Box>
-      <Box
-      id='contacts'
-        sx={{
-          height: "100vh",
-          backgroundColor:"#9DEC7A "
-        }}
-      >
-        CONTACTS
       </Box>
     </>
   );

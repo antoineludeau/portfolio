@@ -1,4 +1,6 @@
-import { FirstScreen } from "./first-screen";
-import { SecondScreen } from "./second-screen";
+import { FirstSection } from "./first-section";
+import { SecondSection } from "./second-section";
+import { ThirdSection } from "./third-section";
+import { FourthSection } from "./fourth-section";
 
-export { FirstScreen, SecondScreen };
+export { FirstSection, SecondSection, ThirdSection, FourthSection };
