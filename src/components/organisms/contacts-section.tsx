@@ -7,7 +7,7 @@ export const ContactsSection = () => {
       <Box
         sx={{
           height: "100vh",
-          backgroundColor: "#7aecd9",
+          backgroundColor: "#f0e9ca",
         }}
       >
         <Box

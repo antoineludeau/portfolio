@@ -7,7 +7,7 @@ export const TestimonialsSection = () => {
       <Box
         sx={{
           height: "100vh",
-          backgroundColor: "#9c7aec",
+          backgroundColor: "#b7f3c4",
         }}
       >
         <Box

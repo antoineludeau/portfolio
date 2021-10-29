@@ -1,4 +1,4 @@
-import { TopBar } from "./top-bar";
+import { Menu } from "./menu";
 import { SectionTitle } from "./section-title";
 
-export { TopBar, SectionTitle };
+export { Menu, SectionTitle };

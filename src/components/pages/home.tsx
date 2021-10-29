@@ -1,12 +1,12 @@
 import { TemplateHome } from "../templates";
 
-import { TopBar } from "../molecules";
+import { Menu } from "../molecules";
 import { HomeSection, ServicesSection, SkillsSection, ProjectsSection, TestimonialsSection, ContactsSection } from "../organisms";
 
 export const Home = () => {
   return (
     <TemplateHome
-      topBar={<TopBar />}
+      menu={<Menu />}
       homeSection={<HomeSection />}
       servicesSection={<ServicesSection/>}
       skillsSection={<SkillsSection/>}

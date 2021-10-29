@@ -7,7 +7,7 @@ export const ProjectsSection = () => {
       <Box
         sx={{
           height: "100vh",
-          backgroundColor: "#dd9c51",
+          backgroundColor: "#f1d7b8",
         }}
       >
         <Box

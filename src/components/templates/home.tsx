@@ -1,7 +1,7 @@
 import { Grid } from "@mui/material";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 interface TemplateHomeProps {
-  topBar: React.ReactNode;
+  menu: React.ReactNode;
   homeSection: any;
   servicesSection: any;
   skillsSection: any;
@@ -11,7 +11,7 @@ interface TemplateHomeProps {
 }
 
 export const TemplateHome = ({
-  topBar,
+  menu,
   homeSection,
   servicesSection,
   skillsSection,
@@ -22,7 +22,7 @@ export const TemplateHome = ({
   return (
     <>
       <Router>
-        {topBar}
+        {menu}
         <Grid container spacing={0}>
           <Grid id="home" item xs={12}>
             {homeSection}

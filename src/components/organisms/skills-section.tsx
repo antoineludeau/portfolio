@@ -7,7 +7,7 @@ export const SkillsSection = () => {
       <Box
         sx={{
           height: "100vh",
-          backgroundColor:"#9c7aec"
+          backgroundColor:"#d0c3ee"
         }}
       >
         <Box

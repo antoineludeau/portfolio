@@ -1,11 +1,6 @@
 import * as React from "react";
-import { useState } from "react";
-import AppBar from "@mui/material/AppBar";
-import Toolbar from "@mui/material/Toolbar";
-import Typography from "@mui/material/Typography";
+import { useState, useEffect } from "react";
 import CssBaseline from "@mui/material/CssBaseline";
-import useScrollTrigger from "@mui/material/useScrollTrigger";
-import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import Slide from "@mui/material/Slide";
 import Drawer from "@mui/material/Drawer";
@@ -17,7 +12,8 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import InboxIcon from "@mui/icons-material/MoveToInbox";
 import MailIcon from "@mui/icons-material/Mail";
-import { HashLink as Link } from "react-router-hash-link";
+import { Link } from "react-scroll";
+import Fab from "@mui/material/Fab";
 
 const menuItems = [
   {
@@ -51,43 +47,51 @@ interface Props {
 
 function HideOnScroll(props: Props) {
   const { children } = props;
-  const trigger = useScrollTrigger();
+  const [scrollPosition, setScrollPosition] = useState(0);
+  const handleScroll = () => {
+    const position = window.pageYOffset;
+    setScrollPosition(position);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
-    <Slide appear={false} direction="down" in={!trigger}>
+    <Slide appear={true} direction="up" timeout={ {enter: 500, exit: 200} } in={scrollPosition > 200} >
       {children}
     </Slide>
   );
 }
 
-export const TopBar = () => {
+export const Menu = () => {
   const [openMenu, setOpenMenu] = useState<boolean>(false);
+
   return (
     <>
       <React.Fragment>
         <CssBaseline />
         <HideOnScroll>
-          <AppBar sx={{ bgcolor: "white", color: "black" }} elevation={0}>
-            <Toolbar>
-              <IconButton
-                size="large"
-                edge="start"
-                color="inherit"
-                aria-label="menu"
-                sx={{ mr: 2 }}
-                onClick={() => setOpenMenu(true)}
-              >
-                <MenuIcon />
-              </IconButton>
-              <Typography variant="h6" component="div">
-                Antoine
-              </Typography>
-            </Toolbar>
-          </AppBar>
+          <Fab
+            aria-label="add"
+            sx={{
+              color: "white",
+              position: "fixed",
+              bottom: 16,
+              right: 16,
+              zIndex: 1,
+            }}
+            onClick={() => setOpenMenu(true)}
+          >
+            <MenuIcon sx={{ color: "black" }} />
+          </Fab>
         </HideOnScroll>
-        <Toolbar />
+
         <Drawer
-          anchor={"left"}
+          anchor={"right"}
           open={openMenu}
           onClose={() => setOpenMenu(false)}
         >
@@ -96,13 +100,14 @@ export const TopBar = () => {
               {menuItems.map((item, index) => (
                 <Link
                   key={item.id}
-                  scroll={(el) =>
-                    el.scrollIntoView({ behavior: "auto", block: "end" })
-                  }
-                  to={`/#${item.id}`}
+                  to={item.id}
                   style={{ textDecoration: "none", color: "inherit" }}
+                  onClick={() => setOpenMenu(false)}
+                  spy={true}
+                  smooth={true}
+                  duration={500}
                 >
-                  <ListItem button>
+                  <ListItem button onClick={() => setOpenMenu(false)}>
                     <ListItemIcon>
                       {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
                     </ListItemIcon>

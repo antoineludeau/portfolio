@@ -7,7 +7,7 @@ export const ServicesSection = () => {
       <Box
         sx={{
           height: "100vh",
-          backgroundColor: "#7AECE3",
+          backgroundColor: "#aecfe2",
         }}
       >
         <Box
