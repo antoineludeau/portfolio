@@ -16,7 +16,10 @@ export const ContactsSection = () => {
             textAlign: "center",
           }}
         >
-          <SectionTitle title="MY CONTACTS" />
+          <SectionTitle
+            title="MY CONTACTS"
+            subtitle={"Interested in collaborating?"}
+          />
         </Box>
       </Box>
     </>

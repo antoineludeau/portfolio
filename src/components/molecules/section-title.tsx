@@ -5,9 +5,10 @@ import { useState } from "react";
 
 interface SectionTitleProps {
   title: string;
+  subtitle?: string
 }
 
-export const SectionTitle = ({ title }: SectionTitleProps) => {
+export const SectionTitle = ({ title, subtitle }: SectionTitleProps) => {
   const [visibility, setVisibility] = useState<boolean>(false);
   const onChange = (visiblity: boolean) => {
     console.log(visiblity);
@@ -15,7 +16,7 @@ export const SectionTitle = ({ title }: SectionTitleProps) => {
   };
   return (
     <VisibilitySensor onChange={onChange}>
-      <FadeInDirection isVisible={visibility} title={title}></FadeInDirection>
+      <FadeInDirection isVisible={visibility} title={title} subtitle={subtitle}></FadeInDirection>
     </VisibilitySensor>
   );
 };
@@ -23,19 +24,35 @@ export const SectionTitle = ({ title }: SectionTitleProps) => {
 interface FadeInDirectionProps {
   isVisible: boolean;
   title: string;
+  subtitle?: string
 }
 
-const FadeInDirection = ({ isVisible, title }: FadeInDirectionProps) => {
-  const props = useSpring({
+const FadeInDirection = ({ isVisible, title, subtitle }: FadeInDirectionProps) => {
+  const propsTitle = useSpring({
     opacity: isVisible ? 1 : 0,
     transform: isVisible ? "translateY(0px)" : "translateY(50px)",
     config: { tension: 30 },
   });
+  const propsSubTitle = useSpring({
+    opacity: isVisible ? 1 : 0,
+    transform: isVisible ? "translateY(0px)" : "translateY(50px)",
+    config: { tension: 30 },
+    delay: 800
+  });
   return (
-    <animated.div style={props}>
+    <>
+    <animated.div style={propsTitle}>
       <Typography variant="h2" component="div">
         {title}
       </Typography>
     </animated.div>
+    {subtitle && (
+      <animated.div style={propsSubTitle}>
+      <Typography variant="h6" component="div">
+        {subtitle}
+      </Typography>
+    </animated.div>
+    ) }
+    </> 
   );
 };

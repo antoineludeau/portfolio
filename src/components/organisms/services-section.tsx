@@ -13,10 +13,15 @@ export const ServicesSection = () => {
         <Box
           sx={{
             padding: 2,
-            textAlign: "center"
+            textAlign: "center",
           }}
         >
-          <SectionTitle title="MY SERVICES" />
+          <SectionTitle
+            title="MY SERVICES"
+            subtitle={
+              "I design and code beautifully simple things, and I love what I do."
+            }
+          />
         </Box>
       </Box>
     </>

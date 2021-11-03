@@ -16,7 +16,10 @@ export const TestimonialsSection = () => {
             textAlign: "center",
           }}
         >
-          <SectionTitle title="MY TESTI" />
+          <SectionTitle
+            title="MY TESTIMONIALS"
+            subtitle={"People I've worked with have said some nice things..."}
+          />
         </Box>
       </Box>
     </>
