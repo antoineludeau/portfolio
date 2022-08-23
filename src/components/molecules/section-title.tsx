@@ -1,7 +1,8 @@
+import { useState } from "react";
 import { useSpring, animated } from "react-spring";
 import Typography from "@mui/material/Typography";
 import VisibilitySensor from "react-visibility-sensor";
-import { useState } from "react";
+
 
 interface SectionTitleProps {
   title: string;
