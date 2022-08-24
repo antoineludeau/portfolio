@@ -39,24 +39,20 @@ export const ProjectsSection = () => {
     <>
       <Box
         sx={{
-          backgroundColor: "#f1d7b8",
+          padding: 2,
+          textAlign: "center",
+          height: "100vh",
         }}
       >
-        <Box
-          sx={{
-            padding: 2,
-            textAlign: "center",
-          }}
-        >
-          <SectionTitle
-            title="My Recent Work"
-            subtitle="Here are a few design projects I've worked on recently."
-          />
-        </Box>
-        <Box
+        <SectionTitle
+          title="My Recent Work"
+          subtitle="Here are a few design projects I've worked on recently."
+        />
+      </Box>
+      {/* <Box
           sx={{
             justifyContent: "center",
-            display: "flex"
+            display: "flex",
           }}
         >
           <Grid
@@ -95,9 +91,8 @@ export const ProjectsSection = () => {
                 </VisibilitySensor>
               </Grid>
             ))}
-          </Grid>
-        </Box>
-      </Box>
+          </Grid> 
+        </Box>*/}
     </>
   );
 };
@@ -111,7 +106,7 @@ const FadeInDirection = ({ isVisible, children }: FadeInDirectionProps) => {
   const props = useSpring({
     opacity: isVisible ? 1 : 0,
     transform: isVisible ? "translateY(0px)" : "translateY(50px)",
-    config: { tension: 30 }
+    config: { tension: 30 },
   });
   return (
     <animated.div style={props}>

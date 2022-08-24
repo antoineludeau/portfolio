@@ -3,22 +3,14 @@ import { SectionTitle } from "../molecules";
 
 export const SkillsSection = () => {
   return (
-    <>
-      <Box
-        sx={{
-          height: "100vh",
-          backgroundColor:"#d0c3ee"
-        }}
-      >
-        <Box
-          sx={{
-            padding: 2,
-            textAlign: "center",
-          }}
-        >
-       <SectionTitle title="MY SKILLS" />
-       </Box>
-      </Box>
-    </>
+    <Box
+      sx={{
+        padding: 2,
+        textAlign: "center",
+        height: "100vh",
+      }}
+    >
+      <SectionTitle title="MY SKILLS" subtitle="This is what I can do!" />
+    </Box>
   );
 };

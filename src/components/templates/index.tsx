@@ -1,5 +1,3 @@
-import { TemplateHome } from './home'
+import { TemplateHome } from "./home";
 
-export {
-  TemplateHome
-}
+export { TemplateHome };

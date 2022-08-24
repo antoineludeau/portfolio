@@ -3,10 +3,9 @@ import { useSpring, animated } from "react-spring";
 import Typography from "@mui/material/Typography";
 import VisibilitySensor from "react-visibility-sensor";
 
-
 interface SectionTitleProps {
   title: string;
-  subtitle?: string
+  subtitle?: string;
 }
 
 export const SectionTitle = ({ title, subtitle }: SectionTitleProps) => {
@@ -17,7 +16,11 @@ export const SectionTitle = ({ title, subtitle }: SectionTitleProps) => {
   };
   return (
     <VisibilitySensor onChange={onChange}>
-      <FadeInDirection isVisible={visibility} title={title} subtitle={subtitle}></FadeInDirection>
+      <FadeInDirection
+        isVisible={visibility}
+        title={title}
+        subtitle={subtitle}
+      ></FadeInDirection>
     </VisibilitySensor>
   );
 };
@@ -25,10 +28,14 @@ export const SectionTitle = ({ title, subtitle }: SectionTitleProps) => {
 interface FadeInDirectionProps {
   isVisible: boolean;
   title: string;
-  subtitle?: string
+  subtitle?: string;
 }
 
-const FadeInDirection = ({ isVisible, title, subtitle }: FadeInDirectionProps) => {
+const FadeInDirection = ({
+  isVisible,
+  title,
+  subtitle,
+}: FadeInDirectionProps) => {
   const propsTitle = useSpring({
     opacity: isVisible ? 1 : 0,
     transform: isVisible ? "translateY(0px)" : "translateY(50px)",
@@ -38,22 +45,30 @@ const FadeInDirection = ({ isVisible, title, subtitle }: FadeInDirectionProps) =
     opacity: isVisible ? 1 : 0,
     transform: isVisible ? "translateY(0px)" : "translateY(50px)",
     config: { tension: 30 },
-    delay: 800
+    delay: 800,
   });
   return (
     <>
-    <animated.div style={propsTitle}>
-      <Typography variant="h2" component="div">
-        {title}
-      </Typography>
-    </animated.div>
-    {subtitle && (
-      <animated.div style={propsSubTitle}>
-      <Typography variant="h6" component="div">
-        {subtitle}
-      </Typography>
-    </animated.div>
-    ) }
-    </> 
+      <animated.div style={propsTitle}>
+        <Typography
+          variant="h2"
+          component="div"
+          sx={{ wordWrap: "break-word" }}
+        >
+          {title}
+        </Typography>
+      </animated.div>
+      {subtitle && (
+        <animated.div style={propsSubTitle}>
+          <Typography
+            variant="h6"
+            component="div"
+            sx={{ wordWrap: "break-word" }}
+          >
+            {subtitle}
+          </Typography>
+        </animated.div>
+      )}
+    </>
   );
 };

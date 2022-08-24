@@ -20,6 +20,10 @@ const menuItems = [
     text: "Home",
   },
   {
+    id: "presentation",
+    text: "Presentation",
+  },
+  {
     id: "services",
     text: "Services",
   },
@@ -60,7 +64,12 @@ function HideOnScroll(props: Props) {
   }, []);
 
   return (
-    <Slide appear={true} direction="up" timeout={ {enter: 500, exit: 200} } in={scrollPosition > 200} >
+    <Slide
+      appear={true}
+      direction="up"
+      timeout={{ enter: 500, exit: 200 }}
+      in={scrollPosition > 200}
+    >
       {children}
     </Slide>
   );

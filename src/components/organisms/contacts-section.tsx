@@ -3,25 +3,17 @@ import { SectionTitle } from "../molecules";
 
 export const ContactsSection = () => {
   return (
-    <>
-      <Box
-        sx={{
-          height: "100vh",
-          backgroundColor: "#f0e9ca",
-        }}
-      >
-        <Box
-          sx={{
-            padding: 2,
-            textAlign: "center",
-          }}
-        >
-          <SectionTitle
-            title="MY CONTACTS"
-            subtitle={"Interested in collaborating?"}
-          />
-        </Box>
-      </Box>
-    </>
+    <Box
+      sx={{
+        padding: 2,
+        textAlign: "center",
+        height: "100vh",
+      }}
+    >
+      <SectionTitle
+        title="MY CONTACTS"
+        subtitle="Interested in collaborating?"
+      />
+    </Box>
   );
 };
