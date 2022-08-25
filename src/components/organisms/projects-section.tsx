@@ -41,7 +41,7 @@ export const ProjectsSection = () => {
         sx={{
           padding: 2,
           textAlign: "center",
-          height: "100vh",
+          minHeight: "100vh",
         }}
       >
         <SectionTitle

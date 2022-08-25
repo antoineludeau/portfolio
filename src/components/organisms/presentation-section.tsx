@@ -5,7 +5,7 @@ export const PresentationSection = () => {
   return (
     <Grid
       container
-      height="100vh"
+      minHeight= "100vh"
       direction="column"
       justifyContent="center"
       alignItems="center"
