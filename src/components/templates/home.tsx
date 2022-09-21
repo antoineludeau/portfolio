@@ -6,7 +6,7 @@ interface TemplateHomeProps {
   presentationSection: any;
   servicesSection: any;
   skillsSection: any;
-  projectsSection: any;
+  jobsSection: any;
   testimonialsSection: any;
   contactsSection: any;
 }
@@ -17,7 +17,7 @@ export const TemplateHome = ({
   presentationSection,
   servicesSection,
   skillsSection,
-  projectsSection,
+  jobsSection,
   testimonialsSection,
   contactsSection,
 }: TemplateHomeProps) => {
@@ -39,8 +39,8 @@ export const TemplateHome = ({
         <Grid id="skills" item xs={12}>
           {skillsSection}
         </Grid>
-        <Grid id="projects" item xs={12}>
-          {projectsSection}
+        <Grid id="jobs" item xs={12}>
+          {jobsSection}
         </Grid>
         <Grid id="testimonials" item xs={12}>
           {testimonialsSection}

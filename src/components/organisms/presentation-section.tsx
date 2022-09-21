@@ -5,7 +5,7 @@ export const PresentationSection = () => {
   return (
     <Grid
       container
-      minHeight= "100vh"
+      minHeight="100vh"
       direction="column"
       justifyContent="center"
       alignItems="center"
@@ -31,12 +31,15 @@ export const PresentationSection = () => {
               maxWidth="600px"
               textAlign="center"
             >
-              Since beginning my journey as a freelance designer over 11 years
-              ago, I've done remote work for agencies, consulted for startups,
-              and collaborated with talented people to create digital products
-              for both business and consumer use. I'm quietly confident,
-              naturally curious, and perpetually working on improving my chops
-              one design problem at a time.
+              Passionné de création, je développe aujourd’hui des applications
+              digitales en freelance. Issu d’un cursus d’ingénieur en mécanique
+              et ayant tenté l’entrepreneuriat à plusieurs reprises, je me suis
+              réorienté vers le développement informatique depuis plus de 3 ans.
+              L’originalité de mon parcours et ma sensibilité au design, me
+              permettent aujourd’hui de comprendre au mieux les besoins de mes
+              clients et de communiquer efficacement pour développer des
+              applications, dans les délais, et avec un niveau de qualité
+              exigeant.
             </Typography>
           </Grid>
         </Grid>

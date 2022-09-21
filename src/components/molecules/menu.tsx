@@ -32,8 +32,8 @@ const menuItems = [
     text: "Skills",
   },
   {
-    id: "projects",
-    text: "Projects",
+    id: "jobs",
+    text: "Recent Jobs",
   },
   {
     id: "testimonials",

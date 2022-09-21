@@ -6,7 +6,7 @@ import {
   PresentationSection,
   ServicesSection,
   SkillsSection,
-  ProjectsSection,
+  JobsSection,
   TestimonialsSection,
   ContactsSection,
 } from "../organisms";
@@ -19,7 +19,7 @@ export const Home = () => {
       presentationSection={<PresentationSection />}
       servicesSection={<ServicesSection />}
       skillsSection={<SkillsSection />}
-      projectsSection={<ProjectsSection />}
+      jobsSection={<JobsSection />}
       testimonialsSection={<TestimonialsSection />}
       contactsSection={<ContactsSection />}
     />
