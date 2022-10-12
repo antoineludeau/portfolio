@@ -41,8 +41,8 @@ export const TestimonialsSection = () => {
       }}
     >
       <SectionTitle
-        title="MY TESTIMONIALS"
-        subtitle="People I've worked with have said some nice things..."
+        title="MES TEMOIGNAGES"
+        subtitle="Voilà ce que disent les gens avec qui j'ai travaillé !"
       />
       <Box
         sx={{
@@ -58,6 +58,7 @@ export const TestimonialsSection = () => {
             index={activeStep}
             onChangeIndex={handleStepChange}
             enableMouseEvents
+            interval={30000}
           >
             <TestimonialCard
               logo={GauthierSaillard}

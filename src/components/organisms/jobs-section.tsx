@@ -52,11 +52,12 @@ export const JobsSection = () => {
           padding: 2,
           textAlign: "center",
           minHeight: "100vh",
+          backgroundColor: '#F2F2F2'
         }}
       >
         <SectionTitle
-          title="My Recent Work"
-          subtitle="Here are a few jobs I've done recently."
+          title="MON EXPERIENCE"
+          subtitle="Voici un condensé de mes récentes expériences professionnelles !"
         />
         <Box
           sx={{
@@ -74,58 +75,71 @@ export const JobsSection = () => {
             sx={{ borderRight: 1, borderColor: "divider", minWidth: '100px' }}
           >
             <Tab label="Dassault Systèmes" {...a11yProps(0)} />
-            <Tab label="Dassault Systèmes" {...a11yProps(1)} />
-            <Tab label="Sommet" {...a11yProps(2)} />
-            <Tab label="Decathlon" {...a11yProps(3)} />
+            <Tab label="Handsaway" {...a11yProps(1)} />
+            <Tab label="Dassault Systèmes" {...a11yProps(2)} />
+            <Tab label="Sommet" {...a11yProps(3)} />
+            <Tab label="Decathlon" {...a11yProps(4)} />
           </Tabs>
           <TabPanel value={value} index={0}>
             <JobCard
-            logo={""}
-            title="Développeur Full Stack - CDI"
-            subtitle="3DVIA - Dassault Systèmes"
-            subtitle2="Jan. 2020 - Oct. 2022 - Paris"
-            description="- Développement «from scratch» d’applications web (REACT,
-              Typescript). - Améliorations et nouvelle features de l’API
-              back-end (NodeJS). - Gestion du pipeline de processing et
+              logo={""}
+              title="Développeur Full Stack - CDI"
+              subtitle="3DVIA - Dassault Systèmes"
+              subtitle2="Jan. 2020 - Oct. 2022 - Paris"
+              descriptionItems={[`- Développement «from scratch» d’applications web (REACT,
+              Typescript).`, `- Améliorations et nouvelle features de l’API
+              back-end (NodeJS).`, `- Gestion du pipeline de processing et
               simplification des assets 3D sur Amazon Web Services (SQS, EC2,
-              S3, CloudWatch, ...)."
+              S3, CloudWatch, ...).`]}
             ></JobCard>
           </TabPanel>
           <TabPanel value={value} index={1}>
-          <JobCard
-            logo={""}
-            title="Business Analyst pour Applications Web - CDI"
-            subtitle="3DVIA - Dassault Systèmes"
-            subtitle2="Jan. 2017 - Déc. 2019 - Paris"
-            description=" - Specification de «story» pour les sprint d’une équipe de
-            developpeurs. - Organisation des différentes étapes de vie des
-            sprint (planning, démo, ...). - Expertise technique auprès des
-            clients sur le process liés aux données."
+            <JobCard
+              logo={""}
+              title="Développeur Back-end bénévole"
+              subtitle="Handaway"
+              subtitle2="Sept. 2020 - Avril. 2021 - Paris"
+              descriptionItems={[`- Création d’un produit et d’un concept nouveau de jus de fruit
+            en dosette.`, `- Participation à des concours qui ont mené à
+            l’incubation par «Petit - Poucet Incubateur» et le «Centre
+            d’Innovation de l’UTC Compiègne».`]}
             ></JobCard>
           </TabPanel>
           <TabPanel value={value} index={2}>
-          <JobCard
-            logo={""}
-            title="Co-fondateur d’une start-up - Entrepreneuriat"
-            subtitle="SOMMET, « une nouvelle façon de boire le fruit »"
-            subtitle2="Déc. 2015 - Déc. 2016 - Paris"
-            description="- Création d’un produit et d’un concept nouveau de jus de fruit
-            en dosette. - Participation à des concours qui ont mené à
-            l’incubation par «Petit - Poucet Incubateur» et le «Centre
-            d’Innovation de l’UTC Compiègne»."
+            <JobCard
+              logo={""}
+              title="Business Analyst pour Applications Web - CDI"
+              subtitle="3DVIA - Dassault Systèmes"
+              subtitle2="Jan. 2017 - Déc. 2019 - Paris"
+              descriptionItems={[`- Specification de «story» pour les sprint d’une équipe de
+            developpeurs.`, `- Organisation des différentes étapes de vie des
+            sprint (planning, démo, ...).`, `- Expertise technique auprès des
+            clients sur le process liés aux données.`]}
             ></JobCard>
           </TabPanel>
           <TabPanel value={value} index={3}>
-          <JobCard
-            logo={""}
-            title="Ingénieur Produit - Stage fin d’étude et CDD"
-            subtitle="TRIBORD - Décathlon"
-            subtitle2="Févr. 2015 - Déc. 2015 - Hendaye"
-            description="- Conception et Développement de produits, du design à la
-            production, en passant par la conception 3D, le prototypage, les
-            tests techniques, le pricing et la collaboration avec de
-            nombreux fournisseurs. - Proposition et création complète d’un
-            produit de la gamme qui est vendu en magasin depuis mai 2016."
+            <JobCard
+              logo={""}
+              title="Co-fondateur d’une start-up"
+              subtitle="SOMMET, « une nouvelle façon de boire le fruit »"
+              subtitle2="Déc. 2015 - Déc. 2016 - Paris"
+              descriptionItems={[`- Création d’un produit et d’un concept nouveau de jus de fruit
+            en dosette.`, `- Participation à des concours qui ont mené à
+            l’incubation par «Petit - Poucet Incubateur» et le «Centre
+            d’Innovation de l’UTC Compiègne».`]}
+            ></JobCard>
+          </TabPanel>
+          <TabPanel value={value} index={4}>
+            <JobCard
+              logo={""}
+              title="Ingénieur Produit - Stage fin d’étude et CDD"
+              subtitle="TRIBORD - Décathlon"
+              subtitle2="Févr. 2015 - Déc. 2015 - Hendaye"
+              descriptionItems={[`- Conception et Développement de produits, du design à la
+              production, en passant par la conception 3D, le prototypage, les
+              tests techniques, le pricing et la collaboration avec de
+              nombreux fournisseurs.`, `- Proposition et création complète d’un
+              produit de la gamme qui est vendu en magasin depuis mai 2016.`]}
             ></JobCard>
           </TabPanel>
         </Box>

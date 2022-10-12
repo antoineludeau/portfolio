@@ -12,7 +12,7 @@ export const ServiceCard = ({ logo, title, description }: ServiceCardProps) => {
   return (
     <Grid container spacing={1} direction="column" alignItems="center">
       <Grid item>
-        <SvgIcon sx={{ width: "80px", height: "80px" }}>{logo} </SvgIcon>
+        <SvgIcon color='disabled'sx={{ width: "80px", height: "80px" }}>{logo} </SvgIcon>
       </Grid>
       <Grid item>
         <Typography variant="h4" component="div" textAlign="center">

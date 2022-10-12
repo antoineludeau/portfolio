@@ -12,15 +12,16 @@ export const ServicesSection = () => {
   return (
     <Box
       sx={{
-        padding: 2,
+        paddingTop:'400',
         textAlign: "center",
         minHeight: "100vh",
+        backgroundColor: '#F2F2F2'
       }}
     >
       <SectionTitle
-        title="MY SERVICES"
+        title="MES SERVICES"
         subtitle={
-          "I design and code beautifully simple things, and I love what I do."
+          "Rencontrons-nous et discutons de vos projets !"
         }
       />
       <Grid

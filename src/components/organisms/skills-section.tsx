@@ -15,7 +15,7 @@ export const SkillsSection = () => {
           minHeight: "100vh",
         }}
       >
-        <SectionTitle title="MY SKILLS" subtitle="This is what I can do!" />
+        <SectionTitle title="MES COMPETENCES" subtitle="Voilà ce que je sais faire!" />
         <Grid
           container
           spacing={4}

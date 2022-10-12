@@ -14,11 +14,12 @@ export const ContactsSection = () => {
         padding: 2,
         textAlign: "center",
         minHeight: "100vh",
+        backgroundColor: '#F2F2F2'
       }}
     >
       <SectionTitle
-        title="GET IN TOUCH"
-        subtitle="Interested in collaborating?"
+        title="CONTACT"
+        subtitle="Collaborons ensemble !"
       />
       <Box
         sx={{

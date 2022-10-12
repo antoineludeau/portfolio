@@ -51,9 +51,9 @@ const FadeInDirection = ({
     <>
       <animated.div style={propsTitle}>
         <Typography
-          variant="h2"
+          variant="h4"
           component="div"
-          sx={{ wordWrap: "break-word" }}
+          sx={{wordWrap: "break-word" }}
         >
           {title}
         </Typography>

@@ -55,7 +55,7 @@ export const HomeSection = () => {
           <Grid item xs={12}>
             <animated.div style={props}>
               <Typography variant="h1" component="div">
-                Hello I'm
+                Bonjour,
               </Typography>
             </animated.div>
           </Grid>
@@ -69,7 +69,7 @@ export const HomeSection = () => {
           <Grid item xs={12}>
             <animated.div style={props3}>
               <Typography variant="h4" component="div">
-                Web Developer Full Stack
+                Développeur Web Full Stack
               </Typography>
             </animated.div>
           </Grid>

@@ -6,7 +6,7 @@ interface JobCardProps {
   title: string;
   subtitle: string;
   subtitle2: string;
-  description: string;
+  descriptionItems: string[];
 }
 
 export const JobCard = ({
@@ -14,7 +14,7 @@ export const JobCard = ({
   title,
   subtitle,
   subtitle2,
-  description,
+  descriptionItems,
 }: JobCardProps) => {
   return (
     <Grid
@@ -29,7 +29,7 @@ export const JobCard = ({
         <img width="100" src={logo} />
       </Grid>
       <Grid item>
-        <Typography variant="h4" component="div">
+        <Typography variant="h5" component="div">
           {title}
         </Typography>
       </Grid>
@@ -43,11 +43,13 @@ export const JobCard = ({
           {subtitle2}
         </Typography>
       </Grid>
-      <Grid item sx={{ p: 2 }}>
-        <Typography variant="body1" component="div">
-          {description}
-        </Typography>
-      </Grid>
+      {descriptionItems.map(descriptionItem =>
+        <Grid item>
+          <Typography variant="body1" component="div">
+            {descriptionItem}
+          </Typography>
+        </Grid>
+      )}
     </Grid>
   );
 };
