@@ -46,7 +46,7 @@ export const TestimonialsSection = () => {
       />
       <Box
         sx={{
-          padding: 8,
+          marginTop:5,
           textAlign: "center",
           display: "flex",
           justifyContent: "center",

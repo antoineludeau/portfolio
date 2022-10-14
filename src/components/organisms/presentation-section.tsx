@@ -6,14 +6,13 @@ import { ReactComponent as AntoinePhoto } from "../../assets/image/antoine.svg";
 
 export const PresentationSection = () => {
   return (
-    <>
       <Grid
         container
         minHeight="100vh"
         direction="column"
         justifyContent="center"
         alignItems="center"
-        padding={3}
+        padding={2}
       >
         <Grid item>
           <Grid
@@ -49,7 +48,5 @@ export const PresentationSection = () => {
           </Grid>
         </Grid>
       </Grid>
-      
-      </>
   );
 };

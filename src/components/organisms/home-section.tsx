@@ -34,58 +34,63 @@ export const HomeSection = () => {
   });
   return (
     <>
-      <Box
+      <Grid
+        container
+        minHeight="100vh"
+        direction="column"
+        justifyContent="center"
+        alignItems="left"
         sx={{
-          height: `100vh`,
           backgroundImage: `url(${HomeImage})`,
           backgroundPositionX: "10%",
           backgroundRepeat: "no-repeat",
         }}
       >
-        <Grid
-          sx={{
-            position: "absolute",
-            top: "50%",
-            transform: "translateY(-50%)",
-            padding: 2,
-          }}
-          container
-          spacing={2}
-        >
-          <Grid item xs={12}>
-            <animated.div style={props}>
-              <Typography variant="h1" component="div">
-                Bonjour,
-              </Typography>
-            </animated.div>
-          </Grid>
-          <Grid item xs={12}>
-            <animated.div style={props2}>
-              <Typography variant="h2" component="div">
-                Antoine Ludeau
-              </Typography>
-            </animated.div>
-          </Grid>
-          <Grid item xs={12}>
-            <animated.div style={props3}>
-              <Typography variant="h4" component="div">
-                Développeur Web Full Stack
-              </Typography>
-            </animated.div>
+        <Grid item>
+          <Grid
+            container
+            direction="column"
+            justifyContent="center"
+            alignItems="left"
+            padding={2}
+            spacing={2}
+          >
+            <Grid item xs={12}>
+              <animated.div style={props}>
+                <Typography variant="h1" component="div" sx={{ width: '100%' }}>
+                  Bonjour, je suis
+                </Typography>
+              </animated.div>
+            </Grid>
+            <Grid item xs={12}>
+              <animated.div style={props2}>
+                <Typography variant="h2" component="div">
+                  Antoine Ludeau
+                </Typography>
+              </animated.div>
+            </Grid>
+            <Grid item xs={12}>
+              <animated.div style={props3}>
+                <Typography variant="h4" component="div">
+                  Développeur Web Full Stack
+                </Typography>
+              </animated.div>
+            </Grid>
           </Grid>
         </Grid>
-        <Box
-          sx={{
-            position: "absolute",
-            bottom: "0%",
-            left: "calc(50vw - 17.5px)",
-          }}
-        >
-          <animated.div style={props4}>
-            <ArrowDownwardIcon fontSize="large" />
-          </animated.div>
-        </Box>
+      </Grid>
+      <Box
+        sx={{
+          position: "absolute",
+          bottom: "0%",
+          left: "calc(50vw - 17.5px)",
+        }}
+      >
+        <animated.div style={props4}>
+          <ArrowDownwardIcon fontSize="large" />
+        </animated.div>
       </Box>
+
     </>
   );
 };
