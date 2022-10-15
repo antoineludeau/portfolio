@@ -57,7 +57,7 @@ export const HomeSection = () => {
           >
             <Grid item xs={12}>
               <animated.div style={props}>
-                <Typography variant="h1" component="div" sx={{ width: '100%' }}>
+                <Typography variant="h1" component="div">
                   Bonjour, je suis
                 </Typography>
               </animated.div>
@@ -90,7 +90,6 @@ export const HomeSection = () => {
           <ArrowDownwardIcon fontSize="large" />
         </animated.div>
       </Box>
-
     </>
   );
 };

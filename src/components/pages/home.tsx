@@ -1,5 +1,3 @@
-import { TemplateHome } from "../templates";
-
 import { Menu } from "../molecules";
 import {
   HomeSection,
@@ -10,6 +8,7 @@ import {
   TestimonialsSection,
   ContactsSection,
 } from "../organisms";
+import { TemplateHome } from "../templates";
 
 export const Home = () => {
   return (

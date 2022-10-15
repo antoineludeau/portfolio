@@ -13,6 +13,23 @@ import GauthierSaillard from "../../assets/image/gauthier-saillard.png";
 
 import { SectionTitle, TestimonialCard } from "../molecules";
 
+const testimonials = [
+  {
+    logo: GauthierSaillard,
+    title: "Gauthier Saillard",
+    subtitle: "Designer Industriel - Innovation chez PA.COTTE - LivingPackets",
+    subtitle2: "En 2016, Gauthier était le co-fondateur de notre projet entrepreneurial SOMMET",
+    description: "Un projet entrepreneurial met à rude épreuve toute équipe qui tente l'aventure. Si cette année à travailler avec Antoine a été faite de nombreux rebondissements, notre équipe a toujours su réagir et Antoine a toujours su redoubler d'efforts et remettre en question ce qui nécessitait d'être modifié, comme cela est si essentiel lors de la création d'un projet. Antoine est quelqu'un de très compétent et d'une positivité à toute épreuve. Cela se ressent dans son travail au quotidien."
+  },
+  {
+    logo: JulesColin,
+    title: "Jules Colin",
+    subtitle: "Ingénieur - Associé - Militant @ SCALE",
+    subtitle2: "En 2015, Jules était mon manager direct chez Decathlon",
+    description: "Antoine possède toutes les qualités de l'ingénieur d'aujourd’hui: sérieux, curieux, rigoureux et appliqué, son intérêt pour l’innovation est très certainement son meilleur atout. C'était en tout cas un vrai plaisir de l'avoir dans l'équipe d'ingénieurs de Tribord."
+  }
+]
+
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
 export const TestimonialsSection = () => {
@@ -38,6 +55,7 @@ export const TestimonialsSection = () => {
         padding: 2,
         textAlign: "center",
         minHeight: "100vh",
+        paddingTop: 5
       }}
     >
       <SectionTitle
@@ -46,13 +64,13 @@ export const TestimonialsSection = () => {
       />
       <Box
         sx={{
-          marginTop:5,
+          marginTop: 5,
           textAlign: "center",
           display: "flex",
           justifyContent: "center",
         }}
       >
-        <Box sx={{ width: "400px",  marginBottom: 10 }}>
+        <Box sx={{ width: "400px", marginBottom: 10 }}>
           <AutoPlaySwipeableViews
             axis={theme.direction === "rtl" ? "x-reverse" : "x"}
             index={activeStep}
@@ -60,31 +78,15 @@ export const TestimonialsSection = () => {
             enableMouseEvents
             interval={30000}
           >
-            <TestimonialCard
-              logo={GauthierSaillard}
-              title="Gauthier Saillard"
-              subtitle="Designer Industriel - Innovation chez PA.COTTE - LivingPackets"
-              subtitle2="En 2016, Gauthier était le co-fondateur de notre projet entrepreneurial SOMMET"
-              description="Un projet entrepreneurial met à rude épreuve toute équipe qui
-            tente l'aventure. Si cette année à travailler avec Antoine a été
-            faite de nombreux rebondissements, notre équipe a toujours su
-            réagir et Antoine a toujours su redoubler d'efforts et remettre
-            en question ce qui nécessitait d'être modifié, comme cela est si
-            essentiel lors de la création d'un projet. Antoine est quelqu'un
-            de très compétent et d'une positivité à toute épreuve. Cela se
-            ressent dans son travail au quotidien."
-            ></TestimonialCard>
-            <TestimonialCard
-              logo={JulesColin}
-              title="Jules Colin"
-              subtitle="Ingénieur - Associé - Militant @ SCALE"
-              subtitle2="En 2015, Jules était mon manager direct chez Decathlon"
-              description="Antoine possède toutes les qualités de l'ingénieur
-            d'aujourd’hui: sérieux, curieux, rigoureux et appliqué, son
-            intérêt pour l’innovation est très certainement son meilleur
-            atout. C'était en tout cas un vrai plaisir de l'avoir dans
-            l'équipe d'ingénieurs de Tribord."
-            ></TestimonialCard>
+            {testimonials.map(testimonial =>
+              <TestimonialCard
+                logo={testimonial.logo}
+                title={testimonial.title}
+                subtitle={testimonial.subtitle}
+                subtitle2={testimonial.subtitle2}
+                description={testimonial.description}
+              ></TestimonialCard>
+            )}
           </AutoPlaySwipeableViews>
           <MobileStepper
             steps={maxSteps}

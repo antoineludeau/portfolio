@@ -14,7 +14,8 @@ export const ContactsSection = () => {
         padding: 2,
         textAlign: "center",
         minHeight: "100vh",
-        backgroundColor: '#F2F2F2'
+        backgroundColor: '#F2F2F2',
+        paddingTop: 5
       }}
     >
       <SectionTitle
@@ -41,7 +42,7 @@ export const ContactsSection = () => {
                 <CallIcon sx={{ m: 2 }} fontSize="large" />
               </Grid>
               <Grid item xs={12} sm={10}>
-                <Typography sx={{ m: 2 }} variant="h5" component="div">
+                <Typography sx={{ m: 2 }} component="div">
                   +33 6 37 69 25 19
                 </Typography>
               </Grid>
@@ -53,7 +54,7 @@ export const ContactsSection = () => {
                 <EmailIcon sx={{ m: 2 }} fontSize="large" />
               </Grid>
               <Grid item xs={12} sm={10}>
-                <Typography sx={{ m: 2 }} variant="h5" component="div">
+                <Typography sx={{ m: 2 }} component="div">
                   antoine.ludeau@gmail.com
                 </Typography>
               </Grid>
@@ -65,7 +66,7 @@ export const ContactsSection = () => {
                 <LinkedInIcon sx={{ m: 2 }} fontSize="large" />
               </Grid>
               <Grid item xs={12} sm={10}>
-                <Typography sx={{ m: 2 }} variant="h5" component="div">
+                <Typography sx={{ m: 2 }} component="div">
                   linkedin.com/in/antoineludeau
                 </Typography>
               </Grid>

@@ -53,7 +53,7 @@ const FadeInDirection = ({
         <Typography
           variant="h4"
           component="div"
-          sx={{wordWrap: "break-word", marginTop:5 }}
+          sx={{wordWrap: "break-word" }}
         >
           {title}
         </Typography>
