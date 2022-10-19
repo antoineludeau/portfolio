@@ -112,7 +112,7 @@ export const JobsSection = () => {
       >
         <SectionTitle
           title="MON EXPERIENCE"
-          subtitle="Voici un condensé de mes récentes expériences professionnelles !"
+          subtitle="Voici un condensé de mes récentes expériences professionnelles"
         />
         <Box
           sx={{
