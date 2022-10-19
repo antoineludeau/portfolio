@@ -1,9 +1,11 @@
 import { Grid } from "@mui/material";
 import { BrowserRouter as Router } from "react-router-dom";
+import { PhilosophySection } from "../organisms";
 interface TemplateHomeProps {
   menu: React.ReactNode;
   homeSection: any;
   presentationSection: any;
+  philosophySection: any;
   servicesSection: any;
   skillsSection: any;
   jobsSection: any;
@@ -15,6 +17,7 @@ export const TemplateHome = ({
   menu,
   homeSection,
   presentationSection,
+  philosophySection,
   servicesSection,
   skillsSection,
   jobsSection,
@@ -32,6 +35,9 @@ export const TemplateHome = ({
         </Grid>
         <Grid id="presentation" item xs={12}>
           {presentationSection}
+        </Grid>
+        <Grid id="philosophy" item xs={12}>
+          {philosophySection}
         </Grid>
         <Grid id="services" item xs={12}>
           {servicesSection}

@@ -1,0 +1,118 @@
+import Grid from "@mui/material/Grid";
+import Box from '@mui/material/Box'
+import Typography from "@mui/material/Typography";
+import InfoIcon from '@mui/icons-material/Info';
+
+export const PhilosophySection = () => {
+  return (
+    <Box
+      sx={{
+        padding: 2,
+        minHeight: "100vh",
+        backgroundColor: '#F2F2F2',
+        paddingTop: 5,
+        display: 'flex'
+      }}
+    >
+      <Grid
+        container
+        alignItems="center"
+        spacing={5}
+        sx={{ backgroundColor: '#F2F2F2' }}
+      >
+        <Grid item md={4} xs={12}>
+          <Grid
+            container
+            direction="column"
+            justifyContent="center"
+            alignItems="center"
+          >
+            <Grid id="presentation-title" item>
+              <Typography variant="h4" component="div" textAlign="center">
+                Mon Constat.
+              </Typography>
+            </Grid>
+            <Grid id="presentation-title" item>
+              <Typography
+                variant="h6"
+                component="div"
+                maxWidth="600px"
+                textAlign="center"
+                padding={2}
+              >
+                Le numérique est un outil incroyable. Il est utilisé
+                partout dans notre vie quotidienne et notre vie
+                professionnelle (4 milliards d’utilisateurs).
+                Il faut pourtant aujourd’hui apporter une certaine
+                nuance. Le secteur du numérique connait une croissance
+                fulgurante, entrainant des problématiques et enjeux importants.
+                Par exemple, Il représente à l’échelle mondiale entre 4% et 6%
+                des émissions de gaz à effet de serre, dépassant désormais
+                le bilan carbone de l’aviation.<InfoIcon />
+              </Typography>
+
+            </Grid>
+          </Grid>
+        </Grid>
+        <Grid item md={4} xs={12}>
+          <Grid
+            container
+            direction="column"
+            justifyContent="center"
+            alignItems="center"
+          >
+            <Grid id="presentation-title" item>
+              <Typography variant="h4" component="div" textAlign="center">
+                Ma Methode.
+              </Typography>
+            </Grid>
+            <Grid id="presentation-title" item>
+              <Typography
+                variant="h6"
+                component="div"
+                maxWidth="600px"
+                textAlign="center"
+                padding={2}
+              >
+                Ma méthode sera d’appliquer un numérique responsable :
+                concilier la transition numérique de nos sociétés avec
+                les urgences écologiques et sociales. Aujourd’hui, on
+                ne peut plus se permettre de répondre à des envies, on
+                se doit de répondre à de réels besoins.
+              </Typography>
+            </Grid>
+          </Grid>
+        </Grid>
+        <Grid item md={4} xs={12}>
+          <Grid
+            container
+            direction="column"
+            justifyContent="center"
+            alignItems="center"
+          >
+            <Grid id="presentation-title" item>
+              <Typography variant="h4" component="div" textAlign="center">
+                Mon Objectif.
+              </Typography>
+            </Grid>
+            <Grid id="presentation-title" item>
+              <Typography
+                variant="h6"
+                component="div"
+                maxWidth="600px"
+                textAlign="center"
+                padding={2}
+              >
+                Mon but est d’utiliser cet outil génial qu’est
+                le numérique, pour réaliser des projets à impact
+                environnemental et/ou social, afin de répondre
+                aux 17 objectifs de développement durable définis
+                par l’ONU.<InfoIcon />
+              </Typography>
+            </Grid>
+          </Grid>
+        </Grid>
+      </Grid>
+    </Box>
+  );
+};

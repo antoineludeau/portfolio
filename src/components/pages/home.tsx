@@ -2,6 +2,7 @@ import { Menu } from "../molecules";
 import {
   HomeSection,
   PresentationSection,
+  PhilosophySection,
   ServicesSection,
   SkillsSection,
   JobsSection,
@@ -16,6 +17,7 @@ export const Home = () => {
       menu={<Menu />}
       homeSection={<HomeSection />}
       presentationSection={<PresentationSection />}
+      philosophySection={<PhilosophySection />}
       servicesSection={<ServicesSection />}
       skillsSection={<SkillsSection />}
       jobsSection={<JobsSection />}

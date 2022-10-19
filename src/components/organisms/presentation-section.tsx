@@ -1,8 +1,5 @@
 import Grid from "@mui/material/Grid";
-import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
-
-import { ReactComponent as AntoinePhoto } from "../../assets/image/antoine.svg";
 
 export const PresentationSection = () => {
   return (
@@ -36,7 +33,7 @@ export const PresentationSection = () => {
             >
               Passionné de création, je développe aujourd’hui des applications
               digitales en freelance. Issu d’un cursus d’ingénieur en mécanique
-              et ayant tenté l’entrepreneuriat à plusieurs reprises, je me suis
+              avec quelques expériences entrepreneuriales, je me suis
               réorienté vers le développement informatique depuis plus de 3 ans.
               L’originalité de mon parcours et ma sensibilité au design, me
               permettent aujourd’hui de comprendre au mieux les besoins de mes

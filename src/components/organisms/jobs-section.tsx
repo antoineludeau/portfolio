@@ -107,7 +107,6 @@ export const JobsSection = () => {
           padding: 2,
           textAlign: "center",
           minHeight: "100vh",
-          backgroundColor: '#F2F2F2',
           paddingTop: 5
         }}
       >

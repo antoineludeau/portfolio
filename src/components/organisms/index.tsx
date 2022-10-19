@@ -5,10 +5,12 @@ import { JobsSection } from "./jobs-section";
 import { SkillsSection } from "./skills-section";
 import { TestimonialsSection } from "./testimonials-section";
 import { ContactsSection } from "./contacts-section";
+import { PhilosophySection } from "./philosophy-section"
 
 export {
   HomeSection,
   PresentationSection,
+  PhilosophySection,
   ServicesSection,
   JobsSection,
   SkillsSection,

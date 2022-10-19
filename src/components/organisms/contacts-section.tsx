@@ -13,7 +13,6 @@ export const ContactsSection = () => {
       sx={{
         padding: 2,
         textAlign: "center",
-        backgroundColor: '#F2F2F2',
         paddingTop: 5
       }}
     >

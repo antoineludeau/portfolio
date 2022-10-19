@@ -43,7 +43,6 @@ export const ServicesSection = () => {
       sx={{
         textAlign: "center",
         minHeight: "100vh",
-        backgroundColor: '#F2F2F2',
         padding: 2,
         paddingTop: 5
       }}
