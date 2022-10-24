@@ -6,13 +6,14 @@ interface ServiceCardProps {
   logo: React.ReactChild;
   title: string;
   description: string;
+  subdescriptions: string[]
 }
 
-export const ServiceCard = ({ logo, title, description }: ServiceCardProps) => {
+export const ServiceCard = ({ logo, title, description, subdescriptions }: ServiceCardProps) => {
   return (
     <Grid container spacing={1} direction="column" alignItems="center">
       <Grid item>
-        <SvgIcon color='disabled'sx={{ width: "80px", height: "80px" }}>{logo} </SvgIcon>
+        <SvgIcon color='disabled' sx={{ width: "80px", height: "80px" }}>{logo} </SvgIcon>
       </Grid>
       <Grid item>
         <Typography variant="h4" component="div" textAlign="center">
@@ -29,6 +30,19 @@ export const ServiceCard = ({ logo, title, description }: ServiceCardProps) => {
           {description}
         </Typography>
       </Grid>
+      {subdescriptions.map(subdescription => 
+        <Grid item>
+          <Typography
+            maxWidth="300px"
+            variant="body2"
+            component="div"
+            textAlign="center"
+          >
+            {subdescription}
+          </Typography>
+        </Grid>
+      )}
+
     </Grid>
   );
 };

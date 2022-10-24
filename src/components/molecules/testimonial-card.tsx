@@ -1,8 +1,9 @@
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
+import Avatar from '@mui/material/Avatar';
 
 interface TestimonialCardProps {
-  logo: string;
+  avatar: string;
   title: string;
   subtitle: string;
   subtitle2: string;
@@ -10,16 +11,16 @@ interface TestimonialCardProps {
 }
 
 export const TestimonialCard = ({
-  logo,
+  avatar,
   title,
   subtitle,
   subtitle2,
   description,
 }: TestimonialCardProps) => {
   return (
-    <Grid container direction="column">
-      <Grid item>
-        <img width="100" src={logo} />
+    <Grid container direction="column" alignItems={'center'}>
+      <Grid item >
+        <Avatar sx={{ width: 70, height: 70 }} alt="avatar" src={avatar} />
       </Grid>
       <Grid item>
         <Typography variant="h4" component="div" textAlign="center">

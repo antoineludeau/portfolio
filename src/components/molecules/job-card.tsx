@@ -26,7 +26,7 @@ export const JobCard = ({
       maxWidth="500px"
     >
       <Grid item>
-        <img width="100" src={logo} />
+        <img height="50" src={logo} />
       </Grid>
       <Grid item>
         <Typography variant="h5" component="div">

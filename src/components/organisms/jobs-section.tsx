@@ -6,9 +6,14 @@ import Tab from "@mui/material/Tab";
 
 import { SectionTitle, JobCard } from "../molecules";
 
+import DassaultSystemesLogo from '../../assets/image/dassault-systèmes.png'
+import HandsawayLogo from '../../assets/image/handsaway.png'
+import SommetLogo from '../../assets/image/sommet.png'
+import OlaianLogo from '../../assets/image/olaian.png'
+
 const jobs = [
   {
-    logo: "",
+    logo: DassaultSystemesLogo,
     title: "Développeur Full Stack - CDI",
     subtitle: "3DVIA - Dassault Systèmes",
     subtitle2: "Jan. 2020 - Oct. 2022 - Paris",
@@ -19,7 +24,7 @@ const jobs = [
               S3, CloudWatch, ...).`]
   },
   {
-    logo: "",
+    logo: HandsawayLogo,
     title: "Développeur Back-end bénévole",
     subtitle: "Handaway",
     subtitle2: "Sept. 2020 - Avril. 2021 - Paris",
@@ -29,7 +34,7 @@ const jobs = [
             d’Innovation de l’UTC Compiègne».`]
   },
   {
-    logo: "",
+    logo: DassaultSystemesLogo,
     title: "Business Analyst pour Applications Web - CDI",
     subtitle: "3DVIA - Dassault Systèmes",
     subtitle2: "Jan. 2017 - Déc. 2019 - Paris",
@@ -39,7 +44,7 @@ const jobs = [
             clients sur le process liés aux données.`]
   },
   {
-    logo: "",
+    logo: SommetLogo,
     title: "Co-fondateur d’une start-up",
     subtitle: "SOMMET, « une nouvelle façon de boire le fruit »",
     subtitle2: "Déc. 2015 - Déc. 2016 - Paris",
@@ -49,9 +54,9 @@ const jobs = [
   d’Innovation de l’UTC Compiègne».`]
   },
   {
-    logo: "",
+    logo: OlaianLogo,
     title: "Ingénieur Produit - Stage fin d’étude et CDD",
-    subtitle: "TRIBORD - Décathlon",
+    subtitle: "OLAIAN - Décathlon",
     subtitle2: "Févr. 2015 - Déc. 2015 - Hendaye",
     descriptionItems: [`- Conception et Développement de produits, du design à la
     production, en passant par la conception 3D, le prototypage, les

@@ -13,27 +13,32 @@ const services = [
   {
     logo: <Service1 />,
     title: "Café",
-    description: "Let’s have a 30min conversation to introduce ourselves and talk about your project."
+    description: "Appelons-nous ou prenons un café pour se présenter et discuter de votre idée/projet. Si vous n’avez pas encore de projet concret mais que vous voulez juste discuter ou élargir votre réseau, c’est avec grand plaisir !",
+    subdescriptions:["conversation & notes = 30min (ensemble)"]
   },
   {
     logo: <Service2 />,
     title: "Needs",
-    description: "Let’s detail your needs as deeply as we can during an hour interview. It will help me building a quotation that really fits your needs"
+    description: "Détaillons votre besoin dans les moindres détails pendant un rendez-vous de 1h. Cette étape me permettra de construire des documents de spécifications que je vous présente ensuite pendant un nouveau rendez-vous de 1h.",
+    subdescriptions:["Conversation & notes = 1h (ensemble)", "Prototype et division des tâches = 1 à 2 jours (seul)", "Présentation des spécifications = 1h (ensemble)"]
   },
   {
     logo: <Service3 />,
     title: "Quote",
-    description: "I build a quotation and we validate it together. The quotation will be divided in two-weeks sprints. Each sprint will cover a part of the objective."
+    description: "Je construis un devis qui réponde le mieux à vos attentes et vous le présente pendant un rendez-vous de 1h. Si vous acceptez le devis, nous commençons notre collaboration ensemble.",
+    subdescriptions:["Présentation du devis = 1h (ensemble)"]
   },
   {
     logo: <Service4 />,
     title: "Coding",
-    description: "It is coding time ! During this step, each sprint ends with a code delivery and a demo to show you the progress."
+    description: "C’est le moment de coder ! Pendant cette étape, je m’organise en AGILE avec des sprints de deux semaines qui se terminent par une démo, une livraison de code et la présentation du prochain sprint. De légers ajustements peuvent alors être réalisés selon vos demandes.",
+    subdescriptions:["La durée de cette étape est définie dans le devis."]
   },
   {
     logo: <Service5 />,
     title: "Delivery",
-    description: "Conform to the quotation, with quality code and on schedule !"
+    description: "Je vous livre l’ensemble du code dans les délais et conforme à vos exigences. Un déploiement en ligne peut-être éventuellement réalisé selon vos demandes.",
+    subdescriptions:[]
   }
 ]
 
@@ -58,7 +63,6 @@ export const ServicesSection = () => {
         direction="column"
         justifyContent="center"
         alignItems="center"
-        padding={2}
       >
         <Grid item>
           <Grid
@@ -74,6 +78,7 @@ export const ServicesSection = () => {
                   logo={service.logo}
                   title={service.title}
                   description={service.description}
+                  subdescriptions={service.subdescriptions}
                 ></ServiceCard>
               </Grid>
             )}

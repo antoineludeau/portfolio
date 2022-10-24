@@ -2,6 +2,7 @@ import Grid from "@mui/material/Grid";
 import Box from '@mui/material/Box'
 import Typography from "@mui/material/Typography";
 import InfoIcon from '@mui/icons-material/Info';
+import Link from '@mui/material/Link';
 
 export const PhilosophySection = () => {
   return (
@@ -28,6 +29,11 @@ export const PhilosophySection = () => {
             alignItems="center"
           >
             <Grid id="presentation-title" item>
+              <Typography variant="h1" component="div" textAlign="center">
+                1
+              </Typography>
+            </Grid>
+            <Grid id="presentation-title" item>
               <Typography variant="h4" component="div" textAlign="center">
                 Mon Constat.
               </Typography>
@@ -48,7 +54,7 @@ export const PhilosophySection = () => {
                 fulgurante, entrainant des problématiques et enjeux importants.
                 Par exemple, Il représente à l’échelle mondiale entre 4% et 6%
                 des émissions de gaz à effet de serre, dépassant désormais
-                le bilan carbone de l’aviation.<InfoIcon />
+                le bilan carbone de l’aviation.<Link href="https://www.greenit.fr/2020/10/06/4-des-emissions-de-ges/" target="_blank"><InfoIcon /></Link>
               </Typography>
 
             </Grid>
@@ -62,6 +68,11 @@ export const PhilosophySection = () => {
             alignItems="center"
           >
             <Grid id="presentation-title" item>
+              <Typography variant="h1" component="div" textAlign="center">
+                2
+              </Typography>
+            </Grid>
+            <Grid id="presentation-title" item>
               <Typography variant="h4" component="div" textAlign="center">
                 Ma Methode.
               </Typography>
@@ -74,11 +85,11 @@ export const PhilosophySection = () => {
                 textAlign="center"
                 padding={2}
               >
-                Ma méthode sera d’appliquer un numérique responsable :
+                Ma méthode sera d’appliquer le numérique responsable :
                 concilier la transition numérique de nos sociétés avec
                 les urgences écologiques et sociales. Aujourd’hui, on
                 ne peut plus se permettre de répondre à des envies, on
-                se doit de répondre à de réels besoins.
+                doit répondre à de réels besoins.
               </Typography>
             </Grid>
           </Grid>
@@ -90,6 +101,11 @@ export const PhilosophySection = () => {
             justifyContent="center"
             alignItems="center"
           >
+            <Grid id="presentation-title" item>
+              <Typography variant="h1" component="div" textAlign="center">
+                3
+              </Typography>
+            </Grid>
             <Grid id="presentation-title" item>
               <Typography variant="h4" component="div" textAlign="center">
                 Mon Objectif.
@@ -107,7 +123,7 @@ export const PhilosophySection = () => {
                 le numérique, pour réaliser des projets à impact
                 environnemental et/ou social, afin de répondre
                 aux 17 objectifs de développement durable définis
-                par l’ONU.<InfoIcon />
+                par l’ONU.<Link href="https://www.un.org/sustainabledevelopment/fr/objectifs-de-developpement-durable/" target="_blank"><InfoIcon /></Link>
               </Typography>
             </Grid>
           </Grid>

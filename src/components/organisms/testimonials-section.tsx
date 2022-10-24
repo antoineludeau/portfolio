@@ -15,14 +15,21 @@ import { SectionTitle, TestimonialCard } from "../molecules";
 
 const testimonials = [
   {
-    logo: GauthierSaillard,
+    avatar: GauthierSaillard,
+    title: "Jean-Pascal Torres",
+    subtitle: "Responsable R&D Plaform - 3DVIA - Dassault Systèmes",
+    subtitle2: "En 2022, Jean-Pascal était mon manager direct",
+    description: "Toujours positif, motivé, impliqué et pertinent. Antoine a fait preuve d'excellentes capacités d'apprentissage et d'adaptation. Un plaisir de l'avoir eu comme collaborateur."
+  },
+  {
+    avatar: GauthierSaillard,
     title: "Gauthier Saillard",
     subtitle: "Designer Industriel - Innovation chez PA.COTTE - LivingPackets",
     subtitle2: "En 2016, Gauthier était le co-fondateur de notre projet entrepreneurial SOMMET",
     description: "Un projet entrepreneurial met à rude épreuve toute équipe qui tente l'aventure. Si cette année à travailler avec Antoine a été faite de nombreux rebondissements, notre équipe a toujours su réagir et Antoine a toujours su redoubler d'efforts et remettre en question ce qui nécessitait d'être modifié, comme cela est si essentiel lors de la création d'un projet. Antoine est quelqu'un de très compétent et d'une positivité à toute épreuve. Cela se ressent dans son travail au quotidien."
   },
   {
-    logo: JulesColin,
+    avatar: JulesColin,
     title: "Jules Colin",
     subtitle: "Ingénieur - Associé - Militant @ SCALE",
     subtitle2: "En 2015, Jules était mon manager direct chez Decathlon",
@@ -35,7 +42,7 @@ const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 export const TestimonialsSection = () => {
   const theme = useTheme();
   const [activeStep, setActiveStep] = useState(0);
-  const maxSteps = 2;
+  const maxSteps = 3;
 
   const handleNext = () => {
     setActiveStep((prevActiveStep) => prevActiveStep + 1);
@@ -61,7 +68,7 @@ export const TestimonialsSection = () => {
     >
       <SectionTitle
         title="MES TEMOIGNAGES"
-        subtitle="Voilà ce que disent les gens avec qui j'ai travaillé !"
+        subtitle="Voilà ce que disent les gens avec qui j'ai travaillé"
       />
       <Box
         sx={{
@@ -81,7 +88,7 @@ export const TestimonialsSection = () => {
           >
             {testimonials.map(testimonial =>
               <TestimonialCard
-                logo={testimonial.logo}
+              avatar={testimonial.avatar}
                 title={testimonial.title}
                 subtitle={testimonial.subtitle}
                 subtitle2={testimonial.subtitle2}
