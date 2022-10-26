@@ -23,22 +23,22 @@ export const TestimonialCard = ({
         <Avatar sx={{ width: 70, height: 70 }} alt="avatar" src={avatar} />
       </Grid>
       <Grid item>
-        <Typography variant="h4" component="div" textAlign="center">
+        <Typography variant="h4" component="div" textAlign="center" color='white'>
           {title}
         </Typography>
       </Grid>
       <Grid item>
-        <Typography variant="body1" component="div" textAlign="center">
+        <Typography variant="body1" component="div" textAlign="center" color='white'>
           {subtitle}
         </Typography>
       </Grid>
       <Grid item sx={{ p: 1 }}>
-        <Typography variant="body2" component="div" textAlign="center">
+        <Typography variant="body2" component="div" textAlign="center" color='white'>
           {subtitle2}
         </Typography>
       </Grid>
       <Grid item sx={{ p: 2 }}>
-        <Typography variant="body1" component="div" textAlign="center">
+        <Typography variant="body1" component="div" textAlign="center" color='white'>
           {description}
         </Typography>
       </Grid>

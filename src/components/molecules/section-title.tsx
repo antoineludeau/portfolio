@@ -6,9 +6,10 @@ import VisibilitySensor from "react-visibility-sensor";
 interface SectionTitleProps {
   title: string;
   subtitle?: string;
+  isWhite?: boolean
 }
 
-export const SectionTitle = ({ title, subtitle }: SectionTitleProps) => {
+export const SectionTitle = ({ title, subtitle, isWhite }: SectionTitleProps) => {
   const [visibility, setVisibility] = useState<boolean>(false);
   const onChange = (visiblity: boolean) => {
     console.log(visiblity);
@@ -20,6 +21,7 @@ export const SectionTitle = ({ title, subtitle }: SectionTitleProps) => {
         isVisible={visibility}
         title={title}
         subtitle={subtitle}
+        isWhite={isWhite}
       ></FadeInDirection>
     </VisibilitySensor>
   );
@@ -29,12 +31,14 @@ interface FadeInDirectionProps {
   isVisible: boolean;
   title: string;
   subtitle?: string;
+  isWhite?: boolean
 }
 
 const FadeInDirection = ({
   isVisible,
   title,
   subtitle,
+  isWhite
 }: FadeInDirectionProps) => {
   const propsTitle = useSpring({
     opacity: isVisible ? 1 : 0,
@@ -54,6 +58,7 @@ const FadeInDirection = ({
           variant="h4"
           component="div"
           sx={{wordWrap: "break-word" }}
+          color={isWhite?'white':'black'}
         >
           {title}
         </Typography>
@@ -64,6 +69,7 @@ const FadeInDirection = ({
             variant="h6"
             component="div"
             sx={{ wordWrap: "break-word" }}
+            color={isWhite?'white':'black'}
           >
             {subtitle}
           </Typography>

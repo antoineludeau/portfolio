@@ -4,22 +4,24 @@ import Typography from "@mui/material/Typography";
 import InfoIcon from '@mui/icons-material/Info';
 import Link from '@mui/material/Link';
 
+import SignImage from "../../assets/image/sign.png";
+
 export const PhilosophySection = () => {
   return (
     <Box
       sx={{
-        padding: 2,
         minHeight: "100vh",
-        backgroundColor: '#F2F2F2',
+        backgroundColor: '#f5d6c9',
         paddingTop: 5,
-        display: 'flex'
+        display: 'flex',
+        alignItems: "center"
       }}
     >
       <Grid
         container
-        alignItems="center"
+        alignItems="top"
         spacing={5}
-        sx={{ backgroundColor: '#F2F2F2' }}
+        padding={2}
       >
         <Grid item md={4} xs={12}>
           <Grid
@@ -28,17 +30,17 @@ export const PhilosophySection = () => {
             justifyContent="center"
             alignItems="center"
           >
-            <Grid id="presentation-title" item>
+            <Grid item >
               <Typography variant="h1" component="div" textAlign="center">
                 1
               </Typography>
             </Grid>
-            <Grid id="presentation-title" item>
+            <Grid item>
               <Typography variant="h4" component="div" textAlign="center">
                 Mon Constat.
               </Typography>
             </Grid>
-            <Grid id="presentation-title" item>
+            <Grid item>
               <Typography
                 variant="h6"
                 component="div"
@@ -67,17 +69,18 @@ export const PhilosophySection = () => {
             justifyContent="center"
             alignItems="center"
           >
-            <Grid id="presentation-title" item>
+
+            <Grid item>
               <Typography variant="h1" component="div" textAlign="center">
                 2
               </Typography>
             </Grid>
-            <Grid id="presentation-title" item>
+            <Grid item>
               <Typography variant="h4" component="div" textAlign="center">
                 Ma Methode.
               </Typography>
             </Grid>
-            <Grid id="presentation-title" item>
+            <Grid item>
               <Typography
                 variant="h6"
                 component="div"
@@ -92,6 +95,9 @@ export const PhilosophySection = () => {
                 doit répondre à de réels besoins.
               </Typography>
             </Grid>
+            <Grid item>
+              <img src={SignImage} width={'100'} />
+            </Grid>
           </Grid>
         </Grid>
         <Grid item md={4} xs={12}>
@@ -101,17 +107,17 @@ export const PhilosophySection = () => {
             justifyContent="center"
             alignItems="center"
           >
-            <Grid id="presentation-title" item>
+            <Grid item>
               <Typography variant="h1" component="div" textAlign="center">
                 3
               </Typography>
             </Grid>
-            <Grid id="presentation-title" item>
+            <Grid item>
               <Typography variant="h4" component="div" textAlign="center">
                 Mon Objectif.
               </Typography>
             </Grid>
-            <Grid id="presentation-title" item>
+            <Grid item>
               <Typography
                 variant="h6"
                 component="div"
@@ -132,3 +138,4 @@ export const PhilosophySection = () => {
     </Box>
   );
 };
+

@@ -33,7 +33,7 @@ export const PresentationSection = () => {
             >
               Passionné de création, je développe aujourd’hui des applications
               digitales en freelance. Issu d’un cursus d’ingénieur en mécanique
-              avec quelques expériences entrepreneuriales, je me suis
+              suivi d'expériences entrepreneuriales, je me suis
               réorienté vers le développement informatique depuis plus de 3 ans.
               L’originalité de mon parcours et ma sensibilité au design, me
               permettent aujourd’hui de comprendre au mieux les besoins de mes

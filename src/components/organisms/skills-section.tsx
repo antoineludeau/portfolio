@@ -3,13 +3,15 @@ import Grid from "@mui/material/Grid";
 import CodeIcon from "@mui/icons-material/Code";
 import CommentIcon from "@mui/icons-material/Comment";
 
-import { SectionTitle, SkillCard } from "../molecules";
+import { SectionTitle, SkillCard } from "../molecules"
+
+import Climber from "../../assets/image/climbing.png";
 
 const skills = [
   {
     logo: <CodeIcon fontSize="large" />,
     title: "Development",
-    subtitle: "I like to code things from scratch, and enjoy bringing ideas to life.",
+    subtitle: "Ce qui m'anime le plus : partir d'une idée et lui donner vie en créant des applications from scratch",
     subSkills: [
       {
         title: "FRONT-END",
@@ -42,7 +44,7 @@ const skills = [
   {
     logo: <CommentIcon fontSize="large" />,
     title: "Communication",
-    subtitle: "Being able to communicate the right ideas is a key point in any project.",
+    subtitle: "Souvent délaissé par les développeurs, une bonne capacité de communication est pour moi, un des points clé de la réussite de tout projet",
     subSkills: [
       {
         title: "TOOLS",
@@ -74,7 +76,7 @@ export const SkillsSection = () => {
           padding: 2,
           textAlign: "center",
           minHeight: "100vh",
-          backgroundColor: '#F2F2F2',
+          backgroundColor: '#A1D9D3',
           paddingTop: 5
         }}
       >
@@ -85,18 +87,28 @@ export const SkillsSection = () => {
           justifyContent="center"
           alignItems="top"
           sx={{ marginTop: 1, marginBottom: 10 }}
-          columns={12}
         >
-          {skills.map(skill =>
+  
             <Grid item md={3} xs={12}>
               <SkillCard
-                logo={skill.logo}
-                title={skill.title}
-                subtitle={skill.subtitle}
-                subSkills={skill.subSkills}
+                logo={skills[0].logo}
+                title={skills[0].title}
+                subtitle={skills[0].subtitle}
+                subSkills={skills[0].subSkills}
               ></SkillCard>
             </Grid>
-          )}
+            <Grid item md={1} xs={12} alignItems='center'>
+              <img width="100"src={Climber}/>
+            </Grid>
+            <Grid item md={3} xs={12}>
+              <SkillCard
+                logo={skills[1].logo}
+                title={skills[1].title}
+                subtitle={skills[1].subtitle}
+                subSkills={skills[1].subSkills}
+              ></SkillCard>
+            </Grid>
+          
         </Grid>
       </Box>
     </>

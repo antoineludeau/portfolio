@@ -11,6 +11,8 @@ import { autoPlay } from "react-swipeable-views-utils";
 import JulesColin from "../../assets/image/jules-colin.png";
 import GauthierSaillard from "../../assets/image/gauthier-saillard.png";
 
+import MountainSunset from "../../assets/image/mountain-top.png";
+
 import { SectionTitle, TestimonialCard } from "../molecules";
 
 const testimonials = [
@@ -59,26 +61,32 @@ export const TestimonialsSection = () => {
   return (
     <Box
       sx={{
-        padding: 2,
         textAlign: "center",
         minHeight: "100vh",
         backgroundColor: '#F2F2F2',
-        paddingTop: 5
+        paddingTop: 5,
+        backgroundImage: `url(${MountainSunset})`,
+        backgroundRepeat: "no-repeat",
+        backgroundPositionY: "80%",
+        backgroundPositionX: "center"
       }}
     >
       <SectionTitle
         title="MES TEMOIGNAGES"
         subtitle="Voilà ce que disent les gens avec qui j'ai travaillé"
+        isWhite={true}
       />
       <Box
         sx={{
           marginTop: 5,
           textAlign: "center",
-          display: "flex",
           justifyContent: "center",
+          alignItems: "center",
+          width:"100%",
+          display:'flex'
         }}
       >
-        <Box sx={{ width: "400px", marginBottom: 10 }}>
+        <Box sx={{ display:'grid', maxWidth: "400px", marginBottom: 10 }}>
           <AutoPlaySwipeableViews
             axis={theme.direction === "rtl" ? "x-reverse" : "x"}
             index={activeStep}
@@ -100,6 +108,7 @@ export const TestimonialsSection = () => {
             steps={maxSteps}
             position="static"
             activeStep={activeStep}
+            sx={{backgroundColor:'transparent'}}
             nextButton={
               <Button
                 size="small"
