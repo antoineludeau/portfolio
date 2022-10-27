@@ -13,35 +13,55 @@ import InboxIcon from "@mui/icons-material/MoveToInbox";
 import MailIcon from "@mui/icons-material/Mail";
 import { Link } from "react-scroll";
 import Fab from "@mui/material/Fab";
+import HomeIcon from '@mui/icons-material/Home';
+import PersonIcon from '@mui/icons-material/Person';
+import ParkIcon from '@mui/icons-material/Park';
+import ContentPasteIcon from '@mui/icons-material/ContentPaste';
+import ThumbUpAltIcon from '@mui/icons-material/ThumbUpAlt';
+import CallIcon from '@mui/icons-material/Call';
+import WorkspacesIcon from '@mui/icons-material/Workspaces';
+import TuneIcon from '@mui/icons-material/Tune';
 
 const menuItems = [
   {
     id: "home",
-    text: "Home",
+    text: "Acceuil",
+    icon: <HomeIcon/>
   },
   {
     id: "presentation",
     text: "Presentation",
+    icon: <PersonIcon/>
+  },
+  {
+    id: "philosophy",
+    text: "Philosophie",
+    icon: <ParkIcon/>
   },
   {
     id: "services",
     text: "Services",
+    icon: <WorkspacesIcon/>
   },
   {
     id: "skills",
-    text: "Skills",
+    text: "Compétences",
+    icon: <TuneIcon/>
   },
   {
     id: "jobs",
-    text: "Recent Jobs",
+    text: "Expériences Pro",
+    icon: <ContentPasteIcon/>
   },
   {
     id: "testimonials",
-    text: "Testimonials",
+    text: "Témoignages",
+    icon: <ThumbUpAltIcon/>
   },
   {
     id: "contacts",
     text: "Contacts",
+    icon: <CallIcon/>
   },
 ];
 interface Props {
@@ -117,7 +137,7 @@ export const Menu = () => {
                 >
                   <ListItem button onClick={() => setOpenMenu(false)}>
                     <ListItemIcon>
-                      {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
+                      {item.icon}
                     </ListItemIcon>
                     <ListItemText primary={item.text} />
                   </ListItem>

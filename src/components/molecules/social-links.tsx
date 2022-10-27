@@ -34,6 +34,12 @@ export const SocialLinks = () => {
     return (
         <>
             <Box>
+                <IconButton color="primary" aria-label="upload picture" component="label" onClick={() => setContactDialogState({ open: true, title: 'Téléphone', icon: Phone, content: '+33 6 37 69 25 19' })}>
+                    <img width='30px' src={Phone} />
+                </IconButton>
+                <IconButton color="primary" aria-label="upload picture" component="label" onClick={() => setContactDialogState({ open: true, title: 'Mail', icon: Mail, content: 'antoine.ludeau@gmail.com' })}>
+                    <img width='30px' src={Mail} />
+                </IconButton>
                 <Link href="https://www.linkedin.com/in/antoineludeau/" target="_blank" color="inherit">
                     <IconButton color="primary" aria-label="upload picture" component="label">
                         <img width='30px' src={Linkedin} />
@@ -44,12 +50,7 @@ export const SocialLinks = () => {
                         <img width='30px' src={Malt} />
                     </IconButton>
                 </Link>
-                <IconButton color="primary" aria-label="upload picture" component="label" onClick={() => setContactDialogState({ open: true, title: 'Téléphone', icon: Phone, content: '+33 6 37 69 25 19' })}>
-                    <img width='30px' src={Phone} />
-                </IconButton>
-                <IconButton color="primary" aria-label="upload picture" component="label" onClick={() => setContactDialogState({ open: true, title: 'Mail', icon: Mail, content: 'antoine.ludeau@gmail.com' })}>
-                    <img width='30px' src={Mail} />
-                </IconButton>
+
             </Box>
             <Dialog onClose={() => setContactDialogState(prev => ({ ...prev, open: false }))} open={contactDialogState.open}>
                 <DialogTitle>
@@ -77,7 +78,8 @@ export const SocialLinks = () => {
                             </Typography>
                         </Grid>
                         <Grid item>
-                            <Button variant="outlined" onClick={() => navigator.clipboard.writeText(contactDialogState.content)}>Copier dans le clipboard</Button></Grid>
+                            <Button variant="outlined" onClick={() => navigator.clipboard.writeText(contactDialogState.content)}>Copier dans le clipboard</Button>
+                        </Grid>
                     </Grid>
                 </DialogContent>
             </Dialog>

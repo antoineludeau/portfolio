@@ -56,7 +56,7 @@ export const PhilosophySection = () => {
                 fulgurante, entrainant des problématiques et enjeux importants.
                 Par exemple, Il représente à l’échelle mondiale entre 4% et 6%
                 des émissions de gaz à effet de serre, dépassant désormais
-                le bilan carbone de l’aviation.<Link href="https://www.greenit.fr/2020/10/06/4-des-emissions-de-ges/" target="_blank"><InfoIcon /></Link>
+                le bilan carbone de l’aviation (resources : collectif Green IT <Link href="https://www.greenit.fr/2020/10/06/4-des-emissions-de-ges/" target="_blank"><InfoIcon /></Link>)
               </Typography>
 
             </Grid>
@@ -77,7 +77,7 @@ export const PhilosophySection = () => {
             </Grid>
             <Grid item>
               <Typography variant="h4" component="div" textAlign="center">
-                Ma Methode.
+                Ma Méthode.
               </Typography>
             </Grid>
             <Grid item>
@@ -88,7 +88,7 @@ export const PhilosophySection = () => {
                 textAlign="center"
                 padding={2}
               >
-                Ma méthode sera d’appliquer le numérique responsable :
+                Ma méthode est d’appliquer le numérique responsable :
                 concilier la transition numérique de nos sociétés avec
                 les urgences écologiques et sociales. Aujourd’hui, on
                 ne peut plus se permettre de répondre à des envies, on

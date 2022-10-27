@@ -11,7 +11,7 @@ const skills = [
   {
     logo: <CodeIcon fontSize="large" />,
     title: "Development",
-    subtitle: "Ce qui m'anime le plus : partir d'une idée et lui donner vie en créant des applications from scratch",
+    subtitle: "Ce qui m'anime le plus : partir d'une idée et lui donner vie en créant des applications from scratch. J'aime aussi apprendre de nouveaux languages et technologies",
     subSkills: [
       {
         title: "FRONT-END",
@@ -44,7 +44,7 @@ const skills = [
   {
     logo: <CommentIcon fontSize="large" />,
     title: "Communication",
-    subtitle: "Souvent délaissé par les développeurs, une bonne capacité de communication est pour moi, un des points clé de la réussite de tout projet",
+    subtitle: "Souvent délaissée par les développeurs, une bonne capacité à communiquer ses idées est pour moi, un des points clé de la réussite de tout projet",
     subSkills: [
       {
         title: "TOOLS",
@@ -80,7 +80,7 @@ export const SkillsSection = () => {
           paddingTop: 5
         }}
       >
-        <SectionTitle title="MES COMPETENCES" subtitle="Voilà ce que je sais faire!" />
+        <SectionTitle title="MES COMPETENCES" subtitle="Voilà ce que je sais faire." />
         <Grid
           container
           spacing={4}
