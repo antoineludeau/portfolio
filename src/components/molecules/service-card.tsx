@@ -30,8 +30,8 @@ export const ServiceCard = ({ logo, title, description, subdescriptions }: Servi
           {description}
         </Typography>
       </Grid>
-      {subdescriptions.map(subdescription => 
-        <Grid item>
+      {subdescriptions.map((subdescription, index) => 
+        <Grid key={index} item>
           <Typography
             maxWidth="300px"
             variant="body2"

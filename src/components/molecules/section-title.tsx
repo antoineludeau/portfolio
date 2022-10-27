@@ -12,7 +12,6 @@ interface SectionTitleProps {
 export const SectionTitle = ({ title, subtitle, isWhite }: SectionTitleProps) => {
   const [visibility, setVisibility] = useState<boolean>(false);
   const onChange = (visiblity: boolean) => {
-    console.log(visiblity);
     visiblity && setVisibility(visiblity);
   };
   return (

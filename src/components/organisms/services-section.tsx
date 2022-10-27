@@ -4,15 +4,17 @@ import Typography from "@mui/material/Typography";
 import ForwardIcon from '@mui/icons-material/Forward';
 import IconButton from '@mui/material/IconButton';
 import Link from '@mui/material/Link';
+import Divider from '@mui/material/Divider';
 
-import Malt from '../../assets/image/malt.png'
+import { SectionTitle, ServiceCard } from "../molecules";
+
 import { ReactComponent as Service1 } from "../../assets/image/service-1.svg";
 import { ReactComponent as Service2 } from "../../assets/image/service-2.svg";
 import { ReactComponent as Service3 } from "../../assets/image/service-3.svg";
 import { ReactComponent as Service4 } from "../../assets/image/service-4.svg";
 import { ReactComponent as Service5 } from "../../assets/image/service-5.svg";
+import Malt from '../../assets/image/malt.png'
 
-import { SectionTitle, ServiceCard } from "../molecules";
 
 const services = [
   {
@@ -74,6 +76,7 @@ export const ServicesSection = () => {
           <Grid
             container
             direction="column"
+            spacing={2}
           >
             <Grid item>
               <Typography variant="h6" component="div" >
@@ -81,51 +84,51 @@ export const ServicesSection = () => {
               </Typography>
             </Grid>
             <Grid item>
+
               <Typography variant="h6" component="div" >
-                <ForwardIcon /> Option 1 : Contrat au temps passé 
+                <ForwardIcon /> Option 1 : Contrat au temps passé
               </Typography >
               <Typography variant="body1" component="div" >
                 Pour connaître mon TJM :
               </Typography >
               <Link href="https://www.malt.fr/profile/antoineludeau" target="_blank" color="inherit">
-                    <IconButton color="primary" aria-label="upload picture" component="label">
-                        <img width='30px' src={Malt} />
-                    </IconButton>
-                </Link>
+                <IconButton color="primary" aria-label="upload picture" component="label">
+                  <img width='30px' src={Malt} alt='malt icon'/>
+                </IconButton>
+              </Link>
+              <Divider variant="middle" />
             </Grid>
             <Grid item>
               <Typography variant="h6" component="div" >
                 <ForwardIcon /> Option 2 : Contrat au forfait (devis)
               </Typography>
+              <Typography variant="body1" component="div"  >
+                Pour cette seconde option, mon mode de fonctionnement est le suivant :
+              </Typography>
             </Grid>
-            <Grid item>
-            <Typography variant="body1" component="div"  >
-              Dans le deuxième cas, mon mode de fonctionnement est le suivant :
-            </Typography>
+          </Grid>
+        </Grid>
+        <Grid item>
+          <Grid
+            container
+            spacing={4}
+            justifyContent="center"
+            alignItems="top"
+            sx={{ marginBottom: 8 }}
+          >
+            {services.map((service, index) =>
+              <Grid key={index} item md={2} sm={4} xs={12}>
+                <ServiceCard
+                  logo={service.logo}
+                  title={service.title}
+                  description={service.description}
+                  subdescriptions={service.subdescriptions}
+                ></ServiceCard>
+              </Grid>
+            )}
           </Grid>
         </Grid>
       </Grid>
-      <Grid item>
-        <Grid
-          container
-          spacing={4}
-          justifyContent="center"
-          alignItems="top"
-          sx={{ marginBottom: 8 }}
-        >
-          {services.map(service =>
-            <Grid item md={2} sm={4} xs={12}>
-              <ServiceCard
-                logo={service.logo}
-                title={service.title}
-                description={service.description}
-                subdescriptions={service.subdescriptions}
-              ></ServiceCard>
-            </Grid>
-          )}
-        </Grid>
-      </Grid>
-    </Grid>
     </Box >
   );
 };

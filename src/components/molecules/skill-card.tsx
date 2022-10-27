@@ -1,3 +1,4 @@
+import React from 'react'
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
@@ -44,15 +45,15 @@ export const SkillCard = ({
           {subtitle}
         </Typography>
       </Grid>
-      {subSkills.map((subSkill) => (
-        <>
+      {subSkills.map((subSkill, index) => (
+        <React.Fragment key={index}>
           <Grid item sx={{ marginTop: 2, marginBottom:1 }}>
             <Typography variant="h5" component="div" textAlign="center">
               {subSkill.title}
             </Typography>
           </Grid>
-          {subSkill.list.map((item) => (
-            <Box sx={{ display: "flex" }} justifyContent="center">
+          {subSkill.list.map((item, index) => (
+            <Box key={index} sx={{ display: "flex" }} justifyContent="center">
               <Typography
                 width="130px"
                 variant="body1"
@@ -65,7 +66,7 @@ export const SkillCard = ({
               {GetProgressBar(item.progress)}
             </Box>
           ))}
-        </>
+        </React.Fragment>
       ))}
     </Grid>
   );

@@ -1,6 +1,6 @@
 import { Grid } from "@mui/material";
 import { BrowserRouter as Router } from "react-router-dom";
-import { PhilosophySection } from "../organisms";
+
 interface TemplateHomeProps {
   menu: React.ReactNode;
   homeSection: any;

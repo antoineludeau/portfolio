@@ -96,7 +96,7 @@ export const PhilosophySection = () => {
               </Typography>
             </Grid>
             <Grid item>
-              <img src={SignImage} width={'100'} />
+              <img src={SignImage} width={'100'} alt='moutain sign'/>
             </Grid>
           </Grid>
         </Grid>

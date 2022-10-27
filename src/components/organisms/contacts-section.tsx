@@ -63,16 +63,16 @@ export const ContactsSection = () => {
           </Grid>
           <Grid item>
             <Typography variant="h5" component="div" >
-              Réseaux & Plateforme
+              Réseaux & Plateformes
             </Typography>
             <Link href="https://www.linkedin.com/in/antoineludeau/" target="_blank" color="inherit">
-              <IconButton color="primary" aria-label="upload picture" component="label">
-                <img width='30px' src={Linkedin} />
+              <IconButton color="primary" aria-label="linkedin icon button" component="label">
+                <img width='30px' src={Linkedin} alt='linkedin icon'/>
               </IconButton>
             </Link>
             <Link href="https://www.malt.fr/profile/antoineludeau" target="_blank" color="inherit">
-              <IconButton color="primary" aria-label="upload picture" component="label">
-                <img width='30px' src={Malt} />
+              <IconButton color="primary" aria-label="malt icon button" component="label">
+                <img width='30px' src={Malt} alt='malt icon'/>
               </IconButton>
             </Link>
 

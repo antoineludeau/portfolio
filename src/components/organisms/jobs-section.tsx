@@ -21,17 +21,18 @@ const jobs = [
               Typescript).`, `- Améliorations et nouvelle features de l’API
               back-end (NodeJS).`, `- Gestion du pipeline de processing et
               simplification des assets 3D sur Amazon Web Services (SQS, EC2,
-              S3, CloudWatch, ...).`]
+              S3, CloudWatch, ...).`, `- Mise en place du déploiement d'un micro-service 
+              (Amazon S3 local) pour l'amélioration de l'environnement local de tous 
+              les developpeurs de l'entreprise`]
   },
   {
     logo: HandsawayLogo,
     title: "Développeur Back-end bénévole",
     subtitle: "Handaway",
     subtitle2: "Sept. 2020 - Avril. 2021 - Paris",
-    descriptionItems: [`- Création d’un produit et d’un concept nouveau de jus de fruit
-            en dosette.`, `- Participation à des concours qui ont mené à
-            l’incubation par «Petit - Poucet Incubateur» et le «Centre
-            d’Innovation de l’UTC Compiègne».`]
+    descriptionItems: [`- Responsable technique de l'API pour l'application mobile (NestJS)`,
+      `- Création de nouvelles routes et amélioration des routes existantes selon les besoins du front-end`,
+      `- Gestion de la base de donnée sur AWS`]
   },
   {
     logo: DassaultSystemesLogo,
@@ -50,7 +51,7 @@ const jobs = [
     subtitle2: "Déc. 2015 - Déc. 2016 - Paris",
     descriptionItems: [`- Création d’un produit et d’un concept nouveau de jus de fruit
   en dosette.`, `- Participation à des concours qui ont mené à
-  l’incubation par «Petit - Poucet Incubateur» et le «Centre
+  l’incubation par «Petit Poucet Incubateur» et le «Centre
   d’Innovation de l’UTC Compiègne».`]
   },
   {
@@ -141,7 +142,7 @@ export const JobsSection = () => {
             <Tab label="Decathlon" {...a11yProps(4)} />
           </Tabs>
           {jobs.map((job, index) =>
-            <TabPanel value={value} index={index}>
+            <TabPanel key={index} value={value} index={index}>
               <JobCard
                 logo={job.logo}
                 title={job.title}

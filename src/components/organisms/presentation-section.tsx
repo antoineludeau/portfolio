@@ -14,17 +14,14 @@ export const PresentationSection = () => {
       <Grid item>
         <Grid
           container
-          spacing={0}
           direction="column"
-          justifyContent="center"
-          alignItems="center"
         >
-          <Grid id="presentation-title" item>
+          <Grid item>
             <Typography variant="h2" component="div" textAlign="center">
               Enchanté.
             </Typography>
           </Grid>
-          <Grid id="presentation-title" item>
+          <Grid item>
             <Typography
               variant="h5"
               component="div"
@@ -34,7 +31,7 @@ export const PresentationSection = () => {
               Passionné de création, je développe aujourd’hui des applications
               digitales en freelance. Issu d’un cursus d’ingénieur en mécanique
               suivi d'expériences entrepreneuriales, je me suis
-              réorienté vers le développement informatique depuis plus de 3 ans.
+              réorienté vers le développement informatique depuis plus de 4 ans.
               L’originalité de mon parcours et ma sensibilité au design, me
               permettent aujourd’hui de comprendre au mieux les besoins de mes
               clients et de communiquer efficacement pour développer des

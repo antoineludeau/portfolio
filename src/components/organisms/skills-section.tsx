@@ -98,7 +98,7 @@ export const SkillsSection = () => {
               ></SkillCard>
             </Grid>
             <Grid item md={1} xs={12} alignItems='center'>
-              <img width="100"src={Climber}/>
+              <img width="100" src={Climber} alt='climber'/>
             </Grid>
             <Grid item md={3} xs={12}>
               <SkillCard

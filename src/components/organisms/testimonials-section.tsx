@@ -17,7 +17,7 @@ import { SectionTitle, TestimonialCard } from "../molecules";
 
 const testimonials = [
   {
-    avatar: GauthierSaillard,
+    avatar: "",
     title: "Jean-Pascal Torres",
     subtitle: "Responsable R&D Plaform - 3DVIA - Dassault Systèmes",
     subtitle2: "En 2022, Jean-Pascal était mon manager direct",
@@ -82,11 +82,11 @@ export const TestimonialsSection = () => {
           textAlign: "center",
           justifyContent: "center",
           alignItems: "center",
-          width:"100%",
-          display:'flex'
+          width: "100%",
+          display: 'flex'
         }}
       >
-        <Box sx={{ display:'grid', maxWidth: "400px", marginBottom: 10 }}>
+        <Box sx={{ display: 'grid', maxWidth: "400px", marginBottom: 10 }}>
           <AutoPlaySwipeableViews
             axis={theme.direction === "rtl" ? "x-reverse" : "x"}
             index={activeStep}
@@ -94,9 +94,10 @@ export const TestimonialsSection = () => {
             enableMouseEvents
             interval={30000}
           >
-            {testimonials.map(testimonial =>
+            {testimonials.map((testimonial, index) =>
               <TestimonialCard
-              avatar={testimonial.avatar}
+                key={index}
+                avatar={testimonial.avatar}
                 title={testimonial.title}
                 subtitle={testimonial.subtitle}
                 subtitle2={testimonial.subtitle2}
@@ -108,7 +109,7 @@ export const TestimonialsSection = () => {
             steps={maxSteps}
             position="static"
             activeStep={activeStep}
-            sx={{backgroundColor:'transparent'}}
+            sx={{ backgroundColor: 'transparent' }}
             nextButton={
               <Button
                 size="small"

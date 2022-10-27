@@ -20,7 +20,9 @@ export const TestimonialCard = ({
   return (
     <Grid container direction="column" alignItems={'center'}>
       <Grid item >
-        <Avatar sx={{ width: 70, height: 70 }} alt="avatar" src={avatar} />
+        {//TO FIX
+        }
+        <Avatar sx={{ width: 70, height: 70 }} alt="avatar" src={avatar}>{title === 'Jean-Pascal Torres' ? 'JPT' : ''}</Avatar>
       </Grid>
       <Grid item>
         <Typography variant="h4" component="div" textAlign="center" color='white'>

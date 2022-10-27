@@ -26,7 +26,7 @@ export const JobCard = ({
       maxWidth="500px"
     >
       <Grid item>
-        <img height="50" src={logo} />
+        <img height="50" src={logo} alt={`${title}-logo`}/>
       </Grid>
       <Grid item>
         <Typography variant="h5" component="div">
@@ -43,8 +43,8 @@ export const JobCard = ({
           {subtitle2}
         </Typography>
       </Grid>
-      {descriptionItems.map(descriptionItem =>
-        <Grid item>
+      {descriptionItems.map((descriptionItem, index) =>
+        <Grid key={index} item>
           <Typography variant="body1" component="div">
             {descriptionItem}
           </Typography>
