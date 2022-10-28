@@ -1,7 +1,11 @@
-import { Home } from './components/pages'
-import { createTheme, responsiveFontSizes, ThemeProvider } from '@mui/material/styles';
+import { Home } from "./components/pages";
+import {
+  createTheme,
+  responsiveFontSizes,
+  ThemeProvider,
+} from "@mui/material/styles";
 
-let theme = createTheme( );
+let theme = createTheme();
 
 theme = responsiveFontSizes(theme);
 

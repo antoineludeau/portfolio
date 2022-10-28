@@ -1,5 +1,6 @@
 import { Grid } from "@mui/material";
 import { BrowserRouter as Router } from "react-router-dom";
+import Typography from "@mui/material/Typography";
 
 interface TemplateHomeProps {
   menu: React.ReactNode;
@@ -11,6 +12,7 @@ interface TemplateHomeProps {
   jobsSection: any;
   testimonialsSection: any;
   contactsSection: any;
+  footerSection: any;
 }
 
 export const TemplateHome = ({
@@ -23,6 +25,7 @@ export const TemplateHome = ({
   jobsSection,
   testimonialsSection,
   contactsSection,
+  footerSection
 }: TemplateHomeProps) => {
   return (
     <>
@@ -53,6 +56,9 @@ export const TemplateHome = ({
         </Grid>
         <Grid id="contacts" item xs={12}>
           {contactsSection}
+        </Grid>
+        <Grid id="contacts" item xs={12}>
+          {footerSection}
         </Grid>
       </Router>
     </>

@@ -8,6 +8,7 @@ import {
   JobsSection,
   TestimonialsSection,
   ContactsSection,
+  FooterSection
 } from "../organisms";
 import { TemplateHome } from "../templates";
 
@@ -23,6 +24,7 @@ export const Home = () => {
       jobsSection={<JobsSection />}
       testimonialsSection={<TestimonialsSection />}
       contactsSection={<ContactsSection />}
+      footerSection={<FooterSection />}
     />
   );
 };

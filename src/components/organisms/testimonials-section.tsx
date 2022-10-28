@@ -21,23 +21,27 @@ const testimonials = [
     title: "Jean-Pascal Torres",
     subtitle: "Responsable R&D Plaform - 3DVIA - Dassault Systèmes",
     subtitle2: "En 2022, Jean-Pascal était mon manager direct",
-    description: "Toujours positif, motivé, impliqué et pertinent. Antoine a fait preuve d'excellentes capacités d'apprentissage et d'adaptation. Un plaisir de l'avoir eu comme collaborateur."
+    description:
+      "Toujours positif, motivé, impliqué et pertinent. Antoine a fait preuve d'excellentes capacités d'apprentissage et d'adaptation. Un plaisir de l'avoir eu comme collaborateur.",
   },
   {
     avatar: GauthierSaillard,
     title: "Gauthier Saillard",
     subtitle: "Designer Industriel - Innovation chez PA.COTTE - LivingPackets",
-    subtitle2: "En 2016, Gauthier était le co-fondateur de notre projet entrepreneurial SOMMET",
-    description: "Un projet entrepreneurial met à rude épreuve toute équipe qui tente l'aventure. Si cette année à travailler avec Antoine a été faite de nombreux rebondissements, notre équipe a toujours su réagir et Antoine a toujours su redoubler d'efforts et remettre en question ce qui nécessitait d'être modifié, comme cela est si essentiel lors de la création d'un projet. Antoine est quelqu'un de très compétent et d'une positivité à toute épreuve. Cela se ressent dans son travail au quotidien."
+    subtitle2:
+      "En 2016, Gauthier était le co-fondateur de notre projet entrepreneurial SOMMET",
+    description:
+      "Un projet entrepreneurial met à rude épreuve toute équipe qui tente l'aventure. Si cette année à travailler avec Antoine a été faite de nombreux rebondissements, notre équipe a toujours su réagir et Antoine a toujours su redoubler d'efforts et remettre en question ce qui nécessitait d'être modifié, comme cela est si essentiel lors de la création d'un projet. Antoine est quelqu'un de très compétent et d'une positivité à toute épreuve. Cela se ressent dans son travail au quotidien.",
   },
   {
     avatar: JulesColin,
     title: "Jules Colin",
     subtitle: "Ingénieur - Associé - Militant @ SCALE",
     subtitle2: "En 2015, Jules était mon manager direct chez Decathlon",
-    description: "Antoine possède toutes les qualités de l'ingénieur d'aujourd’hui: sérieux, curieux, rigoureux et appliqué, son intérêt pour l’innovation est très certainement son meilleur atout. C'était en tout cas un vrai plaisir de l'avoir dans l'équipe d'ingénieurs de Tribord."
-  }
-]
+    description:
+      "Antoine possède toutes les qualités de l'ingénieur d'aujourd’hui: sérieux, curieux, rigoureux et appliqué, son intérêt pour l’innovation est très certainement son meilleur atout. C'était en tout cas un vrai plaisir de l'avoir dans l'équipe d'ingénieurs de Tribord.",
+  },
+];
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
@@ -63,12 +67,12 @@ export const TestimonialsSection = () => {
       sx={{
         textAlign: "center",
         minHeight: "100vh",
-        backgroundColor: '#F2F2F2',
+        backgroundColor: "#F2F2F2",
         paddingTop: 5,
         backgroundImage: `url(${MountainSunset})`,
         backgroundRepeat: "no-repeat",
         backgroundPositionY: "80%",
-        backgroundPositionX: "center"
+        backgroundPositionX: "center",
       }}
     >
       <SectionTitle
@@ -83,10 +87,10 @@ export const TestimonialsSection = () => {
           justifyContent: "center",
           alignItems: "center",
           width: "100%",
-          display: 'flex'
+          display: "flex",
         }}
       >
-        <Box sx={{ display: 'grid', maxWidth: "400px", marginBottom: 10 }}>
+        <Box sx={{ display: "grid", maxWidth: "400px", marginBottom: 10 }}>
           <AutoPlaySwipeableViews
             axis={theme.direction === "rtl" ? "x-reverse" : "x"}
             index={activeStep}
@@ -94,7 +98,7 @@ export const TestimonialsSection = () => {
             enableMouseEvents
             interval={30000}
           >
-            {testimonials.map((testimonial, index) =>
+            {testimonials.map((testimonial, index) => (
               <TestimonialCard
                 key={index}
                 avatar={testimonial.avatar}
@@ -103,13 +107,13 @@ export const TestimonialsSection = () => {
                 subtitle2={testimonial.subtitle2}
                 description={testimonial.description}
               ></TestimonialCard>
-            )}
+            ))}
           </AutoPlaySwipeableViews>
           <MobileStepper
             steps={maxSteps}
             position="static"
             activeStep={activeStep}
-            sx={{ backgroundColor: 'transparent' }}
+            sx={{ backgroundColor: "transparent" }}
             nextButton={
               <Button
                 size="small"

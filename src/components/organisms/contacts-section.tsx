@@ -1,13 +1,13 @@
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
-import IconButton from '@mui/material/IconButton';
-import Link from '@mui/material/Link';
-import Divider from '@mui/material/Divider';
-import Avatar from '@mui/material/Avatar';
+import IconButton from "@mui/material/IconButton";
+import Link from "@mui/material/Link";
+import Divider from "@mui/material/Divider";
+import Avatar from "@mui/material/Avatar";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
-import Linkedin from '../../assets/image/linkedin.png'
-import Malt from '../../assets/image/malt.png'
+import Malt from "../../assets/image/malt.png";
 import Antoine from "../../assets/image/antoine.png";
 
 import { SectionTitle } from "../molecules";
@@ -18,13 +18,10 @@ export const ContactsSection = () => {
       sx={{
         textAlign: "center",
         paddingTop: 5,
-        minHeight: '100vh'
+        minHeight: "100vh",
       }}
     >
-      <SectionTitle
-        title="CONTACT"
-        subtitle="Collaborons ensemble !"
-      />
+      <SectionTitle title="CONTACT" subtitle="Collaborons ensemble !" />
       <Box
         sx={{
           textAlign: "center",
@@ -41,41 +38,61 @@ export const ContactsSection = () => {
           alignItems="center"
         >
           <Grid item>
-            <Avatar alt="Antoine" src={Antoine} sx={{ width: 200, height: 200 }} />
+            <Avatar
+              alt="Antoine"
+              src={Antoine}
+              sx={{ width: 200, height: 200 }}
+            />
           </Grid>
           <Grid item>
-            <Typography variant="h5" component="div" >
+            <Typography variant="h5" component="div">
               Téléphone
             </Typography>
-            <Typography variant="h6" component="div" >
+            <Typography variant="h6" component="div">
               +33 6 37 69 25 19
             </Typography>
             <Divider variant="middle" />
           </Grid>
           <Grid item>
-            <Typography variant="h5" component="div" >
+            <Typography variant="h5" component="div">
               Mail
             </Typography>
-            <Typography variant="h6" component="div" >
+            <Typography variant="h6" component="div">
               antoine.ludeau@gmail.com
             </Typography>
             <Divider variant="middle" />
           </Grid>
           <Grid item>
-            <Typography variant="h5" component="div" >
+            <Typography variant="h5" component="div">
               Réseaux & Plateformes
             </Typography>
-            <Link href="https://www.linkedin.com/in/antoineludeau/" target="_blank" color="inherit">
-              <IconButton color="primary" aria-label="linkedin icon button" component="label">
-                <img width='30px' src={Linkedin} alt='linkedin icon'/>
+            <Link
+              href="https://www.linkedin.com/in/antoineludeau/"
+              target="_blank"
+              color="inherit"
+            >
+              <IconButton
+                color="primary"
+                aria-label="linkedin icon button"
+                component="label"
+              >
+                <LinkedInIcon fontSize="large" sx={{ color: "black" }} />
               </IconButton>
             </Link>
-            <Link href="https://www.malt.fr/profile/antoineludeau" target="_blank" color="inherit">
-              <IconButton color="primary" aria-label="malt icon button" component="label">
-                <img width='30px' src={Malt} alt='malt icon'/>
+            <Link
+              href="https://www.malt.fr/profile/antoineludeau"
+              target="_blank"
+              color="inherit"
+              sx={{ width: "51px", height: "51px" }}
+            >
+              <IconButton
+                color="primary"
+                aria-label="malt icon button"
+                component="label"
+              >
+                <img width="30px" src={Malt} alt="malt icon" />
               </IconButton>
             </Link>
-
           </Grid>
         </Grid>
       </Box>

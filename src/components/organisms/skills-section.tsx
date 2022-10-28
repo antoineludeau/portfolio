@@ -3,7 +3,7 @@ import Grid from "@mui/material/Grid";
 import CodeIcon from "@mui/icons-material/Code";
 import CommentIcon from "@mui/icons-material/Comment";
 
-import { SectionTitle, SkillCard } from "../molecules"
+import { SectionTitle, SkillCard } from "../molecules";
 
 import Climber from "../../assets/image/climbing.png";
 
@@ -11,7 +11,8 @@ const skills = [
   {
     logo: <CodeIcon fontSize="large" />,
     title: "Development",
-    subtitle: "Ce qui m'anime le plus : partir d'une idée et lui donner vie en créant des applications from scratch. J'aime aussi apprendre de nouveaux languages et technologies",
+    subtitle:
+      "Ce qui m'anime le plus : partir d'une idée et lui donner vie en créant des applications from scratch. J'aime aussi apprendre de nouveaux languages et technologies",
     subSkills: [
       {
         title: "FRONT-END",
@@ -39,12 +40,13 @@ const skills = [
           { title: "AWS", progress: 50 },
         ],
       },
-    ]
+    ],
   },
   {
     logo: <CommentIcon fontSize="large" />,
     title: "Communication",
-    subtitle: "Souvent délaissée par les développeurs, une bonne capacité à communiquer ses idées est pour moi, un des points clé de la réussite de tout projet",
+    subtitle:
+      "Souvent délaissée par les développeurs, une bonne capacité à communiquer ses idées est pour moi, un des points clé de la réussite de tout projet",
     subSkills: [
       {
         title: "TOOLS",
@@ -64,9 +66,9 @@ const skills = [
           { title: "Espagnol", progress: 80 },
         ],
       },
-    ]
-  }
-]
+    ],
+  },
+];
 
 export const SkillsSection = () => {
   return (
@@ -76,11 +78,14 @@ export const SkillsSection = () => {
           padding: 2,
           textAlign: "center",
           minHeight: "100vh",
-          backgroundColor: '#A1D9D3',
-          paddingTop: 5
+          backgroundColor: "#A1D9D3",
+          paddingTop: 5,
         }}
       >
-        <SectionTitle title="MES COMPETENCES" subtitle="Voilà ce que je sais faire." />
+        <SectionTitle
+          title="MES COMPETENCES"
+          subtitle="Voilà ce que je sais faire."
+        />
         <Grid
           container
           spacing={4}
@@ -88,27 +93,25 @@ export const SkillsSection = () => {
           alignItems="top"
           sx={{ marginTop: 1, marginBottom: 10 }}
         >
-  
-            <Grid item md={3} xs={12}>
-              <SkillCard
-                logo={skills[0].logo}
-                title={skills[0].title}
-                subtitle={skills[0].subtitle}
-                subSkills={skills[0].subSkills}
-              ></SkillCard>
-            </Grid>
-            <Grid item md={1} xs={12} alignItems='center'>
-              <img width="100" src={Climber} alt='climber'/>
-            </Grid>
-            <Grid item md={3} xs={12}>
-              <SkillCard
-                logo={skills[1].logo}
-                title={skills[1].title}
-                subtitle={skills[1].subtitle}
-                subSkills={skills[1].subSkills}
-              ></SkillCard>
-            </Grid>
-          
+          <Grid item md={3} xs={12}>
+            <SkillCard
+              logo={skills[0].logo}
+              title={skills[0].title}
+              subtitle={skills[0].subtitle}
+              subSkills={skills[0].subSkills}
+            ></SkillCard>
+          </Grid>
+          <Grid item md={1} xs={12} alignItems="center">
+            <img width="100" src={Climber} alt="climber" />
+          </Grid>
+          <Grid item md={3} xs={12}>
+            <SkillCard
+              logo={skills[1].logo}
+              title={skills[1].title}
+              subtitle={skills[1].subtitle}
+              subSkills={skills[1].subSkills}
+            ></SkillCard>
+          </Grid>
         </Grid>
       </Box>
     </>

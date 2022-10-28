@@ -11,55 +11,55 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import { Link } from "react-scroll";
 import Fab from "@mui/material/Fab";
-import HomeIcon from '@mui/icons-material/Home';
-import PersonIcon from '@mui/icons-material/Person';
-import ParkIcon from '@mui/icons-material/Park';
-import ContentPasteIcon from '@mui/icons-material/ContentPaste';
-import ThumbUpAltIcon from '@mui/icons-material/ThumbUpAlt';
-import CallIcon from '@mui/icons-material/Call';
-import WorkspacesIcon from '@mui/icons-material/Workspaces';
-import TuneIcon from '@mui/icons-material/Tune';
+import HomeIcon from "@mui/icons-material/Home";
+import PersonIcon from "@mui/icons-material/Person";
+import ParkIcon from "@mui/icons-material/Park";
+import ContentPasteIcon from "@mui/icons-material/ContentPaste";
+import ThumbUpAltIcon from "@mui/icons-material/ThumbUpAlt";
+import CallIcon from "@mui/icons-material/Call";
+import WorkspacesIcon from "@mui/icons-material/Workspaces";
+import TuneIcon from "@mui/icons-material/Tune";
 
 const menuItems = [
   {
     id: "home",
     text: "Acceuil",
-    icon: <HomeIcon/>
+    icon: <HomeIcon />,
   },
   {
     id: "presentation",
     text: "Presentation",
-    icon: <PersonIcon/>
+    icon: <PersonIcon />,
   },
   {
     id: "philosophy",
     text: "Philosophie",
-    icon: <ParkIcon/>
+    icon: <ParkIcon />,
   },
   {
     id: "services",
     text: "Services",
-    icon: <WorkspacesIcon/>
+    icon: <WorkspacesIcon />,
   },
   {
     id: "skills",
     text: "Compétences",
-    icon: <TuneIcon/>
+    icon: <TuneIcon />,
   },
   {
     id: "jobs",
     text: "Expériences Pro",
-    icon: <ContentPasteIcon/>
+    icon: <ContentPasteIcon />,
   },
   {
     id: "testimonials",
     text: "Témoignages",
-    icon: <ThumbUpAltIcon/>
+    icon: <ThumbUpAltIcon />,
   },
   {
     id: "contacts",
     text: "Contacts",
-    icon: <CallIcon/>
+    icon: <CallIcon />,
   },
 ];
 interface Props {
@@ -134,9 +134,7 @@ export const Menu = () => {
                   duration={500}
                 >
                   <ListItem button onClick={() => setOpenMenu(false)}>
-                    <ListItemIcon>
-                      {item.icon}
-                    </ListItemIcon>
+                    <ListItemIcon>{item.icon}</ListItemIcon>
                     <ListItemText primary={item.text} />
                   </ListItem>
                 </Link>
