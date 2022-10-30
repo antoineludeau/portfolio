@@ -32,7 +32,7 @@ export const PhilosophySection = () => {
             </Grid>
             <Grid item>
               <Typography variant="h4" component="div" textAlign="center">
-                Mon Constat.
+                Mon Constat
               </Typography>
             </Grid>
             <Grid item>
@@ -77,7 +77,7 @@ export const PhilosophySection = () => {
             </Grid>
             <Grid item>
               <Typography variant="h4" component="div" textAlign="center">
-                Ma Méthode.
+                Ma Méthode
               </Typography>
             </Grid>
             <Grid item>
@@ -114,7 +114,7 @@ export const PhilosophySection = () => {
             </Grid>
             <Grid item>
               <Typography variant="h4" component="div" textAlign="center">
-                Mon Objectif.
+                Mon Objectif
               </Typography>
             </Grid>
             <Grid item>

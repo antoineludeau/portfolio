@@ -25,7 +25,7 @@ const services = [
   },
   {
     logo: <Service2 />,
-    title: "Needs",
+    title: "Besoins",
     description:
       "Détaillons votre besoin dans les moindres détails pendant un rendez-vous de 1h. Cette étape me permettra de construire des documents de spécifications que je vous présente ensuite pendant un nouveau rendez-vous de 1h.",
     subdescriptions: [
@@ -36,21 +36,21 @@ const services = [
   },
   {
     logo: <Service3 />,
-    title: "Quote",
+    title: "Devis",
     description:
-      "Je construis un devis qui réponde le mieux à vos attentes et vous le présente pendant un rendez-vous de 1h. Si vous acceptez le devis, nous commençons notre collaboration.",
+      "Je construis un devis qui répond le mieux à vos attentes et vous le présente pendant un rendez-vous de 1h. Si vous acceptez le devis, nous commençons notre collaboration.",
     subdescriptions: ["Présentation du devis = 1h (ensemble)"],
   },
   {
     logo: <Service4 />,
-    title: "Coding",
+    title: "Code",
     description:
       "C’est le moment de coder ! Pendant cette étape, je m’organise en AGILE avec des sprints de deux semaines qui se terminent par une démo, une livraison de code et la présentation du prochain sprint. De légers ajustements peuvent alors être réalisés selon vos demandes.",
     subdescriptions: ["La durée de cette étape est définie dans le devis."],
   },
   {
     logo: <Service5 />,
-    title: "Delivery",
+    title: "Livraison",
     description:
       "Je vous livre l’ensemble du code dans les délais et conforme à vos exigences. Un déploiement en ligne peut-être éventuellement réalisé selon vos demandes.",
     subdescriptions: [],
@@ -69,7 +69,7 @@ export const ServicesSection = () => {
     >
       <SectionTitle
         title="MES SERVICES"
-        subtitle={"Rencontrons-nous et discutons de vos projets."}
+        subtitle={"Rencontrons-nous et discutons de vos projets"}
       />
       <Grid
         container
@@ -78,15 +78,13 @@ export const ServicesSection = () => {
         alignItems="center"
       >
         <Grid item sx={{ marginTop: 8, marginBottom: 8 }}>
-          <Grid container direction="column" spacing={2}>
+          <Grid container direction="column" spacing={3}>
             <Grid item>
-              <Typography variant="h6" component="div">
-                Deux options :
+              <Typography variant="h3" component="div">
+                1
               </Typography>
-            </Grid>
-            <Grid item>
               <Typography variant="h6" component="div">
-                <ForwardIcon /> Option 1 : Contrat au temps passé
+                Contrat au temps passé
               </Typography>
               <Typography variant="body1" component="div">
                 Pour connaître mon TJM :
@@ -104,11 +102,21 @@ export const ServicesSection = () => {
                   <img width="30px" src={Malt} alt="malt icon" />
                 </IconButton>
               </Link>
-              <Divider variant="middle" />
             </Grid>
             <Grid item>
+              <Divider variant="middle">
+                <Typography variant="h4" component="div">
+                  OU
+                </Typography>
+              </Divider>
+            </Grid>
+
+            <Grid item>
+              <Typography variant="h3" component="div">
+                2
+              </Typography>
               <Typography variant="h6" component="div">
-                <ForwardIcon /> Option 2 : Contrat au forfait (devis)
+                Contrat au forfait (devis)
               </Typography>
               <Typography variant="body1" component="div">
                 Pour cette seconde option, mon mode de fonctionnement est le

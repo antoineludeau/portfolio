@@ -32,7 +32,7 @@ const jobs = [
   },
   {
     logo: HandsawayLogo,
-    title: "Développeur Back-end bénévole",
+    title: "Développeur Back-end - Bénévole",
     subtitle: "Handaway",
     subtitle2: "Sept. 2020 - Avril. 2021 - Paris",
     descriptionItems: [
@@ -57,7 +57,7 @@ const jobs = [
   },
   {
     logo: SommetLogo,
-    title: "Co-fondateur d’une start-up",
+    title: "Co-fondateur d’une Start-Up",
     subtitle: "SOMMET, « une nouvelle façon de boire le fruit »",
     subtitle2: "Déc. 2015 - Déc. 2016 - Paris",
     descriptionItems: [
