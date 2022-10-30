@@ -47,7 +47,7 @@ export const SocialLinks = () => {
             setContactDialogState({
               open: true,
               title: "Téléphone",
-              icon: LocalPhoneIcon,
+              icon: <LocalPhoneIcon fontSize="large" />,
               content: "+33 6 37 69 25 19",
             })
           }
@@ -66,7 +66,7 @@ export const SocialLinks = () => {
             setContactDialogState({
               open: true,
               title: "Mail",
-              icon: EmailIcon,
+              icon: <EmailIcon fontSize="large" />,
               content: "antoine.ludeau@gmail.com",
             })
           }
