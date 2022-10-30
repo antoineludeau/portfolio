@@ -10,6 +10,7 @@ import { autoPlay } from "react-swipeable-views-utils";
 
 import JulesColin from "../../assets/image/jules-colin.png";
 import GauthierSaillard from "../../assets/image/gauthier-saillard.png";
+import ThibautTavernier from "../../assets/image/thibaut-tavernier.png";
 
 import MountainSunset from "../../assets/image/mountain-top.png";
 
@@ -23,6 +24,14 @@ const testimonials = [
     subtitle2: "En 2022, Jean-Pascal était mon manager direct",
     description:
       "Toujours positif, motivé, impliqué et pertinent. Antoine a fait preuve d'excellentes capacités d'apprentissage et d'adaptation. Un plaisir de l'avoir eu comme collaborateur.",
+  },
+  {
+    avatar: ThibautTavernier,
+    title: "Thibaut Tavernier",
+    subtitle: "Responsable Equipe Chef de Projet - 3DVIA - Dassault Systèmes",
+    subtitle2: "En 2019, Thibaut était mon manager direct",
+    description:
+      "J'ai eu la chance de recruter Antoine en pleine construction d'une nouvelle équipe et j'ai pu m'appuyer sur son application, son sérieux et sa force de proposition et d'innovation pour mener avec lui les grands changements concernant le développement de nos applications de contribution de contenu. Antoine est appliqué, consciencieux et toujours souriant. Ça été un réel plaisir de travailler avec lui ces 5 dernières années.",
   },
   {
     avatar: GauthierSaillard,
