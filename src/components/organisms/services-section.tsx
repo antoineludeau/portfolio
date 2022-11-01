@@ -1,30 +1,29 @@
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
-import ForwardIcon from "@mui/icons-material/Forward";
 import IconButton from "@mui/material/IconButton";
 import Link from "@mui/material/Link";
 import Divider from "@mui/material/Divider";
 
 import { SectionTitle, ServiceCard } from "../molecules";
 
-import { ReactComponent as Service1 } from "../../assets/image/service-1.svg";
-import { ReactComponent as Service2 } from "../../assets/image/service-2.svg";
-import { ReactComponent as Service3 } from "../../assets/image/service-3.svg";
-import { ReactComponent as Service4 } from "../../assets/image/service-4.svg";
-import { ReactComponent as Service5 } from "../../assets/image/service-5.svg";
 import Malt from "../../assets/image/malt.png";
+import Service1 from "../../assets/image/service-1.png"
+import Service2 from "../../assets/image/service-2.png"
+import Service3 from "../../assets/image/service-3.png"
+import Service4 from "../../assets/image/service-4.png"
+import Service5 from "../../assets/image/service-5.png"
 
 const services = [
   {
-    logo: <Service1 />,
+    logo: Service1,
     title: "Café",
     description:
       "Appelons-nous ou prenons un café pour se présenter et discuter de votre idée/projet. Si vous n’avez pas encore de projet concret mais que vous voulez juste discuter ou élargir votre réseau, c’est avec grand plaisir !",
     subdescriptions: ["conversation & notes = 30min (ensemble)"],
   },
   {
-    logo: <Service2 />,
+    logo: Service2,
     title: "Besoins",
     description:
       "Détaillons votre besoin dans les moindres détails pendant un rendez-vous de 1h. Cette étape me permettra de construire des documents de spécifications que je vous présente ensuite pendant un nouveau rendez-vous de 1h.",
@@ -35,21 +34,21 @@ const services = [
     ],
   },
   {
-    logo: <Service3 />,
+    logo: Service3,
     title: "Devis",
     description:
       "Je construis un devis qui répond le mieux à vos attentes et vous le présente pendant un rendez-vous de 1h. Si vous acceptez le devis, nous commençons notre collaboration.",
     subdescriptions: ["Présentation du devis = 1h (ensemble)"],
   },
   {
-    logo: <Service4 />,
+    logo: Service4,
     title: "Code",
     description:
       "C’est le moment de coder ! Pendant cette étape, je m’organise en AGILE avec des sprints de deux semaines qui se terminent par une démo, une livraison de code et la présentation du prochain sprint. De légers ajustements peuvent alors être réalisés selon vos demandes.",
     subdescriptions: ["La durée de cette étape est définie dans le devis."],
   },
   {
-    logo: <Service5 />,
+    logo: Service5,
     title: "Livraison",
     description:
       "Je vous livre l’ensemble du code dans les délais et conforme à vos exigences. Un déploiement en ligne peut-être éventuellement réalisé selon vos demandes.",

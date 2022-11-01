@@ -1,9 +1,9 @@
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
-import SvgIcon from "@mui/material/SvgIcon";
+import Box from "@mui/material/Box";
 
 interface ServiceCardProps {
-  logo: React.ReactChild;
+  logo: string;
   title: string;
   description: string;
   subdescriptions: string[];
@@ -18,9 +18,7 @@ export const ServiceCard = ({
   return (
     <Grid container spacing={1} direction="column" alignItems="center">
       <Grid item>
-        <SvgIcon color="disabled" sx={{ width: "80px", height: "80px" }}>
-          {logo}{" "}
-        </SvgIcon>
+        <img height="50px"src={logo}/>
       </Grid>
       <Grid item>
         <Typography variant="h4" component="div" textAlign="center">
