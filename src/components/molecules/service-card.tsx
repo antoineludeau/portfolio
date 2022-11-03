@@ -1,6 +1,5 @@
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
-import Box from "@mui/material/Box";
 
 interface ServiceCardProps {
   logo: string;
@@ -18,7 +17,7 @@ export const ServiceCard = ({
   return (
     <Grid container spacing={1} direction="column" alignItems="center">
       <Grid item>
-        <img height="50px"src={logo}/>
+        <img height="50px"src={logo} alt="service logo"/>
       </Grid>
       <Grid item>
         <Typography variant="h4" component="div" textAlign="center">

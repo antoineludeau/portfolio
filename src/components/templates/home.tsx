@@ -1,6 +1,5 @@
 import { Grid } from "@mui/material";
 import { BrowserRouter as Router } from "react-router-dom";
-import Typography from "@mui/material/Typography";
 
 interface TemplateHomeProps {
   menu: React.ReactNode;
