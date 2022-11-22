@@ -4,6 +4,7 @@ import {
   responsiveFontSizes,
   ThemeProvider,
 } from "@mui/material/styles";
+import { BrowserRouter as Router } from "react-router-dom";
 
 let theme = createTheme();
 
@@ -13,7 +14,9 @@ function App() {
   return (
     <div className="App">
       <ThemeProvider theme={theme}>
-        <Home />
+        <Router>
+          <Home />
+        </Router>
       </ThemeProvider>
     </div>
   );

@@ -7,29 +7,26 @@ import { SocialLinks } from "../molecules";
 
 import MountainImage from "../../assets/image/mountains.png";
 
+const defaultSpingProperties = {
+  to: { opacity: 1, x: 0 },
+  from: { opacity: 0, x: -10 },
+  config: { tension: 30 },
+};
+
 export const HomeSection = () => {
   const propsSpring_1 = useSpring({
-    to: { opacity: 1, x: 0 },
-    from: { opacity: 0, x: -10 },
-    config: { tension: 30 },
-    delay: 0,
+    ...defaultSpingProperties,
   });
   const propsSpring_2 = useSpring({
-    to: { opacity: 1, x: 0 },
-    from: { opacity: 0, x: -10 },
-    config: { tension: 30 },
+    ...defaultSpingProperties,
     delay: 400,
   });
   const propsSpring_3 = useSpring({
-    to: { opacity: 1, x: 0 },
-    from: { opacity: 0, x: -10 },
-    config: { tension: 30 },
+    ...defaultSpingProperties,
     delay: 800,
   });
   const propsSpring_4 = useSpring({
-    to: { opacity: 1, x: 0 },
-    from: { opacity: 0, x: -10 },
-    config: { tension: 30 },
+    ...defaultSpingProperties,
     delay: 1400,
   });
   return (

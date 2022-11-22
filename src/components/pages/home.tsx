@@ -8,7 +8,7 @@ import {
   JobsSection,
   TestimonialsSection,
   ContactsSection,
-  FooterSection
+  FooterSection,
 } from "../organisms";
 import { TemplateHome } from "../templates";
 
