@@ -8,13 +8,20 @@ import Divider from "@mui/material/Divider";
 import { SectionTitle, ServiceCard } from "../molecules";
 
 import Malt from "../../assets/image/malt.png";
-import Service1 from "../../assets/image/service-1.png"
-import Service2 from "../../assets/image/service-2.png"
-import Service3 from "../../assets/image/service-3.png"
-import Service4 from "../../assets/image/service-4.png"
-import Service5 from "../../assets/image/service-5.png"
+import Service1 from "../../assets/image/service-1.png";
+import Service2 from "../../assets/image/service-2.png";
+import Service3 from "../../assets/image/service-3.png";
+import Service4 from "../../assets/image/service-4.png";
+import Service5 from "../../assets/image/service-5.png";
 
-const services = [
+interface Service {
+  logo: string;
+  title: string;
+  description: string;
+  subdescriptions: string[];
+}
+
+const services: Service[] = [
   {
     logo: Service1,
     title: "Café",

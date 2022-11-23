@@ -6,7 +6,13 @@ import Link from "@mui/material/Link";
 
 import SignImage from "../../assets/image/sign.png";
 
-const philosophyExplanationsContent = [
+interface philosophyContentItem {
+  title: string;
+  description: React.ReactNode;
+  illustration?: React.ReactNode;
+}
+
+const philosophyContentItems: philosophyContentItem[] = [
   {
     title: "Mon Constat",
     description: (
@@ -71,8 +77,8 @@ export const PhilosophySection = () => {
       }}
     >
       <Grid container alignItems="top" spacing={5} padding={2}>
-        {philosophyExplanationsContent.map((item, index) => (
-          <Grid item md={4} xs={12}>
+        {philosophyContentItems.map((item, index) => (
+          <Grid key={index} item md={4} xs={12}>
             <Grid
               container
               direction="column"

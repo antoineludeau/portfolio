@@ -7,7 +7,24 @@ import { SectionTitle, SkillCard } from "../molecules";
 
 import Climber from "../../assets/image/climbing.png";
 
-const skills = [
+interface Skill {
+  logo: React.ReactNode;
+  title: string;
+  subtitle: string;
+  subSkills: subSkill[];
+}
+
+interface subSkill {
+  title: string;
+  list: subSkillItem[];
+}
+
+interface subSkillItem {
+  title: string;
+  progress: number;
+}
+
+const skills: Skill[] = [
   {
     logo: <CodeIcon fontSize="large" />,
     title: "Development",

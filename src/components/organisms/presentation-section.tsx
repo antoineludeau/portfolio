@@ -1,6 +1,23 @@
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 
+interface PresentationContent {
+  title: string;
+  description: string;
+}
+
+const presentationContent: PresentationContent = {
+  title: "Enchanté.",
+  description: `Passionné de création, je développe aujourd’hui des applications
+  digitales en freelance. Issu d’un cursus d’ingénieur en mécanique
+  suivi d'expériences entrepreneuriales, je me suis réorienté vers
+  le développement informatique depuis plus de 4 ans. L’originalité
+  de mon parcours et ma sensibilité au design, me permettent
+  aujourd’hui de comprendre au mieux les besoins de mes clients et
+  de communiquer efficacement pour développer des applications, dans
+  les délais, et avec un niveau de qualité exigeant.`,
+};
+
 export const PresentationSection = () => {
   return (
     <Grid
@@ -15,7 +32,7 @@ export const PresentationSection = () => {
         <Grid container direction="column">
           <Grid item>
             <Typography variant="h2" component="div" textAlign="center">
-              Enchanté.
+              {presentationContent.title}
             </Typography>
           </Grid>
           <Grid item>
@@ -25,14 +42,7 @@ export const PresentationSection = () => {
               maxWidth="600px"
               textAlign="center"
             >
-              Passionné de création, je développe aujourd’hui des applications
-              digitales en freelance. Issu d’un cursus d’ingénieur en mécanique
-              suivi d'expériences entrepreneuriales, je me suis réorienté vers
-              le développement informatique depuis plus de 4 ans. L’originalité
-              de mon parcours et ma sensibilité au design, me permettent
-              aujourd’hui de comprendre au mieux les besoins de mes clients et
-              de communiquer efficacement pour développer des applications, dans
-              les délais, et avec un niveau de qualité exigeant.
+              {presentationContent.description}
             </Typography>
           </Grid>
         </Grid>

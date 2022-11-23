@@ -14,6 +14,7 @@ import OlaianLogo from "../../assets/image/olaian.png";
 const jobs = [
   {
     logo: DassaultSystemesLogo,
+    company: "Dassault Systèmes",
     title: "Développeur Full Stack - CDI",
     subtitle: "3DVIA - Dassault Systèmes",
     subtitle2: "Jan. 2020 - Oct. 2022 - Paris",
@@ -32,6 +33,7 @@ const jobs = [
   },
   {
     logo: HandsawayLogo,
+    company: "Handsaway",
     title: "Développeur Back-end - Bénévole",
     subtitle: "Handaway",
     subtitle2: "Sept. 2020 - Avril. 2021 - Paris",
@@ -43,6 +45,7 @@ const jobs = [
   },
   {
     logo: DassaultSystemesLogo,
+    company: "Dassault Systèmes",
     title: "Business Analyst pour Applications Web - CDI",
     subtitle: "3DVIA - Dassault Systèmes",
     subtitle2: "Jan. 2017 - Déc. 2019 - Paris",
@@ -57,6 +60,7 @@ const jobs = [
   },
   {
     logo: SommetLogo,
+    company: "Sommet",
     title: "Co-fondateur d’une Start-Up",
     subtitle: "SOMMET, « une nouvelle façon de boire le fruit »",
     subtitle2: "Déc. 2015 - Déc. 2016 - Paris",
@@ -70,6 +74,7 @@ const jobs = [
   },
   {
     logo: OlaianLogo,
+    company: "Decathlon",
     title: "Ingénieur Produit - Stage fin d’étude et CDD",
     subtitle: "OLAIAN - Décathlon",
     subtitle2: "Févr. 2015 - Déc. 2015 - Hendaye",
@@ -149,14 +154,12 @@ export const JobsSection = () => {
             orientation="vertical"
             value={value}
             onChange={handleChange}
-            aria-label="Vertical tabs example"
+            aria-label="Job tabs"
             sx={{ borderRight: 1, borderColor: "divider", minWidth: "100px" }}
           >
-            <Tab label="Dassault Systèmes" {...a11yProps(0)} />
-            <Tab label="Handsaway" {...a11yProps(1)} />
-            <Tab label="Dassault Systèmes" {...a11yProps(2)} />
-            <Tab label="Sommet" {...a11yProps(3)} />
-            <Tab label="Decathlon" {...a11yProps(4)} />
+            {jobs.map((job, index) => (
+              <Tab key={index} label={job.company} {...a11yProps(index)} />
+            ))}
           </Tabs>
           {jobs.map((job, index) => (
             <TabPanel key={index} value={value} index={index}>

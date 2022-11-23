@@ -7,7 +7,7 @@ import { SocialLinks } from "../molecules";
 
 import MountainImage from "../../assets/image/mountains.png";
 
-const defaultSpingProperties = {
+const defaultHomeSpingProperties = {
   to: { opacity: 1, x: 0 },
   from: { opacity: 0, x: -10 },
   config: { tension: 30 },
@@ -15,18 +15,18 @@ const defaultSpingProperties = {
 
 export const HomeSection = () => {
   const propsSpring_1 = useSpring({
-    ...defaultSpingProperties,
+    ...defaultHomeSpingProperties,
   });
   const propsSpring_2 = useSpring({
-    ...defaultSpingProperties,
+    ...defaultHomeSpingProperties,
     delay: 400,
   });
   const propsSpring_3 = useSpring({
-    ...defaultSpingProperties,
+    ...defaultHomeSpingProperties,
     delay: 800,
   });
   const propsSpring_4 = useSpring({
-    ...defaultSpingProperties,
+    ...defaultHomeSpingProperties,
     delay: 1400,
   });
   return (

@@ -10,7 +10,7 @@ import { ReactComponent as Progress60 } from "../../assets/image/progress-60.svg
 import { ReactComponent as Progress50 } from "../../assets/image/progress-50.svg";
 
 interface SkillCardProps {
-  logo: React.ReactChild;
+  logo: React.ReactNode;
   title: string;
   subtitle: string;
   subSkills: SubSkill[];

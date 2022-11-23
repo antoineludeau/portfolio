@@ -3,7 +3,7 @@ import Typography from "@mui/material/Typography";
 import Avatar from "@mui/material/Avatar";
 
 interface TestimonialCardProps {
-  avatar: string;
+  avatar?: string;
   title: string;
   subtitle: string;
   subtitle2: string;

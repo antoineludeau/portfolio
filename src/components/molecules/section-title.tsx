@@ -43,15 +43,15 @@ const FadeInDirection = ({
   subtitle,
   isWhite,
 }: FadeInDirectionProps) => {
-  const propsTitle = useSpring({
+  const defaultTitleSpingProperties = {
     opacity: isVisible ? 1 : 0,
     transform: isVisible ? "translateY(0px)" : "translateY(50px)",
     config: { tension: 30 },
-  });
-  const propsSubTitle = useSpring({
-    opacity: isVisible ? 1 : 0,
-    transform: isVisible ? "translateY(0px)" : "translateY(50px)",
-    config: { tension: 30 },
+  };
+
+  const propsTitle = useSpring(defaultTitleSpingProperties);
+  const propsSubtitle = useSpring({
+    ...defaultTitleSpingProperties,
     delay: 800,
   });
   return (
@@ -67,7 +67,7 @@ const FadeInDirection = ({
         </Typography>
       </animated.div>
       {subtitle && (
-        <animated.div style={propsSubTitle}>
+        <animated.div style={propsSubtitle}>
           <Typography
             variant="h6"
             component="div"
