@@ -1,4 +1,4 @@
-import { Main } from "./components/pages";
+import React, { Suspense } from "react";
 import {
   createTheme,
   responsiveFontSizes,
@@ -6,6 +6,11 @@ import {
 } from "@mui/material/styles";
 import { BrowserRouter as Router } from "react-router-dom";
 import { ErrorBoundary } from "react-error-boundary";
+import Box from "@mui/material/Box";
+
+import { Loader } from "./components/atoms";
+
+const Main = React.lazy(() => import("./components/pages/main"));
 
 let theme = createTheme();
 
@@ -20,19 +25,27 @@ const ErrorFallback = () => {
   );
 };
 
-const myErrorHandler = (error: Error) => {
+const ErrorHandler = (error: Error) => {
   console.log(error);
 };
 
 function App() {
   return (
     <div className="App">
-      <ErrorBoundary FallbackComponent={ErrorFallback} onError={myErrorHandler}>
-        <ThemeProvider theme={theme}>
-          <Router>
-            <Main />
-          </Router>
-        </ThemeProvider>
+      <ErrorBoundary FallbackComponent={ErrorFallback} onError={ErrorHandler}>
+        <Suspense
+          fallback={
+            <Box height="100vh" width="100%" alignItems="center" display="flex">
+              <Loader />
+            </Box>
+          }
+        >
+          <ThemeProvider theme={theme}>
+            <Router>
+              <Main />
+            </Router>
+          </ThemeProvider>
+        </Suspense>
       </ErrorBoundary>
     </div>
   );

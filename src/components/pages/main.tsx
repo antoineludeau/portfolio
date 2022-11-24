@@ -12,7 +12,7 @@ import {
 } from "../organisms";
 import { TemplateMain } from "../templates";
 
-export const Main = () => {
+ const Main = () => {
   return (
     <TemplateMain
       menu={<Menu />}
@@ -28,3 +28,5 @@ export const Main = () => {
     />
   );
 };
+
+export default Main
