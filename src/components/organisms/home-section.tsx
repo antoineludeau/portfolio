@@ -1,9 +1,10 @@
+import { useState, useEffect } from "react";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import { useSpring, animated } from "react-spring";
 
 import { BouncingArrow } from "../atoms";
-import { SocialLinks } from "../molecules";
+import { SocialLinks, InitLoader } from "../molecules";
 
 import MountainImage from "../../assets/image/mountains.png";
 
@@ -14,6 +15,8 @@ const defaultHomeSpingProperties = {
 };
 
 export const HomeSection = () => {
+  const [isImageLoaded, setIsImageLoaded] = useState(false);
+
   const propsSpring_1 = useSpring({
     ...defaultHomeSpingProperties,
   });
@@ -29,6 +32,21 @@ export const HomeSection = () => {
     ...defaultHomeSpingProperties,
     delay: 1400,
   });
+
+  useEffect(() => {
+    const image = new Image();
+    image.onload = () => setIsImageLoaded(true);
+    image.src = MountainImage;
+
+    return () => {
+      image.onload = null;
+    };
+  }, []);
+
+  if (!isImageLoaded) {
+    return <InitLoader />;
+  }
+
   return (
     <>
       <Grid
