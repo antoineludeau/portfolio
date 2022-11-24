@@ -1,3 +1,3 @@
-import { Home } from "./home";
+import { Main } from "./main";
 
-export { Home };
+export { Main };

@@ -1,6 +1,6 @@
 import { Grid } from "@mui/material";
 
-interface TemplateHomeProps {
+interface TemplateMainProps {
   menu: React.ReactNode;
   homeSection: React.ReactNode;
   presentationSection: React.ReactNode;
@@ -13,7 +13,7 @@ interface TemplateHomeProps {
   footerSection: React.ReactNode;
 }
 
-export const TemplateHome = ({
+export const TemplateMain = ({
   menu,
   homeSection,
   presentationSection,
@@ -24,7 +24,7 @@ export const TemplateHome = ({
   testimonialsSection,
   contactsSection,
   footerSection,
-}: TemplateHomeProps) => {
+}: TemplateMainProps) => {
   return (
     <>
       {menu}

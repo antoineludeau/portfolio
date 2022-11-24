@@ -1,3 +1,3 @@
-import { TemplateHome } from "./home";
+import { TemplateMain } from "./main";
 
-export { TemplateHome };
+export { TemplateMain };

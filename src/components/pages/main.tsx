@@ -10,11 +10,11 @@ import {
   ContactsSection,
   FooterSection,
 } from "../organisms";
-import { TemplateHome } from "../templates";
+import { TemplateMain } from "../templates";
 
-export const Home = () => {
+export const Main = () => {
   return (
-    <TemplateHome
+    <TemplateMain
       menu={<Menu />}
       homeSection={<HomeSection />}
       presentationSection={<PresentationSection />}

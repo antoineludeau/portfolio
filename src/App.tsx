@@ -1,4 +1,4 @@
-import { Home } from "./components/pages";
+import { Main } from "./components/pages";
 import {
   createTheme,
   responsiveFontSizes,
@@ -30,7 +30,7 @@ function App() {
       <ErrorBoundary FallbackComponent={ErrorFallback} onError={myErrorHandler}>
         <ThemeProvider theme={theme}>
           <Router>
-            <Home />
+            <Main />
           </Router>
         </ThemeProvider>
       </ErrorBoundary>
