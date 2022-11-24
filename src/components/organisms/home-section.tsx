@@ -69,6 +69,8 @@ export const HomeSection = () => {
                     fontWeight: "bold",
                     width: "fit-content",
                     backgroundColor: "rgba(255,255,255,0.8)",
+                    borderRadius: "6px",
+                    padding: "3px 6px",
                   }}
                 >
                   Développeur Web Full Stack

@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useSpring, animated } from "react-spring";
 import Typography from "@mui/material/Typography";
 import VisibilitySensor from "react-visibility-sensor";
+import { Box } from "@mui/system";
 
 interface SectionTitleProps {
   title: string;
@@ -57,14 +58,23 @@ const FadeInDirection = ({
   return (
     <>
       <animated.div style={propsTitle}>
-        <Typography
-          variant="h4"
-          component="div"
-          sx={{ wordWrap: "break-word" }}
-          color={isWhite ? "white" : "black"}
-        >
-          {title}
-        </Typography>
+        <Box display="flex" justifyContent="center">
+          <Typography
+            variant="h4"
+            component="div"
+            sx={{
+              wordWrap: "break-word",
+              background: "linear-gradient(120deg, #e4a0a1 0%, #e4a0a1 100%)",
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "100% 40%",
+              backgroundPosition: "0 90%",
+            }}
+            color={isWhite ? "white" : "black"}
+            width="fit-content"
+          >
+            {title}
+          </Typography>
+        </Box>
       </animated.div>
       {subtitle && (
         <animated.div style={propsSubtitle}>
