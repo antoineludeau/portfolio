@@ -6,15 +6,12 @@ import {
 } from "@mui/material/styles";
 import { BrowserRouter as Router } from "react-router-dom";
 import { ErrorBoundary } from "react-error-boundary";
-import Box from "@mui/material/Box";
 
-import { Loader } from "./components/atoms";
+import { InitLoader } from "./components/molecules";
 
 const Main = React.lazy(() => import("./components/pages/main"));
 
-let theme = createTheme();
-
-theme = responsiveFontSizes(theme);
+const theme = responsiveFontSizes(createTheme());
 
 const ErrorFallback = () => {
   return (
@@ -31,21 +28,15 @@ const ErrorHandler = (error: Error) => {
 
 function App() {
   return (
-      <ErrorBoundary FallbackComponent={ErrorFallback} onError={ErrorHandler}>
-        <Suspense
-          fallback={
-            <Box height="100vh" width="100%" alignItems="center" display="flex">
-              <Loader />
-            </Box>
-          }
-        >
-          <ThemeProvider theme={theme}>
-            <Router>
-              <Main />
-            </Router>
-          </ThemeProvider>
-        </Suspense>
-      </ErrorBoundary>
+    <ErrorBoundary FallbackComponent={ErrorFallback} onError={ErrorHandler}>
+      <Suspense fallback={<InitLoader />}>
+        <ThemeProvider theme={theme}>
+          <Router>
+            <Main />
+          </Router>
+        </ThemeProvider>
+      </Suspense>
+    </ErrorBoundary>
   );
 }
 

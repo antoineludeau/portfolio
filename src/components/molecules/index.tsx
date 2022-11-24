@@ -5,6 +5,7 @@ import { ServiceCard } from "./service-card";
 import { TestimonialCard } from "./testimonial-card";
 import { JobCard } from "./job-card";
 import { SocialLinks } from "./social-links";
+import { InitLoader } from "./init-loader";
 
 export {
   Menu,
@@ -14,4 +15,5 @@ export {
   TestimonialCard,
   JobCard,
   SocialLinks,
+  InitLoader,
 };

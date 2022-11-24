@@ -3,7 +3,7 @@ import Box from "@mui/material/Box";
 
 export const Loader = () => {
   return (
-    <Box display= "flex" justifyContent="center" width="100%">
+    <Box display="flex" justifyContent="center" width="100%">
       <CircularProgress />
     </Box>
   );
