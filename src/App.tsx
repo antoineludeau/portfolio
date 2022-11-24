@@ -31,7 +31,6 @@ const ErrorHandler = (error: Error) => {
 
 function App() {
   return (
-    <div className="App">
       <ErrorBoundary FallbackComponent={ErrorFallback} onError={ErrorHandler}>
         <Suspense
           fallback={
@@ -47,7 +46,6 @@ function App() {
           </ThemeProvider>
         </Suspense>
       </ErrorBoundary>
-    </div>
   );
 }
 
