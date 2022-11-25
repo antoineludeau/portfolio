@@ -11,15 +11,16 @@ const Main = React.lazy(() => import("./components/pages/main"));
 
 function App() {
   return (
-    <ErrorBoundary FallbackComponent={ErrorFallback} onError={ErrorHandler}>
-      <Suspense fallback={<InitLoader />}>
+    
+      <ErrorBoundary FallbackComponent={ErrorFallback} onError={ErrorHandler}>
         <ThemeProvider theme={themeCustom}>
+        <Suspense fallback={<InitLoader />}>
           <Router>
             <Main />
           </Router>
+        </Suspense>
         </ThemeProvider>
-      </Suspense>
-    </ErrorBoundary>
+      </ErrorBoundary>
   );
 }
 
