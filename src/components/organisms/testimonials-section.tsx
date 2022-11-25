@@ -126,7 +126,7 @@ export const TestimonialsSection = () => {
       <SectionTitle
         title="MES TEMOIGNAGES"
         subtitle="Voilà ce que disent les gens avec qui j'ai travaillé"
-        isWhite={true}
+        color="secondary"
       />
       <Box
         sx={{

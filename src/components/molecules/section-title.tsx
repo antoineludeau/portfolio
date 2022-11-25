@@ -8,13 +8,13 @@ import { TextHighlighted } from "../atoms";
 interface SectionTitleProps {
   title: string;
   subtitle?: string;
-  isWhite?: boolean;
+  color?: string;
 }
 
 export const SectionTitle = ({
   title,
   subtitle,
-  isWhite,
+  color,
 }: SectionTitleProps) => {
   const [visibility, setVisibility] = useState<boolean>(false);
   const onChange = (visiblity: boolean) => {
@@ -26,7 +26,7 @@ export const SectionTitle = ({
         isVisible={visibility}
         title={title}
         subtitle={subtitle}
-        isWhite={isWhite}
+        color={color}
       ></FadeInDirection>
     </VisibilitySensor>
   );
@@ -36,14 +36,14 @@ interface FadeInDirectionProps {
   isVisible: boolean;
   title: string;
   subtitle?: string;
-  isWhite?: boolean;
+  color?: string;
 }
 
 const FadeInDirection = ({
   isVisible,
   title,
   subtitle,
-  isWhite,
+  color,
 }: FadeInDirectionProps) => {
   const defaultTitleSpingProperties = {
     opacity: isVisible ? 1 : 0,
@@ -57,11 +57,10 @@ const FadeInDirection = ({
     delay: 800,
   });
 
-  const textColor = isWhite ? "white" : "black"
   return (
     <>
       <animated.div style={propsTitle}>
-        <TextHighlighted variant="h4" color={textColor}>{title}</TextHighlighted>
+        <TextHighlighted variant="h4" color={color}>{title}</TextHighlighted>
       </animated.div>
       {subtitle && (
         <animated.div style={propsSubtitle}>
@@ -69,7 +68,7 @@ const FadeInDirection = ({
             variant="h6"
             component="div"
             sx={{ wordWrap: "break-word" }}
-            color={isWhite ? "white" : "black"}
+            color={color}
           >
             {subtitle}
           </Typography>
