@@ -7,6 +7,7 @@ import KeyboardArrowLeft from "@mui/icons-material/KeyboardArrowLeft";
 import KeyboardArrowRight from "@mui/icons-material/KeyboardArrowRight";
 import SwipeableViews from "react-swipeable-views";
 import { autoPlay } from "react-swipeable-views-utils";
+import { Typography } from "@mui/material";
 
 import { SectionTitle, TestimonialCard } from "../molecules";
 
@@ -167,11 +168,13 @@ export const TestimonialsSection = () => {
                 onClick={handleNext}
                 disabled={activeStep === maxSteps - 1}
               >
-                Next
+                <Typography component="div" color="white">
+                  Next
+                </Typography>
                 {theme.direction === "rtl" ? (
-                  <KeyboardArrowLeft />
+                  <KeyboardArrowLeft sx={{ color: "white" }} />
                 ) : (
-                  <KeyboardArrowRight />
+                  <KeyboardArrowRight sx={{ color: "white" }} />
                 )}
               </Button>
             }
@@ -182,11 +185,13 @@ export const TestimonialsSection = () => {
                 disabled={activeStep === 0}
               >
                 {theme.direction === "rtl" ? (
-                  <KeyboardArrowRight />
+                  <KeyboardArrowRight sx={{ color: "white" }} />
                 ) : (
-                  <KeyboardArrowLeft />
+                  <KeyboardArrowLeft sx={{ color: "white" }} />
                 )}
-                Back
+                <Typography component="div" color="white">
+                  Back
+                </Typography>
               </Button>
             }
           />
