@@ -86,10 +86,11 @@ export const HomeSection = () => {
                     fontStyle: "italic",
                     fontWeight: "bold",
                     width: "fit-content",
-                    backgroundColor: "rgba(255,255,255,0.8)",
+                    backgroundColor: "rgba(228,160,161,0.8)",
                     borderRadius: "6px",
                     padding: "3px 6px",
                   }}
+                  color="white"
                 >
                   Développeur Web Full Stack
                 </Typography>

@@ -86,12 +86,28 @@ export const PhilosophySection = () => {
               alignItems="center"
             >
               <Grid item>
-                <Typography variant="h1" component="div" textAlign="center">
+                <Typography
+                  variant="h1"
+                  component="div"
+                  textAlign="center"
+                  color="#e4a0a1"
+                >
                   {index + 1}
                 </Typography>
               </Grid>
               <Grid item>
-                <Typography variant="h4" component="div" textAlign="center">
+                <Typography
+                  variant="h4"
+                  component="div"
+                  textAlign="center"
+                  sx={{
+                    background:
+                      "linear-gradient(120deg, #e4a0a1 0%, #e4a0a1 100%)",
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "100% 40%",
+                    backgroundPosition: "0 90%",
+                  }}
+                >
                   {item.title}
                 </Typography>
               </Grid>

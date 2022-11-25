@@ -11,8 +11,17 @@ import { InitLoader } from "./components/molecules";
 
 const Main = React.lazy(() => import("./components/pages/main"));
 
-const theme = responsiveFontSizes(createTheme());
+// THEME CUSTOMIZATION
+let theme = createTheme({
+  palette: {
+    primary: {
+      main: "#e4a0a1",
+    },
+  },
+});
+theme = responsiveFontSizes(theme);
 
+// ERROR BOUNDARIES FALLBACK AND HANDLER
 const ErrorFallback = () => {
   return (
     <div role="alert">
