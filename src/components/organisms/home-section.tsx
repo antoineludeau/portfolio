@@ -90,7 +90,7 @@ export const HomeSection = () => {
                     borderRadius: "6px",
                     padding: "3px 6px",
                   }}
-                  color="white"
+                  color="secondary"
                 >
                   Développeur Web Full Stack
                 </Typography>

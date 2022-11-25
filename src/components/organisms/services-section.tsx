@@ -86,7 +86,7 @@ export const ServicesSection = () => {
         <Grid item sx={{ marginTop: 8, marginBottom: 8 }}>
           <Grid container direction="column" spacing={3}>
             <Grid item>
-              <Typography variant="h3" component="div">
+              <Typography variant="h3" component="div" color='primary'>
                 1
               </Typography>
               <Typography variant="h6" component="div">
@@ -118,7 +118,7 @@ export const ServicesSection = () => {
             </Grid>
 
             <Grid item>
-              <Typography variant="h3" component="div">
+              <Typography variant="h3" component="div" color='primary'>
                 2
               </Typography>
               <Typography variant="h6" component="div">
