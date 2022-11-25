@@ -1,6 +1,5 @@
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-import { WhileStatement } from "typescript";
 
 interface TextHighlightedProps {
   variant: TextHighlightedVariantProps;

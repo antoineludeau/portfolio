@@ -17,8 +17,8 @@ export const ContactsSection = () => {
     <Box
       sx={{
         textAlign: "center",
-        paddingTop: 5,
         minHeight: "100vh",
+        paddingTop: 5,
       }}
     >
       <SectionTitle title="CONTACT" subtitle="Collaborons ensemble !" />
@@ -69,12 +69,9 @@ export const ContactsSection = () => {
             <Link
               href="https://www.linkedin.com/in/antoineludeau/"
               target="_blank"
-              color="inherit"
             >
               <IconButton
-                color="primary"
                 aria-label="linkedin icon button"
-                component="label"
               >
                 <LinkedInIcon fontSize="large" sx={{ color: "black" }} />
               </IconButton>
@@ -82,13 +79,9 @@ export const ContactsSection = () => {
             <Link
               href="https://www.malt.fr/profile/antoineludeau"
               target="_blank"
-              color="inherit"
-              sx={{ width: "51px", height: "51px" }}
             >
               <IconButton
-                color="primary"
                 aria-label="malt icon button"
-                component="label"
               >
                 <img width="30px" src={Malt} alt="malt icon" />
               </IconButton>
