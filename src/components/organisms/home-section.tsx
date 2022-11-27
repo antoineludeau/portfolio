@@ -8,6 +8,8 @@ import { SocialLinks, InitLoader } from "../molecules";
 
 import MountainImage from "../../assets/image/mountains.png";
 
+const springCascadeDelays = [0, 400, 800, 1400];
+
 const defaultHomeSpingProperties = {
   to: { opacity: 1, x: 0 },
   from: { opacity: 0, x: -10 },
@@ -17,21 +19,24 @@ const defaultHomeSpingProperties = {
 export const HomeSection = () => {
   const [isImageLoaded, setIsImageLoaded] = useState(false);
 
-  const propsSpring_1 = useSpring({
-    ...defaultHomeSpingProperties,
-  });
-  const propsSpring_2 = useSpring({
-    ...defaultHomeSpingProperties,
-    delay: 400,
-  });
-  const propsSpring_3 = useSpring({
-    ...defaultHomeSpingProperties,
-    delay: 800,
-  });
-  const propsSpring_4 = useSpring({
-    ...defaultHomeSpingProperties,
-    delay: 1400,
-  });
+  const propsSprings = [
+    useSpring({
+      ...defaultHomeSpingProperties,
+      delay: springCascadeDelays[0],
+    }),
+    useSpring({
+      ...defaultHomeSpingProperties,
+      delay: springCascadeDelays[1],
+    }),
+    useSpring({
+      ...defaultHomeSpingProperties,
+      delay: springCascadeDelays[2],
+    }),
+    useSpring({
+      ...defaultHomeSpingProperties,
+      delay: springCascadeDelays[3],
+    }),
+  ];
 
   useEffect(() => {
     const image = new Image();
@@ -61,21 +66,21 @@ export const HomeSection = () => {
         <Grid item>
           <Grid container direction="column" padding={2} spacing={2} mt={9}>
             <Grid item>
-              <animated.div style={propsSpring_1}>
+              <animated.div style={propsSprings[0]}>
                 <Typography variant="h1" component="div">
                   Bonjour, je suis
                 </Typography>
               </animated.div>
             </Grid>
             <Grid item>
-              <animated.div style={propsSpring_2}>
+              <animated.div style={propsSprings[1]}>
                 <Typography variant="h2" component="div">
                   Antoine Ludeau
                 </Typography>
               </animated.div>
             </Grid>
             <Grid item>
-              <animated.div style={propsSpring_3}>
+              <animated.div style={propsSprings[2]}>
                 <Typography
                   variant="h4"
                   component="div"
@@ -94,7 +99,7 @@ export const HomeSection = () => {
               </animated.div>
             </Grid>
             <Grid item>
-              <animated.div style={propsSpring_4}>
+              <animated.div style={propsSprings[3]}>
                 <SocialLinks />
               </animated.div>
             </Grid>
