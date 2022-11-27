@@ -52,9 +52,6 @@ export const HomeSection = () => {
       <Grid
         container
         minHeight="100vh"
-        direction="column"
-        justifyContent="top"
-        alignItems="left"
         sx={{
           backgroundImage: `url(${MountainImage})`,
           backgroundPositionX: "55%",
