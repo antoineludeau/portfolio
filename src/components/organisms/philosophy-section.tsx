@@ -89,14 +89,12 @@ export const PhilosophySection = () => {
             <Grid
               container
               direction="column"
-              justifyContent="center"
               alignItems="center"
             >
               <Grid item>
                 <Typography
                   variant="h1"
                   component="div"
-                  textAlign="center"
                   color="#e4a0a1"
                 >
                   {index + 1}
@@ -106,7 +104,6 @@ export const PhilosophySection = () => {
                 <Typography
                   variant="h4"
                   component="div"
-                  textAlign="center"
                   sx={{
                     background:
                       "linear-gradient(120deg, #e4a0a1 0%, #e4a0a1 100%)",
