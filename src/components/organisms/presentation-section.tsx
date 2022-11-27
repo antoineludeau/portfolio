@@ -1,7 +1,7 @@
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 
-import { TextHighlighted } from "../atoms"
+import { TextHighlighted } from "../atoms";
 
 interface PresentationContent {
   title: string;
@@ -33,7 +33,9 @@ export const PresentationSection = () => {
       <Grid item>
         <Grid container direction="column">
           <Grid item>
-            <TextHighlighted variant="h2">{presentationContent.title}</TextHighlighted>
+            <TextHighlighted variant="h2">
+              {presentationContent.title}
+            </TextHighlighted>
           </Grid>
           <Grid item>
             <Typography
