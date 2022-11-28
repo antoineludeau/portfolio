@@ -1,6 +1,7 @@
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 
+import { SectionLayout } from "../templates";
 import { TextHighlighted } from "../atoms";
 
 interface PresentationContent {
@@ -22,14 +23,7 @@ const presentationContent: PresentationContent = {
 
 export const PresentationSection = () => {
   return (
-    <Grid
-      container
-      minHeight="100vh"
-      direction="column"
-      justifyContent="center"
-      alignItems="center"
-      padding={2}
-    >
+    <SectionLayout verticallyCentered={true} horizontallyCentered={true}>
       <Grid item>
         <Grid container direction="column">
           <Grid item>
@@ -49,6 +43,6 @@ export const PresentationSection = () => {
           </Grid>
         </Grid>
       </Grid>
-    </Grid>
+    </SectionLayout>
   );
 };

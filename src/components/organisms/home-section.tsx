@@ -7,6 +7,7 @@ import { BouncingArrow } from "../atoms";
 import { SocialLinks, InitLoader } from "../molecules";
 
 import MountainImage from "../../assets/image/mountains.png";
+import { SectionLayout } from "../templates";
 
 const springCascadeDelays = [0, 400, 800, 1400];
 
@@ -54,59 +55,59 @@ export const HomeSection = () => {
 
   return (
     <>
-      <Grid
-        container
-        minHeight="100vh"
-        sx={{
+      <SectionLayout
+        backgroundProps={{
           backgroundImage: `url(${MountainImage})`,
           backgroundPositionX: "55%",
           backgroundSize: "cover",
         }}
       >
-        <Grid item>
-          <Grid container direction="column" padding={2} spacing={2} mt={9}>
-            <Grid item>
-              <animated.div style={propsSprings[0]}>
-                <Typography variant="h1" component="div">
-                  Bonjour, je suis
-                </Typography>
-              </animated.div>
-            </Grid>
-            <Grid item>
-              <animated.div style={propsSprings[1]}>
-                <Typography variant="h2" component="div">
-                  Antoine Ludeau
-                </Typography>
-              </animated.div>
-            </Grid>
-            <Grid item>
-              <animated.div style={propsSprings[2]}>
-                <Typography
-                  variant="h4"
-                  component="div"
-                  sx={{
-                    fontStyle: "italic",
-                    fontWeight: "bold",
-                    width: "fit-content",
-                    backgroundColor: "rgba(228,160,161,0.8)",
-                    borderRadius: "6px",
-                    padding: "3px 6px",
-                  }}
-                  color="secondary"
-                >
-                  Développeur Web Full Stack
-                </Typography>
-              </animated.div>
-            </Grid>
-            <Grid item>
-              <animated.div style={propsSprings[3]}>
-                <SocialLinks />
-              </animated.div>
+        <>
+          <Grid item>
+            <Grid container direction="column" spacing={2} mt={9}>
+              <Grid item>
+                <animated.div style={propsSprings[0]}>
+                  <Typography variant="h1" component="div">
+                    Bonjour, je suis
+                  </Typography>
+                </animated.div>
+              </Grid>
+              <Grid item>
+                <animated.div style={propsSprings[1]}>
+                  <Typography variant="h2" component="div">
+                    Antoine Ludeau
+                  </Typography>
+                </animated.div>
+              </Grid>
+              <Grid item>
+                <animated.div style={propsSprings[2]}>
+                  <Typography
+                    variant="h4"
+                    component="div"
+                    sx={{
+                      fontStyle: "italic",
+                      fontWeight: "bold",
+                      width: "fit-content",
+                      backgroundColor: "rgba(228,160,161,0.8)",
+                      borderRadius: "6px",
+                      padding: "3px 6px",
+                    }}
+                    color="secondary"
+                  >
+                    Développeur Web Full Stack
+                  </Typography>
+                </animated.div>
+              </Grid>
+              <Grid item>
+                <animated.div style={propsSprings[3]}>
+                  <SocialLinks />
+                </animated.div>
+              </Grid>
             </Grid>
           </Grid>
-        </Grid>
-      </Grid>
-      <BouncingArrow />
+          <BouncingArrow />
+        </>
+      </SectionLayout>
     </>
   );
 };

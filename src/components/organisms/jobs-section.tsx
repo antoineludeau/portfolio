@@ -4,6 +4,7 @@ import Typography from "@mui/material/Typography";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 
+import { SectionLayout } from "../templates";
 import { SectionTitle, JobCard } from "../molecules";
 
 import DassaultSystemesLogo from "../../assets/image/dassault-systèmes.png";
@@ -129,27 +130,13 @@ export const JobsSection = () => {
     setValue(newValue);
   };
   return (
-    <>
-      <Box
-        sx={{
-          padding: 2,
-          textAlign: "center",
-          minHeight: "100vh",
-          paddingTop: 5,
-        }}
-      >
+    <SectionLayout>
+      <>
         <SectionTitle
           title="MON EXPERIENCE"
           subtitle="Voici un condensé de mes récentes expériences professionnelles"
         />
-        <Box
-          sx={{
-            display: "flex",
-            justifyContent: "center",
-            marginTop: 8,
-            marginBottom: 10,
-          }}
-        >
+        <Box display="flex" justifyContent="center" mt={7} mb={5} >
           <Tabs
             orientation="vertical"
             value={value}
@@ -173,7 +160,7 @@ export const JobsSection = () => {
             </TabPanel>
           ))}
         </Box>
-      </Box>
-    </>
+      </>
+    </SectionLayout>
   );
 };

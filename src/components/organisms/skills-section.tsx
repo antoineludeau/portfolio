@@ -1,11 +1,13 @@
-import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import CodeIcon from "@mui/icons-material/Code";
 import CommentIcon from "@mui/icons-material/Comment";
 
+import { SectionLayout } from "../templates";
 import { SectionTitle, SkillCard } from "../molecules";
 
 import Climber from "../../assets/image/climbing.png";
+
+const backgroundColor = "#A1D9D3";
 
 interface Skill {
   logo: React.ReactNode;
@@ -28,8 +30,9 @@ const skills: Skill[] = [
   {
     logo: <CodeIcon fontSize="large" />,
     title: "Development",
-    subtitle:
-      "Ce qui m'anime le plus : partir d'une idée et lui donner vie en créant des applications from scratch. J'aime aussi apprendre de nouveaux languages et technologies",
+    subtitle: `Ce qui m'anime le plus : partir d'une idée et lui 
+      onner vie en créant des applications from scratch. 
+      J'aime aussi apprendre de nouveaux languages et technologies`,
     subSkills: [
       {
         title: "FRONT-END",
@@ -62,8 +65,9 @@ const skills: Skill[] = [
   {
     logo: <CommentIcon fontSize="large" />,
     title: "Communication",
-    subtitle:
-      "Souvent délaissée par les développeurs, une bonne capacité à communiquer ses idées est pour moi, un des points clé de la réussite de tout projet",
+    subtitle: `Souvent délaissée par les développeurs, une bonne 
+      capacité à communiquer ses idées est pour moi, un 
+      des points clé de la réussite de tout projet`,
     subSkills: [
       {
         title: "TOOLS",
@@ -89,16 +93,8 @@ const skills: Skill[] = [
 
 export const SkillsSection = () => {
   return (
-    <>
-      <Box
-        sx={{
-          padding: 2,
-          textAlign: "center",
-          minHeight: "100vh",
-          backgroundColor: "#A1D9D3",
-          paddingTop: 5,
-        }}
-      >
+    <SectionLayout backgroundProps={{ backgroundColor }}>
+      <>
         <SectionTitle
           title="MES COMPETENCES"
           subtitle="Voilà ce que je sais faire"
@@ -108,7 +104,8 @@ export const SkillsSection = () => {
           spacing={4}
           justifyContent="center"
           alignItems="top"
-          sx={{ marginTop: 1, marginBottom: 10 }}
+          mt={3}
+          mb={5}
         >
           <Grid item md={3} xs={12}>
             <SkillCard
@@ -118,7 +115,7 @@ export const SkillsSection = () => {
               subSkills={skills[0].subSkills}
             ></SkillCard>
           </Grid>
-          <Grid item md={1} xs={12} alignItems="center">
+          <Grid item md={1} xs={12} textAlign="center">
             <img width="100" src={Climber} alt="climber" />
           </Grid>
           <Grid item md={3} xs={12}>
@@ -130,7 +127,7 @@ export const SkillsSection = () => {
             ></SkillCard>
           </Grid>
         </Grid>
-      </Box>
-    </>
+      </>
+    </SectionLayout>
   );
 };

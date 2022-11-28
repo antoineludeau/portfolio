@@ -1,10 +1,14 @@
 import Grid from "@mui/material/Grid";
-import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import InfoIcon from "@mui/icons-material/Info";
 import Link from "@mui/material/Link";
 
+import { SectionLayout } from "../templates";
+import { TextHighlighted } from "../atoms";
+
 import SignImage from "../../assets/image/sign.png";
+
+const backgroundColor='#f5d6c9'
 
 interface philosophyContentItem {
   title: string;
@@ -74,54 +78,29 @@ const philosophyContentItems: philosophyContentItem[] = [
 
 export const PhilosophySection = () => {
   return (
-    <Box
-      sx={{
-        minHeight: "100vh",
-        backgroundColor: "#f5d6c9",
-        paddingTop: 5,
-        display: "flex",
-        alignItems: "center",
-      }}
+    <SectionLayout
+      backgroundProps={{ backgroundColor }}
+      verticallyCentered={true}
+      horizontallyCentered={true}
     >
-      <Grid container alignItems="top" spacing={5} padding={2}>
+      <Grid container spacing={4} maxWidth={1800}>
         {philosophyContentItems.map((item, index) => (
           <Grid key={index} item md={4} xs={12}>
-            <Grid
-              container
-              direction="column"
-              alignItems="center"
-            >
+            <Grid container direction="column" alignItems="center">
               <Grid item>
-                <Typography
-                  variant="h1"
-                  component="div"
-                  color="#e4a0a1"
-                >
+                <Typography variant="h1" component="div" color="secondary">
                   {index + 1}
                 </Typography>
               </Grid>
               <Grid item>
-                <Typography
-                  variant="h4"
-                  component="div"
-                  sx={{
-                    background:
-                      "linear-gradient(120deg, #e4a0a1 0%, #e4a0a1 100%)",
-                    backgroundRepeat: "no-repeat",
-                    backgroundSize: "100% 40%",
-                    backgroundPosition: "0 90%",
-                  }}
-                >
-                  {item.title}
-                </Typography>
+                <TextHighlighted variant="h4">{item.title}</TextHighlighted>
               </Grid>
               <Grid item>
                 <Typography
                   variant="h6"
                   component="div"
-                  maxWidth="600px"
+                  maxWidth="400px"
                   textAlign="center"
-                  padding={2}
                 >
                   {item.description}
                 </Typography>
@@ -131,6 +110,6 @@ export const PhilosophySection = () => {
           </Grid>
         ))}
       </Grid>
-    </Box>
+    </SectionLayout>
   );
 };

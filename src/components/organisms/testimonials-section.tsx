@@ -1,15 +1,15 @@
 import Box from "@mui/material/Box";
 import { useState } from "react";
 import { useTheme } from "@mui/material/styles";
-import MobileStepper from "@mui/material/MobileStepper";
-import Button from "@mui/material/Button";
-import KeyboardArrowLeft from "@mui/icons-material/KeyboardArrowLeft";
-import KeyboardArrowRight from "@mui/icons-material/KeyboardArrowRight";
 import SwipeableViews from "react-swipeable-views";
 import { autoPlay } from "react-swipeable-views-utils";
-import { Typography } from "@mui/material";
 
-import { SectionTitle, TestimonialCard } from "../molecules";
+import { SectionLayout } from "../templates";
+import {
+  SectionTitle,
+  TestimonialCard,
+  TestimonialStepper,
+} from "../molecules";
 
 import JulesColin from "../../assets/image/jules-colin.png";
 import GauthierSaillard from "../../assets/image/gauthier-saillard.png";
@@ -111,92 +111,50 @@ export const TestimonialsSection = () => {
   };
 
   return (
-    <Box
-      sx={{
-        textAlign: "center",
-        minHeight: "100vh",
+    <SectionLayout
+      backgroundProps={{
         backgroundColor: "#F2F2F2",
-        paddingTop: 5,
         backgroundImage: `url(${MountainSunset})`,
         backgroundRepeat: "no-repeat",
         backgroundPositionY: "80%",
         backgroundPositionX: "center",
       }}
     >
-      <SectionTitle
-        title="MES TEMOIGNAGES"
-        subtitle="Voilà ce que disent les gens avec qui j'ai travaillé"
-        color="secondary"
-      />
-      <Box
-        sx={{
-          marginTop: 5,
-          textAlign: "center",
-          justifyContent: "center",
-          alignItems: "center",
-          width: "100%",
-          display: "flex",
-        }}
-      >
-        <Box sx={{ display: "grid", maxWidth: "400px", marginBottom: 10 }}>
-          <AutoPlaySwipeableViews
-            axis={theme.direction === "rtl" ? "x-reverse" : "x"}
-            index={activeStep}
-            onChangeIndex={handleStepChange}
-            enableMouseEvents
-            interval={30000}
-          >
-            {testimonials.map((testimonial, index) => (
-              <TestimonialCard
-                key={index}
-                avatar={testimonial.avatar}
-                title={testimonial.title}
-                subtitle={testimonial.subtitle}
-                subtitle2={testimonial.subtitle2}
-                description={testimonial.description}
-              ></TestimonialCard>
-            ))}
-          </AutoPlaySwipeableViews>
-          <MobileStepper
-            steps={maxSteps}
-            position="static"
-            activeStep={activeStep}
-            sx={{ backgroundColor: "transparent" }}
-            nextButton={
-              <Button
-                size="small"
-                onClick={handleNext}
-                disabled={activeStep === maxSteps - 1}
-              >
-                <Typography component="div" color="white">
-                  Next
-                </Typography>
-                {theme.direction === "rtl" ? (
-                  <KeyboardArrowLeft sx={{ color: "white" }} />
-                ) : (
-                  <KeyboardArrowRight sx={{ color: "white" }} />
-                )}
-              </Button>
-            }
-            backButton={
-              <Button
-                size="small"
-                onClick={handleBack}
-                disabled={activeStep === 0}
-              >
-                {theme.direction === "rtl" ? (
-                  <KeyboardArrowRight sx={{ color: "white" }} />
-                ) : (
-                  <KeyboardArrowLeft sx={{ color: "white" }} />
-                )}
-                <Typography component="div" color="white">
-                  Back
-                </Typography>
-              </Button>
-            }
-          />
+      <>
+        <SectionTitle
+          title="MES TEMOIGNAGES"
+          subtitle="Voilà ce que disent les gens avec qui j'ai travaillé"
+          color="secondary"
+        />
+        <Box display="flex" marginTop={5} justifyContent="center" width="100%">
+          <Box display="grid" maxWidth="400px" mb={10}>
+            <AutoPlaySwipeableViews
+              axis={theme.direction === "rtl" ? "x-reverse" : "x"}
+              index={activeStep}
+              onChangeIndex={handleStepChange}
+              enableMouseEvents
+              interval={30000}
+            >
+              {testimonials.map((testimonial, index) => (
+                <TestimonialCard
+                  key={index}
+                  avatar={testimonial.avatar}
+                  title={testimonial.title}
+                  subtitle={testimonial.subtitle}
+                  subtitle2={testimonial.subtitle2}
+                  description={testimonial.description}
+                ></TestimonialCard>
+              ))}
+            </AutoPlaySwipeableViews>
+            <TestimonialStepper
+              maxSteps={maxSteps}
+              activeStep={activeStep}
+              handleNext={handleNext}
+              handleBack={handleBack}
+            />
+          </Box>
         </Box>
-      </Box>
-    </Box>
+      </>
+    </SectionLayout>
   );
 };

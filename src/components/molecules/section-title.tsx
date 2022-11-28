@@ -69,6 +69,7 @@ const FadeInDirection = ({
             component="div"
             sx={{ wordWrap: "break-word" }}
             color={color}
+            textAlign="center"
           >
             {subtitle}
           </Typography>
