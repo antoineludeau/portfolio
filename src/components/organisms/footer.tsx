@@ -3,7 +3,7 @@ import Typography from "@mui/material/Typography";
 
 export const FooterSection = () => {
   return (
-    <Grid container spacing={2}>
+    <Grid container spacing={2} p={2}>
       <Grid item xs={12}>
         <Typography
           textAlign="center"
