@@ -11,11 +11,7 @@ interface SectionTitleProps {
   color?: string;
 }
 
-export const SectionTitle = ({
-  title,
-  subtitle,
-  color,
-}: SectionTitleProps) => {
+export const SectionTitle = ({ title, subtitle, color }: SectionTitleProps) => {
   const [visibility, setVisibility] = useState<boolean>(false);
   const onChange = (visiblity: boolean) => {
     visiblity && setVisibility(visiblity);
@@ -60,7 +56,9 @@ const FadeInDirection = ({
   return (
     <>
       <animated.div style={propsTitle}>
-        <TextHighlighted variant="h4" color={color}>{title}</TextHighlighted>
+        <TextHighlighted variant="h4" color={color}>
+          {title}
+        </TextHighlighted>
       </animated.div>
       {subtitle && (
         <animated.div style={propsSubtitle}>

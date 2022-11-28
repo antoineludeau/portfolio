@@ -28,32 +28,32 @@ export const TemplateMain = ({
   return (
     <>
       {menu}
-      <Grid container>
-        <Grid id="home" item xs={12}>
+      <Grid container direction="column">
+        <Grid id="home" item>
           {homeSection}
         </Grid>
-        <Grid id="presentation" item xs={12}>
+        <Grid id="presentation" item>
           {presentationSection}
         </Grid>
-        <Grid id="philosophy" item xs={12}>
+        <Grid id="philosophy" item>
           {philosophySection}
         </Grid>
-        <Grid id="services" item xs={12}>
+        <Grid id="services" item>
           {servicesSection}
         </Grid>
-        <Grid id="skills" item xs={12}>
+        <Grid id="skills" item>
           {skillsSection}
         </Grid>
-        <Grid id="jobs" item xs={12}>
+        <Grid id="jobs" item>
           {jobsSection}
         </Grid>
-        <Grid id="testimonials" item xs={12}>
+        <Grid id="testimonials" item>
           {testimonialsSection}
         </Grid>
-        <Grid id="contacts" item xs={12}>
+        <Grid id="contacts" item>
           {contactsSection}
         </Grid>
-        <Grid id="contacts" item xs={12}>
+        <Grid id="contacts" item>
           {footerSection}
         </Grid>
       </Grid>

@@ -8,7 +8,7 @@ import { TextHighlighted } from "../atoms";
 
 import SignImage from "../../assets/image/sign.png";
 
-const backgroundColor='#f5d6c9'
+const backgroundColor = "#f5d6c9";
 
 interface philosophyContentItem {
   title: string;

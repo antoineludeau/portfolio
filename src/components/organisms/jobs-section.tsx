@@ -136,7 +136,7 @@ export const JobsSection = () => {
           title="MON EXPERIENCE"
           subtitle="Voici un condensé de mes récentes expériences professionnelles"
         />
-        <Box display="flex" justifyContent="center" mt={7} mb={5} >
+        <Box display="flex" justifyContent="center" mt={7} mb={5}>
           <Tabs
             orientation="vertical"
             value={value}

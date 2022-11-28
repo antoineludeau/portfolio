@@ -1,6 +1,5 @@
 import Box from "@mui/material/Box";
 import { useState } from "react";
-import { useTheme } from "@mui/material/styles";
 import SwipeableViews from "react-swipeable-views";
 import { autoPlay } from "react-swipeable-views-utils";
 
@@ -17,6 +16,13 @@ import ThibautTavernier from "../../assets/image/thibaut-tavernier.png";
 import SammyGad from "../../assets/image/sammy-gad.png";
 
 import MountainSunset from "../../assets/image/mountain-top.png";
+
+const backgroundProps = {
+  backgroundImage: `url(${MountainSunset})`,
+  backgroundRepeat: "no-repeat",
+  backgroundPositionY: "80%",
+  backgroundPositionX: "center",
+};
 
 interface Testimonials {
   avatar?: string;
@@ -94,7 +100,6 @@ const testimonials: Testimonials[] = [
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
 export const TestimonialsSection = () => {
-  const theme = useTheme();
   const [activeStep, setActiveStep] = useState(0);
   const maxSteps = 5;
 
@@ -111,15 +116,7 @@ export const TestimonialsSection = () => {
   };
 
   return (
-    <SectionLayout
-      backgroundProps={{
-        backgroundColor: "#F2F2F2",
-        backgroundImage: `url(${MountainSunset})`,
-        backgroundRepeat: "no-repeat",
-        backgroundPositionY: "80%",
-        backgroundPositionX: "center",
-      }}
-    >
+    <SectionLayout backgroundProps={backgroundProps}>
       <>
         <SectionTitle
           title="MES TEMOIGNAGES"
@@ -129,7 +126,6 @@ export const TestimonialsSection = () => {
         <Box display="flex" marginTop={5} justifyContent="center" width="100%">
           <Box display="grid" maxWidth="400px" mb={10}>
             <AutoPlaySwipeableViews
-              axis={theme.direction === "rtl" ? "x-reverse" : "x"}
               index={activeStep}
               onChangeIndex={handleStepChange}
               enableMouseEvents
