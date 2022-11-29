@@ -6,6 +6,7 @@ interface JobCardProps {
   title: string;
   subtitle: string;
   subtitle2: string;
+  technos?: string;
   descriptionItems: string[];
 }
 
@@ -14,6 +15,7 @@ export const JobCard = ({
   title,
   subtitle,
   subtitle2,
+  technos,
   descriptionItems,
 }: JobCardProps) => {
   return (
@@ -43,6 +45,11 @@ export const JobCard = ({
           {subtitle2}
         </Typography>
       </Grid>
+      <Grid item sx={{ p: 1 }}>
+        <Typography variant="body2" component="div" sx={{fontWeight: "bold"}}>
+          {technos}
+        </Typography>
+      </Grid>
       {descriptionItems.map((descriptionItem, index) => (
         <Grid key={index} item>
           <Typography variant="body1" component="div">
@@ -50,6 +57,7 @@ export const JobCard = ({
           </Typography>
         </Grid>
       ))}
+       
     </Grid>
   );
 };

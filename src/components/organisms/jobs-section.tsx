@@ -19,10 +19,11 @@ const jobs = [
     title: "Développeur Full Stack - CDI",
     subtitle: "3DVIA - Dassault Systèmes",
     subtitle2: "Jan. 2020 - Oct. 2022 - Paris",
+    technos: "#REACT #TYPESCRIPT #NODEJS #POSTGRESQL #CYPRESS #AWS",
     descriptionItems: [
       `- Développement «from scratch» d’applications web (REACT,
               Typescript).`,
-      `- Améliorations et nouvelle features de l’API
+      `- Améliorations et nouvelles features de l’API
               back-end (NodeJS).`,
       `- Gestion du pipeline de processing et
               simplification des assets 3D sur Amazon Web Services (SQS, EC2,
@@ -38,6 +39,7 @@ const jobs = [
     title: "Développeur Back-end - Bénévole",
     subtitle: "Handaway",
     subtitle2: "Sept. 2020 - Avril. 2021 - Paris",
+    technos: "#NESTJS #AWS",
     descriptionItems: [
       `- Responsable technique de l'API pour l'application mobile (NestJS)`,
       `- Création de nouvelles routes et amélioration des routes existantes selon les besoins du front-end`,
@@ -50,6 +52,7 @@ const jobs = [
     title: "Business Analyst pour Applications Web - CDI",
     subtitle: "3DVIA - Dassault Systèmes",
     subtitle2: "Jan. 2017 - Déc. 2019 - Paris",
+    technos: "#INTEGRATION-API #JIRA #INVISION",
     descriptionItems: [
       `- Specification de «story» pour les sprint d’une équipe de
             developpeurs.`,
@@ -65,6 +68,7 @@ const jobs = [
     title: "Co-fondateur d’une Start-Up",
     subtitle: "SOMMET, « une nouvelle façon de boire le fruit »",
     subtitle2: "Déc. 2015 - Déc. 2016 - Paris",
+    technos: "#ENTREPRENEURIAT",
     descriptionItems: [
       `- Création d’un produit et d’un concept nouveau de jus de fruit
   en dosette.`,
@@ -79,6 +83,7 @@ const jobs = [
     title: "Ingénieur Produit - Stage fin d’étude et CDD",
     subtitle: "OLAIAN - Décathlon",
     subtitle2: "Févr. 2015 - Déc. 2015 - Hendaye",
+    technos: "#CONCEPTION #DESIGN",
     descriptionItems: [
       `- Conception et Développement de produits, du design à la
     production, en passant par la conception 3D, le prototypage, les
@@ -155,6 +160,7 @@ export const JobsSection = () => {
                 title={job.title}
                 subtitle={job.subtitle}
                 subtitle2={job.subtitle2}
+                technos={job.technos}
                 descriptionItems={job.descriptionItems}
               ></JobCard>
             </TabPanel>
