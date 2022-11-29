@@ -53,7 +53,7 @@ export const TemplateMain = ({
         <Grid id="contacts" item>
           {contactsSection}
         </Grid>
-        <Grid id="contacts" item>
+        <Grid id="footer" item>
           {footerSection}
         </Grid>
       </Grid>

@@ -98,51 +98,49 @@ export const Menu = () => {
 
   return (
     <>
-      <React.Fragment>
-        <CssBaseline />
-        <HideOnScroll>
-          <Fab
-            aria-label="add"
-            sx={{
-              color: "white",
-              position: "fixed",
-              bottom: 16,
-              right: 16,
-              zIndex: 1,
-            }}
-            onClick={() => setOpenMenu(true)}
-          >
-            <MenuIcon sx={{ color: "black" }} />
-          </Fab>
-        </HideOnScroll>
-
-        <Drawer
-          anchor={"right"}
-          open={openMenu}
-          onClose={() => setOpenMenu(false)}
+      <CssBaseline />
+      <HideOnScroll>
+        <Fab
+          aria-label="add"
+          sx={{
+            color: "white",
+            position: "fixed",
+            bottom: 16,
+            right: 16,
+            zIndex: 1,
+          }}
+          onClick={() => setOpenMenu(true)}
         >
-          <Box sx={{ width: 250 }}>
-            <List>
-              {menuItems.map((item, index) => (
-                <Link
-                  key={item.id}
-                  to={item.id}
-                  style={{ textDecoration: "none", color: "inherit" }}
-                  onClick={() => setOpenMenu(false)}
-                  spy={true}
-                  smooth={true}
-                  duration={500}
-                >
-                  <ListItem button onClick={() => setOpenMenu(false)}>
-                    <ListItemIcon>{item.icon}</ListItemIcon>
-                    <ListItemText primary={item.text} />
-                  </ListItem>
-                </Link>
-              ))}
-            </List>
-          </Box>
-        </Drawer>
-      </React.Fragment>
+          <MenuIcon sx={{ color: "black" }} />
+        </Fab>
+      </HideOnScroll>
+
+      <Drawer
+        anchor={"right"}
+        open={openMenu}
+        onClose={() => setOpenMenu(false)}
+      >
+        <Box sx={{ width: 250 }}>
+          <List>
+            {menuItems.map((item) => (
+              <Link
+                key={item.id}
+                to={item.id}
+                style={{ textDecoration: "none", color: "inherit" }}
+                onClick={() => setOpenMenu(false)}
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                <ListItem button onClick={() => setOpenMenu(false)}>
+                  <ListItemIcon>{item.icon}</ListItemIcon>
+                  <ListItemText primary={item.text} />
+                </ListItem>
+              </Link>
+            ))}
+          </List>
+        </Box>
+      </Drawer>
     </>
   );
 };
