@@ -1,6 +1,8 @@
 import Box from "@mui/material/Box";
 import { useSpring, animated } from "react-spring";
 import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
+import IconButton from "@mui/material/IconButton";
+import { Link } from "react-scroll";
 
 export const BouncingArrow = () => {
   const propsSpring_Arrow = useSpring({
@@ -15,11 +17,21 @@ export const BouncingArrow = () => {
       sx={{
         position: "absolute",
         bottom: "0",
-        left: "calc(50vw - 17.5px)",
+        left: "calc(50vw - 25.5px)",
       }}
     >
       <animated.div style={propsSpring_Arrow}>
-        <ArrowDownwardIcon fontSize="large" sx={{ color: "white" }} />
+        <Link
+          to={"presentation"}
+          style={{ textDecoration: "none", color: "inherit" }}
+          spy={true}
+          smooth={true}
+          duration={500}
+        >
+          <IconButton aria-label="go to next section button">
+          <ArrowDownwardIcon fontSize="large" sx={{ color: "white" }} />
+          </IconButton>
+        </Link>
       </animated.div>
     </Box>
   );
