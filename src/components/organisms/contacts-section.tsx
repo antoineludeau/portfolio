@@ -82,9 +82,6 @@ export const ContactsSection = () => {
                 </IconButton>
               </Link>
             </Grid>
-            <Grid item>
-            <AutoScrollToSectionButton to="footer" />
-            </Grid>
           </Grid>
         </Box>
       </>
