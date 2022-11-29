@@ -6,7 +6,7 @@ const backgroundProps = {
   backgroundRepeat: "no-repeat",
   backgroundSize: "100% 40%",
   backgroundPosition: "0 90%",
-}
+};
 
 interface TextHighlightedProps {
   variant: TextHighlightedVariantProps;
@@ -42,7 +42,7 @@ export const TextHighlighted = ({
         variant={variant}
         component="div"
         textAlign="center"
-        sx={{...backgroundProps}}
+        sx={{ ...backgroundProps }}
         width="fit-content"
         color={color}
       >
