@@ -11,7 +11,6 @@ import Malt from "../../assets/image/malt.png";
 import Antoine from "../../assets/image/antoine.png";
 
 import { SectionLayout } from "../templates";
-import { AutoScrollToSectionButton } from "../atoms";
 import { SectionTitle } from "../molecules";
 
 export const ContactsSection = () => {
