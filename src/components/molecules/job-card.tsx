@@ -1,12 +1,13 @@
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
+import Chip from "@mui/material/Chip";
 
 interface JobCardProps {
   logo: string;
   title: string;
   subtitle: string;
   subtitle2: string;
-  technos?: string;
+  technos?: string[];
   descriptionItems: string[];
 }
 
@@ -45,10 +46,10 @@ export const JobCard = ({
           {subtitle2}
         </Typography>
       </Grid>
-      <Grid item sx={{ p: 1 }}>
-        <Typography variant="body2" component="div" sx={{fontWeight: "bold"}}>
-          {technos}
-        </Typography>
+      <Grid item sx={{ p: 1, lineHeight: 2 }}>
+        {technos?.map((techno) => (
+          <Chip sx={{textColor:'white'}} label={techno} />
+        ))}
       </Grid>
       {descriptionItems.map((descriptionItem, index) => (
         <Grid key={index} item>
@@ -57,7 +58,6 @@ export const JobCard = ({
           </Typography>
         </Grid>
       ))}
-       
     </Grid>
   );
 };
