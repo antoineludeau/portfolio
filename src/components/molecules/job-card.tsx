@@ -48,12 +48,16 @@ export const JobCard = ({
       </Grid>
       <Grid item sx={{ p: 1, lineHeight: 2 }}>
         {technos?.map((techno) => (
-          <Chip sx={{textColor:'white'}} label={techno} />
+          <Chip sx={{ textColor: "white" }} label={techno} />
         ))}
       </Grid>
       {descriptionItems.map((descriptionItem, index) => (
         <Grid key={index} item>
-          <Typography variant="body1" component="div">
+          <Typography
+            variant="body1"
+            component="div"
+            display= "list-item"
+          >
             {descriptionItem}
           </Typography>
         </Grid>
