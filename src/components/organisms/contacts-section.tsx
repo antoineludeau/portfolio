@@ -65,6 +65,7 @@ export const ContactsSection = () => {
               <Link
                 href="https://www.linkedin.com/in/antoineludeau/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <IconButton aria-label="linkedin icon button">
                   <LinkedInIcon fontSize="large" sx={{ color: "black" }} />
@@ -73,6 +74,7 @@ export const ContactsSection = () => {
               <Link
                 href="https://www.malt.fr/profile/antoineludeau"
                 target="_blank"
+                rel="noreferrer"
               >
                 <IconButton aria-label="malt icon button">
                   <img width="30px" src={Malt} alt="malt icon" />

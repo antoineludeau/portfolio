@@ -33,6 +33,7 @@ const philosophyContentItems: philosophyContentItem[] = [
           <Link
             href="https://www.greenit.fr/2020/10/06/4-des-emissions-de-ges/"
             target="_blank"
+            rel="noreferrer"
           >
             <InfoIcon />
           </Link>
@@ -65,6 +66,7 @@ const philosophyContentItems: philosophyContentItem[] = [
           <Link
             href="https://www.un.org/sustainabledevelopment/fr/objectifs-de-developpement-durable/"
             target="_blank"
+            rel="noreferrer"
           >
             <InfoIcon />
           </Link>
