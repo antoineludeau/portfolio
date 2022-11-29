@@ -31,7 +31,7 @@ const skills: Skill[] = [
     logo: <CodeIcon fontSize="large" />,
     title: "Development",
     subtitle: `Ce qui m'anime le plus : partir d'une idée et lui 
-      onner vie en créant des applications from scratch. 
+      donner vie en créant des applications from scratch. 
       J'aime aussi apprendre de nouveaux languages et technologies`,
     subSkills: [
       {
