@@ -5,6 +5,7 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 
 import { SectionLayout } from "../templates";
+import { AutoScrollToSectionButton } from "../atoms";
 import { SectionTitle, JobCard } from "../molecules";
 
 import DassaultSystemesLogo from "../../assets/image/dassault-systèmes.png";
@@ -165,6 +166,9 @@ export const JobsSection = () => {
               ></JobCard>
             </TabPanel>
           ))}
+        </Box>
+        <Box display="flex" justifyContent="center">
+          <AutoScrollToSectionButton to="testimonials" />
         </Box>
       </>
     </SectionLayout>

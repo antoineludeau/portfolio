@@ -3,6 +3,7 @@ import CodeIcon from "@mui/icons-material/Code";
 import CommentIcon from "@mui/icons-material/Comment";
 
 import { SectionLayout } from "../templates";
+import { AutoScrollToSectionButton } from "../atoms";
 import { SectionTitle, SkillCard } from "../molecules";
 
 import Climber from "../../assets/image/climbing.png";
@@ -126,6 +127,9 @@ export const SkillsSection = () => {
               subSkills={skills[1].subSkills}
             ></SkillCard>
           </Grid>
+        </Grid>
+        <Grid item xs={12} textAlign="center">
+          <AutoScrollToSectionButton to="jobs" />
         </Grid>
       </>
     </SectionLayout>

@@ -4,6 +4,7 @@ import SwipeableViews from "react-swipeable-views";
 import { autoPlay } from "react-swipeable-views-utils";
 
 import { SectionLayout } from "../templates";
+import { AutoScrollToSectionButton } from "../atoms";
 import {
   SectionTitle,
   TestimonialCard,
@@ -149,6 +150,9 @@ export const TestimonialsSection = () => {
               handleBack={handleBack}
             />
           </Box>
+        </Box>
+        <Box display="flex" justifyContent="center">
+          <AutoScrollToSectionButton to="contacts" />
         </Box>
       </>
     </SectionLayout>

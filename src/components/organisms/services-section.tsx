@@ -5,6 +5,7 @@ import Link from "@mui/material/Link";
 import Divider from "@mui/material/Divider";
 
 import { SectionLayout } from "../templates";
+import { AutoScrollToSectionButton } from "../atoms";
 import { SectionTitle, ServiceCard } from "../molecules";
 
 import Malt from "../../assets/image/malt.png";
@@ -145,6 +146,9 @@ export const ServicesSection = () => {
               ))}
             </Grid>
           </Grid>
+        </Grid>
+        <Grid item xs={12} textAlign="center">
+          <AutoScrollToSectionButton to="skills" />
         </Grid>
       </>
     </SectionLayout>

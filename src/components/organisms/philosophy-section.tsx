@@ -4,7 +4,7 @@ import InfoIcon from "@mui/icons-material/Info";
 import Link from "@mui/material/Link";
 
 import { SectionLayout } from "../templates";
-import { TextHighlighted } from "../atoms";
+import { AutoScrollToSectionButton, TextHighlighted } from "../atoms";
 
 import SignImage from "../../assets/image/sign.png";
 
@@ -28,7 +28,7 @@ const philosophyContentItems: philosophyContentItem[] = [
         entrainant des problématiques et enjeux importants. Par exemple, Il
         représente à l’échelle mondiale entre 4% et 6% des émissions de gaz à
         effet de serre, dépassant désormais le bilan carbone de l’aviation
-        (resources : collectif Green IT{" "}
+        (resources : collectif Green IT)
         <span>
           <Link
             href="https://www.greenit.fr/2020/10/06/4-des-emissions-de-ges/"
@@ -38,7 +38,6 @@ const philosophyContentItems: philosophyContentItem[] = [
             <InfoIcon />
           </Link>
         </span>
-        )
       </p>
     ),
     illustration: undefined,
@@ -61,7 +60,7 @@ const philosophyContentItems: philosophyContentItem[] = [
       <p>
         Mon but est d’utiliser cet outil génial qu’est le numérique, pour
         réaliser des projets à impact environnemental et/ou social, afin de
-        répondre aux 17 objectifs de développement durable définis par l’ONU
+        répondre aux 17 objectifs de développement durable définis par l’ONU.
         <span>
           <Link
             href="https://www.un.org/sustainabledevelopment/fr/objectifs-de-developpement-durable/"
@@ -70,7 +69,6 @@ const philosophyContentItems: philosophyContentItem[] = [
           >
             <InfoIcon />
           </Link>
-          .
         </span>
       </p>
     ),
@@ -85,7 +83,7 @@ export const PhilosophySection = () => {
       verticallyCentered={true}
       horizontallyCentered={true}
     >
-      <Grid container spacing={4} maxWidth={1800}>
+      <Grid container spacing={2} maxWidth={1800}>
         {philosophyContentItems.map((item, index) => (
           <Grid key={index} item md={4} xs={12}>
             <Grid container direction="column" alignItems="center">
@@ -111,6 +109,9 @@ export const PhilosophySection = () => {
             </Grid>
           </Grid>
         ))}
+        <Grid item xs={12} textAlign="center">
+          <AutoScrollToSectionButton to="services" />
+        </Grid>
       </Grid>
     </SectionLayout>
   );

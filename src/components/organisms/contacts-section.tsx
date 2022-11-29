@@ -11,6 +11,7 @@ import Malt from "../../assets/image/malt.png";
 import Antoine from "../../assets/image/antoine.png";
 
 import { SectionLayout } from "../templates";
+import { AutoScrollToSectionButton } from "../atoms";
 import { SectionTitle } from "../molecules";
 
 export const ContactsSection = () => {
@@ -80,6 +81,9 @@ export const ContactsSection = () => {
                   <img width="30px" src={Malt} alt="malt icon" />
                 </IconButton>
               </Link>
+            </Grid>
+            <Grid item>
+            <AutoScrollToSectionButton to="footer" />
             </Grid>
           </Grid>
         </Box>

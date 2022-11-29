@@ -2,7 +2,7 @@ import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 
 import { SectionLayout } from "../templates";
-import { TextHighlighted } from "../atoms";
+import { AutoScrollToSectionButton, TextHighlighted } from "../atoms";
 
 interface PresentationContent {
   title: string;
@@ -25,7 +25,7 @@ export const PresentationSection = () => {
   return (
     <SectionLayout verticallyCentered={true} horizontallyCentered={true}>
       <Grid item>
-        <Grid container direction="column">
+        <Grid container direction="column" alignItems="center">
           <Grid item>
             <TextHighlighted variant="h2">
               {presentationContent.title}
@@ -40,6 +40,9 @@ export const PresentationSection = () => {
             >
               {presentationContent.description}
             </Typography>
+          </Grid>
+          <Grid item>
+            <AutoScrollToSectionButton to="philosophy"/>
           </Grid>
         </Grid>
       </Grid>
