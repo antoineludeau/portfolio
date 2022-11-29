@@ -52,8 +52,7 @@ const services: Service[] = [
     description: `C’est le moment de coder ! Pendant cette étape, je m’organise 
       en AGILE avec des sprints courts qui se terminent 
       par une démo, une livraison de code et la présentation du 
-      prochain sprint. De légers ajustements peuvent alors être 
-      réalisés selon vos demandes.`
+      prochain sprint.`
   },
   {
     logo: Service5,
