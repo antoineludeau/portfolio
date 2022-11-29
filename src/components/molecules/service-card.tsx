@@ -5,14 +5,12 @@ interface ServiceCardProps {
   logo: string;
   title: string;
   description: string;
-  subdescriptions: string[];
 }
 
 export const ServiceCard = ({
   logo,
   title,
   description,
-  subdescriptions,
 }: ServiceCardProps) => {
   return (
     <Grid container spacing={1} direction="column" alignItems="center">
@@ -34,18 +32,6 @@ export const ServiceCard = ({
           {description}
         </Typography>
       </Grid>
-      {subdescriptions.map((subdescription, index) => (
-        <Grid key={index} item>
-          <Typography
-            maxWidth="300px"
-            variant="body2"
-            component="div"
-            textAlign="center"
-          >
-            {subdescription}
-          </Typography>
-        </Grid>
-      ))}
     </Grid>
   );
 };
