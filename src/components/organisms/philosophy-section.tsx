@@ -88,7 +88,12 @@ export const PhilosophySection = () => {
           <Grid key={index} item md={4} xs={12}>
             <Grid container direction="column" alignItems="center">
               <Grid item>
-                <Typography variant="h1" component="div" color="secondary">
+                <Typography
+                  variant="h1"
+                  component="div"
+                  color="secondary"
+                  sx={{ textShadow: "5px 5px #e4a0a1" }}
+                >
                   {index + 1}
                 </Typography>
               </Grid>
