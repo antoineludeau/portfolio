@@ -23,10 +23,9 @@ const philosophyContentItems: philosophyContentItem[] = [
       <p>
         Le numérique est un outil incroyable. Il est utilisé partout dans notre
         vie quotidienne et notre vie professionnelle (4 milliards
-        d’utilisateurs). Il faut pourtant aujourd’hui apporter une certaine
-        nuance. Le secteur du numérique connait une croissance fulgurante,
-        entrainant des problématiques et enjeux importants. Par exemple, Il
-        représente à l’échelle mondiale entre 4% et 6% des émissions de gaz à
+        d’utilisateurs). Aussi, le secteur du numérique connait une croissance 
+        fulgurante, entrainant des problématiques et enjeux importants. Par exemple, 
+        Il représente à l’échelle mondiale entre 4% et 6% des émissions de gaz à
         effet de serre, dépassant désormais le bilan carbone de l’aviation
         (resources : collectif Green IT)
         <span>

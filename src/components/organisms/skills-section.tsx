@@ -97,7 +97,7 @@ export const SkillsSection = () => {
       <>
         <SectionTitle
           title="MES COMPETENCES"
-          subtitle="Voilà ce que je sais faire"
+          subtitle="Languages, technos et outils"
         />
         <Grid
           container

@@ -121,7 +121,7 @@ export const TestimonialsSection = () => {
       <>
         <SectionTitle
           title="MES TEMOIGNAGES"
-          subtitle="Voilà ce que disent les gens avec qui j'ai travaillé"
+          subtitle="Ce que disent les gens avec qui j'ai travaillé"
           color="secondary"
         />
         <Box display="flex" marginTop={5} justifyContent="center" width="100%">
