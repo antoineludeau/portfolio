@@ -29,7 +29,7 @@ export const BouncingArrow = () => {
           duration={500}
         >
           <IconButton aria-label="go to next section button">
-          <ArrowDownwardIcon fontSize="large" sx={{ color: "white" }} />
+            <ArrowDownwardIcon fontSize="large" sx={{ color: "white" }} />
           </IconButton>
         </Link>
       </animated.div>

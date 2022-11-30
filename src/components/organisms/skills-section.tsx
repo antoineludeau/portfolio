@@ -4,7 +4,7 @@ import CommentIcon from "@mui/icons-material/Comment";
 
 import { SectionLayout } from "../templates";
 import { AutoScrollToSectionButton } from "../atoms";
-import { SectionTitle, SkillCard } from "../molecules";
+import { SkillCard } from "../molecules";
 
 import Climber from "../../assets/image/climbing.png";
 
@@ -93,44 +93,42 @@ const skills: Skill[] = [
 
 export const SkillsSection = () => {
   return (
-    <SectionLayout backgroundProps={{ backgroundColor }}>
-      <>
-        <SectionTitle
-          title="MES COMPETENCES"
-          subtitle="Languages, technos et outils"
-        />
-        <Grid
-          container
-          spacing={4}
-          justifyContent="center"
-          alignItems="top"
-          mt={3}
-          mb={5}
-        >
-          <Grid item md={3} xs={12}>
-            <SkillCard
-              logo={skills[0].logo}
-              title={skills[0].title}
-              subtitle={skills[0].subtitle}
-              subSkills={skills[0].subSkills}
-            ></SkillCard>
-          </Grid>
-          <Grid item md={1} xs={12} textAlign="center">
-            <img width="100" src={Climber} alt="climber" />
-          </Grid>
-          <Grid item md={3} xs={12}>
-            <SkillCard
-              logo={skills[1].logo}
-              title={skills[1].title}
-              subtitle={skills[1].subtitle}
-              subSkills={skills[1].subSkills}
-            ></SkillCard>
-          </Grid>
+    <SectionLayout
+      title="MES COMPETENCES"
+      subtitle="Languages, technos et outils"
+      backgroundProps={{ backgroundColor }}
+    >
+      <Grid
+        container
+        spacing={4}
+        justifyContent="center"
+        alignItems="top"
+        mt={3}
+        mb={5}
+      >
+        <Grid item md={3} xs={12}>
+          <SkillCard
+            logo={skills[0].logo}
+            title={skills[0].title}
+            subtitle={skills[0].subtitle}
+            subSkills={skills[0].subSkills}
+          ></SkillCard>
+        </Grid>
+        <Grid item md={1} xs={12} textAlign="center">
+          <img width="100" src={Climber} alt="climber" />
+        </Grid>
+        <Grid item md={3} xs={12}>
+          <SkillCard
+            logo={skills[1].logo}
+            title={skills[1].title}
+            subtitle={skills[1].subtitle}
+            subSkills={skills[1].subSkills}
+          ></SkillCard>
         </Grid>
         <Grid item xs={12} textAlign="center">
           <AutoScrollToSectionButton to="jobs" />
         </Grid>
-      </>
+      </Grid>
     </SectionLayout>
   );
 };

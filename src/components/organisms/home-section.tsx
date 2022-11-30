@@ -64,49 +64,47 @@ export const HomeSection = () => {
           backgroundSize: "cover",
         }}
       >
-        <>
-          <Grid container direction="column" spacing={2} mt={9}>
-            <Grid item>
-              <animated.div style={propsSprings[0]}>
-                <Typography variant="h1" component="div">
-                  Bonjour, je suis
-                </Typography>
-              </animated.div>
-            </Grid>
-            <Grid item>
-              <animated.div style={propsSprings[1]}>
-                <Typography variant="h2" component="div">
-                  Antoine Ludeau
-                </Typography>
-              </animated.div>
-            </Grid>
-            <Grid item>
-              <animated.div style={propsSprings[2]}>
-                <Typography
-                  variant="h4"
-                  component="div"
-                  sx={{
-                    fontStyle: "italic",
-                    fontWeight: "bold",
-                    width: "fit-content",
-                    backgroundColor: theme.palette.primary.light,
-                    borderRadius: "6px",
-                    padding: "3px 6px",
-                  }}
-                  color="secondary"
-                >
-                  Développeur Web Full Stack
-                </Typography>
-              </animated.div>
-            </Grid>
-            <Grid item>
-              <animated.div style={propsSprings[3]}>
-                <SocialLinks />
-              </animated.div>
-            </Grid>
+        <Grid container direction="column" spacing={2} mt={9}>
+          <Grid item>
+            <animated.div style={propsSprings[0]}>
+              <Typography variant="h1" component="div">
+                Bonjour, je suis
+              </Typography>
+            </animated.div>
+          </Grid>
+          <Grid item>
+            <animated.div style={propsSprings[1]}>
+              <Typography variant="h2" component="div">
+                Antoine Ludeau
+              </Typography>
+            </animated.div>
+          </Grid>
+          <Grid item>
+            <animated.div style={propsSprings[2]}>
+              <Typography
+                variant="h4"
+                component="div"
+                sx={{
+                  fontStyle: "italic",
+                  fontWeight: "bold",
+                  width: "fit-content",
+                  backgroundColor: theme.palette.primary.light,
+                  borderRadius: "6px",
+                  padding: "3px 6px",
+                }}
+                color="secondary"
+              >
+                Développeur Web Full Stack
+              </Typography>
+            </animated.div>
+          </Grid>
+          <Grid item>
+            <animated.div style={propsSprings[3]}>
+              <SocialLinks />
+            </animated.div>
           </Grid>
           <BouncingArrow />
-        </>
+        </Grid>
       </SectionLayout>
     </>
   );

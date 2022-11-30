@@ -73,7 +73,11 @@ export const SocialLinks = () => {
         >
           <EmailIcon fontSize="large" />
         </IconButton>
-        <Link href="https://www.linkedin.com/in/antoineludeau/" target="_blank" rel="noreferrer">
+        <Link
+          href="https://www.linkedin.com/in/antoineludeau/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <IconButton
             sx={{
               backgroundColor: "rgba(255,255,255,0.8)",
@@ -86,7 +90,11 @@ export const SocialLinks = () => {
             <LinkedInIcon fontSize="large" />
           </IconButton>
         </Link>
-        <Link href="https://www.malt.fr/profile/antoineludeau" target="_blank" rel="noreferrer">
+        <Link
+          href="https://www.malt.fr/profile/antoineludeau"
+          target="_blank"
+          rel="noreferrer"
+        >
           <IconButton
             sx={{
               width: "51px",

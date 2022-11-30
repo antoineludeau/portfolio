@@ -1,6 +1,5 @@
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
-import InfoIcon from "@mui/icons-material/Info";
 import Link from "@mui/material/Link";
 
 export const FooterSection = () => {

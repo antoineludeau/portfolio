@@ -6,7 +6,7 @@ import Divider from "@mui/material/Divider";
 
 import { SectionLayout } from "../templates";
 import { AutoScrollToSectionButton } from "../atoms";
-import { SectionTitle, ServiceCard } from "../molecules";
+import { ServiceCard } from "../molecules";
 
 import Malt from "../../assets/image/malt.png";
 import Service1 from "../../assets/image/service-1.png";
@@ -29,7 +29,7 @@ const services: Service[] = [
       et discuter de votre idée/projet. Si vous n’avez pas 
       encore de projet concret mais que vous voulez juste 
       discuter ou élargir votre réseau, c’est avec grand 
-      plaisir !`
+      plaisir !`,
   },
   {
     logo: Service2,
@@ -37,14 +37,14 @@ const services: Service[] = [
     description: `Détaillons votre besoin dans les moindres détails pendant 
     un rendez-vous de 1h. Cette étape me permettra de construire 
     des documents de spécifications que je vous présente ensuite 
-    pendant un nouveau rendez-vous de 1h.`
+    pendant un nouveau rendez-vous de 1h.`,
   },
   {
     logo: Service3,
     title: "Devis",
     description: `Je construis un devis qui répond le mieux à vos attentes 
       et vous le présente pendant un rendez-vous de 1h. Si vous 
-      acceptez le devis, nous commençons notre collaboration.`
+      acceptez le devis, nous commençons notre collaboration.`,
   },
   {
     logo: Service4,
@@ -52,93 +52,85 @@ const services: Service[] = [
     description: `C’est le moment de coder ! Pendant cette étape, je m’organise 
       en AGILE avec des sprints courts qui se terminent 
       par une démo, une livraison de code et la présentation du 
-      prochain sprint.`
+      prochain sprint.`,
   },
   {
     logo: Service5,
     title: "Livraison",
     description: `Je vous livre l’ensemble du code dans les délais et conforme à vos 
       exigences. Un déploiement en ligne peut-être éventuellement réalisé 
-      selon vos demandes.`
+      selon vos demandes.`,
   },
 ];
 
 export const ServicesSection = () => {
   return (
-    <SectionLayout>
-      <>
-        <SectionTitle
-          title="MES SERVICES"
-          subtitle="Rencontrons-nous et discutons de vos projets"
-        />
-        <Grid container direction="column" alignItems="center" mt={8} mb={8}>
-          <Grid item mb={8}>
-            <Grid container direction="column" spacing={3}>
-              <Grid item textAlign="center">
-                <Typography variant="h3" component="div" color="primary">
-                  1
+    <SectionLayout
+      title="MES SERVICES"
+      subtitle="Rencontrons-nous et discutons de vos projets"
+    >
+      <Grid container direction="column" alignItems="center" mt={8} mb={8}>
+        <Grid item mb={8}>
+          <Grid container direction="column" spacing={3}>
+            <Grid item textAlign="center">
+              <Typography variant="h3" component="div" color="primary">
+                1
+              </Typography>
+              <Typography variant="h5" component="div">
+                Contrat au temps passé
+              </Typography>
+              <Typography variant="body1" component="div">
+                Pour connaître mon TJM :
+              </Typography>
+              <Link
+                href="https://www.malt.fr/profile/antoineludeau"
+                target="_blank"
+                color="inherit"
+              >
+                <IconButton color="primary" aria-label="upload picture">
+                  <img width="30px" src={Malt} alt="malt icon" />
+                </IconButton>
+              </Link>
+            </Grid>
+            <Grid item>
+              <Divider variant="middle">
+                <Typography variant="h4" component="div">
+                  OU
                 </Typography>
-                <Typography variant="h5" component="div">
-                  Contrat au temps passé
-                </Typography>
-                <Typography variant="body1" component="div">
-                  Pour connaître mon TJM :
-                </Typography>
-                <Link
-                  href="https://www.malt.fr/profile/antoineludeau"
-                  target="_blank"
-                  color="inherit"
-                >
-                  <IconButton color="primary" aria-label="upload picture">
-                    <img width="30px" src={Malt} alt="malt icon" />
-                  </IconButton>
-                </Link>
-              </Grid>
-              <Grid item>
-                <Divider variant="middle">
-                  <Typography variant="h4" component="div">
-                    OU
-                  </Typography>
-                </Divider>
-              </Grid>
+              </Divider>
+            </Grid>
 
-              <Grid item textAlign="center">
-                <Typography variant="h3" component="div" color="primary">
-                  2
-                </Typography>
-                <Typography variant="h5" component="div">
-                  Contrat au forfait (devis)
-                </Typography>
-                <Typography variant="body1" component="div">
-                  Pour cette seconde option, mon mode de fonctionnement est le
-                  suivant :
-                </Typography>
-              </Grid>
+            <Grid item textAlign="center">
+              <Typography variant="h3" component="div" color="primary">
+                2
+              </Typography>
+              <Typography variant="h5" component="div">
+                Contrat au forfait (devis)
+              </Typography>
+              <Typography variant="body1" component="div">
+                Pour cette seconde option, mon mode de fonctionnement est le
+                suivant :
+              </Typography>
             </Grid>
           </Grid>
-          <Grid item>
-            <Grid
-              container
-              spacing={4}
-              justifyContent="center"
-              alignItems="top"
-            >
-              {services.map((service, index) => (
-                <Grid key={index} item md={2} sm={4} xs={12}>
-                  <ServiceCard
-                    logo={service.logo}
-                    title={service.title}
-                    description={service.description}
-                  ></ServiceCard>
-                </Grid>
-              ))}
-            </Grid>
+        </Grid>
+        <Grid item>
+          <Grid container spacing={4} justifyContent="center" alignItems="top">
+            {services.map((service, index) => (
+              <Grid key={index} item md={2} sm={4} xs={12}>
+                <ServiceCard
+                  logo={service.logo}
+                  title={service.title}
+                  description={service.description}
+                ></ServiceCard>
+              </Grid>
+            ))}
           </Grid>
         </Grid>
         <Grid item xs={12} textAlign="center">
           <AutoScrollToSectionButton to="skills" />
         </Grid>
-      </>
+      </Grid>
     </SectionLayout>
   );
 };

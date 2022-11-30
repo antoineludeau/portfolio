@@ -7,6 +7,7 @@ import { JobCard } from "./job-card";
 import { SocialLinks } from "./social-links";
 import { InitLoader } from "./init-loader";
 import { TestimonialStepper } from "./testimonial-stepper";
+import { PhilosophyCard } from "./philosophy-card";
 
 export {
   Menu,
@@ -17,5 +18,6 @@ export {
   JobCard,
   SocialLinks,
   InitLoader,
-  TestimonialStepper
+  TestimonialStepper,
+  PhilosophyCard,
 };

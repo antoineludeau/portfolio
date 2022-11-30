@@ -1,11 +1,10 @@
 import Grid from "@mui/material/Grid";
-import Typography from "@mui/material/Typography";
 import InfoIcon from "@mui/icons-material/Info";
 import Link from "@mui/material/Link";
-import { useTheme } from "@mui/material/styles";
 
+import { AutoScrollToSectionButton } from "../atoms";
+import { PhilosophyCard } from "../molecules";
 import { SectionLayout } from "../templates";
-import { AutoScrollToSectionButton, TextHighlighted } from "../atoms";
 
 import SignImage from "../../assets/image/sign.png";
 
@@ -77,7 +76,6 @@ const philosophyContentItems: philosophyContentItem[] = [
 ];
 
 export const PhilosophySection = () => {
-  const theme = useTheme();
   return (
     <SectionLayout
       backgroundProps={{ backgroundColor }}
@@ -86,34 +84,7 @@ export const PhilosophySection = () => {
     >
       <Grid container spacing={2} maxWidth={1800}>
         {philosophyContentItems.map((item, index) => (
-          <Grid key={index} item md={4} xs={12}>
-            <Grid container direction="column" alignItems="center">
-              <Grid item>
-                <Typography
-                  variant="h1"
-                  component="div"
-                  color="secondary"
-                  sx={{ textShadow: `5px 5px ${theme.palette.primary.main}` }}
-                >
-                  {index + 1}
-                </Typography>
-              </Grid>
-              <Grid item>
-                <TextHighlighted variant="h4">{item.title}</TextHighlighted>
-              </Grid>
-              <Grid item>
-                <Typography
-                  variant="h6"
-                  component="div"
-                  maxWidth="400px"
-                  textAlign="center"
-                >
-                  {item.description}
-                </Typography>
-              </Grid>
-              {item.illustration && <Grid item>{item.illustration}</Grid>}
-            </Grid>
-          </Grid>
+          <PhilosophyCard key={index} index={index} item={item} />
         ))}
         <Grid item xs={12} textAlign="center">
           <AutoScrollToSectionButton to="services" />

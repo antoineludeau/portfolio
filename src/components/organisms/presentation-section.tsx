@@ -24,26 +24,24 @@ const presentationContent: PresentationContent = {
 export const PresentationSection = () => {
   return (
     <SectionLayout verticallyCentered={true} horizontallyCentered={true}>
-      <Grid item>
-        <Grid container direction="column" alignItems="center">
-          <Grid item>
-            <TextHighlighted variant="h2">
-              {presentationContent.title}
-            </TextHighlighted>
-          </Grid>
-          <Grid item>
-            <Typography
-              variant="h5"
-              component="div"
-              maxWidth="600px"
-              textAlign="center"
-            >
-              {presentationContent.description}
-            </Typography>
-          </Grid>
-          <Grid item>
-            <AutoScrollToSectionButton to="philosophy" />
-          </Grid>
+      <Grid container direction="column" alignItems="center">
+        <Grid item>
+          <TextHighlighted variant="h2">
+            {presentationContent.title}
+          </TextHighlighted>
+        </Grid>
+        <Grid item>
+          <Typography
+            variant="h5"
+            component="div"
+            maxWidth="600px"
+            textAlign="center"
+          >
+            {presentationContent.description}
+          </Typography>
+        </Grid>
+        <Grid item>
+          <AutoScrollToSectionButton to="philosophy" />
         </Grid>
       </Grid>
     </SectionLayout>

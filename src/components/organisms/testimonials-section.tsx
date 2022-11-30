@@ -6,7 +6,6 @@ import { autoPlay } from "react-swipeable-views-utils";
 import { SectionLayout } from "../templates";
 import { AutoScrollToSectionButton } from "../atoms";
 import {
-  SectionTitle,
   TestimonialCard,
   TestimonialStepper,
 } from "../molecules";
@@ -117,13 +116,13 @@ export const TestimonialsSection = () => {
   };
 
   return (
-    <SectionLayout backgroundProps={backgroundProps}>
+    <SectionLayout
+      title="MES TEMOIGNAGES"
+      subtitle="Ce que disent les gens avec qui j'ai travaillé"
+      titleColor="white"
+      backgroundProps={backgroundProps}
+    >
       <>
-        <SectionTitle
-          title="MES TEMOIGNAGES"
-          subtitle="Ce que disent les gens avec qui j'ai travaillé"
-          color="secondary"
-        />
         <Box display="flex" marginTop={5} justifyContent="center" width="100%">
           <Box display="grid" maxWidth="400px" mb={10}>
             <AutoPlaySwipeableViews

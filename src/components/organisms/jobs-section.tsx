@@ -6,7 +6,7 @@ import Tab from "@mui/material/Tab";
 
 import { SectionLayout } from "../templates";
 import { AutoScrollToSectionButton } from "../atoms";
-import { SectionTitle, JobCard } from "../molecules";
+import { JobCard } from "../molecules";
 
 import DassaultSystemesLogo from "../../assets/image/dassault-systèmes.png";
 import HandsawayLogo from "../../assets/image/handsaway.png";
@@ -20,18 +20,21 @@ const jobs = [
     title: "Développeur Full Stack - CDI",
     subtitle: "3DVIA - Dassault Systèmes",
     subtitle2: "Jan. 2020 - Oct. 2022 - Paris",
-    technos: ["#REACT", "#TYPESCRIPT", "#NODEJS", "#POSTGRESQL", "#CYPRESS", "#AWS"],
+    technos: [
+      "#REACT",
+      "#TYPESCRIPT",
+      "#NODEJS",
+      "#POSTGRESQL",
+      "#CYPRESS",
+      "#AWS",
+    ],
     descriptionItems: [
-      `Développement «from scratch» d’applications web (REACT,
-              Typescript).`,
-      `Améliorations et nouvelles features de l’API
-              back-end (NodeJS).`,
-      `Gestion du pipeline de processing et
-              simplification des assets 3D sur Amazon Web Services (SQS, EC2,
-              S3, CloudWatch, ...).`,
-      `Mise en place du déploiement d'un micro-service 
-              (Amazon S3 local) pour l'amélioration de l'environnement local de tous 
-              les developpeurs de l'entreprise`,
+      `Développement «from scratch» d’applications web (REACT, Typescript).`,
+      `Améliorations et nouvelles features de l’API back-end (NodeJS).`,
+      `Gestion du pipeline de processing etsimplification des assets 3D 
+      sur Amazon Web Services (SQS, EC2,S3, CloudWatch, ...).`,
+      `Mise en place du déploiement d'un micro-service (Amazon S3 local) 
+      pour l'amélioration de l'environnement local de tous les developpeurs de l'entreprise`,
     ],
   },
   {
@@ -40,7 +43,7 @@ const jobs = [
     title: "Développeur Back-end - Bénévole",
     subtitle: "Handaway",
     subtitle2: "Sept. 2020 - Avril. 2021 - Paris",
-    technos:["#NESTJS", "#AWS"],
+    technos: ["#NESTJS", "#AWS"],
     descriptionItems: [
       `Responsable technique de l'API pour l'application mobile (NestJS)`,
       `Création de nouvelles routes et amélioration des routes existantes selon les besoins du front-end`,
@@ -55,12 +58,9 @@ const jobs = [
     subtitle2: "Jan. 2017 - Déc. 2019 - Paris",
     technos: ["#INTEGRATION-API", "#JIRA", "#INVISION"],
     descriptionItems: [
-      `Specification de «story» pour les sprint d’une équipe de
-            developpeurs.`,
-      `Organisation des différentes étapes de vie des
-            sprint (planning, démo, ...).`,
-      `Expertise technique auprès des
-            clients sur le process liés aux données.`,
+      `Specification de «story» pour les sprint d’une équipe de developpeurs.`,
+      `Organisation des différentes étapes de vie des sprint (planning, démo, ...).`,
+      `Expertise technique auprès des clients sur le process liés aux données.`,
     ],
   },
   {
@@ -71,11 +71,9 @@ const jobs = [
     subtitle2: "Déc. 2015 - Déc. 2016 - Paris",
     technos: ["#ENTREPRENEURIAT"],
     descriptionItems: [
-      `Création d’un produit et d’un concept nouveau de jus de fruit
-  en dosette.`,
-      `Participation à des concours qui ont mené à
-  l’incubation par «Petit Poucet Incubateur» et le «Centre
-  d’Innovation de l’UTC Compiègne».`,
+      `Création d’un produit et d’un concept nouveau de jus de fruit en dosette.`,
+      `Participation à des concours qui ont mené à l’incubation par «Petit Poucet Incubateur» et le «Centre 
+      d’Innovation de l’UTC Compiègne».`,
     ],
   },
   {
@@ -86,12 +84,9 @@ const jobs = [
     subtitle2: "Févr. 2015 - Déc. 2015 - Hendaye",
     technos: ["#CONCEPTION", "#DESIGN"],
     descriptionItems: [
-      `Conception et Développement de produits, du design à la
-    production, en passant par la conception 3D, le prototypage, les
-    tests techniques, le pricing et la collaboration avec de
-    nombreux fournisseurs.`,
-      `Proposition et création complète d’un
-    produit de la gamme qui est vendu en magasin depuis mai 2016.`,
+      `Conception et Développement de produits, du design à la production, en passant par 
+      la conception 3D, le prototypage, les tests techniques, le pricing et la collaboration avec de nombreux fournisseurs.`,
+      `Proposition et création complète d’un produit de la gamme qui est vendu en magasin depuis mai 2016.`,
     ],
   },
 ];
@@ -136,12 +131,11 @@ export const JobsSection = () => {
     setValue(newValue);
   };
   return (
-    <SectionLayout>
+    <SectionLayout
+      title="MON EXPERIENCE"
+      subtitle="Voici un condensé de mes récentes expériences professionnelles"
+    >
       <>
-        <SectionTitle
-          title="MON EXPERIENCE"
-          subtitle="Voici un condensé de mes récentes expériences professionnelles"
-        />
         <Box display="flex" justifyContent="center" mt={7} mb={5}>
           <Tabs
             orientation="vertical"
