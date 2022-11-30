@@ -2,6 +2,7 @@ import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import InfoIcon from "@mui/icons-material/Info";
 import Link from "@mui/material/Link";
+import { useTheme } from "@mui/material/styles";
 
 import { SectionLayout } from "../templates";
 import { AutoScrollToSectionButton, TextHighlighted } from "../atoms";
@@ -23,11 +24,11 @@ const philosophyContentItems: philosophyContentItem[] = [
       <p>
         Le numérique est un outil incroyable. Il est utilisé partout dans notre
         vie quotidienne et notre vie professionnelle (4 milliards
-        d’utilisateurs). Aussi, le secteur du numérique connait une croissance 
-        fulgurante, entrainant des problématiques et enjeux importants. Par exemple, 
-        Il représente à l’échelle mondiale entre 4% et 6% des émissions de gaz à
-        effet de serre, dépassant désormais le bilan carbone de l’aviation
-        (resources : collectif Green IT)
+        d’utilisateurs). Aussi, le secteur du numérique connait une croissance
+        fulgurante, entrainant des problématiques et enjeux importants. Par
+        exemple, Il représente à l’échelle mondiale entre 4% et 6% des émissions
+        de gaz à effet de serre, dépassant désormais le bilan carbone de
+        l’aviation (resources : collectif Green IT)
         <span>
           <Link
             href="https://www.greenit.fr/2020/10/06/4-des-emissions-de-ges/"
@@ -76,6 +77,7 @@ const philosophyContentItems: philosophyContentItem[] = [
 ];
 
 export const PhilosophySection = () => {
+  const theme = useTheme();
   return (
     <SectionLayout
       backgroundProps={{ backgroundColor }}
@@ -91,7 +93,7 @@ export const PhilosophySection = () => {
                   variant="h1"
                   component="div"
                   color="secondary"
-                  sx={{ textShadow: "5px 5px #e4a0a1" }}
+                  sx={{ textShadow: `5px 5px ${theme.palette.primary.main}` }}
                 >
                   {index + 1}
                 </Typography>

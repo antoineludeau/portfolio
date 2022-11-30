@@ -1,12 +1,6 @@
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-
-const backgroundProps = {
-  background: "linear-gradient(120deg, #e4a0a1 0%, #e4a0a1 100%)",
-  backgroundRepeat: "no-repeat",
-  backgroundSize: "100% 40%",
-  backgroundPosition: "0 90%",
-};
+import { useTheme } from "@mui/material/styles";
 
 interface TextHighlightedProps {
   variant: TextHighlightedVariantProps;
@@ -36,6 +30,14 @@ export const TextHighlighted = ({
   color,
   children,
 }: TextHighlightedProps) => {
+  const theme = useTheme();
+
+  const backgroundProps = {
+    background: `linear-gradient(120deg, ${theme.palette.primary.main}  0%, ${theme.palette.primary.main} 100%)`,
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "100% 40%",
+    backgroundPosition: "0 90%",
+  };
   return (
     <Box display="flex" justifyContent="center">
       <Typography

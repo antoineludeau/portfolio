@@ -42,7 +42,7 @@ export const PresentationSection = () => {
             </Typography>
           </Grid>
           <Grid item>
-            <AutoScrollToSectionButton to="philosophy"/>
+            <AutoScrollToSectionButton to="philosophy" />
           </Grid>
         </Grid>
       </Grid>

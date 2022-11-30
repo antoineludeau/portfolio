@@ -47,17 +47,13 @@ export const JobCard = ({
         </Typography>
       </Grid>
       <Grid item sx={{ p: 1, lineHeight: 2 }}>
-        {technos?.map((techno) => (
-          <Chip sx={{ textColor: "white" }} label={techno} />
+        {technos?.map((techno, index) => (
+          <Chip key={index} sx={{ textColor: "white" }} label={techno} />
         ))}
       </Grid>
       {descriptionItems.map((descriptionItem, index) => (
         <Grid key={index} item>
-          <Typography
-            variant="body1"
-            component="div"
-            display= "list-item"
-          >
+          <Typography variant="body1" component="div" display="list-item">
             {descriptionItem}
           </Typography>
         </Grid>

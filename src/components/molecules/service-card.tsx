@@ -7,11 +7,7 @@ interface ServiceCardProps {
   description: string;
 }
 
-export const ServiceCard = ({
-  logo,
-  title,
-  description,
-}: ServiceCardProps) => {
+export const ServiceCard = ({ logo, title, description }: ServiceCardProps) => {
   return (
     <Grid container spacing={1} direction="column" alignItems="center">
       <Grid item>

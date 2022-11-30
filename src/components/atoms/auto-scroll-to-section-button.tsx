@@ -1,6 +1,7 @@
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import IconButton from "@mui/material/IconButton";
 import { Link } from "react-scroll";
+import { useTheme } from "@mui/material/styles";
 
 interface AutoScrollToSectionButtonProps {
   to: string;
@@ -9,6 +10,7 @@ interface AutoScrollToSectionButtonProps {
 export const AutoScrollToSectionButton = ({
   to,
 }: AutoScrollToSectionButtonProps) => {
+  const theme = useTheme();
   return (
     <Link
       to={to}
@@ -18,7 +20,7 @@ export const AutoScrollToSectionButton = ({
       duration={500}
     >
       <IconButton aria-label="go to next section button">
-        <KeyboardArrowDownIcon sx={{ color: "#e4a0a1" }} />
+        <KeyboardArrowDownIcon sx={{ color: theme.palette.primary.main }} />
       </IconButton>
     </Link>
   );
