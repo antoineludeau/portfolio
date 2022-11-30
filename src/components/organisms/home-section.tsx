@@ -63,7 +63,6 @@ export const HomeSection = () => {
         }}
       >
         <>
-          <Grid item>
             <Grid container direction="column" spacing={2} mt={9}>
               <Grid item>
                 <animated.div style={propsSprings[0]}>
@@ -104,7 +103,6 @@ export const HomeSection = () => {
                 </animated.div>
               </Grid>
             </Grid>
-          </Grid>
           <BouncingArrow />
         </>
       </SectionLayout>
