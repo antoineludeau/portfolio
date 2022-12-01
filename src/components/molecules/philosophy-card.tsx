@@ -39,6 +39,7 @@ export const PhilosophyCard = ({ index, item }: PhilosophyCardProps) => {
             component="div"
             maxWidth="400px"
             textAlign="center"
+            p={2}
           >
             {item.description}
           </Typography>
