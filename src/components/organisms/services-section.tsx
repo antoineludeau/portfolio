@@ -1,14 +1,9 @@
 import Grid from "@mui/material/Grid";
-import Typography from "@mui/material/Typography";
-import IconButton from "@mui/material/IconButton";
-import Link from "@mui/material/Link";
-import Divider from "@mui/material/Divider";
 
 import { SectionLayout } from "../templates";
 import { AutoScrollToSectionButton } from "../atoms";
 import { ServiceCard } from "../molecules";
 
-import Malt from "../../assets/image/malt.png";
 import Service1 from "../../assets/image/service-1.png";
 import Service2 from "../../assets/image/service-2.png";
 import Service3 from "../../assets/image/service-3.png";
@@ -66,67 +61,25 @@ const services: Service[] = [
 export const ServicesSection = () => {
   return (
     <SectionLayout
-      title="MES SERVICES"
+      title="MON PROCESSUS"
       subtitle="Rencontrons-nous et discutons de vos projets"
     >
-      <Grid container direction="column" alignItems="center" mt={8} mb={8}>
-        <Grid item mb={8}>
-          <Grid container direction="column" spacing={3}>
-            <Grid item textAlign="center">
-              <Typography variant="h3" component="div" color="primary">
-                1
-              </Typography>
-              <Typography variant="h5" component="div">
-                Contrat au temps passé
-              </Typography>
-              <Typography variant="body1" component="div">
-                Pour connaître mon TJM :
-              </Typography>
-              <Link
-                href="https://www.malt.fr/profile/antoineludeau"
-                target="_blank"
-                color="inherit"
-              >
-                <IconButton color="primary" aria-label="upload picture">
-                  <img width="30px" src={Malt} alt="malt icon" />
-                </IconButton>
-              </Link>
-            </Grid>
-            <Grid item>
-              <Divider variant="middle">
-                <Typography variant="h4" component="div">
-                  OU
-                </Typography>
-              </Divider>
-            </Grid>
-
-            <Grid item textAlign="center">
-              <Typography variant="h3" component="div" color="primary">
-                2
-              </Typography>
-              <Typography variant="h5" component="div">
-                Contrat au forfait (devis)
-              </Typography>
-              <Typography variant="body1" component="div">
-                Pour cette seconde option, mon mode de fonctionnement est le
-                suivant :
-              </Typography>
-            </Grid>
+      <Grid
+        container
+        spacing={4}
+        justifyContent="center"
+        alignItems="top"
+        mt={9}
+      >
+        {services.map((service, index) => (
+          <Grid key={index} item lg={2} md={4} xs={12}>
+            <ServiceCard
+              logo={service.logo}
+              title={service.title}
+              description={service.description}
+            ></ServiceCard>
           </Grid>
-        </Grid>
-        <Grid item>
-          <Grid container spacing={4} justifyContent="center" alignItems="top">
-            {services.map((service, index) => (
-              <Grid key={index} item md={2} sm={4} xs={12}>
-                <ServiceCard
-                  logo={service.logo}
-                  title={service.title}
-                  description={service.description}
-                ></ServiceCard>
-              </Grid>
-            ))}
-          </Grid>
-        </Grid>
+        ))}
         <Grid item xs={12} textAlign="center">
           <AutoScrollToSectionButton to="skills" />
         </Grid>
