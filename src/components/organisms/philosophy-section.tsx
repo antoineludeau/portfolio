@@ -1,6 +1,4 @@
 import Grid from "@mui/material/Grid";
-import InfoIcon from "@mui/icons-material/Info";
-import Link from "@mui/material/Link";
 
 import { AutoScrollToSectionButton } from "../atoms";
 import { PhilosophyCard } from "../molecules";
@@ -19,58 +17,31 @@ interface philosophyContentItem {
 const philosophyContentItems: philosophyContentItem[] = [
   {
     title: "Mon Constat",
-    description: (
-      <p>
-        Le numérique est un outil incroyable. Il est utilisé partout dans notre
-        vie quotidienne et notre vie professionnelle (4 milliards
-        d’utilisateurs). Aussi, le secteur du numérique connait une croissance
-        fulgurante, entrainant des problématiques et enjeux importants. Par
-        exemple, Il représente à l’échelle mondiale entre 4% et 6% des émissions
-        de gaz à effet de serre, dépassant désormais le bilan carbone de
-        l’aviation (resources : collectif Green IT)
-        <span>
-          <Link
-            href="https://www.greenit.fr/2020/10/06/4-des-emissions-de-ges/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <InfoIcon />
-          </Link>
-        </span>
-      </p>
-    ),
+    description: `Le numérique est un outil incroyable. Il est utilisé partout 
+      dans notre
+      vie quotidienne et notre vie professionnelle (4 milliards
+      d’utilisateurs). Aussi, le secteur du numérique connait une croissance
+      fulgurante, entrainant des problématiques et enjeux importants. Par
+      exemple, Il représente à l’échelle mondiale entre 4% et 6% des émissions
+      de gaz à effet de serre, dépassant désormais le bilan carbone de l’aviation
+      `,
     illustration: undefined,
   },
   {
     title: "Ma Méthode",
-    description: (
-      <p>
-        Ma méthode est d’appliquer le numérique responsable : concilier la
-        transition numérique de nos sociétés avec les urgences écologiques et
-        sociales. Aujourd’hui, on ne peut plus se permettre de répondre à des
-        envies, on doit répondre à de réels besoins.
-      </p>
-    ),
+    description: `Ma méthode est d’appliquer le numérique responsable : concilier la
+      transition numérique de nos sociétés avec les urgences écologiques et
+      sociales. Aujourd’hui, on ne peut plus se permettre de répondre à des
+      envies, on doit répondre à de réels besoins.
+    `,
     illustration: <img src={SignImage} width="100" alt="moutain sign" />,
   },
   {
     title: "Mon Objectif",
-    description: (
-      <p>
-        Mon but est d’utiliser cet outil génial qu’est le numérique, pour
-        réaliser des projets à impact environnemental et/ou social, afin de
-        répondre aux 17 objectifs de développement durable définis par l’ONU.
-        <span>
-          <Link
-            href="https://www.un.org/sustainabledevelopment/fr/objectifs-de-developpement-durable/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <InfoIcon />
-          </Link>
-        </span>
-      </p>
-    ),
+    description: `
+      Mon but est d’utiliser cet outil génial qu’est le numérique, pour
+      réaliser des projets à impact environnemental et/ou social, afin de
+      répondre aux 17 objectifs de développement durable définis par l’ONU.`,
     illustration: undefined,
   },
 ];
