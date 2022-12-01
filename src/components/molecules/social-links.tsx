@@ -37,7 +37,7 @@ export const SocialLinks = () => {
       <Box>
         <IconButton
           sx={{
-            backgroundColor: "rgba(255,255,255,0.8)",
+            backgroundColor: "white",
             color: "black",
             margin: "10px",
           }}
@@ -56,7 +56,7 @@ export const SocialLinks = () => {
         </IconButton>
         <IconButton
           sx={{
-            backgroundColor: "rgba(255,255,255,0.8)",
+            backgroundColor: "white",
             color: "black",
             margin: "10px",
           }}
@@ -80,7 +80,7 @@ export const SocialLinks = () => {
         >
           <IconButton
             sx={{
-              backgroundColor: "rgba(255,255,255,0.8)",
+              backgroundColor: "white",
               color: "black",
               margin: "10px",
             }}
@@ -99,7 +99,7 @@ export const SocialLinks = () => {
             sx={{
               width: "51px",
               height: "51px",
-              backgroundColor: "rgba(255,255,255,0.8)",
+              backgroundColor: "white",
               color: "black",
               margin: "10px",
             }}
