@@ -108,11 +108,7 @@ function TabPanel(props: TabPanelProps) {
       aria-labelledby={`vertical-tab-${index}`}
       {...other}
     >
-      {value === index && (
-        <Box sx={{ p: 3 }}>
-          <Typography component="div">{children}</Typography>
-        </Box>
-      )}
+      {value === index && <Box sx={{ p: 3 }}>{children}</Box>}
     </div>
   );
 }
@@ -142,7 +138,7 @@ export const JobsSection = () => {
             value={value}
             onChange={handleChange}
             aria-label="Job tabs"
-            sx={{ borderRight: 1, borderColor: "divider", minWidth: "100px" }}
+            sx={{ borderRight: 3, borderColor: "divider", minWidth: "100px" }}
           >
             {jobs.map((job, index) => (
               <Tab key={index} label={job.company} {...a11yProps(index)} />
