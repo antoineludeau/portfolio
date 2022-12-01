@@ -20,7 +20,10 @@ export const AutoScrollToSectionButton = ({
       duration={500}
     >
       <IconButton aria-label="go to next section button">
-        <KeyboardArrowDownIcon sx={{ color: theme.palette.primary.main }} />
+        <KeyboardArrowDownIcon
+          fontSize="large"
+          sx={{ color: theme.palette.primary.main }}
+        />
       </IconButton>
     </Link>
   );
