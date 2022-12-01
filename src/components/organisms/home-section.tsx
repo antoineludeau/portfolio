@@ -64,7 +64,7 @@ export const HomeSection = () => {
           backgroundSize: "cover",
         }}
       >
-        <Grid container direction="column" spacing={2} mt={9}>
+        <Grid container direction="column" spacing={2} p={2}>
           <Grid item>
             <animated.div style={propsSprings[0]}>
               <Typography variant="h1" component="div">
