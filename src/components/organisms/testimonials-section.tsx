@@ -5,10 +5,7 @@ import { autoPlay } from "react-swipeable-views-utils";
 
 import { SectionLayout } from "../templates";
 import { AutoScrollToSectionButton } from "../atoms";
-import {
-  TestimonialCard,
-  TestimonialStepper,
-} from "../molecules";
+import { TestimonialCard, TestimonialStepper } from "../molecules";
 
 import JulesColin from "../../assets/image/jules-colin.png";
 import GauthierSaillard from "../../assets/image/gauthier-saillard.png";
@@ -124,7 +121,7 @@ export const TestimonialsSection = () => {
     >
       <>
         <Box display="flex" marginTop={5} justifyContent="center" width="100%">
-          <Box display="grid" maxWidth="400px" mb={10}>
+          <Box display="grid" maxWidth="500px" mb={10}>
             <AutoPlaySwipeableViews
               index={activeStep}
               onChangeIndex={handleStepChange}
