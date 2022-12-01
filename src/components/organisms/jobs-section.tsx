@@ -22,10 +22,13 @@ const jobs = [
     technos: [
       "#REACT",
       "#TYPESCRIPT",
+      "#MATERIAL-UI",
       "#NODEJS",
       "#POSTGRESQL",
       "#CYPRESS",
+      "#DOCKER",
       "#AWS",
+      "#AGILE"
     ],
     descriptionItems: [
       `Développement «from scratch» d’applications web (REACT, Typescript).`,
