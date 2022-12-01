@@ -58,7 +58,7 @@ const services: Service[] = [
   },
 ];
 
-export const ServicesSection = () => {
+export const ProcessSection = () => {
   return (
     <SectionLayout
       title="MON PROCESSUS"

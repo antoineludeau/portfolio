@@ -5,7 +5,7 @@ interface TemplateMainProps {
   homeSection: React.ReactNode;
   presentationSection: React.ReactNode;
   philosophySection: React.ReactNode;
-  servicesSection: React.ReactNode;
+  processSection: React.ReactNode;
   skillsSection: React.ReactNode;
   jobsSection: React.ReactNode;
   testimonialsSection: React.ReactNode;
@@ -18,7 +18,7 @@ export const TemplateMain = ({
   homeSection,
   presentationSection,
   philosophySection,
-  servicesSection,
+  processSection,
   skillsSection,
   jobsSection,
   testimonialsSection,
@@ -38,8 +38,8 @@ export const TemplateMain = ({
         <Grid id="philosophy" item>
           {philosophySection}
         </Grid>
-        <Grid id="services" item>
-          {servicesSection}
+        <Grid id="process" item>
+          {processSection}
         </Grid>
         <Grid id="skills" item>
           {skillsSection}

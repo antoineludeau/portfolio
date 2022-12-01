@@ -3,7 +3,7 @@ import {
   HomeSection,
   PresentationSection,
   PhilosophySection,
-  ServicesSection,
+  ProcessSection,
   SkillsSection,
   JobsSection,
   TestimonialsSection,
@@ -19,7 +19,7 @@ const Main = () => {
       homeSection={<HomeSection />}
       presentationSection={<PresentationSection />}
       philosophySection={<PhilosophySection />}
-      servicesSection={<ServicesSection />}
+      processSection={<ProcessSection />}
       skillsSection={<SkillsSection />}
       jobsSection={<JobsSection />}
       testimonialsSection={<TestimonialsSection />}

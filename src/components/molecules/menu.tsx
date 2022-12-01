@@ -37,8 +37,8 @@ const menuItems = [
     icon: <ParkIcon />,
   },
   {
-    id: "services",
-    text: "Services",
+    id: "process",
+    text: "Processus",
     icon: <WorkspacesIcon />,
   },
   {

@@ -58,7 +58,7 @@ export const PhilosophySection = () => {
           <PhilosophyCard key={index} index={index} item={item} />
         ))}
         <Grid item xs={12} textAlign="center">
-          <AutoScrollToSectionButton to="services" />
+          <AutoScrollToSectionButton to="process" />
         </Grid>
       </Grid>
     </SectionLayout>
