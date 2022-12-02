@@ -87,8 +87,9 @@ const jobs = [
     subtitle2: "Févr. 2015 - Déc. 2015 - Hendaye",
     technos: ["#CONCEPTION", "#DESIGN"],
     descriptionItems: [
-      `Conception et Développement de produits, du design à la production, en passant par 
-      la conception 3D, le prototypage, les tests techniques, le pricing et la collaboration avec de nombreux fournisseurs.`,
+      `Conception et développement de produits, du design à la production, en passant par 
+      la conception 3D, le prototypage, les tests techniques, le pricing et la collaboration 
+      avec de nombreux fournisseurs.`,
       `Proposition et création complète d’un produit de la gamme qui est vendu en magasin depuis mai 2016.`,
     ],
   },
