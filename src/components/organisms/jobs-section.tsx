@@ -62,7 +62,8 @@ const jobs = [
     descriptionItems: [
       `Specification de «story» pour les sprint d’une équipe de developpeurs.`,
       `Organisation des différentes étapes de vie des sprint (planning, démo, ...).`,
-      `Expertise technique auprès des clients sur le process liés aux données.`,
+      `Expertise technique auprès des clients sur le process liés aux données et
+      à l'intégration de l'API.`,
     ],
   },
   {
