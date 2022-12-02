@@ -36,7 +36,7 @@ const jobs = [
       `Gestion du pipeline de processing et simplification des assets 3D 
       sur Amazon Web Services (SQS, EC2,S3, CloudWatch, ...).`,
       `Mise en place du déploiement d'un micro-service (Amazon S3 local) 
-      pour l'amélioration de l'environnement local de tous les developpeurs de l'entreprise`,
+      pour l'amélioration de l'environnement local de tous les developpeurs de l'entreprise.`,
     ],
   },
   {
@@ -47,9 +47,9 @@ const jobs = [
     subtitle2: "Sept. 2020 - Avril. 2021 - Paris",
     technos: ["#NESTJS", "#AWS"],
     descriptionItems: [
-      `Responsable technique de l'API pour l'application mobile (NestJS)`,
-      `Création de nouvelles routes et amélioration des routes existantes selon les besoins du front-end`,
-      `Gestion de la base de données sur AWS`,
+      `Responsable technique de l'API pour l'application mobile (NestJS).`,
+      `Création de nouvelles routes et amélioration des routes existantes selon les besoins du front-end.`,
+      `Gestion de la base de données sur AWS.`,
     ],
   },
   {
