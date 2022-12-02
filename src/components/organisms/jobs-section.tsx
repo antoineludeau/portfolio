@@ -33,7 +33,7 @@ const jobs = [
     descriptionItems: [
       `Développement «from scratch» d’applications web (REACT, Typescript).`,
       `Améliorations et nouvelles features de l’API back-end (NodeJS).`,
-      `Gestion du pipeline de processing etsimplification des assets 3D 
+      `Gestion du pipeline de processing et simplification des assets 3D 
       sur Amazon Web Services (SQS, EC2,S3, CloudWatch, ...).`,
       `Mise en place du déploiement d'un micro-service (Amazon S3 local) 
       pour l'amélioration de l'environnement local de tous les developpeurs de l'entreprise`,
