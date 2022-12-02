@@ -1,7 +1,6 @@
 import Box from "@mui/material/Box";
 import { useState } from "react";
 import SwipeableViews from "react-swipeable-views";
-import { autoPlay } from "react-swipeable-views-utils";
 
 import { SectionLayout } from "../templates";
 import { AutoScrollToSectionButton } from "../atoms";
@@ -11,6 +10,7 @@ import JulesColin from "../../assets/image/jules-colin.png";
 import GauthierSaillard from "../../assets/image/gauthier-saillard.png";
 import ThibautTavernier from "../../assets/image/thibaut-tavernier.png";
 import SammyGad from "../../assets/image/sammy-gad.png";
+import PierrePassavy from "../../assets/image/pierre-passavy.png"
 
 import MountainSunset from "../../assets/image/mountain-top.png";
 
@@ -33,7 +33,7 @@ const testimonials: Testimonials[] = [
   {
     avatar: ThibautTavernier,
     title: `Thibaut Tavernier`,
-    subtitle: `Responsable Equipe Chef de Projet - 3DVIA - Dassault Systèmes`,
+    subtitle: `Responsable Equipe Chef de Projet - Dassault Systèmes`,
     subtitle2: `En 2019, Thibaut était mon manager direct chez Dassault Systèmes`,
     description: `J'ai eu la chance de recruter Antoine en pleine 
       construction d'une nouvelle équipe et j'ai pu m'appuyer 
@@ -43,6 +43,23 @@ const testimonials: Testimonials[] = [
       de contenu. Antoine est appliqué, consciencieux et toujours 
       souriant. Ça été un réel plaisir de travailler avec lui 
       ces 5 dernières années.`,
+  },
+  {
+    avatar: PierrePassavy,
+    title: "Pierre Passavy",
+    subtitle: "Senior International Project Manager - Dassault Systèmes",
+    subtitle2:
+      "En 2018, Pierre travaillait dans la même équipe que moi chez Dassault Systèmes",
+    description: `J'ai eu la chance de travailler avec Antoine sur des 
+    problématiques de production et d'administration de données complexes 
+    à grande échelle, dans l'univers de configurateurs 3D. Son goût pour 
+    la qualité, d'aller au bout des choses, d'approfondir sans cesse avec 
+    exigence, sa curiosité pour toujours apprendre et challenger l'existant, 
+    sa volonté de produire le meilleur code, le plus propre possible, et 
+    surtout son tempérament toujours positif, à chercher et trouver des 
+    solutions dans des situations compliquées ont fait de son apport un facteur 
+    clé de succès des projets que nous avions à accomplir ensemble. J'espère 
+    avoir à nouveau la chance de travailler avec Antoine un jour prochain.`,
   },
   {
     avatar: SammyGad,
@@ -94,11 +111,9 @@ const testimonials: Testimonials[] = [
   },
 ];
 
-const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
-
 export const TestimonialsSection = () => {
   const [activeStep, setActiveStep] = useState(0);
-  const maxSteps = 5;
+  const maxSteps = testimonials.length;
 
   const handleNext = () => {
     setActiveStep((prevActiveStep) => prevActiveStep + 1);
@@ -122,11 +137,10 @@ export const TestimonialsSection = () => {
       <>
         <Box display="flex" marginTop={5} justifyContent="center" width="100%">
           <Box display="grid" maxWidth="500px" mb={10}>
-            <AutoPlaySwipeableViews
+            <SwipeableViews
               index={activeStep}
               onChangeIndex={handleStepChange}
               enableMouseEvents
-              interval={30000}
             >
               {testimonials.map((testimonial, index) => (
                 <TestimonialCard
@@ -138,7 +152,7 @@ export const TestimonialsSection = () => {
                   description={testimonial.description}
                 ></TestimonialCard>
               ))}
-            </AutoPlaySwipeableViews>
+            </SwipeableViews>
             <TestimonialStepper
               maxSteps={maxSteps}
               activeStep={activeStep}
