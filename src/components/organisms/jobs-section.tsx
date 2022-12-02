@@ -49,7 +49,7 @@ const jobs = [
     descriptionItems: [
       `Responsable technique de l'API pour l'application mobile (NestJS)`,
       `Création de nouvelles routes et amélioration des routes existantes selon les besoins du front-end`,
-      `Gestion de la base de donnée sur AWS`,
+      `Gestion de la base de données sur AWS`,
     ],
   },
   {
