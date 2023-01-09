@@ -7,12 +7,31 @@ import { SectionLayout } from "../templates";
 import { AutoScrollToSectionButton } from "../atoms";
 import { JobCard } from "../molecules";
 
+import BetaGouv from "../../assets/image/betagouv.png";
 import DassaultSystemesLogo from "../../assets/image/dassault-systèmes.png";
 import HandsawayLogo from "../../assets/image/handsaway.png";
 import SommetLogo from "../../assets/image/sommet.png";
 import OlaianLogo from "../../assets/image/olaian.png";
 
 const jobs = [
+  {
+    logo: BetaGouv,
+    company: "Beta.gouv",
+    title: "Développeur Full Stack - Freelance",
+    subtitle: "Beta.gouv & IGN (L'Institut National de l'Information Géographique et Forestière)",
+    subtitle2: "Déc. 2022 - Aujourd'hui - Paris",
+    technos: [
+      "#NextJS",
+      "#MongoDB",
+      "#Figma"
+    ],
+    descriptionItems: [
+      `Audit et amélioration de l'architecture globale de la plateforme.`,
+      `Refonte du site internet (Next.js).`,
+      `Améliorations et nouvelles features des différentes APIs (NodeJS).`,
+      `Amélioration des déploiements de développement et de production (Docker, Docker-Compose).`,
+    ],
+  },
   {
     logo: DassaultSystemesLogo,
     company: "Dassault Systèmes",
