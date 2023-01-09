@@ -38,6 +38,7 @@ const skills: Skill[] = [
         title: "FRONT-END",
         list: [
           { title: "REACT", progress: 90 },
+          { title: "NEXTJS", progress: 90 },
           { title: "TYPESCRIPT", progress: 90 },
           { title: "MATERIAL UI", progress: 90 },
           { title: "CYPRESS", progress: 80 },
@@ -49,8 +50,9 @@ const skills: Skill[] = [
         list: [
           { title: "NODEJS", progress: 90 },
           { title: "API REST", progress: 90 },
-          { title: "SQL", progress: 70 },
-          { title: "MONGODB", progress: 60 },
+          { title: "MONGODB", progress: 70 },
+          { title: "SQL", progress: 60 },
+
         ],
       },
       {
