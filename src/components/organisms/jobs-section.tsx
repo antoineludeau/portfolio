@@ -21,12 +21,16 @@ const jobs = [
     subtitle: "Beta.gouv & IGN (L'Institut National de l'Information Géographique et Forestière)",
     subtitle2: "Déc. 2022 - Aujourd'hui - Paris",
     technos: [
-      "#NextJS",
-      "#MongoDB",
-      "#Figma"
+      "#NEXTJS",
+      "#MONGODB",
+      "#POSTGRESQL",
+      "#NODEJS",
+      "#DOCKER",
+      "#TYPESCRIPT",
     ],
     descriptionItems: [
-      `Audit et amélioration de l'architecture globale de la plateforme.`,
+      `Amélioration de l'architecture globale de la plateforme.`,
+      `Mise en place d'une base de données PostgreSQL (schémas, migrations, backups,...) pour centraliser les données d'adresses de l'intégralité de la France.`,
       `Refonte du site internet (Next.js).`,
       `Améliorations et nouvelles features des différentes APIs (NodeJS).`,
       `Amélioration des déploiements de développement et de production (Docker, Docker-Compose).`,
