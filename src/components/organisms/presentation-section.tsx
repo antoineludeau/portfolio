@@ -13,15 +13,15 @@ const presentationContent: PresentationContent = {
   title: "Enchanté.",
   description: (
     <p>
-      Passionné de création, je développe aujourd’hui des{" "}
-      <b>applications digitales en freelance</b>. Issu d’un cursus d’ingénieur
+      Passionné de création, je développe aujourd’hui des
+      <b> applications digitales en freelance</b>. Issu d’un cursus d’ingénieur
       en mécanique suivi d'expériences entrepreneuriales, je me suis réorienté
-      vers le développement informatique <b>depuis plus de 4 ans</b>.
+      vers le développement informatique <b>depuis plus de 5 ans</b>.
       L’originalité de mon parcours et ma <b>sensibilité au design</b>, me
       permettent aujourd’hui de comprendre au mieux les <b>besoins</b> de mes
       clients et de <b>communiquer efficacement</b> pour développer des
-      applications, <b>dans les délais</b>, et avec un{" "}
-      <b>niveau de qualité exigeant</b>.
+      applications, <b>dans les délais</b>, et avec un
+      <b> niveau de qualité exigeant</b>.
     </p>
   ),
 };
