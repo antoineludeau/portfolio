@@ -11,6 +11,7 @@ import Button from "@mui/material/Button";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import EmailIcon from "@mui/icons-material/Email";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 import Malt from "../../assets/image/malt.png";
 
@@ -91,6 +92,25 @@ export const SocialLinks = () => {
           </IconButton>
         </Link>
         <Link
+          href="https://github.com/antoineludeau"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <IconButton
+            sx={{
+              width: "51px",
+              height: "51px",
+              backgroundColor: "white",
+              color: "black",
+              margin: "10px",
+            }}
+            aria-label="github icon button"
+            component="label"
+          >
+            <GitHubIcon fontSize="large" />
+          </IconButton>
+        </Link>
+        <Link
           href="https://www.malt.fr/profile/antoineludeau"
           target="_blank"
           rel="noreferrer"
@@ -103,7 +123,7 @@ export const SocialLinks = () => {
               color: "black",
               margin: "10px",
             }}
-            aria-label="upload picture"
+            aria-label="malt icon button"
             component="label"
           >
             <img width="30px" src={Malt} alt="malt icon" />

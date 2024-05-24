@@ -6,6 +6,7 @@ import Link from "@mui/material/Link";
 import Divider from "@mui/material/Divider";
 import Avatar from "@mui/material/Avatar";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 import Malt from "../../assets/image/malt.png";
 import Antoine from "../../assets/image/antoine.png";
@@ -66,6 +67,15 @@ export const ContactsSection = () => {
             >
               <IconButton aria-label="linkedin icon button">
                 <LinkedInIcon fontSize="large" sx={{ color: "black" }} />
+              </IconButton>
+            </Link>
+            <Link
+              href="https://github.com/antoineludeau"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <IconButton aria-label="github icon button">
+                <GitHubIcon fontSize="large" sx={{ color: "black" }} />
               </IconButton>
             </Link>
             <Link
