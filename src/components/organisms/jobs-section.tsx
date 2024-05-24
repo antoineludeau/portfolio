@@ -18,21 +18,26 @@ const jobs = [
     logo: BetaGouv,
     company: "Beta.gouv",
     title: "Développeur Full Stack - Freelance",
-    subtitle: "Beta.gouv & IGN (L'Institut National de l'Information Géographique et Forestière)",
+    subtitle: "Beta.gouv & IGN (L'Institut National de l'Information Géographique et Forestière) - Base Adresse Nationale",
     subtitle2: "Déc. 2022 - Aujourd'hui - Paris",
     technos: [
       "#NEXTJS",
+      "#NODEJS",
+      "#TYPESCRIPT",
       "#MONGODB",
       "#POSTGRESQL",
-      "#NODEJS",
+      "#POSTGIS",
       "#DOCKER",
-      "#TYPESCRIPT",
     ],
     descriptionItems: [
       `Création d’une nouvelle architecture back-end (API REST asynchrone event-driven, base de données relationnelle avec historique) pour implémenter l’identifiant unique de l’adresse française.`,
       `Migration technique de tous les services : typescript, ESModule, Dockerisation, tests automatiques, documentation.`,
       `Refonte du site internet (Next.js) avec implémentation du DSFR (Design System de l'État).`,
     ],
+    links: {
+      company: "https://beta.gouv.fr/",
+      github: "https://github.com/BaseAdresseNationale"
+    }
   },
   {
     logo: DassaultSystemesLogo,
@@ -59,6 +64,9 @@ const jobs = [
       `Mise en place du déploiement d'un micro-service (Amazon S3 local) 
       pour l'amélioration de l'environnement local de tous les developpeurs de l'entreprise.`,
     ],
+    links: {
+      company: "https://home.by.me/fr/",
+    }
   },
   {
     logo: HandsawayLogo,
@@ -72,6 +80,9 @@ const jobs = [
       `Création de nouvelles routes et amélioration des routes existantes selon les besoins du front-end.`,
       `Gestion de la base de données sur AWS.`,
     ],
+    links: {
+      company: "https://www.handsaway.fr/",
+    }
   },
   {
     logo: DassaultSystemesLogo,
@@ -86,6 +97,9 @@ const jobs = [
       `Expertise technique auprès des clients sur le process liés aux données et
       à l'intégration de l'API.`,
     ],
+    links: {
+      company: "https://home.by.me/fr/",
+    }
   },
   {
     logo: SommetLogo,
@@ -113,6 +127,9 @@ const jobs = [
       avec de nombreux fournisseurs.`,
       `Proposition et création complète d’un produit de la gamme qui est vendu en magasin depuis mai 2016.`,
     ],
+    links: {
+      company: "https://www.olaian.fr/",
+    }
   },
 ];
 
@@ -178,6 +195,7 @@ export const JobsSection = () => {
                 subtitle2={job.subtitle2}
                 technos={job.technos}
                 descriptionItems={job.descriptionItems}
+                links={job.links}
               ></JobCard>
             </TabPanel>
           ))}
