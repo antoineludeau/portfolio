@@ -1,0 +1,3345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 134.08 355.8">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-4 {
+        fill: #f9d343;
+      }
+
+      .cls-5 {
+        fill: #ffb9b9;
+      }
+
+      .cls-6 {
+        fill: #ffb7b7;
+      }
+
+      .cls-7 {
+        fill: #302f42;
+      }
+
+      .cls-8 {
+        fill: #3f3d56;
+      }
+
+      .cls-9, .cls-10 {
+        fill: #387ba0;
+      }
+
+      .cls-11 {
+        fill: #2f3042;
+      }
+
+      .cls-12 {
+        fill: #2f2e41;
+      }
+
+      .cls-13 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-10 {
+        stroke: #1d1d1b;
+        stroke-width: .5px;
+      }
+
+      .cls-10, .cls-2 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-14 {
+        isolation: isolate;
+        opacity: .2;
+      }
+
+      .cls-2 {
+        stroke: #b09da6;
+        stroke-width: .25px;
+      }
+    </style>
+    <clipPath id="clippath">
+      <path class="cls-1" d="M63.9,18.13c-9.7,7.92-11.15,22.21-3.22,31.92l.08-.06c1.48-1.21,3.85-2.22,5.82-3.92,1.72-1.48,4.46-3,7.37-5.38,4.11-4.1-4.41-12.24-.61-16.29,5.44-5.8,3.94-3.72,5.56-4.58,2.45-1.32,4.06,1.57,6.99,.02s3.4-3.94,3.4-3.94c-8.53-4.67-18.22-3.34-25.4,2.24h.01Z"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-1" x="44.38" y="13.64" width="52.4" height="26.02" transform="translate(-.94 50.65) rotate(-39.23)"/>
+    </clipPath>
+  </defs>
+  <polygon class="cls-6" points="20.03 297.81 34.46 303.18 15.79 339.17 6.02 335.53 20.03 297.81"/>
+  <path class="cls-12" d="M4.71,331.41l19.26,7.16h0c6.78,2.52,10.23,10.06,7.71,16.83l-.15,.4L0,344.09l4.71-12.67Z"/>
+  <polygon class="cls-6" points="102.25 305.45 117.65 305.45 112.68 345.69 102.25 345.69 102.25 305.45"/>
+  <path class="cls-12" d="M100.44,342.28h20.54s0,0,0,0c7.23,0,13.09,5.86,13.09,13.09v.43h-33.64s0-13.52,0-13.52Z"/>
+  <path class="cls-7" d="M49.74,169.37c-.46,2.71-.57,5.53-.57,5.53-.11,2.75,.05,5.1,.25,6.92l-6.63,51.32L8.1,320.15l20.55,3.77,48.62-116.34c3.7,14.93,9.91,28.35,13.61,43.29,5.3,21.4,6.08,53.3,11.38,74.7h18.66l-3.65-61.82c-2.55-22.69-4.79-45.26-7.35-67.96-1.38-4.78-.88-10.43-2.27-15.21"/>
+  <path class="cls-9" d="M107.65,180.58l-3.87-53.97-.88-17.48c-2.13-17.78-5.08-20.81-5.08-20.81l-5.53-7.23,.85-5.96-28.93-14.47-3.4,6.81-8.08,19.15,1.98,43.47,.84,10.19-11.21,38.06"/>
+  <polygon class="cls-14" points="77.27 207.13 64.5 177.92 63.61 179.3 76.39 208.51 77.27 207.13"/>
+  <path class="cls-4" d="M13.96,107.63c-.1-2.53,.43-5.04,1.53-7.32l11.72-24.25c.92-1.9,2.84-3.1,4.94-3.1h24.42s.03,0,.05,0c1.14,.03,2.04,.97,2.01,2.11l-2.11,83.31c-.05,2.16-1.8,3.9-3.97,3.93l-18.94,.34c-1.57,.03-3.02-.86-3.7-2.28-.24-.5-.52-1.07-.83-1.7h0c-4.33-8.94-14.36-29.71-14.36-30.42s-.5-13.91-.76-20.63h0Z"/>
+  <path class="cls-4" d="M55.53,140.28c4.61-2.83,8.75-6.35,12.29-10.44,8.2-9.26,13.18-20.92,14.21-33.24,.89-10.2-1.03-17.69-5.7-22.26-5.07-4.96-12.01-4.94-13.71-4.86l-5.55,4.7-3.93,.1,8.38-7.42,.41-.05c.39-.04,9.55-1,16.28,5.56,5.3,5.16,7.49,13.39,6.53,24.46-1.08,12.94-6.33,25.18-14.96,34.89-3.71,4.3-8.08,7.99-12.94,10.94l-1.31-2.38Z"/>
+  <rect class="cls-8" x="39.61" y="107.96" width=".91" height="33.78" transform="translate(-90.3 138.98) rotate(-78.39)"/>
+  <rect class="cls-8" x="16.45" y="98.83" width="52.69" height=".91" transform="translate(-58.15 137.99) rotate(-87.66)"/>
+  <path class="cls-8" d="M14.29,103.8c3.51,1.25,6.08,4.3,6.71,7.97l8.08,46.9c-4.33-8.94-14.36-29.71-14.36-30.42s-.5-13.91-.76-20.63c-.05-1.28,.06-2.57,.33-3.83Z"/>
+  <path class="cls-6" d="M63.59,195.91c2.25,2.94,6.23,3.96,9.62,2.46,4.05-1.8,5.88-6.53,4.08-10.58l-1.96-25.68-10.79,3.69,1.64,18.16c-.42,.22-.81,.47-1.18,.76-3.48,2.7-4.11,7.71-1.41,11.2h0Z"/>
+  <path class="cls-10" d="M56.49,127.14l.04-40.82c-.43-5.67,3.03-10.92,8.42-12.74,2.31-.76,4.8-.76,7.11,0,5.07,1.73,8.46,6.5,8.43,11.85l-3.56,40.25,4.36,51.98-19.12,.69-5.69-51.21Z"/>
+  <g>
+    <g>
+      <circle class="cls-6" cx="78.23" cy="35.71" r="22.69"/>
+      <g class="cls-3">
+        <g class="cls-13">
+          <g>
+            <g id="_Grille_de_répétition_" data-name=" Grille de répétition ">
+              <circle class="cls-11" cx="82.58" cy=".78" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-2" data-name=" Grille de répétition -2">
+              <circle class="cls-11" cx="81.7" cy="1.5" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-3" data-name=" Grille de répétition -3">
+              <circle class="cls-11" cx="80.83" cy="2.21" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-4" data-name=" Grille de répétition -4">
+              <circle class="cls-11" cx="79.95" cy="2.93" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-5" data-name=" Grille de répétition -5">
+              <circle class="cls-11" cx="79.08" cy="3.63" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-6" data-name=" Grille de répétition -6">
+              <circle class="cls-11" cx="78.2" cy="4.35" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-7" data-name=" Grille de répétition -7">
+              <circle class="cls-11" cx="77.32" cy="5.07" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-8" data-name=" Grille de répétition -8">
+              <circle class="cls-11" cx="76.45" cy="5.78" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-9" data-name=" Grille de répétition -9">
+              <circle class="cls-11" cx="75.58" cy="6.5" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-10" data-name=" Grille de répétition -10">
+              <circle class="cls-11" cx="74.71" cy="7.21" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-11" data-name=" Grille de répétition -11">
+              <circle class="cls-11" cx="73.83" cy="7.93" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-12" data-name=" Grille de répétition -12">
+              <circle class="cls-11" cx="72.96" cy="8.64" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-13" data-name=" Grille de répétition -13">
+              <circle class="cls-11" cx="72.08" cy="9.35" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-14" data-name=" Grille de répétition -14">
+              <circle class="cls-11" cx="71.21" cy="10.06" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-15" data-name=" Grille de répétition -15">
+              <circle class="cls-11" cx="70.33" cy="10.78" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-16" data-name=" Grille de répétition -16">
+              <circle class="cls-11" cx="69.46" cy="11.49" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-17" data-name=" Grille de répétition -17">
+              <circle class="cls-11" cx="68.58" cy="12.21" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-18" data-name=" Grille de répétition -18">
+              <circle class="cls-11" cx="67.71" cy="12.92" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-19" data-name=" Grille de répétition -19">
+              <circle class="cls-11" cx="66.83" cy="13.64" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-20" data-name=" Grille de répétition -20">
+              <circle class="cls-11" cx="65.97" cy="14.35" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-21" data-name=" Grille de répétition -21">
+              <circle class="cls-11" cx="65.09" cy="15.06" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-22" data-name=" Grille de répétition -22">
+              <circle class="cls-11" cx="64.22" cy="15.77" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-23" data-name=" Grille de répétition -23">
+              <circle class="cls-11" cx="63.34" cy="16.49" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-24" data-name=" Grille de répétition -24">
+              <circle class="cls-11" cx="62.47" cy="17.2" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-25" data-name=" Grille de répétition -25">
+              <circle class="cls-11" cx="61.59" cy="17.92" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-26" data-name=" Grille de répétition -26">
+              <circle class="cls-11" cx="60.72" cy="18.63" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-27" data-name=" Grille de répétition -27">
+              <circle class="cls-11" cx="59.84" cy="19.35" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-28" data-name=" Grille de répétition -28">
+              <circle class="cls-11" cx="58.97" cy="20.06" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-29" data-name=" Grille de répétition -29">
+              <circle class="cls-11" cx="58.09" cy="20.77" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-30" data-name=" Grille de répétition -30">
+              <circle class="cls-11" cx="57.22" cy="21.48" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-31" data-name=" Grille de répétition -31">
+              <circle class="cls-11" cx="56.34" cy="22.2" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-32" data-name=" Grille de répétition -32">
+              <circle class="cls-11" cx="55.48" cy="22.91" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-33" data-name=" Grille de répétition -33">
+              <circle class="cls-11" cx="54.6" cy="23.63" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-34" data-name=" Grille de répétition -34">
+              <circle class="cls-11" cx="53.73" cy="24.34" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-35" data-name=" Grille de répétition -35">
+              <circle class="cls-11" cx="52.85" cy="25.06" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-36" data-name=" Grille de répétition -36">
+              <circle class="cls-11" cx="51.98" cy="25.77" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-37" data-name=" Grille de répétition -37">
+              <circle class="cls-11" cx="51.1" cy="26.48" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-38" data-name=" Grille de répétition -38">
+              <circle class="cls-11" cx="50.23" cy="27.19" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-39" data-name=" Grille de répétition -39">
+              <circle class="cls-11" cx="49.35" cy="27.91" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-40" data-name=" Grille de répétition -40">
+              <circle class="cls-11" cx="48.48" cy="28.62" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-41" data-name=" Grille de répétition -41">
+              <circle class="cls-11" cx="47.6" cy="29.34" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-42" data-name=" Grille de répétition -42">
+              <circle class="cls-11" cx="46.73" cy="30.05" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-43" data-name=" Grille de répétition -43">
+              <circle class="cls-11" cx="45.86" cy="30.77" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-44" data-name=" Grille de répétition -44">
+              <circle class="cls-11" cx="44.99" cy="31.48" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-45" data-name=" Grille de répétition -45">
+              <circle class="cls-11" cx="44.11" cy="32.19" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-46" data-name=" Grille de répétition -46">
+              <circle class="cls-11" cx="43.24" cy="32.9" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-47" data-name=" Grille de répétition -47">
+              <circle class="cls-11" cx="42.36" cy="33.62" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-48" data-name=" Grille de répétition -48">
+              <circle class="cls-11" cx="83.3" cy="1.66" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-49" data-name=" Grille de répétition -49">
+              <circle class="cls-11" cx="82.42" cy="2.38" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-50" data-name=" Grille de répétition -50">
+              <circle class="cls-11" cx="81.55" cy="3.09" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-51" data-name=" Grille de répétition -51">
+              <circle class="cls-11" cx="80.67" cy="3.81" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-52" data-name=" Grille de répétition -52">
+              <circle class="cls-11" cx="79.8" cy="4.51" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-53" data-name=" Grille de répétition -53">
+              <circle class="cls-11" cx="78.92" cy="5.23" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-54" data-name=" Grille de répétition -54">
+              <circle class="cls-11" cx="78.04" cy="5.95" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-55" data-name=" Grille de répétition -55">
+              <circle class="cls-11" cx="77.17" cy="6.66" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-56" data-name=" Grille de répétition -56">
+              <circle class="cls-11" cx="76.29" cy="7.38" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-57" data-name=" Grille de répétition -57">
+              <circle class="cls-11" cx="75.43" cy="8.09" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-58" data-name=" Grille de répétition -58">
+              <circle class="cls-11" cx="74.55" cy="8.81" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-59" data-name=" Grille de répétition -59">
+              <circle class="cls-11" cx="73.68" cy="9.52" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-60" data-name=" Grille de répétition -60">
+              <circle class="cls-11" cx="72.8" cy="10.23" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-61" data-name=" Grille de répétition -61">
+              <circle class="cls-11" cx="71.93" cy="10.94" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-62" data-name=" Grille de répétition -62">
+              <circle class="cls-11" cx="71.05" cy="11.66" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-63" data-name=" Grille de répétition -63">
+              <circle class="cls-11" cx="70.18" cy="12.37" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-64" data-name=" Grille de répétition -64">
+              <circle class="cls-11" cx="69.3" cy="13.09" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-65" data-name=" Grille de répétition -65">
+              <circle class="cls-11" cx="68.43" cy="13.8" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-66" data-name=" Grille de répétition -66">
+              <circle class="cls-11" cx="67.55" cy="14.52" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-67" data-name=" Grille de répétition -67">
+              <circle class="cls-11" cx="66.68" cy="15.23" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-68" data-name=" Grille de répétition -68">
+              <circle class="cls-11" cx="65.8" cy="15.94" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-69" data-name=" Grille de répétition -69">
+              <circle class="cls-11" cx="64.94" cy="16.65" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-70" data-name=" Grille de répétition -70">
+              <circle class="cls-11" cx="64.06" cy="17.37" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-71" data-name=" Grille de répétition -71">
+              <circle class="cls-11" cx="63.19" cy="18.08" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-72" data-name=" Grille de répétition -72">
+              <circle class="cls-11" cx="62.31" cy="18.8" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-73" data-name=" Grille de répétition -73">
+              <circle class="cls-11" cx="61.44" cy="19.51" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-74" data-name=" Grille de répétition -74">
+              <circle class="cls-11" cx="60.56" cy="20.23" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-75" data-name=" Grille de répétition -75">
+              <circle class="cls-11" cx="59.69" cy="20.94" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-76" data-name=" Grille de répétition -76">
+              <circle class="cls-11" cx="58.81" cy="21.65" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-77" data-name=" Grille de répétition -77">
+              <circle class="cls-11" cx="57.94" cy="22.36" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-78" data-name=" Grille de répétition -78">
+              <circle class="cls-11" cx="57.06" cy="23.08" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-79" data-name=" Grille de répétition -79">
+              <circle class="cls-11" cx="56.19" cy="23.79" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-80" data-name=" Grille de répétition -80">
+              <circle class="cls-11" cx="55.31" cy="24.51" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-81" data-name=" Grille de répétition -81">
+              <circle class="cls-11" cx="54.45" cy="25.22" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-82" data-name=" Grille de répétition -82">
+              <circle class="cls-11" cx="53.57" cy="25.94" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-83" data-name=" Grille de répétition -83">
+              <circle class="cls-11" cx="52.7" cy="26.65" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-84" data-name=" Grille de répétition -84">
+              <circle class="cls-11" cx="51.82" cy="27.36" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-85" data-name=" Grille de répétition -85">
+              <circle class="cls-11" cx="50.95" cy="28.07" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-86" data-name=" Grille de répétition -86">
+              <circle class="cls-11" cx="50.07" cy="28.79" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-87" data-name=" Grille de répétition -87">
+              <circle class="cls-11" cx="49.2" cy="29.5" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-88" data-name=" Grille de répétition -88">
+              <circle class="cls-11" cx="48.32" cy="30.22" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-89" data-name=" Grille de répétition -89">
+              <circle class="cls-11" cx="47.45" cy="30.93" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-90" data-name=" Grille de répétition -90">
+              <circle class="cls-11" cx="46.57" cy="31.65" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-91" data-name=" Grille de répétition -91">
+              <circle class="cls-11" cx="45.7" cy="32.36" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-92" data-name=" Grille de répétition -92">
+              <circle class="cls-11" cx="44.83" cy="33.07" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-93" data-name=" Grille de répétition -93">
+              <circle class="cls-11" cx="43.96" cy="33.78" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-94" data-name=" Grille de répétition -94">
+              <circle class="cls-11" cx="43.08" cy="34.5" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-95" data-name=" Grille de répétition -95">
+              <circle class="cls-11" cx="84.01" cy="2.53" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-96" data-name=" Grille de répétition -96">
+              <circle class="cls-11" cx="83.13" cy="3.25" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-97" data-name=" Grille de répétition -97">
+              <circle class="cls-11" cx="82.26" cy="3.96" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-98" data-name=" Grille de répétition -98">
+              <circle class="cls-11" cx="81.38" cy="4.67" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-99" data-name=" Grille de répétition -99">
+              <circle class="cls-11" cx="80.51" cy="5.38" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-100" data-name=" Grille de répétition -100">
+              <circle class="cls-11" cx="79.63" cy="6.1" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-101" data-name=" Grille de répétition -101">
+              <circle class="cls-11" cx="78.75" cy="6.82" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-102" data-name=" Grille de répétition -102">
+              <circle class="cls-11" cx="77.88" cy="7.53" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-103" data-name=" Grille de répétition -103">
+              <circle class="cls-11" cx="77" cy="8.25" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-104" data-name=" Grille de répétition -104">
+              <circle class="cls-11" cx="76.13" cy="8.96" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-105" data-name=" Grille de répétition -105">
+              <circle class="cls-11" cx="75.25" cy="9.67" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-106" data-name=" Grille de répétition -106">
+              <circle class="cls-11" cx="74.39" cy="10.38" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-107" data-name=" Grille de répétition -107">
+              <circle class="cls-11" cx="73.51" cy="11.1" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-108" data-name=" Grille de répétition -108">
+              <circle class="cls-11" cx="72.64" cy="11.81" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-109" data-name=" Grille de répétition -109">
+              <circle class="cls-11" cx="71.76" cy="12.53" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-110" data-name=" Grille de répétition -110">
+              <circle class="cls-11" cx="70.89" cy="13.24" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-111" data-name=" Grille de répétition -111">
+              <circle class="cls-11" cx="70.01" cy="13.96" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-112" data-name=" Grille de répétition -112">
+              <circle class="cls-11" cx="69.14" cy="14.67" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-113" data-name=" Grille de répétition -113">
+              <circle class="cls-11" cx="68.26" cy="15.38" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-114" data-name=" Grille de répétition -114">
+              <circle class="cls-11" cx="67.39" cy="16.09" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-115" data-name=" Grille de répétition -115">
+              <circle class="cls-11" cx="66.51" cy="16.81" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-116" data-name=" Grille de répétition -116">
+              <circle class="cls-11" cx="65.64" cy="17.52" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-117" data-name=" Grille de répétition -117">
+              <circle class="cls-11" cx="64.77" cy="18.24" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-118" data-name=" Grille de répétition -118">
+              <circle class="cls-11" cx="63.9" cy="18.95" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-119" data-name=" Grille de répétition -119">
+              <circle class="cls-11" cx="63.02" cy="19.67" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-120" data-name=" Grille de répétition -120">
+              <circle class="cls-11" cx="62.15" cy="20.38" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-121" data-name=" Grille de répétition -121">
+              <circle class="cls-11" cx="61.27" cy="21.09" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-122" data-name=" Grille de répétition -122">
+              <circle class="cls-11" cx="60.4" cy="21.8" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-123" data-name=" Grille de répétition -123">
+              <circle class="cls-11" cx="59.52" cy="22.52" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-124" data-name=" Grille de répétition -124">
+              <circle class="cls-11" cx="58.65" cy="23.23" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-125" data-name=" Grille de répétition -125">
+              <circle class="cls-11" cx="57.77" cy="23.95" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-126" data-name=" Grille de répétition -126">
+              <circle class="cls-11" cx="56.9" cy="24.66" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-127" data-name=" Grille de répétition -127">
+              <circle class="cls-11" cx="56.02" cy="25.38" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-128" data-name=" Grille de répétition -128">
+              <circle class="cls-11" cx="55.16" cy="26.09" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-129" data-name=" Grille de répétition -129">
+              <circle class="cls-11" cx="54.28" cy="26.8" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-130" data-name=" Grille de répétition -130">
+              <circle class="cls-11" cx="53.41" cy="27.51" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-131" data-name=" Grille de répétition -131">
+              <circle class="cls-11" cx="52.53" cy="28.23" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-132" data-name=" Grille de répétition -132">
+              <circle class="cls-11" cx="51.66" cy="28.94" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-133" data-name=" Grille de répétition -133">
+              <circle class="cls-11" cx="50.78" cy="29.66" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-134" data-name=" Grille de répétition -134">
+              <circle class="cls-11" cx="49.91" cy="30.37" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-135" data-name=" Grille de répétition -135">
+              <circle class="cls-11" cx="49.03" cy="31.09" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-136" data-name=" Grille de répétition -136">
+              <circle class="cls-11" cx="48.16" cy="31.8" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-137" data-name=" Grille de répétition -137">
+              <circle class="cls-11" cx="47.28" cy="32.51" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-138" data-name=" Grille de répétition -138">
+              <circle class="cls-11" cx="46.41" cy="33.22" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-139" data-name=" Grille de répétition -139">
+              <circle class="cls-11" cx="45.53" cy="33.94" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-140" data-name=" Grille de répétition -140">
+              <circle class="cls-11" cx="44.67" cy="34.65" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-141" data-name=" Grille de répétition -141">
+              <circle class="cls-11" cx="43.79" cy="35.37" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-142" data-name=" Grille de répétition -142">
+              <circle class="cls-11" cx="84.73" cy="3.41" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-143" data-name=" Grille de répétition -143">
+              <circle class="cls-11" cx="83.85" cy="4.13" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-144" data-name=" Grille de répétition -144">
+              <circle class="cls-11" cx="82.98" cy="4.84" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-145" data-name=" Grille de répétition -145">
+              <circle class="cls-11" cx="82.1" cy="5.55" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-146" data-name=" Grille de répétition -146">
+              <circle class="cls-11" cx="81.23" cy="6.26" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-147" data-name=" Grille de répétition -147">
+              <circle class="cls-11" cx="80.35" cy="6.98" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-148" data-name=" Grille de répétition -148">
+              <circle class="cls-11" cx="79.47" cy="7.7" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-149" data-name=" Grille de répétition -149">
+              <circle class="cls-11" cx="78.6" cy="8.41" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-150" data-name=" Grille de répétition -150">
+              <circle class="cls-11" cx="77.72" cy="9.13" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-151" data-name=" Grille de répétition -151">
+              <circle class="cls-11" cx="76.85" cy="9.84" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-152" data-name=" Grille de répétition -152">
+              <circle class="cls-11" cx="75.97" cy="10.55" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-153" data-name=" Grille de répétition -153">
+              <circle class="cls-11" cx="75.1" cy="11.26" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-154" data-name=" Grille de répétition -154">
+              <circle class="cls-11" cx="74.22" cy="11.98" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-155" data-name=" Grille de répétition -155">
+              <circle class="cls-11" cx="73.36" cy="12.69" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-156" data-name=" Grille de répétition -156">
+              <circle class="cls-11" cx="72.48" cy="13.41" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-157" data-name=" Grille de répétition -157">
+              <circle class="cls-11" cx="71.61" cy="14.12" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-158" data-name=" Grille de répétition -158">
+              <circle class="cls-11" cx="70.73" cy="14.84" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-159" data-name=" Grille de répétition -159">
+              <circle class="cls-11" cx="69.86" cy="15.55" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-160" data-name=" Grille de répétition -160">
+              <circle class="cls-11" cx="68.98" cy="16.26" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-161" data-name=" Grille de répétition -161">
+              <circle class="cls-11" cx="68.11" cy="16.97" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-162" data-name=" Grille de répétition -162">
+              <circle class="cls-11" cx="67.23" cy="17.69" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-163" data-name=" Grille de répétition -163">
+              <circle class="cls-11" cx="66.36" cy="18.4" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-164" data-name=" Grille de répétition -164">
+              <circle class="cls-11" cx="65.48" cy="19.12" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-165" data-name=" Grille de répétition -165">
+              <circle class="cls-11" cx="64.61" cy="19.83" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-166" data-name=" Grille de répétition -166">
+              <circle class="cls-11" cx="63.74" cy="20.55" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-167" data-name=" Grille de répétition -167">
+              <circle class="cls-11" cx="62.87" cy="21.26" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-168" data-name=" Grille de répétition -168">
+              <circle class="cls-11" cx="61.99" cy="21.97" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-169" data-name=" Grille de répétition -169">
+              <circle class="cls-11" cx="61.12" cy="22.68" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-170" data-name=" Grille de répétition -170">
+              <circle class="cls-11" cx="60.24" cy="23.4" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-171" data-name=" Grille de répétition -171">
+              <circle class="cls-11" cx="59.37" cy="24.11" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-172" data-name=" Grille de répétition -172">
+              <circle class="cls-11" cx="58.49" cy="24.83" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-173" data-name=" Grille de répétition -173">
+              <circle class="cls-11" cx="57.62" cy="25.54" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-174" data-name=" Grille de répétition -174">
+              <circle class="cls-11" cx="56.74" cy="26.26" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-175" data-name=" Grille de répétition -175">
+              <circle class="cls-11" cx="55.87" cy="26.97" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-176" data-name=" Grille de répétition -176">
+              <circle class="cls-11" cx="54.99" cy="27.68" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-177" data-name=" Grille de répétition -177">
+              <circle class="cls-11" cx="54.13" cy="28.39" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-178" data-name=" Grille de répétition -178">
+              <circle class="cls-11" cx="53.25" cy="29.11" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-179" data-name=" Grille de répétition -179">
+              <circle class="cls-11" cx="52.38" cy="29.82" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-180" data-name=" Grille de répétition -180">
+              <circle class="cls-11" cx="51.5" cy="30.54" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-181" data-name=" Grille de répétition -181">
+              <circle class="cls-11" cx="50.63" cy="31.25" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-182" data-name=" Grille de répétition -182">
+              <circle class="cls-11" cx="49.75" cy="31.97" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-183" data-name=" Grille de répétition -183">
+              <circle class="cls-11" cx="48.88" cy="32.68" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-184" data-name=" Grille de répétition -184">
+              <circle class="cls-11" cx="48" cy="33.39" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-185" data-name=" Grille de répétition -185">
+              <circle class="cls-11" cx="47.13" cy="34.1" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-186" data-name=" Grille de répétition -186">
+              <circle class="cls-11" cx="46.25" cy="34.82" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-187" data-name=" Grille de répétition -187">
+              <circle class="cls-11" cx="45.38" cy="35.53" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-188" data-name=" Grille de répétition -188">
+              <circle class="cls-11" cx="44.5" cy="36.25" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-189" data-name=" Grille de répétition -189">
+              <circle class="cls-11" cx="85.43" cy="4.28" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-190" data-name=" Grille de répétition -190">
+              <circle class="cls-11" cx="84.55" cy="4.99" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-191" data-name=" Grille de répétition -191">
+              <circle class="cls-11" cx="83.69" cy="5.7" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-192" data-name=" Grille de répétition -192">
+              <circle class="cls-11" cx="82.81" cy="6.42" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-193" data-name=" Grille de répétition -193">
+              <circle class="cls-11" cx="81.94" cy="7.13" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-194" data-name=" Grille de répétition -194">
+              <circle class="cls-11" cx="81.06" cy="7.85" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-195" data-name=" Grille de répétition -195">
+              <circle class="cls-11" cx="80.18" cy="8.57" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-196" data-name=" Grille de répétition -196">
+              <circle class="cls-11" cx="79.31" cy="9.28" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-197" data-name=" Grille de répétition -197">
+              <circle class="cls-11" cx="78.43" cy="10" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-198" data-name=" Grille de répétition -198">
+              <circle class="cls-11" cx="77.56" cy="10.7" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-199" data-name=" Grille de répétition -199">
+              <circle class="cls-11" cx="76.68" cy="11.42" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-200" data-name=" Grille de répétition -200">
+              <circle class="cls-11" cx="75.81" cy="12.13" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-201" data-name=" Grille de répétition -201">
+              <circle class="cls-11" cx="74.93" cy="12.85" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-202" data-name=" Grille de répétition -202">
+              <circle class="cls-11" cx="74.07" cy="13.56" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-203" data-name=" Grille de répétition -203">
+              <circle class="cls-11" cx="73.19" cy="14.28" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-204" data-name=" Grille de répétition -204">
+              <circle class="cls-11" cx="72.32" cy="14.99" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-205" data-name=" Grille de répétition -205">
+              <circle class="cls-11" cx="71.44" cy="15.71" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-206" data-name=" Grille de répétition -206">
+              <circle class="cls-11" cx="70.57" cy="16.41" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-207" data-name=" Grille de répétition -207">
+              <circle class="cls-11" cx="69.69" cy="17.13" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-208" data-name=" Grille de répétition -208">
+              <circle class="cls-11" cx="68.82" cy="17.84" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-209" data-name=" Grille de répétition -209">
+              <circle class="cls-11" cx="67.94" cy="18.56" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-210" data-name=" Grille de répétition -210">
+              <circle class="cls-11" cx="67.07" cy="19.27" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-211" data-name=" Grille de répétition -211">
+              <circle class="cls-11" cx="66.19" cy="19.99" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-212" data-name=" Grille de répétition -212">
+              <circle class="cls-11" cx="65.32" cy="20.7" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-213" data-name=" Grille de répétition -213">
+              <circle class="cls-11" cx="64.44" cy="21.42" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-214" data-name=" Grille de répétition -214">
+              <circle class="cls-11" cx="63.58" cy="22.12" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-215" data-name=" Grille de répétition -215">
+              <circle class="cls-11" cx="62.7" cy="22.84" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-216" data-name=" Grille de répétition -216">
+              <circle class="cls-11" cx="61.83" cy="23.55" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-217" data-name=" Grille de répétition -217">
+              <circle class="cls-11" cx="60.95" cy="24.27" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-218" data-name=" Grille de répétition -218">
+              <circle class="cls-11" cx="60.08" cy="24.98" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-219" data-name=" Grille de répétition -219">
+              <circle class="cls-11" cx="59.2" cy="25.7" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-220" data-name=" Grille de répétition -220">
+              <circle class="cls-11" cx="58.33" cy="26.41" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-221" data-name=" Grille de répétition -221">
+              <circle class="cls-11" cx="57.45" cy="27.13" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-222" data-name=" Grille de répétition -222">
+              <circle class="cls-11" cx="56.58" cy="27.83" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-223" data-name=" Grille de répétition -223">
+              <circle class="cls-11" cx="55.7" cy="28.55" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-224" data-name=" Grille de répétition -224">
+              <circle class="cls-11" cx="54.83" cy="29.26" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-225" data-name=" Grille de répétition -225">
+              <circle class="cls-11" cx="53.95" cy="29.98" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-226" data-name=" Grille de répétition -226">
+              <circle class="cls-11" cx="53.09" cy="30.69" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-227" data-name=" Grille de répétition -227">
+              <circle class="cls-11" cx="52.21" cy="31.41" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-228" data-name=" Grille de répétition -228">
+              <circle class="cls-11" cx="51.34" cy="32.12" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-229" data-name=" Grille de répétition -229">
+              <circle class="cls-11" cx="50.46" cy="32.84" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-230" data-name=" Grille de répétition -230">
+              <circle class="cls-11" cx="49.59" cy="33.54" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-231" data-name=" Grille de répétition -231">
+              <circle class="cls-11" cx="48.71" cy="34.26" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-232" data-name=" Grille de répétition -232">
+              <circle class="cls-11" cx="47.84" cy="34.97" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-233" data-name=" Grille de répétition -233">
+              <circle class="cls-11" cx="46.96" cy="35.69" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-234" data-name=" Grille de répétition -234">
+              <circle class="cls-11" cx="46.09" cy="36.4" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-235" data-name=" Grille de répétition -235">
+              <circle class="cls-11" cx="45.21" cy="37.12" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-236" data-name=" Grille de répétition -236">
+              <circle class="cls-11" cx="86.15" cy="5.16" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-237" data-name=" Grille de répétition -237">
+              <circle class="cls-11" cx="85.27" cy="5.87" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-238" data-name=" Grille de répétition -238">
+              <circle class="cls-11" cx="84.4" cy="6.58" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-239" data-name=" Grille de répétition -239">
+              <circle class="cls-11" cx="83.52" cy="7.3" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-240" data-name=" Grille de répétition -240">
+              <circle class="cls-11" cx="82.66" cy="8.01" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-241" data-name=" Grille de répétition -241">
+              <circle class="cls-11" cx="81.78" cy="8.73" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-242" data-name=" Grille de répétition -242">
+              <circle class="cls-11" cx="80.9" cy="9.45" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-243" data-name=" Grille de répétition -243">
+              <circle class="cls-11" cx="80.03" cy="10.16" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-244" data-name=" Grille de répétition -244">
+              <circle class="cls-11" cx="79.15" cy="10.88" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-245" data-name=" Grille de répétition -245">
+              <circle class="cls-11" cx="78.28" cy="11.58" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-246" data-name=" Grille de répétition -246">
+              <circle class="cls-11" cx="77.4" cy="12.3" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-247" data-name=" Grille de répétition -247">
+              <circle class="cls-11" cx="76.53" cy="13.01" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-248" data-name=" Grille de répétition -248">
+              <circle class="cls-11" cx="75.65" cy="13.73" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-249" data-name=" Grille de répétition -249">
+              <circle class="cls-11" cx="74.78" cy="14.44" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-250" data-name=" Grille de répétition -250">
+              <circle class="cls-11" cx="73.9" cy="15.16" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-251" data-name=" Grille de répétition -251">
+              <circle class="cls-11" cx="73.04" cy="15.87" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-252" data-name=" Grille de répétition -252">
+              <circle class="cls-11" cx="72.16" cy="16.59" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-253" data-name=" Grille de répétition -253">
+              <circle class="cls-11" cx="71.29" cy="17.29" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-254" data-name=" Grille de répétition -254">
+              <circle class="cls-11" cx="70.41" cy="18.01" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-255" data-name=" Grille de répétition -255">
+              <circle class="cls-11" cx="69.54" cy="18.72" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-256" data-name=" Grille de répétition -256">
+              <circle class="cls-11" cx="68.66" cy="19.44" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-257" data-name=" Grille de répétition -257">
+              <circle class="cls-11" cx="67.79" cy="20.15" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-258" data-name=" Grille de répétition -258">
+              <circle class="cls-11" cx="66.91" cy="20.87" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-259" data-name=" Grille de répétition -259">
+              <circle class="cls-11" cx="66.04" cy="21.58" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-260" data-name=" Grille de répétition -260">
+              <circle class="cls-11" cx="65.16" cy="22.3" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-261" data-name=" Grille de répétition -261">
+              <circle class="cls-11" cx="64.29" cy="23" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-262" data-name=" Grille de répétition -262">
+              <circle class="cls-11" cx="63.41" cy="23.72" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-263" data-name=" Grille de répétition -263">
+              <circle class="cls-11" cx="62.55" cy="24.43" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-264" data-name=" Grille de répétition -264">
+              <circle class="cls-11" cx="61.67" cy="25.15" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-265" data-name=" Grille de répétition -265">
+              <circle class="cls-11" cx="60.8" cy="25.86" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-266" data-name=" Grille de répétition -266">
+              <circle class="cls-11" cx="59.92" cy="26.58" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-267" data-name=" Grille de répétition -267">
+              <circle class="cls-11" cx="59.05" cy="27.29" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-268" data-name=" Grille de répétition -268">
+              <circle class="cls-11" cx="58.17" cy="28.01" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-269" data-name=" Grille de répétition -269">
+              <circle class="cls-11" cx="57.3" cy="28.71" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-270" data-name=" Grille de répétition -270">
+              <circle class="cls-11" cx="56.42" cy="29.43" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-271" data-name=" Grille de répétition -271">
+              <circle class="cls-11" cx="55.55" cy="30.14" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-272" data-name=" Grille de répétition -272">
+              <circle class="cls-11" cx="54.67" cy="30.86" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-273" data-name=" Grille de répétition -273">
+              <circle class="cls-11" cx="53.8" cy="31.57" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-274" data-name=" Grille de répétition -274">
+              <circle class="cls-11" cx="52.92" cy="32.29" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-275" data-name=" Grille de répétition -275">
+              <circle class="cls-11" cx="52.06" cy="33" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-276" data-name=" Grille de répétition -276">
+              <circle class="cls-11" cx="51.18" cy="33.72" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-277" data-name=" Grille de répétition -277">
+              <circle class="cls-11" cx="50.31" cy="34.42" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-278" data-name=" Grille de répétition -278">
+              <circle class="cls-11" cx="49.43" cy="35.14" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-279" data-name=" Grille de répétition -279">
+              <circle class="cls-11" cx="48.56" cy="35.85" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-280" data-name=" Grille de répétition -280">
+              <circle class="cls-11" cx="47.68" cy="36.57" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-281" data-name=" Grille de répétition -281">
+              <circle class="cls-11" cx="46.81" cy="37.28" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-282" data-name=" Grille de répétition -282">
+              <circle class="cls-11" cx="45.93" cy="38" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-283" data-name=" Grille de répétition -283">
+              <circle class="cls-11" cx="86.86" cy="6.02" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-284" data-name=" Grille de répétition -284">
+              <circle class="cls-11" cx="85.98" cy="6.74" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-285" data-name=" Grille de répétition -285">
+              <circle class="cls-11" cx="85.11" cy="7.45" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-286" data-name=" Grille de répétition -286">
+              <circle class="cls-11" cx="84.23" cy="8.17" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-287" data-name=" Grille de répétition -287">
+              <circle class="cls-11" cx="83.37" cy="8.88" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-288" data-name=" Grille de répétition -288">
+              <circle class="cls-11" cx="82.49" cy="9.6" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-289" data-name=" Grille de répétition -289">
+              <circle class="cls-11" cx="81.61" cy="10.32" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-290" data-name=" Grille de répétition -290">
+              <circle class="cls-11" cx="80.74" cy="11.03" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-291" data-name=" Grille de répétition -291">
+              <circle class="cls-11" cx="79.86" cy="11.74" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-292" data-name=" Grille de répétition -292">
+              <circle class="cls-11" cx="78.99" cy="12.45" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-293" data-name=" Grille de répétition -293">
+              <circle class="cls-11" cx="78.11" cy="13.17" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-294" data-name=" Grille de répétition -294">
+              <circle class="cls-11" cx="77.24" cy="13.88" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-295" data-name=" Grille de répétition -295">
+              <circle class="cls-11" cx="76.36" cy="14.6" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-296" data-name=" Grille de répétition -296">
+              <circle class="cls-11" cx="75.49" cy="15.31" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-297" data-name=" Grille de répétition -297">
+              <circle class="cls-11" cx="74.61" cy="16.03" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-298" data-name=" Grille de répétition -298">
+              <circle class="cls-11" cx="73.74" cy="16.74" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-299" data-name=" Grille de répétition -299">
+              <circle class="cls-11" cx="72.86" cy="17.45" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-300" data-name=" Grille de répétition -300">
+              <circle class="cls-11" cx="72" cy="18.16" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-301" data-name=" Grille de répétition -301">
+              <circle class="cls-11" cx="71.12" cy="18.88" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-302" data-name=" Grille de répétition -302">
+              <circle class="cls-11" cx="70.25" cy="19.59" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-303" data-name=" Grille de répétition -303">
+              <circle class="cls-11" cx="69.37" cy="20.31" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-304" data-name=" Grille de répétition -304">
+              <circle class="cls-11" cx="68.5" cy="21.02" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-305" data-name=" Grille de répétition -305">
+              <circle class="cls-11" cx="67.62" cy="21.74" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-306" data-name=" Grille de répétition -306">
+              <circle class="cls-11" cx="66.75" cy="22.45" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-307" data-name=" Grille de répétition -307">
+              <circle class="cls-11" cx="65.87" cy="23.16" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-308" data-name=" Grille de répétition -308">
+              <circle class="cls-11" cx="65" cy="23.87" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-309" data-name=" Grille de répétition -309">
+              <circle class="cls-11" cx="64.12" cy="24.59" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-310" data-name=" Grille de répétition -310">
+              <circle class="cls-11" cx="63.25" cy="25.3" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-311" data-name=" Grille de répétition -311">
+              <circle class="cls-11" cx="62.38" cy="26.02" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-312" data-name=" Grille de répétition -312">
+              <circle class="cls-11" cx="61.51" cy="26.73" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-313" data-name=" Grille de répétition -313">
+              <circle class="cls-11" cx="60.63" cy="27.45" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-314" data-name=" Grille de répétition -314">
+              <circle class="cls-11" cx="59.76" cy="28.16" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-315" data-name=" Grille de répétition -315">
+              <circle class="cls-11" cx="58.88" cy="28.87" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-316" data-name=" Grille de répétition -316">
+              <circle class="cls-11" cx="58.01" cy="29.58" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-317" data-name=" Grille de répétition -317">
+              <circle class="cls-11" cx="57.13" cy="30.3" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-318" data-name=" Grille de répétition -318">
+              <circle class="cls-11" cx="56.26" cy="31.01" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-319" data-name=" Grille de répétition -319">
+              <circle class="cls-11" cx="55.38" cy="31.73" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-320" data-name=" Grille de répétition -320">
+              <circle class="cls-11" cx="54.51" cy="32.44" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-321" data-name=" Grille de répétition -321">
+              <circle class="cls-11" cx="53.63" cy="33.16" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-322" data-name=" Grille de répétition -322">
+              <circle class="cls-11" cx="52.77" cy="33.87" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-323" data-name=" Grille de répétition -323">
+              <circle class="cls-11" cx="51.89" cy="34.58" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-324" data-name=" Grille de répétition -324">
+              <circle class="cls-11" cx="51.02" cy="35.29" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-325" data-name=" Grille de répétition -325">
+              <circle class="cls-11" cx="50.14" cy="36.01" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-326" data-name=" Grille de répétition -326">
+              <circle class="cls-11" cx="49.27" cy="36.72" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-327" data-name=" Grille de répétition -327">
+              <circle class="cls-11" cx="48.39" cy="37.44" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-328" data-name=" Grille de répétition -328">
+              <circle class="cls-11" cx="47.52" cy="38.15" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-329" data-name=" Grille de répétition -329">
+              <circle class="cls-11" cx="46.64" cy="38.87" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-330" data-name=" Grille de répétition -330">
+              <circle class="cls-11" cx="87.58" cy="6.9" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-331" data-name=" Grille de répétition -331">
+              <circle class="cls-11" cx="86.7" cy="7.62" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-332" data-name=" Grille de répétition -332">
+              <circle class="cls-11" cx="85.83" cy="8.33" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-333" data-name=" Grille de répétition -333">
+              <circle class="cls-11" cx="84.95" cy="9.05" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-334" data-name=" Grille de répétition -334">
+              <circle class="cls-11" cx="84.08" cy="9.76" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-335" data-name=" Grille de répétition -335">
+              <circle class="cls-11" cx="83.2" cy="10.48" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-336" data-name=" Grille de répétition -336">
+              <circle class="cls-11" cx="82.32" cy="11.2" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-337" data-name=" Grille de répétition -337">
+              <circle class="cls-11" cx="81.46" cy="11.91" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-338" data-name=" Grille de répétition -338">
+              <circle class="cls-11" cx="80.58" cy="12.62" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-339" data-name=" Grille de répétition -339">
+              <circle class="cls-11" cx="79.71" cy="13.33" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-340" data-name=" Grille de répétition -340">
+              <circle class="cls-11" cx="78.83" cy="14.05" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-341" data-name=" Grille de répétition -341">
+              <circle class="cls-11" cx="77.96" cy="14.76" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-342" data-name=" Grille de répétition -342">
+              <circle class="cls-11" cx="77.08" cy="15.48" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-343" data-name=" Grille de répétition -343">
+              <circle class="cls-11" cx="76.21" cy="16.19" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-344" data-name=" Grille de répétition -344">
+              <circle class="cls-11" cx="75.33" cy="16.91" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-345" data-name=" Grille de répétition -345">
+              <circle class="cls-11" cx="74.46" cy="17.62" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-346" data-name=" Grille de répétition -346">
+              <circle class="cls-11" cx="73.58" cy="18.33" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-347" data-name=" Grille de répétition -347">
+              <circle class="cls-11" cx="72.71" cy="19.04" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-348" data-name=" Grille de répétition -348">
+              <circle class="cls-11" cx="71.83" cy="19.76" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-349" data-name=" Grille de répétition -349">
+              <circle class="cls-11" cx="70.97" cy="20.47" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-350" data-name=" Grille de répétition -350">
+              <circle class="cls-11" cx="70.09" cy="21.19" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-351" data-name=" Grille de répétition -351">
+              <circle class="cls-11" cx="69.22" cy="21.9" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-352" data-name=" Grille de répétition -352">
+              <circle class="cls-11" cx="68.34" cy="22.62" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-353" data-name=" Grille de répétition -353">
+              <circle class="cls-11" cx="67.47" cy="23.33" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-354" data-name=" Grille de répétition -354">
+              <circle class="cls-11" cx="66.59" cy="24.04" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-355" data-name=" Grille de répétition -355">
+              <circle class="cls-11" cx="65.72" cy="24.75" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-356" data-name=" Grille de répétition -356">
+              <circle class="cls-11" cx="64.84" cy="25.47" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-357" data-name=" Grille de répétition -357">
+              <circle class="cls-11" cx="63.97" cy="26.18" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-358" data-name=" Grille de répétition -358">
+              <circle class="cls-11" cx="63.09" cy="26.9" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-359" data-name=" Grille de répétition -359">
+              <circle class="cls-11" cx="62.23" cy="27.61" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-360" data-name=" Grille de répétition -360">
+              <circle class="cls-11" cx="61.35" cy="28.33" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-361" data-name=" Grille de répétition -361">
+              <circle class="cls-11" cx="60.48" cy="29.04" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-362" data-name=" Grille de répétition -362">
+              <circle class="cls-11" cx="59.6" cy="29.75" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-363" data-name=" Grille de répétition -363">
+              <circle class="cls-11" cx="58.73" cy="30.46" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-364" data-name=" Grille de répétition -364">
+              <circle class="cls-11" cx="57.85" cy="31.18" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-365" data-name=" Grille de répétition -365">
+              <circle class="cls-11" cx="56.98" cy="31.89" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-366" data-name=" Grille de répétition -366">
+              <circle class="cls-11" cx="56.1" cy="32.61" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-367" data-name=" Grille de répétition -367">
+              <circle class="cls-11" cx="55.23" cy="33.32" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-368" data-name=" Grille de répétition -368">
+              <circle class="cls-11" cx="54.35" cy="34.04" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-369" data-name=" Grille de répétition -369">
+              <circle class="cls-11" cx="53.48" cy="34.75" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-370" data-name=" Grille de répétition -370">
+              <circle class="cls-11" cx="52.6" cy="35.46" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-371" data-name=" Grille de répétition -371">
+              <circle class="cls-11" cx="51.74" cy="36.17" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-372" data-name=" Grille de répétition -372">
+              <circle class="cls-11" cx="50.86" cy="36.89" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-373" data-name=" Grille de répétition -373">
+              <circle class="cls-11" cx="49.99" cy="37.6" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-374" data-name=" Grille de répétition -374">
+              <circle class="cls-11" cx="49.11" cy="38.32" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-375" data-name=" Grille de répétition -375">
+              <circle class="cls-11" cx="48.24" cy="39.03" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-376" data-name=" Grille de répétition -376">
+              <circle class="cls-11" cx="47.36" cy="39.75" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-377" data-name=" Grille de répétition -377">
+              <circle class="cls-11" cx="88.29" cy="7.77" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-378" data-name=" Grille de répétition -378">
+              <circle class="cls-11" cx="87.41" cy="8.49" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-379" data-name=" Grille de répétition -379">
+              <circle class="cls-11" cx="86.54" cy="9.2" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-380" data-name=" Grille de répétition -380">
+              <circle class="cls-11" cx="85.66" cy="9.92" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-381" data-name=" Grille de répétition -381">
+              <circle class="cls-11" cx="84.79" cy="10.63" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-382" data-name=" Grille de répétition -382">
+              <circle class="cls-11" cx="83.91" cy="11.35" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-383" data-name=" Grille de répétition -383">
+              <circle class="cls-11" cx="83.03" cy="12.06" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-384" data-name=" Grille de répétition -384">
+              <circle class="cls-11" cx="82.16" cy="12.77" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-385" data-name=" Grille de répétition -385">
+              <circle class="cls-11" cx="81.29" cy="13.49" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-386" data-name=" Grille de répétition -386">
+              <circle class="cls-11" cx="80.42" cy="14.2" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-387" data-name=" Grille de répétition -387">
+              <circle class="cls-11" cx="79.54" cy="14.92" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-388" data-name=" Grille de répétition -388">
+              <circle class="cls-11" cx="78.67" cy="15.63" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-389" data-name=" Grille de répétition -389">
+              <circle class="cls-11" cx="77.79" cy="16.35" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-390" data-name=" Grille de répétition -390">
+              <circle class="cls-11" cx="76.92" cy="17.06" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-391" data-name=" Grille de répétition -391">
+              <circle class="cls-11" cx="76.04" cy="17.77" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-392" data-name=" Grille de répétition -392">
+              <circle class="cls-11" cx="75.17" cy="18.48" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-393" data-name=" Grille de répétition -393">
+              <circle class="cls-11" cx="74.29" cy="19.2" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-394" data-name=" Grille de répétition -394">
+              <circle class="cls-11" cx="73.42" cy="19.91" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-395" data-name=" Grille de répétition -395">
+              <circle class="cls-11" cx="72.54" cy="20.63" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-396" data-name=" Grille de répétition -396">
+              <circle class="cls-11" cx="71.68" cy="21.34" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-397" data-name=" Grille de répétition -397">
+              <circle class="cls-11" cx="70.8" cy="22.06" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-398" data-name=" Grille de répétition -398">
+              <circle class="cls-11" cx="69.93" cy="22.77" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-399" data-name=" Grille de répétition -399">
+              <circle class="cls-11" cx="69.05" cy="23.48" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-400" data-name=" Grille de répétition -400">
+              <circle class="cls-11" cx="68.18" cy="24.19" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-401" data-name=" Grille de répétition -401">
+              <circle class="cls-11" cx="67.3" cy="24.91" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-402" data-name=" Grille de répétition -402">
+              <circle class="cls-11" cx="66.43" cy="25.62" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-403" data-name=" Grille de répétition -403">
+              <circle class="cls-11" cx="65.55" cy="26.34" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-404" data-name=" Grille de répétition -404">
+              <circle class="cls-11" cx="64.68" cy="27.05" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-405" data-name=" Grille de répétition -405">
+              <circle class="cls-11" cx="63.8" cy="27.77" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-406" data-name=" Grille de répétition -406">
+              <circle class="cls-11" cx="62.93" cy="28.48" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-407" data-name=" Grille de répétition -407">
+              <circle class="cls-11" cx="62.05" cy="29.19" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-408" data-name=" Grille de répétition -408">
+              <circle class="cls-11" cx="61.19" cy="29.9" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-409" data-name=" Grille de répétition -409">
+              <circle class="cls-11" cx="60.31" cy="30.62" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-410" data-name=" Grille de répétition -410">
+              <circle class="cls-11" cx="59.44" cy="31.33" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-411" data-name=" Grille de répétition -411">
+              <circle class="cls-11" cx="58.56" cy="32.05" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-412" data-name=" Grille de répétition -412">
+              <circle class="cls-11" cx="57.69" cy="32.76" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-413" data-name=" Grille de répétition -413">
+              <circle class="cls-11" cx="56.81" cy="33.48" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-414" data-name=" Grille de répétition -414">
+              <circle class="cls-11" cx="55.94" cy="34.19" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-415" data-name=" Grille de répétition -415">
+              <circle class="cls-11" cx="55.06" cy="34.9" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-416" data-name=" Grille de répétition -416">
+              <circle class="cls-11" cx="54.19" cy="35.61" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-417" data-name=" Grille de répétition -417">
+              <circle class="cls-11" cx="53.31" cy="36.33" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-418" data-name=" Grille de répétition -418">
+              <circle class="cls-11" cx="52.44" cy="37.04" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-419" data-name=" Grille de répétition -419">
+              <circle class="cls-11" cx="51.57" cy="37.76" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-420" data-name=" Grille de répétition -420">
+              <circle class="cls-11" cx="50.7" cy="38.47" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-421" data-name=" Grille de répétition -421">
+              <circle class="cls-11" cx="49.82" cy="39.19" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-422" data-name=" Grille de répétition -422">
+              <circle class="cls-11" cx="48.95" cy="39.9" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-423" data-name=" Grille de répétition -423">
+              <circle class="cls-11" cx="48.07" cy="40.61" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-424" data-name=" Grille de répétition -424">
+              <circle class="cls-11" cx="89.01" cy="8.65" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-425" data-name=" Grille de répétition -425">
+              <circle class="cls-11" cx="88.13" cy="9.37" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-426" data-name=" Grille de répétition -426">
+              <circle class="cls-11" cx="87.26" cy="10.08" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-427" data-name=" Grille de répétition -427">
+              <circle class="cls-11" cx="86.38" cy="10.8" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-428" data-name=" Grille de répétition -428">
+              <circle class="cls-11" cx="85.51" cy="11.51" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-429" data-name=" Grille de répétition -429">
+              <circle class="cls-11" cx="84.63" cy="12.23" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-430" data-name=" Grille de répétition -430">
+              <circle class="cls-11" cx="83.75" cy="12.94" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-431" data-name=" Grille de répétition -431">
+              <circle class="cls-11" cx="82.88" cy="13.65" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-432" data-name=" Grille de répétition -432">
+              <circle class="cls-11" cx="82" cy="14.37" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-433" data-name=" Grille de répétition -433">
+              <circle class="cls-11" cx="81.14" cy="15.08" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-434" data-name=" Grille de répétition -434">
+              <circle class="cls-11" cx="80.26" cy="15.8" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-435" data-name=" Grille de répétition -435">
+              <circle class="cls-11" cx="79.39" cy="16.51" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-436" data-name=" Grille de répétition -436">
+              <circle class="cls-11" cx="78.51" cy="17.23" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-437" data-name=" Grille de répétition -437">
+              <circle class="cls-11" cx="77.64" cy="17.94" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-438" data-name=" Grille de répétition -438">
+              <circle class="cls-11" cx="76.76" cy="18.65" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-439" data-name=" Grille de répétition -439">
+              <circle class="cls-11" cx="75.89" cy="19.36" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-440" data-name=" Grille de répétition -440">
+              <circle class="cls-11" cx="75.01" cy="20.08" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-441" data-name=" Grille de répétition -441">
+              <circle class="cls-11" cx="74.14" cy="20.79" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-442" data-name=" Grille de répétition -442">
+              <circle class="cls-11" cx="73.26" cy="21.51" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-443" data-name=" Grille de répétition -443">
+              <circle class="cls-11" cx="72.39" cy="22.22" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-444" data-name=" Grille de répétition -444">
+              <circle class="cls-11" cx="71.51" cy="22.94" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-445" data-name=" Grille de répétition -445">
+              <circle class="cls-11" cx="70.65" cy="23.65" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-446" data-name=" Grille de répétition -446">
+              <circle class="cls-11" cx="69.77" cy="24.36" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-447" data-name=" Grille de répétition -447">
+              <circle class="cls-11" cx="68.9" cy="25.07" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-448" data-name=" Grille de répétition -448">
+              <circle class="cls-11" cx="68.02" cy="25.79" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-449" data-name=" Grille de répétition -449">
+              <circle class="cls-11" cx="67.15" cy="26.5" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-450" data-name=" Grille de répétition -450">
+              <circle class="cls-11" cx="66.27" cy="27.22" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-451" data-name=" Grille de répétition -451">
+              <circle class="cls-11" cx="65.4" cy="27.93" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-452" data-name=" Grille de répétition -452">
+              <circle class="cls-11" cx="64.52" cy="28.65" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-453" data-name=" Grille de répétition -453">
+              <circle class="cls-11" cx="63.65" cy="29.36" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-454" data-name=" Grille de répétition -454">
+              <circle class="cls-11" cx="62.77" cy="30.07" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-455" data-name=" Grille de répétition -455">
+              <circle class="cls-11" cx="61.9" cy="30.78" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-456" data-name=" Grille de répétition -456">
+              <circle class="cls-11" cx="61.02" cy="31.5" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-457" data-name=" Grille de répétition -457">
+              <circle class="cls-11" cx="60.16" cy="32.21" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-458" data-name=" Grille de répétition -458">
+              <circle class="cls-11" cx="59.28" cy="32.93" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-459" data-name=" Grille de répétition -459">
+              <circle class="cls-11" cx="58.41" cy="33.64" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-460" data-name=" Grille de répétition -460">
+              <circle class="cls-11" cx="57.53" cy="34.36" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-461" data-name=" Grille de répétition -461">
+              <circle class="cls-11" cx="56.66" cy="35.07" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-462" data-name=" Grille de répétition -462">
+              <circle class="cls-11" cx="55.78" cy="35.78" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-463" data-name=" Grille de répétition -463">
+              <circle class="cls-11" cx="54.91" cy="36.49" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-464" data-name=" Grille de répétition -464">
+              <circle class="cls-11" cx="54.03" cy="37.21" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-465" data-name=" Grille de répétition -465">
+              <circle class="cls-11" cx="53.16" cy="37.92" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-466" data-name=" Grille de répétition -466">
+              <circle class="cls-11" cx="52.28" cy="38.64" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-467" data-name=" Grille de répétition -467">
+              <circle class="cls-11" cx="51.41" cy="39.35" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-468" data-name=" Grille de répétition -468">
+              <circle class="cls-11" cx="50.54" cy="40.07" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-469" data-name=" Grille de répétition -469">
+              <circle class="cls-11" cx="49.67" cy="40.78" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-470" data-name=" Grille de répétition -470">
+              <circle class="cls-11" cx="48.79" cy="41.49" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-471" data-name=" Grille de répétition -471">
+              <circle class="cls-11" cx="89.72" cy="9.52" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-472" data-name=" Grille de répétition -472">
+              <circle class="cls-11" cx="88.84" cy="10.24" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-473" data-name=" Grille de répétition -473">
+              <circle class="cls-11" cx="87.97" cy="10.95" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-474" data-name=" Grille de répétition -474">
+              <circle class="cls-11" cx="87.09" cy="11.67" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-475" data-name=" Grille de répétition -475">
+              <circle class="cls-11" cx="86.22" cy="12.38" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-476" data-name=" Grille de répétition -476">
+              <circle class="cls-11" cx="85.34" cy="13.09" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-477" data-name=" Grille de répétition -477">
+              <circle class="cls-11" cx="84.46" cy="13.81" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-478" data-name=" Grille de répétition -478">
+              <circle class="cls-11" cx="83.59" cy="14.52" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-479" data-name=" Grille de répétition -479">
+              <circle class="cls-11" cx="82.71" cy="15.24" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-480" data-name=" Grille de répétition -480">
+              <circle class="cls-11" cx="81.84" cy="15.95" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-481" data-name=" Grille de répétition -481">
+              <circle class="cls-11" cx="80.96" cy="16.67" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-482" data-name=" Grille de répétition -482">
+              <circle class="cls-11" cx="80.1" cy="17.38" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-483" data-name=" Grille de répétition -483">
+              <circle class="cls-11" cx="79.22" cy="18.1" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-484" data-name=" Grille de répétition -484">
+              <circle class="cls-11" cx="78.35" cy="18.8" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-485" data-name=" Grille de répétition -485">
+              <circle class="cls-11" cx="77.47" cy="19.52" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-486" data-name=" Grille de répétition -486">
+              <circle class="cls-11" cx="76.6" cy="20.23" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-487" data-name=" Grille de répétition -487">
+              <circle class="cls-11" cx="75.72" cy="20.95" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-488" data-name=" Grille de répétition -488">
+              <circle class="cls-11" cx="74.85" cy="21.66" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-489" data-name=" Grille de répétition -489">
+              <circle class="cls-11" cx="73.97" cy="22.38" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-490" data-name=" Grille de répétition -490">
+              <circle class="cls-11" cx="73.1" cy="23.09" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-491" data-name=" Grille de répétition -491">
+              <circle class="cls-11" cx="72.22" cy="23.81" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-492" data-name=" Grille de répétition -492">
+              <circle class="cls-11" cx="71.35" cy="24.51" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-493" data-name=" Grille de répétition -493">
+              <circle class="cls-11" cx="70.48" cy="25.23" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-494" data-name=" Grille de répétition -494">
+              <circle class="cls-11" cx="69.61" cy="25.94" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-495" data-name=" Grille de répétition -495">
+              <circle class="cls-11" cx="68.73" cy="26.66" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-496" data-name=" Grille de répétition -496">
+              <circle class="cls-11" cx="67.86" cy="27.37" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-497" data-name=" Grille de répétition -497">
+              <circle class="cls-11" cx="66.98" cy="28.09" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-498" data-name=" Grille de répétition -498">
+              <circle class="cls-11" cx="66.11" cy="28.8" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-499" data-name=" Grille de répétition -499">
+              <circle class="cls-11" cx="65.23" cy="29.52" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-500" data-name=" Grille de répétition -500">
+              <circle class="cls-11" cx="64.36" cy="30.22" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-501" data-name=" Grille de répétition -501">
+              <circle class="cls-11" cx="63.48" cy="30.94" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-502" data-name=" Grille de répétition -502">
+              <circle class="cls-11" cx="62.61" cy="31.65" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-503" data-name=" Grille de répétition -503">
+              <circle class="cls-11" cx="61.73" cy="32.37" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-504" data-name=" Grille de répétition -504">
+              <circle class="cls-11" cx="60.87" cy="33.08" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-505" data-name=" Grille de répétition -505">
+              <circle class="cls-11" cx="59.99" cy="33.8" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-506" data-name=" Grille de répétition -506">
+              <circle class="cls-11" cx="59.12" cy="34.51" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-507" data-name=" Grille de répétition -507">
+              <circle class="cls-11" cx="58.24" cy="35.23" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-508" data-name=" Grille de répétition -508">
+              <circle class="cls-11" cx="57.37" cy="35.93" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-509" data-name=" Grille de répétition -509">
+              <circle class="cls-11" cx="56.49" cy="36.65" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-510" data-name=" Grille de répétition -510">
+              <circle class="cls-11" cx="55.62" cy="37.36" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-511" data-name=" Grille de répétition -511">
+              <circle class="cls-11" cx="54.74" cy="38.08" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-512" data-name=" Grille de répétition -512">
+              <circle class="cls-11" cx="53.87" cy="38.79" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-513" data-name=" Grille de répétition -513">
+              <circle class="cls-11" cx="52.99" cy="39.51" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-514" data-name=" Grille de répétition -514">
+              <circle class="cls-11" cx="52.12" cy="40.22" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-515" data-name=" Grille de répétition -515">
+              <circle class="cls-11" cx="51.24" cy="40.94" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-516" data-name=" Grille de répétition -516">
+              <circle class="cls-11" cx="50.38" cy="41.64" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-517" data-name=" Grille de répétition -517">
+              <circle class="cls-11" cx="49.5" cy="42.36" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-518" data-name=" Grille de répétition -518">
+              <circle class="cls-11" cx="90.44" cy="10.4" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-519" data-name=" Grille de répétition -519">
+              <circle class="cls-11" cx="89.56" cy="11.12" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-520" data-name=" Grille de répétition -520">
+              <circle class="cls-11" cx="88.69" cy="11.83" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-521" data-name=" Grille de répétition -521">
+              <circle class="cls-11" cx="87.81" cy="12.55" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-522" data-name=" Grille de répétition -522">
+              <circle class="cls-11" cx="86.94" cy="13.26" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-523" data-name=" Grille de répétition -523">
+              <circle class="cls-11" cx="86.06" cy="13.97" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-524" data-name=" Grille de répétition -524">
+              <circle class="cls-11" cx="85.18" cy="14.69" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-525" data-name=" Grille de répétition -525">
+              <circle class="cls-11" cx="84.31" cy="15.4" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-526" data-name=" Grille de répétition -526">
+              <circle class="cls-11" cx="83.43" cy="16.12" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-527" data-name=" Grille de répétition -527">
+              <circle class="cls-11" cx="82.56" cy="16.83" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-528" data-name=" Grille de répétition -528">
+              <circle class="cls-11" cx="81.68" cy="17.55" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-529" data-name=" Grille de répétition -529">
+              <circle class="cls-11" cx="80.81" cy="18.26" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-530" data-name=" Grille de répétition -530">
+              <circle class="cls-11" cx="79.93" cy="18.97" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-531" data-name=" Grille de répétition -531">
+              <circle class="cls-11" cx="79.07" cy="19.68" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-532" data-name=" Grille de répétition -532">
+              <circle class="cls-11" cx="78.19" cy="20.4" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-533" data-name=" Grille de répétition -533">
+              <circle class="cls-11" cx="77.32" cy="21.11" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-534" data-name=" Grille de répétition -534">
+              <circle class="cls-11" cx="76.44" cy="21.83" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-535" data-name=" Grille de répétition -535">
+              <circle class="cls-11" cx="75.57" cy="22.54" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-536" data-name=" Grille de répétition -536">
+              <circle class="cls-11" cx="74.69" cy="23.26" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-537" data-name=" Grille de répétition -537">
+              <circle class="cls-11" cx="73.82" cy="23.97" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-538" data-name=" Grille de répétition -538">
+              <circle class="cls-11" cx="72.94" cy="24.68" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-539" data-name=" Grille de répétition -539">
+              <circle class="cls-11" cx="72.07" cy="25.39" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-540" data-name=" Grille de répétition -540">
+              <circle class="cls-11" cx="71.19" cy="26.11" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-541" data-name=" Grille de répétition -541">
+              <circle class="cls-11" cx="70.32" cy="26.82" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-542" data-name=" Grille de répétition -542">
+              <circle class="cls-11" cx="69.45" cy="27.54" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-543" data-name=" Grille de répétition -543">
+              <circle class="cls-11" cx="68.58" cy="28.25" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-544" data-name=" Grille de répétition -544">
+              <circle class="cls-11" cx="67.7" cy="28.97" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-545" data-name=" Grille de répétition -545">
+              <circle class="cls-11" cx="66.83" cy="29.68" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-546" data-name=" Grille de répétition -546">
+              <circle class="cls-11" cx="65.95" cy="30.39" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-547" data-name=" Grille de répétition -547">
+              <circle class="cls-11" cx="65.08" cy="31.1" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-548" data-name=" Grille de répétition -548">
+              <circle class="cls-11" cx="64.2" cy="31.82" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-549" data-name=" Grille de répétition -549">
+              <circle class="cls-11" cx="63.33" cy="32.53" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-550" data-name=" Grille de répétition -550">
+              <circle class="cls-11" cx="62.45" cy="33.25" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-551" data-name=" Grille de répétition -551">
+              <circle class="cls-11" cx="61.58" cy="33.96" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-552" data-name=" Grille de répétition -552">
+              <circle class="cls-11" cx="60.7" cy="34.68" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-553" data-name=" Grille de répétition -553">
+              <circle class="cls-11" cx="59.84" cy="35.39" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-554" data-name=" Grille de répétition -554">
+              <circle class="cls-11" cx="58.96" cy="36.1" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-555" data-name=" Grille de répétition -555">
+              <circle class="cls-11" cx="58.09" cy="36.81" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-556" data-name=" Grille de répétition -556">
+              <circle class="cls-11" cx="57.21" cy="37.53" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-557" data-name=" Grille de répétition -557">
+              <circle class="cls-11" cx="56.34" cy="38.24" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-558" data-name=" Grille de répétition -558">
+              <circle class="cls-11" cx="55.46" cy="38.96" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-559" data-name=" Grille de répétition -559">
+              <circle class="cls-11" cx="54.59" cy="39.67" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-560" data-name=" Grille de répétition -560">
+              <circle class="cls-11" cx="53.71" cy="40.39" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-561" data-name=" Grille de répétition -561">
+              <circle class="cls-11" cx="52.84" cy="41.1" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-562" data-name=" Grille de répétition -562">
+              <circle class="cls-11" cx="51.96" cy="41.81" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-563" data-name=" Grille de répétition -563">
+              <circle class="cls-11" cx="51.09" cy="42.52" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-564" data-name=" Grille de répétition -564">
+              <circle class="cls-11" cx="50.21" cy="43.24" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-565" data-name=" Grille de répétition -565">
+              <circle class="cls-11" cx="91.14" cy="11.27" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-566" data-name=" Grille de répétition -566">
+              <circle class="cls-11" cx="90.26" cy="11.99" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-567" data-name=" Grille de répétition -567">
+              <circle class="cls-11" cx="89.4" cy="12.7" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-568" data-name=" Grille de répétition -568">
+              <circle class="cls-11" cx="88.52" cy="13.42" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-569" data-name=" Grille de répétition -569">
+              <circle class="cls-11" cx="87.65" cy="14.12" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-570" data-name=" Grille de répétition -570">
+              <path class="cls-11" d="M86.94,14.71c.08,.09-.03,.3-.03,.3,0,0-.23,.06-.3-.03s-.06-.23,.03-.3,.23-.06,.3,.03Z"/>
+            </g>
+            <g id="_Grille_de_répétition_-571" data-name=" Grille de répétition -571">
+              <circle class="cls-11" cx="85.89" cy="15.56" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-572" data-name=" Grille de répétition -572">
+              <circle class="cls-11" cx="85.02" cy="16.27" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-573" data-name=" Grille de répétition -573">
+              <circle class="cls-11" cx="84.14" cy="16.99" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-574" data-name=" Grille de répétition -574">
+              <circle class="cls-11" cx="83.27" cy="17.7" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-575" data-name=" Grille de répétition -575">
+              <circle class="cls-11" cx="82.39" cy="18.42" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-576" data-name=" Grille de répétition -576">
+              <circle class="cls-11" cx="81.52" cy="19.13" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-577" data-name=" Grille de répétition -577">
+              <circle class="cls-11" cx="80.64" cy="19.84" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-578" data-name=" Grille de répétition -578">
+              <circle class="cls-11" cx="79.78" cy="20.55" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-579" data-name=" Grille de répétition -579">
+              <circle class="cls-11" cx="78.9" cy="21.27" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-580" data-name=" Grille de répétition -580">
+              <circle class="cls-11" cx="78.03" cy="21.98" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-581" data-name=" Grille de répétition -581">
+              <circle class="cls-11" cx="77.15" cy="22.7" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-582" data-name=" Grille de répétition -582">
+              <circle class="cls-11" cx="76.28" cy="23.41" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-583" data-name=" Grille de répétition -583">
+              <circle class="cls-11" cx="75.4" cy="24.13" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-584" data-name=" Grille de répétition -584">
+              <circle class="cls-11" cx="74.53" cy="24.84" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-585" data-name=" Grille de répétition -585">
+              <circle class="cls-11" cx="73.65" cy="25.55" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-586" data-name=" Grille de répétition -586">
+              <circle class="cls-11" cx="72.78" cy="26.26" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-587" data-name=" Grille de répétition -587">
+              <circle class="cls-11" cx="71.9" cy="26.98" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-588" data-name=" Grille de répétition -588">
+              <circle class="cls-11" cx="71.03" cy="27.69" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-589" data-name=" Grille de répétition -589">
+              <circle class="cls-11" cx="70.15" cy="28.41" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-590" data-name=" Grille de répétition -590">
+              <circle class="cls-11" cx="69.29" cy="29.12" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-591" data-name=" Grille de répétition -591">
+              <circle class="cls-11" cx="68.41" cy="29.84" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-592" data-name=" Grille de répétition -592">
+              <circle class="cls-11" cx="67.54" cy="30.55" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-593" data-name=" Grille de répétition -593">
+              <circle class="cls-11" cx="66.66" cy="31.26" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-594" data-name=" Grille de répétition -594">
+              <circle class="cls-11" cx="65.79" cy="31.97" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-595" data-name=" Grille de répétition -595">
+              <circle class="cls-11" cx="64.91" cy="32.69" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-596" data-name=" Grille de répétition -596">
+              <circle class="cls-11" cx="64.04" cy="33.4" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-597" data-name=" Grille de répétition -597">
+              <circle class="cls-11" cx="63.16" cy="34.12" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-598" data-name=" Grille de répétition -598">
+              <circle class="cls-11" cx="62.29" cy="34.83" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-599" data-name=" Grille de répétition -599">
+              <circle class="cls-11" cx="61.41" cy="35.55" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-600" data-name=" Grille de répétition -600">
+              <circle class="cls-11" cx="60.54" cy="36.26" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-601" data-name=" Grille de répétition -601">
+              <circle class="cls-11" cx="59.66" cy="36.97" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-602" data-name=" Grille de répétition -602">
+              <circle class="cls-11" cx="58.8" cy="37.68" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-603" data-name=" Grille de répétition -603">
+              <circle class="cls-11" cx="57.92" cy="38.4" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-604" data-name=" Grille de répétition -604">
+              <circle class="cls-11" cx="57.05" cy="39.11" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-605" data-name=" Grille de répétition -605">
+              <circle class="cls-11" cx="56.17" cy="39.83" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-606" data-name=" Grille de répétition -606">
+              <circle class="cls-11" cx="55.3" cy="40.54" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-607" data-name=" Grille de répétition -607">
+              <circle class="cls-11" cx="54.42" cy="41.26" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-608" data-name=" Grille de répétition -608">
+              <circle class="cls-11" cx="53.55" cy="41.97" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-609" data-name=" Grille de répétition -609">
+              <circle class="cls-11" cx="52.67" cy="42.68" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-610" data-name=" Grille de répétition -610">
+              <circle class="cls-11" cx="51.8" cy="43.39" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-611" data-name=" Grille de répétition -611">
+              <circle class="cls-11" cx="50.92" cy="44.11" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-612" data-name=" Grille de répétition -612">
+              <circle class="cls-11" cx="91.86" cy="12.15" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-613" data-name=" Grille de répétition -613">
+              <circle class="cls-11" cx="90.98" cy="12.87" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-614" data-name=" Grille de répétition -614">
+              <circle class="cls-11" cx="90.11" cy="13.58" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-615" data-name=" Grille de répétition -615">
+              <circle class="cls-11" cx="89.23" cy="14.29" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-616" data-name=" Grille de répétition -616">
+              <circle class="cls-11" cx="88.37" cy="15" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-617" data-name=" Grille de répétition -617">
+              <circle class="cls-11" cx="87.49" cy="15.72" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-618" data-name=" Grille de répétition -618">
+              <circle class="cls-11" cx="86.61" cy="16.44" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-619" data-name=" Grille de répétition -619">
+              <circle class="cls-11" cx="85.74" cy="17.15" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-620" data-name=" Grille de répétition -620">
+              <circle class="cls-11" cx="84.86" cy="17.87" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-621" data-name=" Grille de répétition -621">
+              <circle class="cls-11" cx="83.99" cy="18.58" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-622" data-name=" Grille de répétition -622">
+              <circle class="cls-11" cx="83.11" cy="19.3" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-623" data-name=" Grille de répétition -623">
+              <circle class="cls-11" cx="82.24" cy="20" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-624" data-name=" Grille de répétition -624">
+              <circle class="cls-11" cx="81.36" cy="20.72" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-625" data-name=" Grille de répétition -625">
+              <circle class="cls-11" cx="80.49" cy="21.43" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-626" data-name=" Grille de répétition -626">
+              <circle class="cls-11" cx="79.61" cy="22.15" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-627" data-name=" Grille de répétition -627">
+              <circle class="cls-11" cx="78.75" cy="22.86" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-628" data-name=" Grille de répétition -628">
+              <circle class="cls-11" cx="77.87" cy="23.58" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-629" data-name=" Grille de répétition -629">
+              <circle class="cls-11" cx="77" cy="24.29" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-630" data-name=" Grille de répétition -630">
+              <circle class="cls-11" cx="76.12" cy="25.01" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-631" data-name=" Grille de répétition -631">
+              <circle class="cls-11" cx="75.25" cy="25.71" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-632" data-name=" Grille de répétition -632">
+              <circle class="cls-11" cx="74.37" cy="26.43" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-633" data-name=" Grille de répétition -633">
+              <circle class="cls-11" cx="73.5" cy="27.14" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-634" data-name=" Grille de répétition -634">
+              <circle class="cls-11" cx="72.62" cy="27.86" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-635" data-name=" Grille de répétition -635">
+              <circle class="cls-11" cx="71.75" cy="28.57" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-636" data-name=" Grille de répétition -636">
+              <circle class="cls-11" cx="70.87" cy="29.29" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-637" data-name=" Grille de répétition -637">
+              <circle class="cls-11" cx="70" cy="30" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-638" data-name=" Grille de répétition -638">
+              <circle class="cls-11" cx="69.12" cy="30.72" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-639" data-name=" Grille de répétition -639">
+              <circle class="cls-11" cx="68.26" cy="31.42" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-640" data-name=" Grille de répétition -640">
+              <circle class="cls-11" cx="67.38" cy="32.14" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-641" data-name=" Grille de répétition -641">
+              <circle class="cls-11" cx="66.51" cy="32.85" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-642" data-name=" Grille de répétition -642">
+              <circle class="cls-11" cx="65.63" cy="33.57" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-643" data-name=" Grille de répétition -643">
+              <circle class="cls-11" cx="64.76" cy="34.28" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-644" data-name=" Grille de répétition -644">
+              <circle class="cls-11" cx="63.88" cy="35" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-645" data-name=" Grille de répétition -645">
+              <circle class="cls-11" cx="63.01" cy="35.71" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-646" data-name=" Grille de répétition -646">
+              <circle class="cls-11" cx="62.13" cy="36.43" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-647" data-name=" Grille de répétition -647">
+              <circle class="cls-11" cx="61.26" cy="37.13" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-648" data-name=" Grille de répétition -648">
+              <circle class="cls-11" cx="60.38" cy="37.85" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-649" data-name=" Grille de répétition -649">
+              <circle class="cls-11" cx="59.51" cy="38.56" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-650" data-name=" Grille de répétition -650">
+              <circle class="cls-11" cx="58.63" cy="39.28" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-651" data-name=" Grille de répétition -651">
+              <circle class="cls-11" cx="57.77" cy="39.99" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-652" data-name=" Grille de répétition -652">
+              <circle class="cls-11" cx="56.89" cy="40.71" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-653" data-name=" Grille de répétition -653">
+              <circle class="cls-11" cx="56.02" cy="41.42" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-654" data-name=" Grille de répétition -654">
+              <circle class="cls-11" cx="55.14" cy="42.14" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-655" data-name=" Grille de répétition -655">
+              <circle class="cls-11" cx="54.27" cy="42.84" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-656" data-name=" Grille de répétition -656">
+              <circle class="cls-11" cx="53.39" cy="43.56" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-657" data-name=" Grille de répétition -657">
+              <circle class="cls-11" cx="52.52" cy="44.27" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-658" data-name=" Grille de répétition -658">
+              <circle class="cls-11" cx="51.64" cy="44.99" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-659" data-name=" Grille de répétition -659">
+              <circle class="cls-11" cx="92.57" cy="13.02" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-660" data-name=" Grille de répétition -660">
+              <circle class="cls-11" cx="91.69" cy="13.74" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-661" data-name=" Grille de répétition -661">
+              <circle class="cls-11" cx="90.82" cy="14.44" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-662" data-name=" Grille de répétition -662">
+              <circle class="cls-11" cx="89.94" cy="15.16" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-663" data-name=" Grille de répétition -663">
+              <circle class="cls-11" cx="89.08" cy="15.87" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-664" data-name=" Grille de répétition -664">
+              <circle class="cls-11" cx="88.2" cy="16.59" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-665" data-name=" Grille de répétition -665">
+              <circle class="cls-11" cx="87.32" cy="17.31" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-666" data-name=" Grille de répétition -666">
+              <circle class="cls-11" cx="86.45" cy="18.02" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-667" data-name=" Grille de répétition -667">
+              <circle class="cls-11" cx="85.57" cy="18.74" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-668" data-name=" Grille de répétition -668">
+              <circle class="cls-11" cx="84.7" cy="19.45" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-669" data-name=" Grille de répétition -669">
+              <circle class="cls-11" cx="83.82" cy="20.16" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-670" data-name=" Grille de répétition -670">
+              <circle class="cls-11" cx="82.95" cy="20.87" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-671" data-name=" Grille de répétition -671">
+              <circle class="cls-11" cx="82.07" cy="21.59" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-672" data-name=" Grille de répétition -672">
+              <circle class="cls-11" cx="81.2" cy="22.3" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-673" data-name=" Grille de répétition -673">
+              <circle class="cls-11" cx="80.32" cy="23.02" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-674" data-name=" Grille de répétition -674">
+              <circle class="cls-11" cx="79.45" cy="23.73" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-675" data-name=" Grille de répétition -675">
+              <circle class="cls-11" cx="78.57" cy="24.45" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-676" data-name=" Grille de répétition -676">
+              <circle class="cls-11" cx="77.71" cy="25.16" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-677" data-name=" Grille de répétition -677">
+              <circle class="cls-11" cx="76.83" cy="25.87" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-678" data-name=" Grille de répétition -678">
+              <circle class="cls-11" cx="75.96" cy="26.58" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-679" data-name=" Grille de répétition -679">
+              <circle class="cls-11" cx="75.08" cy="27.3" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-680" data-name=" Grille de répétition -680">
+              <circle class="cls-11" cx="74.21" cy="28.01" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-681" data-name=" Grille de répétition -681">
+              <circle class="cls-11" cx="73.33" cy="28.73" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-682" data-name=" Grille de répétition -682">
+              <circle class="cls-11" cx="72.46" cy="29.44" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-683" data-name=" Grille de répétition -683">
+              <circle class="cls-11" cx="71.58" cy="30.16" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-684" data-name=" Grille de répétition -684">
+              <circle class="cls-11" cx="70.71" cy="30.87" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-685" data-name=" Grille de répétition -685">
+              <circle class="cls-11" cx="69.83" cy="31.58" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-686" data-name=" Grille de répétition -686">
+              <circle class="cls-11" cx="68.97" cy="32.29" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-687" data-name=" Grille de répétition -687">
+              <circle class="cls-11" cx="68.09" cy="33.01" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-688" data-name=" Grille de répétition -688">
+              <circle class="cls-11" cx="67.22" cy="33.72" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-689" data-name=" Grille de répétition -689">
+              <circle class="cls-11" cx="66.34" cy="34.44" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-690" data-name=" Grille de répétition -690">
+              <circle class="cls-11" cx="65.47" cy="35.15" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-691" data-name=" Grille de répétition -691">
+              <circle class="cls-11" cx="64.59" cy="35.87" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-692" data-name=" Grille de répétition -692">
+              <circle class="cls-11" cx="63.72" cy="36.58" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-693" data-name=" Grille de répétition -693">
+              <circle class="cls-11" cx="62.84" cy="37.29" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-694" data-name=" Grille de répétition -694">
+              <circle class="cls-11" cx="61.97" cy="38" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-695" data-name=" Grille de répétition -695">
+              <circle class="cls-11" cx="61.09" cy="38.72" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-696" data-name=" Grille de répétition -696">
+              <circle class="cls-11" cx="60.22" cy="39.43" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-697" data-name=" Grille de répétition -697">
+              <circle class="cls-11" cx="59.34" cy="40.15" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-698" data-name=" Grille de répétition -698">
+              <circle class="cls-11" cx="58.48" cy="40.86" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-699" data-name=" Grille de répétition -699">
+              <circle class="cls-11" cx="57.6" cy="41.58" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-700" data-name=" Grille de répétition -700">
+              <circle class="cls-11" cx="56.73" cy="42.29" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-701" data-name=" Grille de répétition -701">
+              <circle class="cls-11" cx="55.85" cy="43" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-702" data-name=" Grille de répétition -702">
+              <circle class="cls-11" cx="54.98" cy="43.71" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-703" data-name=" Grille de répétition -703">
+              <circle class="cls-11" cx="54.1" cy="44.43" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-704" data-name=" Grille de répétition -704">
+              <circle class="cls-11" cx="53.23" cy="45.14" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-705" data-name=" Grille de répétition -705">
+              <circle class="cls-11" cx="52.35" cy="45.86" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-706" data-name=" Grille de répétition -706">
+              <circle class="cls-11" cx="93.29" cy="13.9" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-707" data-name=" Grille de répétition -707">
+              <circle class="cls-11" cx="92.41" cy="14.62" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-708" data-name=" Grille de répétition -708">
+              <circle class="cls-11" cx="91.54" cy="15.32" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-709" data-name=" Grille de répétition -709">
+              <circle class="cls-11" cx="90.66" cy="16.04" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-710" data-name=" Grille de répétition -710">
+              <circle class="cls-11" cx="89.79" cy="16.75" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-711" data-name=" Grille de répétition -711">
+              <circle class="cls-11" cx="88.91" cy="17.47" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-712" data-name=" Grille de répétition -712">
+              <circle class="cls-11" cx="88.03" cy="18.19" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-713" data-name=" Grille de répétition -713">
+              <circle class="cls-11" cx="87.17" cy="18.9" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-714" data-name=" Grille de répétition -714">
+              <circle class="cls-11" cx="86.29" cy="19.62" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-715" data-name=" Grille de répétition -715">
+              <circle class="cls-11" cx="85.42" cy="20.33" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-716" data-name=" Grille de répétition -716">
+              <circle class="cls-11" cx="84.54" cy="21.04" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-717" data-name=" Grille de répétition -717">
+              <circle class="cls-11" cx="83.67" cy="21.75" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-718" data-name=" Grille de répétition -718">
+              <circle class="cls-11" cx="82.79" cy="22.47" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-719" data-name=" Grille de répétition -719">
+              <circle class="cls-11" cx="81.92" cy="23.18" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-720" data-name=" Grille de répétition -720">
+              <circle class="cls-11" cx="81.04" cy="23.9" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-721" data-name=" Grille de répétition -721">
+              <circle class="cls-11" cx="80.17" cy="24.61" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-722" data-name=" Grille de répétition -722">
+              <circle class="cls-11" cx="79.29" cy="25.33" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-723" data-name=" Grille de répétition -723">
+              <circle class="cls-11" cx="78.42" cy="26.04" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-724" data-name=" Grille de répétition -724">
+              <circle class="cls-11" cx="77.54" cy="26.75" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-725" data-name=" Grille de répétition -725">
+              <circle class="cls-11" cx="76.68" cy="27.46" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-726" data-name=" Grille de répétition -726">
+              <circle class="cls-11" cx="75.8" cy="28.18" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-727" data-name=" Grille de répétition -727">
+              <circle class="cls-11" cx="74.93" cy="28.89" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-728" data-name=" Grille de répétition -728">
+              <circle class="cls-11" cx="74.05" cy="29.61" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-729" data-name=" Grille de répétition -729">
+              <circle class="cls-11" cx="73.18" cy="30.32" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-730" data-name=" Grille de répétition -730">
+              <circle class="cls-11" cx="72.3" cy="31.04" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-731" data-name=" Grille de répétition -731">
+              <circle class="cls-11" cx="71.43" cy="31.75" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-732" data-name=" Grille de répétition -732">
+              <circle class="cls-11" cx="70.55" cy="32.46" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-733" data-name=" Grille de répétition -733">
+              <circle class="cls-11" cx="69.68" cy="33.17" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-734" data-name=" Grille de répétition -734">
+              <circle class="cls-11" cx="68.8" cy="33.89" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-735" data-name=" Grille de répétition -735">
+              <circle class="cls-11" cx="67.94" cy="34.6" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-736" data-name=" Grille de répétition -736">
+              <circle class="cls-11" cx="67.06" cy="35.32" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-737" data-name=" Grille de répétition -737">
+              <circle class="cls-11" cx="66.19" cy="36.03" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-738" data-name=" Grille de répétition -738">
+              <circle class="cls-11" cx="65.31" cy="36.75" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-739" data-name=" Grille de répétition -739">
+              <circle class="cls-11" cx="64.44" cy="37.46" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-740" data-name=" Grille de répétition -740">
+              <circle class="cls-11" cx="63.56" cy="38.17" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-741" data-name=" Grille de répétition -741">
+              <circle class="cls-11" cx="62.69" cy="38.88" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-742" data-name=" Grille de répétition -742">
+              <circle class="cls-11" cx="61.81" cy="39.6" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-743" data-name=" Grille de répétition -743">
+              <circle class="cls-11" cx="60.94" cy="40.31" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-744" data-name=" Grille de répétition -744">
+              <circle class="cls-11" cx="60.06" cy="41.03" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-745" data-name=" Grille de répétition -745">
+              <circle class="cls-11" cx="59.19" cy="41.74" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-746" data-name=" Grille de répétition -746">
+              <circle class="cls-11" cx="58.31" cy="42.46" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-747" data-name=" Grille de répétition -747">
+              <circle class="cls-11" cx="57.45" cy="43.17" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-748" data-name=" Grille de répétition -748">
+              <circle class="cls-11" cx="56.57" cy="43.88" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-749" data-name=" Grille de répétition -749">
+              <circle class="cls-11" cx="55.7" cy="44.59" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-750" data-name=" Grille de répétition -750">
+              <circle class="cls-11" cx="54.82" cy="45.31" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-751" data-name=" Grille de répétition -751">
+              <circle class="cls-11" cx="53.95" cy="46.02" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-752" data-name=" Grille de répétition -752">
+              <circle class="cls-11" cx="53.07" cy="46.74" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-753" data-name=" Grille de répétition -753">
+              <circle class="cls-11" cx="94" cy="14.77" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-754" data-name=" Grille de répétition -754">
+              <circle class="cls-11" cx="93.12" cy="15.48" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-755" data-name=" Grille de répétition -755">
+              <circle class="cls-11" cx="92.25" cy="16.19" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-756" data-name=" Grille de répétition -756">
+              <circle class="cls-11" cx="91.37" cy="16.91" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-757" data-name=" Grille de répétition -757">
+              <circle class="cls-11" cx="90.5" cy="17.62" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-758" data-name=" Grille de répétition -758">
+              <circle class="cls-11" cx="89.62" cy="18.34" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-759" data-name=" Grille de répétition -759">
+              <circle class="cls-11" cx="88.74" cy="19.06" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-760" data-name=" Grille de répétition -760">
+              <circle class="cls-11" cx="87.88" cy="19.77" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-761" data-name=" Grille de répétition -761">
+              <circle class="cls-11" cx="87" cy="20.48" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-762" data-name=" Grille de répétition -762">
+              <circle class="cls-11" cx="86.13" cy="21.19" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-763" data-name=" Grille de répétition -763">
+              <circle class="cls-11" cx="85.25" cy="21.91" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-764" data-name=" Grille de répétition -764">
+              <circle class="cls-11" cx="84.38" cy="22.62" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-765" data-name=" Grille de répétition -765">
+              <circle class="cls-11" cx="83.5" cy="23.34" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-766" data-name=" Grille de répétition -766">
+              <circle class="cls-11" cx="82.63" cy="24.05" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-767" data-name=" Grille de répétition -767">
+              <circle class="cls-11" cx="81.75" cy="24.77" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-768" data-name=" Grille de répétition -768">
+              <circle class="cls-11" cx="80.88" cy="25.48" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-769" data-name=" Grille de répétition -769">
+              <circle class="cls-11" cx="80" cy="26.19" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-770" data-name=" Grille de répétition -770">
+              <circle class="cls-11" cx="79.13" cy="26.9" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-771" data-name=" Grille de répétition -771">
+              <circle class="cls-11" cx="78.25" cy="27.62" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-772" data-name=" Grille de répétition -772">
+              <circle class="cls-11" cx="77.39" cy="28.33" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-773" data-name=" Grille de répétition -773">
+              <circle class="cls-11" cx="76.51" cy="29.05" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-774" data-name=" Grille de répétition -774">
+              <circle class="cls-11" cx="75.64" cy="29.76" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-775" data-name=" Grille de répétition -775">
+              <circle class="cls-11" cx="74.76" cy="30.48" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-776" data-name=" Grille de répétition -776">
+              <circle class="cls-11" cx="73.89" cy="31.19" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-777" data-name=" Grille de répétition -777">
+              <circle class="cls-11" cx="73.01" cy="31.9" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-778" data-name=" Grille de répétition -778">
+              <circle class="cls-11" cx="72.14" cy="32.61" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-779" data-name=" Grille de répétition -779">
+              <circle class="cls-11" cx="71.26" cy="33.33" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-780" data-name=" Grille de répétition -780">
+              <circle class="cls-11" cx="70.39" cy="34.04" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-781" data-name=" Grille de répétition -781">
+              <circle class="cls-11" cx="69.51" cy="34.76" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-782" data-name=" Grille de répétition -782">
+              <circle class="cls-11" cx="68.64" cy="35.47" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-783" data-name=" Grille de répétition -783">
+              <circle class="cls-11" cx="67.76" cy="36.19" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-784" data-name=" Grille de répétition -784">
+              <circle class="cls-11" cx="66.9" cy="36.9" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-785" data-name=" Grille de répétition -785">
+              <circle class="cls-11" cx="66.02" cy="37.61" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-786" data-name=" Grille de répétition -786">
+              <circle class="cls-11" cx="65.15" cy="38.32" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-787" data-name=" Grille de répétition -787">
+              <circle class="cls-11" cx="64.27" cy="39.04" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-788" data-name=" Grille de répétition -788">
+              <circle class="cls-11" cx="63.4" cy="39.75" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-789" data-name=" Grille de répétition -789">
+              <circle class="cls-11" cx="62.52" cy="40.47" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-790" data-name=" Grille de répétition -790">
+              <circle class="cls-11" cx="61.65" cy="41.18" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-791" data-name=" Grille de répétition -791">
+              <circle class="cls-11" cx="60.77" cy="41.9" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-792" data-name=" Grille de répétition -792">
+              <circle class="cls-11" cx="59.9" cy="42.61" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-793" data-name=" Grille de répétition -793">
+              <circle class="cls-11" cx="59.02" cy="43.32" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-794" data-name=" Grille de répétition -794">
+              <circle class="cls-11" cx="58.15" cy="44.03" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-795" data-name=" Grille de répétition -795">
+              <circle class="cls-11" cx="57.28" cy="44.75" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-796" data-name=" Grille de répétition -796">
+              <circle class="cls-11" cx="56.41" cy="45.46" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-797" data-name=" Grille de répétition -797">
+              <circle class="cls-11" cx="55.53" cy="46.18" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-798" data-name=" Grille de répétition -798">
+              <circle class="cls-11" cx="54.66" cy="46.89" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-799" data-name=" Grille de répétition -799">
+              <circle class="cls-11" cx="53.78" cy="47.61" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-800" data-name=" Grille de répétition -800">
+              <circle class="cls-11" cx="94.72" cy="15.65" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-801" data-name=" Grille de répétition -801">
+              <circle class="cls-11" cx="93.84" cy="16.36" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-802" data-name=" Grille de répétition -802">
+              <circle class="cls-11" cx="92.97" cy="17.07" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-803" data-name=" Grille de répétition -803">
+              <circle class="cls-11" cx="92.09" cy="17.79" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-804" data-name=" Grille de répétition -804">
+              <circle class="cls-11" cx="91.22" cy="18.5" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-805" data-name=" Grille de répétition -805">
+              <circle class="cls-11" cx="90.34" cy="19.22" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-806" data-name=" Grille de répétition -806">
+              <circle class="cls-11" cx="89.46" cy="19.94" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-807" data-name=" Grille de répétition -807">
+              <circle class="cls-11" cx="88.59" cy="20.65" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-808" data-name=" Grille de répétition -808">
+              <circle class="cls-11" cx="87.71" cy="21.36" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-809" data-name=" Grille de répétition -809">
+              <circle class="cls-11" cx="86.85" cy="22.07" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-810" data-name=" Grille de répétition -810">
+              <circle class="cls-11" cx="85.97" cy="22.79" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-811" data-name=" Grille de répétition -811">
+              <circle class="cls-11" cx="85.1" cy="23.5" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-812" data-name=" Grille de répétition -812">
+              <circle class="cls-11" cx="84.22" cy="24.22" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-813" data-name=" Grille de répétition -813">
+              <circle class="cls-11" cx="83.35" cy="24.93" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-814" data-name=" Grille de répétition -814">
+              <circle class="cls-11" cx="82.47" cy="25.65" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-815" data-name=" Grille de répétition -815">
+              <circle class="cls-11" cx="81.6" cy="26.36" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-816" data-name=" Grille de répétition -816">
+              <circle class="cls-11" cx="80.72" cy="27.07" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-817" data-name=" Grille de répétition -817">
+              <circle class="cls-11" cx="79.85" cy="27.78" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-818" data-name=" Grille de répétition -818">
+              <circle class="cls-11" cx="78.97" cy="28.5" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-819" data-name=" Grille de répétition -819">
+              <circle class="cls-11" cx="78.1" cy="29.21" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-820" data-name=" Grille de répétition -820">
+              <circle class="cls-11" cx="77.22" cy="29.93" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-821" data-name=" Grille de répétition -821">
+              <circle class="cls-11" cx="76.36" cy="30.64" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-822" data-name=" Grille de répétition -822">
+              <circle class="cls-11" cx="75.48" cy="31.36" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-823" data-name=" Grille de répétition -823">
+              <circle class="cls-11" cx="74.61" cy="32.07" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-824" data-name=" Grille de répétition -824">
+              <circle class="cls-11" cx="73.73" cy="32.78" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-825" data-name=" Grille de répétition -825">
+              <circle class="cls-11" cx="72.86" cy="33.49" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-826" data-name=" Grille de répétition -826">
+              <circle class="cls-11" cx="71.98" cy="34.21" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-827" data-name=" Grille de répétition -827">
+              <circle class="cls-11" cx="71.11" cy="34.92" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-828" data-name=" Grille de répétition -828">
+              <circle class="cls-11" cx="70.23" cy="35.64" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-829" data-name=" Grille de répétition -829">
+              <circle class="cls-11" cx="69.36" cy="36.35" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-830" data-name=" Grille de répétition -830">
+              <circle class="cls-11" cx="68.48" cy="37.07" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-831" data-name=" Grille de répétition -831">
+              <circle class="cls-11" cx="67.61" cy="37.78" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-832" data-name=" Grille de répétition -832">
+              <circle class="cls-11" cx="66.73" cy="38.49" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-833" data-name=" Grille de répétition -833">
+              <circle class="cls-11" cx="65.87" cy="39.2" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-834" data-name=" Grille de répétition -834">
+              <circle class="cls-11" cx="64.99" cy="39.92" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-835" data-name=" Grille de répétition -835">
+              <circle class="cls-11" cx="64.12" cy="40.63" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-836" data-name=" Grille de répétition -836">
+              <circle class="cls-11" cx="63.24" cy="41.35" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-837" data-name=" Grille de répétition -837">
+              <circle class="cls-11" cx="62.37" cy="42.06" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-838" data-name=" Grille de répétition -838">
+              <circle class="cls-11" cx="61.49" cy="42.78" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-839" data-name=" Grille de répétition -839">
+              <circle class="cls-11" cx="60.62" cy="43.49" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-840" data-name=" Grille de répétition -840">
+              <circle class="cls-11" cx="59.74" cy="44.2" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-841" data-name=" Grille de répétition -841">
+              <circle class="cls-11" cx="58.87" cy="44.91" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-842" data-name=" Grille de répétition -842">
+              <circle class="cls-11" cx="57.99" cy="45.63" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-843" data-name=" Grille de répétition -843">
+              <circle class="cls-11" cx="57.12" cy="46.34" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-844" data-name=" Grille de répétition -844">
+              <circle class="cls-11" cx="56.25" cy="47.06" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-845" data-name=" Grille de répétition -845">
+              <circle class="cls-11" cx="55.38" cy="47.77" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-846" data-name=" Grille de répétition -846">
+              <circle class="cls-11" cx="54.5" cy="48.49" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-847" data-name=" Grille de répétition -847">
+              <circle class="cls-11" cx="95.43" cy="16.51" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-848" data-name=" Grille de répétition -848">
+              <circle class="cls-11" cx="94.55" cy="17.23" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-849" data-name=" Grille de répétition -849">
+              <circle class="cls-11" cx="93.68" cy="17.94" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-850" data-name=" Grille de répétition -850">
+              <circle class="cls-11" cx="92.8" cy="18.66" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-851" data-name=" Grille de répétition -851">
+              <circle class="cls-11" cx="91.93" cy="19.37" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-852" data-name=" Grille de répétition -852">
+              <circle class="cls-11" cx="91.05" cy="20.09" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-853" data-name=" Grille de répétition -853">
+              <circle class="cls-11" cx="90.17" cy="20.81" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-854" data-name=" Grille de répétition -854">
+              <circle class="cls-11" cx="89.3" cy="21.51" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-855" data-name=" Grille de répétition -855">
+              <circle class="cls-11" cx="88.42" cy="22.23" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-856" data-name=" Grille de répétition -856">
+              <circle class="cls-11" cx="87.55" cy="22.94" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-857" data-name=" Grille de répétition -857">
+              <circle class="cls-11" cx="86.67" cy="23.66" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-858" data-name=" Grille de répétition -858">
+              <circle class="cls-11" cx="85.81" cy="24.37" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-859" data-name=" Grille de répétition -859">
+              <circle class="cls-11" cx="84.93" cy="25.09" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-860" data-name=" Grille de répétition -860">
+              <circle class="cls-11" cx="84.06" cy="25.8" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-861" data-name=" Grille de répétition -861">
+              <circle class="cls-11" cx="83.18" cy="26.52" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-862" data-name=" Grille de répétition -862">
+              <circle class="cls-11" cx="82.31" cy="27.22" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-863" data-name=" Grille de répétition -863">
+              <circle class="cls-11" cx="81.43" cy="27.94" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-864" data-name=" Grille de répétition -864">
+              <circle class="cls-11" cx="80.56" cy="28.65" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-865" data-name=" Grille de répétition -865">
+              <circle class="cls-11" cx="79.68" cy="29.37" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-866" data-name=" Grille de répétition -866">
+              <circle class="cls-11" cx="78.81" cy="30.08" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-867" data-name=" Grille de répétition -867">
+              <circle class="cls-11" cx="77.93" cy="30.8" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-868" data-name=" Grille de répétition -868">
+              <circle class="cls-11" cx="77.06" cy="31.51" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-869" data-name=" Grille de répétition -869">
+              <circle class="cls-11" cx="76.19" cy="32.23" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-870" data-name=" Grille de répétition -870">
+              <circle class="cls-11" cx="75.32" cy="32.93" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-871" data-name=" Grille de répétition -871">
+              <circle class="cls-11" cx="74.44" cy="33.65" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-872" data-name=" Grille de répétition -872">
+              <circle class="cls-11" cx="73.57" cy="34.36" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-873" data-name=" Grille de répétition -873">
+              <circle class="cls-11" cx="72.69" cy="35.08" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-874" data-name=" Grille de répétition -874">
+              <circle class="cls-11" cx="71.82" cy="35.79" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-875" data-name=" Grille de répétition -875">
+              <circle class="cls-11" cx="70.94" cy="36.51" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-876" data-name=" Grille de répétition -876">
+              <circle class="cls-11" cx="70.07" cy="37.22" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-877" data-name=" Grille de répétition -877">
+              <circle class="cls-11" cx="69.19" cy="37.94" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-878" data-name=" Grille de répétition -878">
+              <circle class="cls-11" cx="68.32" cy="38.64" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-879" data-name=" Grille de répétition -879">
+              <circle class="cls-11" cx="67.44" cy="39.36" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-880" data-name=" Grille de répétition -880">
+              <circle class="cls-11" cx="66.58" cy="40.07" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-881" data-name=" Grille de répétition -881">
+              <circle class="cls-11" cx="65.7" cy="40.79" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-882" data-name=" Grille de répétition -882">
+              <circle class="cls-11" cx="64.83" cy="41.5" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-883" data-name=" Grille de répétition -883">
+              <circle class="cls-11" cx="63.95" cy="42.22" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-884" data-name=" Grille de répétition -884">
+              <circle class="cls-11" cx="63.08" cy="42.93" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-885" data-name=" Grille de répétition -885">
+              <circle class="cls-11" cx="62.2" cy="43.65" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-886" data-name=" Grille de répétition -886">
+              <circle class="cls-11" cx="61.33" cy="44.35" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-887" data-name=" Grille de répétition -887">
+              <circle class="cls-11" cx="60.45" cy="45.07" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-888" data-name=" Grille de répétition -888">
+              <circle class="cls-11" cx="59.58" cy="45.78" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-889" data-name=" Grille de répétition -889">
+              <circle class="cls-11" cx="58.7" cy="46.5" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-890" data-name=" Grille de répétition -890">
+              <circle class="cls-11" cx="57.83" cy="47.21" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-891" data-name=" Grille de répétition -891">
+              <circle class="cls-11" cx="56.95" cy="47.93" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-892" data-name=" Grille de répétition -892">
+              <circle class="cls-11" cx="56.09" cy="48.64" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-893" data-name=" Grille de répétition -893">
+              <circle class="cls-11" cx="55.21" cy="49.36" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-894" data-name=" Grille de répétition -894">
+              <circle class="cls-11" cx="96.15" cy="17.39" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-895" data-name=" Grille de répétition -895">
+              <circle class="cls-11" cx="95.27" cy="18.11" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-896" data-name=" Grille de répétition -896">
+              <circle class="cls-11" cx="94.4" cy="18.82" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-897" data-name=" Grille de répétition -897">
+              <circle class="cls-11" cx="93.52" cy="19.54" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-898" data-name=" Grille de répétition -898">
+              <circle class="cls-11" cx="92.65" cy="20.25" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-899" data-name=" Grille de répétition -899">
+              <circle class="cls-11" cx="91.77" cy="20.97" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-900" data-name=" Grille de répétition -900">
+              <circle class="cls-11" cx="90.89" cy="21.69" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-901" data-name=" Grille de répétition -901">
+              <circle class="cls-11" cx="90.02" cy="22.39" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-902" data-name=" Grille de répétition -902">
+              <circle class="cls-11" cx="89.14" cy="23.11" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-903" data-name=" Grille de répétition -903">
+              <circle class="cls-11" cx="88.27" cy="23.82" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-904" data-name=" Grille de répétition -904">
+              <circle class="cls-11" cx="87.39" cy="24.54" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-905" data-name=" Grille de répétition -905">
+              <circle class="cls-11" cx="86.52" cy="25.25" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-906" data-name=" Grille de répétition -906">
+              <circle class="cls-11" cx="85.64" cy="25.97" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-907" data-name=" Grille de répétition -907">
+              <circle class="cls-11" cx="84.78" cy="26.68" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-908" data-name=" Grille de répétition -908">
+              <circle class="cls-11" cx="83.9" cy="27.4" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-909" data-name=" Grille de répétition -909">
+              <circle class="cls-11" cx="83.03" cy="28.1" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-910" data-name=" Grille de répétition -910">
+              <circle class="cls-11" cx="82.15" cy="28.82" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-911" data-name=" Grille de répétition -911">
+              <circle class="cls-11" cx="81.28" cy="29.53" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-912" data-name=" Grille de répétition -912">
+              <circle class="cls-11" cx="80.4" cy="30.25" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-913" data-name=" Grille de répétition -913">
+              <circle class="cls-11" cx="79.53" cy="30.96" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-914" data-name=" Grille de répétition -914">
+              <circle class="cls-11" cx="78.65" cy="31.68" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-915" data-name=" Grille de répétition -915">
+              <circle class="cls-11" cx="77.78" cy="32.39" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-916" data-name=" Grille de répétition -916">
+              <circle class="cls-11" cx="76.9" cy="33.11" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-917" data-name=" Grille de répétition -917">
+              <circle class="cls-11" cx="76.03" cy="33.81" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-918" data-name=" Grille de répétition -918">
+              <circle class="cls-11" cx="75.16" cy="34.53" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-919" data-name=" Grille de répétition -919">
+              <circle class="cls-11" cx="74.29" cy="35.24" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-920" data-name=" Grille de répétition -920">
+              <circle class="cls-11" cx="73.41" cy="35.96" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-921" data-name=" Grille de répétition -921">
+              <circle class="cls-11" cx="72.54" cy="36.67" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-922" data-name=" Grille de répétition -922">
+              <circle class="cls-11" cx="71.66" cy="37.39" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-923" data-name=" Grille de répétition -923">
+              <circle class="cls-11" cx="70.79" cy="38.1" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-924" data-name=" Grille de répétition -924">
+              <circle class="cls-11" cx="69.91" cy="38.82" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-925" data-name=" Grille de répétition -925">
+              <circle class="cls-11" cx="69.04" cy="39.52" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-926" data-name=" Grille de répétition -926">
+              <circle class="cls-11" cx="68.16" cy="40.24" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-927" data-name=" Grille de répétition -927">
+              <circle class="cls-11" cx="67.29" cy="40.95" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-928" data-name=" Grille de répétition -928">
+              <circle class="cls-11" cx="66.41" cy="41.67" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-929" data-name=" Grille de répétition -929">
+              <circle class="cls-11" cx="65.55" cy="42.38" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-930" data-name=" Grille de répétition -930">
+              <circle class="cls-11" cx="64.67" cy="43.1" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-931" data-name=" Grille de répétition -931">
+              <circle class="cls-11" cx="63.8" cy="43.81" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-932" data-name=" Grille de répétition -932">
+              <circle class="cls-11" cx="62.92" cy="44.53" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-933" data-name=" Grille de répétition -933">
+              <circle class="cls-11" cx="62.05" cy="45.23" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-934" data-name=" Grille de répétition -934">
+              <circle class="cls-11" cx="61.17" cy="45.95" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-935" data-name=" Grille de répétition -935">
+              <circle class="cls-11" cx="60.3" cy="46.66" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-936" data-name=" Grille de répétition -936">
+              <circle class="cls-11" cx="59.42" cy="47.38" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-937" data-name=" Grille de répétition -937">
+              <circle class="cls-11" cx="58.55" cy="48.09" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-938" data-name=" Grille de répétition -938">
+              <circle class="cls-11" cx="57.67" cy="48.81" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-939" data-name=" Grille de répétition -939">
+              <circle class="cls-11" cx="56.8" cy="49.52" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-940" data-name=" Grille de répétition -940">
+              <circle class="cls-11" cx="55.92" cy="50.24" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-941" data-name=" Grille de répétition -941">
+              <circle class="cls-11" cx="96.85" cy="18.26" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-942" data-name=" Grille de répétition -942">
+              <circle class="cls-11" cx="95.97" cy="18.98" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-943" data-name=" Grille de répétition -943">
+              <circle class="cls-11" cx="95.11" cy="19.69" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-944" data-name=" Grille de répétition -944">
+              <circle class="cls-11" cx="94.23" cy="20.41" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-945" data-name=" Grille de répétition -945">
+              <circle class="cls-11" cx="93.36" cy="21.12" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-946" data-name=" Grille de répétition -946">
+              <circle class="cls-11" cx="92.48" cy="21.84" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-947" data-name=" Grille de répétition -947">
+              <circle class="cls-11" cx="91.6" cy="22.55" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-948" data-name=" Grille de répétition -948">
+              <circle class="cls-11" cx="90.73" cy="23.26" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-949" data-name=" Grille de répétition -949">
+              <circle class="cls-11" cx="89.85" cy="23.98" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-950" data-name=" Grille de répétition -950">
+              <circle class="cls-11" cx="88.98" cy="24.69" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-951" data-name=" Grille de répétition -951">
+              <circle class="cls-11" cx="88.1" cy="25.41" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-952" data-name=" Grille de répétition -952">
+              <circle class="cls-11" cx="87.23" cy="26.12" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-953" data-name=" Grille de répétition -953">
+              <circle class="cls-11" cx="86.35" cy="26.84" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-954" data-name=" Grille de répétition -954">
+              <circle class="cls-11" cx="85.49" cy="27.55" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-955" data-name=" Grille de répétition -955">
+              <circle class="cls-11" cx="84.61" cy="28.26" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-956" data-name=" Grille de répétition -956">
+              <circle class="cls-11" cx="83.74" cy="28.97" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-957" data-name=" Grille de répétition -957">
+              <circle class="cls-11" cx="82.86" cy="29.69" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-958" data-name=" Grille de répétition -958">
+              <circle class="cls-11" cx="81.99" cy="30.4" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-959" data-name=" Grille de répétition -959">
+              <circle class="cls-11" cx="81.11" cy="31.12" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-960" data-name=" Grille de répétition -960">
+              <circle class="cls-11" cx="80.24" cy="31.83" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-961" data-name=" Grille de répétition -961">
+              <circle class="cls-11" cx="79.36" cy="32.55" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-962" data-name=" Grille de répétition -962">
+              <circle class="cls-11" cx="78.49" cy="33.26" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-963" data-name=" Grille de répétition -963">
+              <circle class="cls-11" cx="77.61" cy="33.97" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-964" data-name=" Grille de répétition -964">
+              <circle class="cls-11" cx="76.74" cy="34.68" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-965" data-name=" Grille de répétition -965">
+              <circle class="cls-11" cx="75.86" cy="35.4" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-966" data-name=" Grille de répétition -966">
+              <circle class="cls-11" cx="75" cy="36.11" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-967" data-name=" Grille de répétition -967">
+              <circle class="cls-11" cx="74.12" cy="36.83" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-968" data-name=" Grille de répétition -968">
+              <circle class="cls-11" cx="73.25" cy="37.54" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-969" data-name=" Grille de répétition -969">
+              <circle class="cls-11" cx="72.37" cy="38.26" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-970" data-name=" Grille de répétition -970">
+              <circle class="cls-11" cx="71.5" cy="38.97" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-971" data-name=" Grille de répétition -971">
+              <circle class="cls-11" cx="70.62" cy="39.68" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-972" data-name=" Grille de répétition -972">
+              <circle class="cls-11" cx="69.75" cy="40.39" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-973" data-name=" Grille de répétition -973">
+              <circle class="cls-11" cx="68.87" cy="41.11" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-974" data-name=" Grille de répétition -974">
+              <circle class="cls-11" cx="68" cy="41.82" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-975" data-name=" Grille de répétition -975">
+              <circle class="cls-11" cx="67.12" cy="42.54" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-976" data-name=" Grille de répétition -976">
+              <circle class="cls-11" cx="66.25" cy="43.25" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-977" data-name=" Grille de répétition -977">
+              <circle class="cls-11" cx="65.37" cy="43.97" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-978" data-name=" Grille de répétition -978">
+              <circle class="cls-11" cx="64.51" cy="44.68" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-979" data-name=" Grille de répétition -979">
+              <circle class="cls-11" cx="63.63" cy="45.39" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-980" data-name=" Grille de répétition -980">
+              <circle class="cls-11" cx="62.76" cy="46.1" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-981" data-name=" Grille de répétition -981">
+              <circle class="cls-11" cx="61.88" cy="46.82" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-982" data-name=" Grille de répétition -982">
+              <circle class="cls-11" cx="61.01" cy="47.53" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-983" data-name=" Grille de répétition -983">
+              <circle class="cls-11" cx="60.13" cy="48.25" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-984" data-name=" Grille de répétition -984">
+              <circle class="cls-11" cx="59.26" cy="48.96" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-985" data-name=" Grille de répétition -985">
+              <circle class="cls-11" cx="58.38" cy="49.68" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-986" data-name=" Grille de répétition -986">
+              <circle class="cls-11" cx="57.51" cy="50.39" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-987" data-name=" Grille de répétition -987">
+              <circle class="cls-11" cx="56.63" cy="51.1" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-988" data-name=" Grille de répétition -988">
+              <circle class="cls-11" cx="97.57" cy="19.14" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-989" data-name=" Grille de répétition -989">
+              <circle class="cls-11" cx="96.69" cy="19.86" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-990" data-name=" Grille de répétition -990">
+              <circle class="cls-11" cx="95.82" cy="20.57" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-991" data-name=" Grille de répétition -991">
+              <circle class="cls-11" cx="94.94" cy="21.29" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-992" data-name=" Grille de répétition -992">
+              <circle class="cls-11" cx="94.08" cy="22" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-993" data-name=" Grille de répétition -993">
+              <circle class="cls-11" cx="93.2" cy="22.72" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-994" data-name=" Grille de répétition -994">
+              <circle class="cls-11" cx="92.32" cy="23.43" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-995" data-name=" Grille de répétition -995">
+              <circle class="cls-11" cx="91.45" cy="24.14" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-996" data-name=" Grille de répétition -996">
+              <circle class="cls-11" cx="90.57" cy="24.86" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-997" data-name=" Grille de répétition -997">
+              <circle class="cls-11" cx="89.7" cy="25.57" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-998" data-name=" Grille de répétition -998">
+              <circle class="cls-11" cx="88.82" cy="26.29" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-999" data-name=" Grille de répétition -999">
+              <circle class="cls-11" cx="87.95" cy="27" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1000" data-name=" Grille de répétition -1000">
+              <circle class="cls-11" cx="87.07" cy="27.72" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1001" data-name=" Grille de répétition -1001">
+              <circle class="cls-11" cx="86.2" cy="28.43" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1002" data-name=" Grille de répétition -1002">
+              <circle class="cls-11" cx="85.32" cy="29.14" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1003" data-name=" Grille de répétition -1003">
+              <circle class="cls-11" cx="84.46" cy="29.85" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1004" data-name=" Grille de répétition -1004">
+              <circle class="cls-11" cx="83.58" cy="30.57" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1005" data-name=" Grille de répétition -1005">
+              <circle class="cls-11" cx="82.71" cy="31.28" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1006" data-name=" Grille de répétition -1006">
+              <circle class="cls-11" cx="81.83" cy="32" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1007" data-name=" Grille de répétition -1007">
+              <circle class="cls-11" cx="80.96" cy="32.71" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1008" data-name=" Grille de répétition -1008">
+              <circle class="cls-11" cx="80.08" cy="33.43" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1009" data-name=" Grille de répétition -1009">
+              <circle class="cls-11" cx="79.21" cy="34.14" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1010" data-name=" Grille de répétition -1010">
+              <circle class="cls-11" cx="78.33" cy="34.85" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1011" data-name=" Grille de répétition -1011">
+              <circle class="cls-11" cx="77.46" cy="35.56" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1012" data-name=" Grille de répétition -1012">
+              <circle class="cls-11" cx="76.58" cy="36.28" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1013" data-name=" Grille de répétition -1013">
+              <circle class="cls-11" cx="75.71" cy="36.99" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1014" data-name=" Grille de répétition -1014">
+              <circle class="cls-11" cx="74.83" cy="37.71" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1015" data-name=" Grille de répétition -1015">
+              <circle class="cls-11" cx="73.97" cy="38.42" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1016" data-name=" Grille de répétition -1016">
+              <circle class="cls-11" cx="73.09" cy="39.14" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1017" data-name=" Grille de répétition -1017">
+              <circle class="cls-11" cx="72.22" cy="39.85" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1018" data-name=" Grille de répétition -1018">
+              <circle class="cls-11" cx="71.34" cy="40.56" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1019" data-name=" Grille de répétition -1019">
+              <circle class="cls-11" cx="70.47" cy="41.27" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1020" data-name=" Grille de répétition -1020">
+              <circle class="cls-11" cx="69.59" cy="41.99" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1021" data-name=" Grille de répétition -1021">
+              <circle class="cls-11" cx="68.72" cy="42.7" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1022" data-name=" Grille de répétition -1022">
+              <circle class="cls-11" cx="67.84" cy="43.42" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1023" data-name=" Grille de répétition -1023">
+              <circle class="cls-11" cx="66.97" cy="44.13" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1024" data-name=" Grille de répétition -1024">
+              <circle class="cls-11" cx="66.09" cy="44.85" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1025" data-name=" Grille de répétition -1025">
+              <circle class="cls-11" cx="65.22" cy="45.56" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1026" data-name=" Grille de répétition -1026">
+              <circle class="cls-11" cx="64.34" cy="46.27" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1027" data-name=" Grille de répétition -1027">
+              <circle class="cls-11" cx="63.48" cy="46.98" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1028" data-name=" Grille de répétition -1028">
+              <circle class="cls-11" cx="62.6" cy="47.7" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1029" data-name=" Grille de répétition -1029">
+              <circle class="cls-11" cx="61.73" cy="48.41" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1030" data-name=" Grille de répétition -1030">
+              <circle class="cls-11" cx="60.85" cy="49.13" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1031" data-name=" Grille de répétition -1031">
+              <circle class="cls-11" cx="59.98" cy="49.84" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1032" data-name=" Grille de répétition -1032">
+              <circle class="cls-11" cx="59.1" cy="50.56" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1033" data-name=" Grille de répétition -1033">
+              <circle class="cls-11" cx="58.23" cy="51.27" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1034" data-name=" Grille de répétition -1034">
+              <circle class="cls-11" cx="57.35" cy="51.98" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1035" data-name=" Grille de répétition -1035">
+              <circle class="cls-11" cx="98.28" cy="20.01" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1036" data-name=" Grille de répétition -1036">
+              <circle class="cls-11" cx="97.4" cy="20.73" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1037" data-name=" Grille de répétition -1037">
+              <circle class="cls-11" cx="96.53" cy="21.44" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1038" data-name=" Grille de répétition -1038">
+              <circle class="cls-11" cx="95.65" cy="22.16" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1039" data-name=" Grille de répétition -1039">
+              <circle class="cls-11" cx="94.79" cy="22.87" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1040" data-name=" Grille de répétition -1040">
+              <circle class="cls-11" cx="93.91" cy="23.58" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1041" data-name=" Grille de répétition -1041">
+              <circle class="cls-11" cx="93.03" cy="24.3" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1042" data-name=" Grille de répétition -1042">
+              <circle class="cls-11" cx="92.16" cy="25.01" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1043" data-name=" Grille de répétition -1043">
+              <circle class="cls-11" cx="91.28" cy="25.73" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1044" data-name=" Grille de répétition -1044">
+              <circle class="cls-11" cx="90.41" cy="26.44" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1045" data-name=" Grille de répétition -1045">
+              <circle class="cls-11" cx="89.53" cy="27.16" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1046" data-name=" Grille de répétition -1046">
+              <circle class="cls-11" cx="88.66" cy="27.87" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1047" data-name=" Grille de répétition -1047">
+              <circle class="cls-11" cx="87.78" cy="28.58" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1048" data-name=" Grille de répétition -1048">
+              <circle class="cls-11" cx="86.91" cy="29.29" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1049" data-name=" Grille de répétition -1049">
+              <circle class="cls-11" cx="86.03" cy="30.01" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1050" data-name=" Grille de répétition -1050">
+              <circle class="cls-11" cx="85.16" cy="30.72" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1051" data-name=" Grille de répétition -1051">
+              <circle class="cls-11" cx="84.28" cy="31.44" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1052" data-name=" Grille de répétition -1052">
+              <circle class="cls-11" cx="83.42" cy="32.15" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1053" data-name=" Grille de répétition -1053">
+              <circle class="cls-11" cx="82.54" cy="32.87" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1054" data-name=" Grille de répétition -1054">
+              <circle class="cls-11" cx="81.67" cy="33.58" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1055" data-name=" Grille de répétition -1055">
+              <circle class="cls-11" cx="80.79" cy="34.29" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1056" data-name=" Grille de répétition -1056">
+              <circle class="cls-11" cx="79.92" cy="35" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1057" data-name=" Grille de répétition -1057">
+              <circle class="cls-11" cx="79.04" cy="35.72" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1058" data-name=" Grille de répétition -1058">
+              <circle class="cls-11" cx="78.17" cy="36.43" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1059" data-name=" Grille de répétition -1059">
+              <circle class="cls-11" cx="77.29" cy="37.15" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1060" data-name=" Grille de répétition -1060">
+              <circle class="cls-11" cx="76.42" cy="37.86" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1061" data-name=" Grille de répétition -1061">
+              <circle class="cls-11" cx="75.54" cy="38.58" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1062" data-name=" Grille de répétition -1062">
+              <circle class="cls-11" cx="74.68" cy="39.29" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1063" data-name=" Grille de répétition -1063">
+              <circle class="cls-11" cx="73.8" cy="40" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1064" data-name=" Grille de répétition -1064">
+              <circle class="cls-11" cx="72.93" cy="40.71" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1065" data-name=" Grille de répétition -1065">
+              <circle class="cls-11" cx="72.05" cy="41.43" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1066" data-name=" Grille de répétition -1066">
+              <circle class="cls-11" cx="71.18" cy="42.14" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1067" data-name=" Grille de répétition -1067">
+              <circle class="cls-11" cx="70.3" cy="42.86" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1068" data-name=" Grille de répétition -1068">
+              <circle class="cls-11" cx="69.43" cy="43.57" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1069" data-name=" Grille de répétition -1069">
+              <circle class="cls-11" cx="68.55" cy="44.29" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1070" data-name=" Grille de répétition -1070">
+              <circle class="cls-11" cx="67.68" cy="45" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1071" data-name=" Grille de répétition -1071">
+              <circle class="cls-11" cx="66.8" cy="45.71" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1072" data-name=" Grille de répétition -1072">
+              <circle class="cls-11" cx="65.93" cy="46.42" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1073" data-name=" Grille de répétition -1073">
+              <circle class="cls-11" cx="65.05" cy="47.14" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1074" data-name=" Grille de répétition -1074">
+              <circle class="cls-11" cx="64.19" cy="47.85" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1075" data-name=" Grille de répétition -1075">
+              <circle class="cls-11" cx="63.31" cy="48.57" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1076" data-name=" Grille de répétition -1076">
+              <circle class="cls-11" cx="62.44" cy="49.28" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1077" data-name=" Grille de répétition -1077">
+              <circle class="cls-11" cx="61.56" cy="50" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1078" data-name=" Grille de répétition -1078">
+              <circle class="cls-11" cx="60.69" cy="50.71" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1079" data-name=" Grille de répétition -1079">
+              <circle class="cls-11" cx="59.81" cy="51.42" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1080" data-name=" Grille de répétition -1080">
+              <circle class="cls-11" cx="58.94" cy="52.13" r=".22"/>
+            </g>
+            <g id="_Grille_de_répétition_-1081" data-name=" Grille de répétition -1081">
+              <circle class="cls-11" cx="58.06" cy="52.85" r=".22"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <ellipse class="cls-5" cx="70.6" cy="40.9" rx="4.11" ry="6.06" transform="translate(-9.94 27.85) rotate(-20.88)"/>
+  </g>
+  <circle class="cls-2" cx="72.42" cy="45.6" r="1.75"/>
+</svg>
