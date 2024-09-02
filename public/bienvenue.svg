@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110.09 127.62">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-family: Futura-CondensedMedium, Futura;
+        font-size: 20px;
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+  <text class="cls-1" transform="translate(18.25 31.42) rotate(-37.56)"><tspan x="0" y="0">B</tspan></text>
+  <text class="cls-1" transform="translate(25.14 26.3) rotate(-30.66)"><tspan x="0" y="0">I</tspan></text>
+  <text class="cls-1" transform="translate(29.21 23.82) rotate(-24.18)"><tspan x="0" y="0">E</tspan></text>
+  <text class="cls-1" transform="translate(36.05 20.68) rotate(-15.21)"><tspan x="0" y="0">N</tspan></text>
+  <text class="cls-1" transform="translate(45.35 18.25) rotate(-6.21)"><tspan x="0" y="0">V</tspan></text>
+  <text class="cls-1" transform="translate(53.01 17.45) rotate(1.63)"><tspan x="0" y="0">E</tspan></text>
+  <text class="cls-1" transform="translate(60.53 17.6) rotate(10.49)"><tspan x="0" y="0">N</tspan></text>
+  <text class="cls-1" transform="translate(69.91 19.35) rotate(20.42)"><tspan x="0" y="0">U</tspan></text>
+  <text class="cls-1" transform="translate(78.81 22.77) rotate(29.34)"><tspan x="0" y="0">E</tspan></text>
+  <text class="cls-1" transform="translate(85.43 26.62) rotate(35.68)"><tspan x="0" y="0"> </tspan></text>
+  <text class="cls-1" transform="translate(89.17 29.29) rotate(41.18)"><tspan x="0" y="0">!</tspan></text>
+</svg>
