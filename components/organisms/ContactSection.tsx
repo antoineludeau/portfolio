@@ -39,7 +39,7 @@ const ContactSection = ({
         </p>
         <p className="text-center italic text-light text-gray-600 p-2">
           Voici le code source :{" "}
-          <Link className="underline" href="https://github.com/antoineludeau/portfolio">
+          <Link className="underline" href="https://github.com/antoineludeau/portfolio" aria-label='Lien Github'>
             Github
           </Link>
         </p>

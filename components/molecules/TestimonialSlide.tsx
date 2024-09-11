@@ -53,12 +53,12 @@ const TestimonialSlide = ({
             </svg>
             <div className="text-gray-600">{position}</div>
             {linkedInLink && (
-              <Link href={linkedInLink} target="_blank">
+              <Link href={linkedInLink} target="_blank" aria-label='lien LinkedIn'>
                 <Image
                   src="/linkedin.png"
                   width={30}
                   height={30}
-                  alt="linkedin link"
+                  alt="Logo LinkedIn"
                 />
               </Link>
             )}

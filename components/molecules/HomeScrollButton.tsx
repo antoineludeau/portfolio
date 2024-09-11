@@ -18,7 +18,7 @@ const HomeScrollButton = ({ toSectionId }: { toSectionId: string }) => {
         <Link
           href={`#${toSectionId}`}
           className="w-fit absolute bottom-0 left-1/2 -translate-x-1/2"
-          aria-label="home scroll button to next section"
+          aria-label="Bouton pour scroller vers la prochaine section"
         >
           <div className="animate-fadein">
             <div className="animate-bounce bg-red-400 bg-opacity-60 hover:bg-opacity-70 rounded-full p-2 w-fit">

@@ -33,14 +33,14 @@ const Experience = ({ experience }: { experience: Experience }) => (
     <div className="flex items-center gap-2">
       {experience.githubLink && (
         <div className="mb-2">
-          <Link href={experience.githubLink} target="_blank">
-            <Image src="/github.png" width={30} height={30} alt="lien github" />
+          <Link href={experience.githubLink} target="_blank" aria-label="Lien github">
+            <Image src="/github.png" width={30} height={30} alt="Logo github" />
           </Link>
         </div>
       )}
       {experience.websiteLink && (
         <div className="mb-2">
-          <Link href={experience.websiteLink} target="_blank">
+          <Link href={experience.websiteLink} target="_blank" aria-label="Lien site internet">
             <WebsiteIcon />
           </Link>
         </div>
