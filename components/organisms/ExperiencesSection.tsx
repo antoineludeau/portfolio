@@ -176,7 +176,7 @@ const ExperienceSection = ({
             />
           </div>
         </div>
-        <div className="border-l-4 px-4 col-span-2">
+        <div className="border-l-4 px-2 sm:px-4 col-span-2">
           <Experience experience={tabsData[activeTabIndex]} />
         </div>
       </div>
