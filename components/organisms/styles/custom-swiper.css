@@ -6,3 +6,7 @@
 .swiper-pagination-bullet-active {
   background-color: #f87171; /* Change this to your desired active bullet color */
 }
+
+.swiper-slide {
+  height: auto;
+}
