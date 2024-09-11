@@ -16,7 +16,7 @@ const SkillsGroup = ({
 }) => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-3 mx-auto mb-2 max-w-sm gap-2">
-      <div className="text-lg uppercase text-white text-center lg:text-right lg:pl-1 px-2 mb-1 bg-red-300 rounded-md">
+      <div className="text-lg uppercase text-white text-center lg:text-right lg:pl-1 px-2 mb-1 bg-red-400/80 rounded-md shadow-sm">
         {title}
       </div>
 

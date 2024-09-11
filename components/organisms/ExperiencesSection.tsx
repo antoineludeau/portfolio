@@ -158,7 +158,7 @@ const ExperienceSection = ({
                 key={idx}
                 className={`py-2 border-r-4 duration-100 mb-4 uppercase font-light hover:bg-red-50 ${
                   idx === activeTabIndex
-                    ? "text-red-400 font-normal border-red-400 border-opacity-60"
+                    ? "text-red-400 font-medium border-red-400 border-opacity-60"
                     : "border-transparent"
                 }`}
                 onClick={() => setActiveTabIndex(idx)}
