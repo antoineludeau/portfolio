@@ -1,6 +1,5 @@
 "use client";
 import React, { useRef } from "react";
-import Image from "next/image";
 import TestimonialSlide from "../molecules/TestimonialSlide";
 import SectionTitle from "../atoms/SectionTitle";
 import ScrollToSectionButton from "../atoms/ScrollToSectionButton";
@@ -23,7 +22,7 @@ const data = [
     position: "Head of Product - LumApps",
     linkedInLink: "https://www.linkedin.com/in/sammygad/",
     testimonial:
-      "J'étais le product manager dans l'équipe d'Antoine où on a créer une application de zéro. Toujours force de proposition, c'était un réel plaisir de travailler avec lui. Il a une vrai sensibilité produit qui fait que je me faisais challenger positivement au quotidien, sans oublier son côté humain et optimiste qui nous a permis d'avoir un impact auprès de nos clients en gardant le sourire! On ne travaille plus ensemble aujourd'hui mais j'ai hâte de le retrouver sur un projet en commun.",
+      "J'étais le product manager dans l'équipe d'Antoine où nous avons créé une application à partir de zéro. Toujours force de proposition, c'était un réel plaisir de travailler avec lui. Il a une vrai sensibilité produit qui fait que je me faisais challenger positivement au quotidien, sans oublier son côté humain et optimiste qui nous a permis d'avoir un impact auprès de nos clients en gardant le sourire! On ne travaille plus ensemble aujourd'hui mais j'ai hâte de le retrouver sur un projet en commun.",
   },
   {
     name: "Thibaut Tavernier",
