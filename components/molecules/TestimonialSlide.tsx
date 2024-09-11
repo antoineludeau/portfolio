@@ -40,7 +40,7 @@ const TestimonialSlide = ({
               />
             )}
           </div>
-          <div className="mt-4 flex items-center justify-center space-x-3 text-base">
+          <div className="mt-4 flex items-center justify-center space-x-3">
             <div className="font-semibold text-gray-900">{name}</div>
             <svg
               viewBox="0 0 2 2"
@@ -53,14 +53,16 @@ const TestimonialSlide = ({
             </svg>
             <div className="text-gray-600">{position}</div>
             {linkedInLink && (
-              <Link href={linkedInLink} target="_blank" aria-label='lien LinkedIn'>
+              <div className='flex-none relative w-8 h-8'>
+              <Link  href={linkedInLink} target="_blank" aria-label='lien LinkedIn'>
                 <Image
                   src="/linkedin.png"
-                  width={30}
-                  height={30}
+                  className="object-contain object-fit object-left"
+                  fill
                   alt="Logo LinkedIn"
                 />
               </Link>
+              </div>
             )}
           </div>
         </div>
