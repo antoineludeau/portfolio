@@ -16,7 +16,7 @@ const PresentationSection = ({
     >
       <div className="w-full sm:w-2/3 md:w-1/2 lg:max-w-screen-xl p-5">
         <div className="flex justify-center">
-          <h2 className="text-6xl font-light mb-4 bg-gradient-to-r from-red-400 to-red-400/70 bg-no-repeat bg-100%_40% bg-bottom">
+          <h2 className="text-6xl font-light mb-4 bg-gradient-to-r from-red-400 to-red-400/70 bg-no-repeat bg-100%_20px bg-bottom">
             Enchanté.
           </h2>
         </div>

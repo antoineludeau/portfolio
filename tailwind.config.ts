@@ -11,7 +11,7 @@ const config: Config = {
       'auto': 'auto',
       'cover': 'cover',
       'contain': 'contain',
-      '100%_40%': '100% 40%',
+      '100%_20px': '100% 20px',
     },
     extend: {
       backgroundImage: {
