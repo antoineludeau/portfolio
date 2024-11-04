@@ -9,7 +9,7 @@ const tabsData = [
   {
     label: "Beta.gouv",
     logoName: "beta.gouv.jpg",
-    position: "Développeur Full Stack - Freelance",
+    position: "Lead Développeur Full Stack - Freelance",
     labelDetailed:
       "Beta.gouv & IGN (L'Institut National de l'Information Géographique et Forestière) - Base Adresse Nationale",
     websiteLink: "https://adresse.data.gouv.fr/",
