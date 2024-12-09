@@ -28,7 +28,7 @@ const PresentationSection = ({
           </span>
           . Issu d’un cursus d’ingénieur en mécanique suivi d&apos;expériences
           entrepreneuriales, je me suis réorienté vers le développement
-          informatique <span className="font-medium">depuis plus de 5 ans</span>
+          informatique <span className="font-medium">depuis plus de 6 ans</span>
           . Mon but : répondre à de{" "}
           <span className="font-medium">réels besoins</span> en conciliant la{" "}
           <span className="font-medium">transition numérique</span> de nos
