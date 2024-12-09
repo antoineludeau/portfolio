@@ -1,6 +1,6 @@
 # My Portfolio
 
-This is my personal portfolio website built using **Next.js 14**, **Tailwind CSS 3** and **Typescript 5**. The website showcases my skills, experiences and testimonials as a developer. It is designed to be fully responsive, fast, and modern.
+This is my personal portfolio website built using **Next.js 15**, **React 19**, **Tailwind CSS 3** and **Typescript 5**. The website showcases my skills, experiences and testimonials as a developer. It is designed to be fully responsive, fast, and modern.
 
 
 ## Table of Contents
@@ -17,7 +17,7 @@ This is my personal portfolio website built using **Next.js 14**, **Tailwind CSS
 
 ## Features
 
-- Built with **Next.js 14** for fast and SEO-friendly rendering
+- Built with **Next.js 15** for fast and SEO-friendly rendering
 - Styled with **Tailwind CSS 3**, a utility-first CSS framework
 - Fully responsive layout for various devices and screen sizes
 - Modular and reusable components for easier maintenance
@@ -28,7 +28,7 @@ This is my personal portfolio website built using **Next.js 14**, **Tailwind CSS
 
 Before you begin, make sure you have the following installed on your machine:
 
-- **Node.js** (v18.17 or later) – [Download Node.js](https://nodejs.org/)
+- **Node.js** (v18.18.0 or later) – [Download Node.js](https://nodejs.org/)
 - **npm** or **yarn** – comes with Node.js or can be installed separately
 
 ### Installation
