@@ -60,7 +60,7 @@ const SkillsSection = ({
               },
               {
                 title: "Bases de données",
-                values: ["PostgreSQL", "MongoDB", "Redis"],
+                values: ["PostgreSQL", "PostGIS", "MongoDB", "Redis"],
               },
             ]}
           />
