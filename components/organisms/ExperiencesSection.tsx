@@ -21,6 +21,7 @@ const tabsData = [
     place: "Paris",
     tags: [
       "NEXTJS",
+      "MAPGL",
       "NODEJS",
       "TYPESCRIPT",
       "MONGODB",
@@ -29,7 +30,7 @@ const tabsData = [
       "DOCKER",
     ],
     content: [
-      "Création d’une nouvelle architecture back-end (API REST asynchrone event-driven, base de données relationnelle avec historique) pour implémenter l’identifiant unique de l’adresse française.",
+      "Création d’une nouvelle architecture back-end (API REST asynchrone event-driven, base de données relationnelle avec historique et calculs géographiques) pour implémenter l’identifiant unique de l’adresse française.",
       "Migration technique de tous les services : typescript, ESModule, Dockerisation, tests automatiques, documentation.",
       "Refonte du site internet (Next.js) avec implémentation du DSFR (Design System de l'État français).",
     ],
