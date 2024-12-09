@@ -1,6 +1,12 @@
-# My Portfolio
+# My Portfolio 
 
 This is my personal portfolio website built using **Next.js 15**, **React 19**, **Tailwind CSS 3** and **Typescript 5**. The website showcases my skills, experiences and testimonials as a developer. It is designed to be fully responsive, fast, and modern.
+
+Check it out here : https://www.antoineludeau.com/
+
+<p align="center">
+  <img width="1467" alt="Capture d’écran 2024-12-09 à 19 35 13" src="https://github.com/user-attachments/assets/f709b194-895a-4908-bd56-cb63cb182dbe">
+</p>
 
 
 ## Table of Contents
@@ -19,6 +25,7 @@ This is my personal portfolio website built using **Next.js 15**, **React 19**, 
 
 - Built with **Next.js 15** for fast and SEO-friendly rendering
 - Styled with **Tailwind CSS 3**, a utility-first CSS framework
+- Developed using **TypeScript** 5 for robust type checking and maintainability
 - Fully responsive layout for various devices and screen sizes
 - Modular and reusable components for easier maintenance
 
@@ -29,7 +36,7 @@ This is my personal portfolio website built using **Next.js 15**, **React 19**, 
 Before you begin, make sure you have the following installed on your machine:
 
 - **Node.js** (v18.18.0 or later) – [Download Node.js](https://nodejs.org/)
-- **npm** or **yarn** – comes with Node.js or can be installed separately
+- **npm** – comes with Node.js or can be installed separately
 
 ### Installation
 
@@ -42,14 +49,9 @@ Before you begin, make sure you have the following installed on your machine:
 
 2. **Install dependencies**
 
-If you're using npm:
+Using npm:
   ```bash
   npm install
-  ```
-
-If you're using yarn:
-  ```bash
-  yarn install
   ```
 
 ### Running the Development Server
@@ -57,13 +59,9 @@ If you're using yarn:
 Once all dependencies are installed, you can start the development server:
   ```bash
   npm run dev
-  # or
-  yarn dev
   ```
 
 Open http://localhost:3000 in your browser to see the running application.
-
-The page will automatically reload if you make edits. You will also see any lint errors in the console.
 
 ## Folder structure
 
@@ -82,14 +80,16 @@ This folder uses :
   │   ├── molecules           # Molecules components, groups of atoms bonded together
   │   └── organisms           # Organisms components, groups of molecules and/or atoms
   ├── public/                 # Static assets (images, fonts, etc.)
+  ├── .eslintrc.json          # ESLint configuration file
   ├── .gitignore              # Git ignore file
   ├── LICENSE.md              # License file
   ├── next.config.mjs         # Next.js configuration file
-  ├── postcss.config.mjs      # PostCSS configuration for Tailwind CSS
-  ├── tailwind.config.ts      # Tailwind CSS configuration
-  ├── tsconfig.json           # TypeScript configuration file
+  ├── package-lock.json       # Lock file for npm dependencies
   ├── package.json            # Project dependencies and scripts
-  └── README.md               # Documentation for the project
+  ├── postcss.config.mjs      # PostCSS configuration for Tailwind CSS
+  ├── README.md               # Documentation for the project
+  ├── tailwind.config.ts      # Tailwind CSS configuration
+  └── tsconfig.json           # TypeScript configuration file
   ```
 
 ## License
