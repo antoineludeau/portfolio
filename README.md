@@ -16,6 +16,7 @@ Check it out here : https://www.antoineludeau.com/
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Running the Development Server](#running-the-development-server)
+  - [Using Docker](#using-docker)
 - [Folder Structure](#folder-structure)
 - [License](#license)
 
@@ -25,9 +26,10 @@ Check it out here : https://www.antoineludeau.com/
 
 - Built with **Next.js 15** for fast and SEO-friendly rendering
 - Styled with **Tailwind CSS 3**, a utility-first CSS framework
-- Developed using **TypeScript** 5 for robust type checking and maintainability
+- Developed using **TypeScript 5** for robust type checking and maintainability
 - Fully responsive layout for various devices and screen sizes
 - Modular and reusable components for easier maintenance
+- Dockerized for quick local deployment
 
 ## Getting Started
 
@@ -37,6 +39,9 @@ Before you begin, make sure you have the following installed on your machine:
 
 - **Node.js** (v18.18.0 or later) – [Download Node.js](https://nodejs.org/)
 - **npm** – comes with Node.js or can be installed separately
+
+If you want to deploy using docker and docker compose : 
+- **Docker** (v20.10 or later) – [Download Docker](https://www.docker.com/)
 
 ### Installation
 
@@ -54,6 +59,8 @@ Using npm:
   npm install
   ```
 
+This step is not needed for a docker deployment
+
 ### Running the Development Server
 
 Once all dependencies are installed, you can start the development server:
@@ -62,6 +69,19 @@ Once all dependencies are installed, you can start the development server:
   ```
 
 Open http://localhost:3000 in your browser to see the running application.
+
+This step is not needed for a docker deployment
+
+### Using Docker
+
+You can also run the application locally using Docker for a containerized environment.
+
+Simply run the command : 
+  ```bash
+  docker compose up --build -d
+  ```
+
+Open http://localhost:3000 in your browser to view the application.
 
 ## Folder structure
 
@@ -80,8 +100,12 @@ This folder uses :
   │   ├── molecules           # Molecules components, groups of atoms bonded together
   │   └── organisms           # Organisms components, groups of molecules and/or atoms
   ├── public/                 # Static assets (images, fonts, etc.)
+  ├── .dockerignore           # Docker ignore file
   ├── .eslintrc.json          # ESLint configuration file
   ├── .gitignore              # Git ignore file
+  ├── compose.yml             # Docker Compose configuration
+  ├── Dockerfile              # Docker configuration for production
+  ├── Dockerfile.dev          # Docker configuration for development
   ├── LICENSE.md              # License file
   ├── next.config.mjs         # Next.js configuration file
   ├── package-lock.json       # Lock file for npm dependencies
